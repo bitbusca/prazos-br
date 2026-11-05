@@ -1,0 +1,30 @@
+{
+  "$schema": "../../../../schema/feriados.schema.json",
+  "id": "TRT24/amambai",
+  "escopo": "comarca",
+  "tribunal": "TRT24",
+  "comarca": "Amambai",
+  "uf": "MS",
+  "ibge": 5000609,
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2026
+  ],
+  "regras": [],
+  "datas": [
+    {
+      "data": "2026-05-24",
+      "nome": "Padroeiro de Amambai",
+      "tipo": "feriado",
+      "fonte": "Lei 694/1973; Calendário oficial TRT24 2026 - Portaria TRT/GP/SGJ 51/2025 e alterações",
+      "url": "https://www.trt24.jus.br/web/guest/calendario"
+    },
+    {
+      "data": "2026-09-28",
+      "nome": "Aniversário de Amambai",
+      "tipo": "feriado",
+      "fonte": "Lei 694/1973; Calendário oficial TRT24 2026 - Portaria TRT/GP/SGJ 51/2025 e alterações",
+      "url": "https://www.trt24.jus.br/web/guest/calendario"
+    }
+  ]
+}

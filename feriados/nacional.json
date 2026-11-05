@@ -1,0 +1,30 @@
+{
+  "$schema": "../schema/feriados.schema.json",
+  "id": "nacional",
+  "escopo": "nacional",
+  "nome": "Feriados nacionais e suspensão de prazos do CPC",
+  "aplicaA": ["*"],
+  "observacao": "Só o que vale em todo o Brasil por lei federal. Carnaval, Quarta-feira de Cinzas e Corpus Christi NÃO são feriados nacionais por lei: entram pelo calendário de cada tribunal (Justiça Federal pela Lei 5.010/1966; tribunais estaduais pelas suas portarias).",
+  "atualizadoEm": "2026-11-05",
+  "regras": [
+    { "nome": "Confraternização Universal", "tipo": "feriado", "quando": { "dia": "01-01" }, "fonte": "Lei 662/1949, art. 1º (redação da Lei 10.607/2002)", "url": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10607.htm" },
+    { "nome": "Sexta-feira da Paixão", "tipo": "feriado", "quando": { "pascoa": -2 }, "fonte": "Lei 9.093/1995, art. 2º (feriado religioso adotado por todo o Judiciário)", "url": "https://www.planalto.gov.br/ccivil_03/leis/l9093.htm" },
+    { "nome": "Tiradentes", "tipo": "feriado", "quando": { "dia": "04-21" }, "fonte": "Lei 662/1949, art. 1º (redação da Lei 10.607/2002)", "url": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10607.htm" },
+    { "nome": "Dia do Trabalho", "tipo": "feriado", "quando": { "dia": "05-01" }, "fonte": "Lei 662/1949, art. 1º (redação da Lei 10.607/2002)", "url": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10607.htm" },
+    { "nome": "Independência do Brasil", "tipo": "feriado", "quando": { "dia": "09-07" }, "fonte": "Lei 662/1949, art. 1º", "url": "https://www.planalto.gov.br/ccivil_03/leis/l0662.htm" },
+    { "nome": "Nossa Senhora Aparecida", "tipo": "feriado", "quando": { "dia": "10-12" }, "fonte": "Lei 6.802/1980, art. 1º", "url": "https://www.planalto.gov.br/ccivil_03/leis/l6802.htm" },
+    { "nome": "Finados", "tipo": "feriado", "quando": { "dia": "11-02" }, "fonte": "Lei 662/1949, art. 1º (redação da Lei 10.607/2002)", "url": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10607.htm" },
+    { "nome": "Proclamação da República", "tipo": "feriado", "quando": { "dia": "11-15" }, "fonte": "Lei 662/1949, art. 1º", "url": "https://www.planalto.gov.br/ccivil_03/leis/l0662.htm" },
+    { "nome": "Dia Nacional de Zumbi e da Consciência Negra", "tipo": "feriado", "quando": { "dia": "11-20" }, "desde": 2024, "fonte": "Lei 14.759/2023", "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14759.htm" },
+    { "nome": "Natal", "tipo": "feriado", "quando": { "dia": "12-25" }, "fonte": "Lei 662/1949, art. 1º", "url": "https://www.planalto.gov.br/ccivil_03/leis/l0662.htm" },
+    {
+      "nome": "Suspensão dos prazos processuais de 20/12 a 20/01",
+      "tipo": "suspensao_prazos",
+      "quando": { "de": "12-20", "ate": "01-20" },
+      "desde": 2016,
+      "naoSeAplica": ["penal_urgente", "eleitoral"],
+      "fonte": "CPC, art. 220; CLT, art. 775-A; CPP, art. 798-A; Res. CNJ 244/2016",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm"
+    }
+  ]
+}

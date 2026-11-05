@@ -1,0 +1,147 @@
+{
+  "$schema": "../../../../schema/feriados.schema.json",
+  "id": "TJMS/corumba",
+  "escopo": "comarca",
+  "tribunal": "TJMS",
+  "comarca": "Corumbá",
+  "uf": "MS",
+  "ibge": 5003207,
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "regras": [],
+  "datas": [
+    {
+      "data": "2021-02-02",
+      "nome": "Nossa Senhora da Candelária",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 3/2021 (lei municipal de Corumbá)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2021-06-13",
+      "nome": "retomada do município",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 3/2021 (lei municipal de Corumbá)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2021-09-21",
+      "nome": "Fundação do município",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 3/2021 (lei municipal de Corumbá)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2022-02-02",
+      "nome": "Nossa Senhora da Candelária",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 16/2022 (lei municipal de Corumbá)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2022-06-13",
+      "nome": "retomada do município",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 16/2022 (lei municipal de Corumbá)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2022-09-21",
+      "nome": "Fundação do município",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 16/2022 (lei municipal de Corumbá)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-02-02",
+      "nome": "Nossa Senhora da Candelária",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 4/2023 (lei municipal de Corumbá)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-06-13",
+      "nome": "retomada do município",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 4/2023 (lei municipal de Corumbá)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-09-21",
+      "nome": "Fundação do município",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 4/2023 (lei municipal de Corumbá)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2024-02-02",
+      "nome": "Nossa Senhora da Candelária",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 1.536/2023 (lei municipal de Corumbá)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2024-06-13",
+      "nome": "retomada do município",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 1.536/2023 (lei municipal de Corumbá)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2024-06-14",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria TJMS 1.536/2023",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2024-09-21",
+      "nome": "Fundação do município",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 1.536/2023 (lei municipal de Corumbá)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2025-06-13",
+      "nome": "retomada do município",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 1.265/2024 (lei municipal de Corumbá)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2025-06-24",
+      "nome": "Dia de São João",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 1.265/2024 (lei municipal de Corumbá)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2026-02-02",
+      "nome": "Nossa Senhora da Candelária",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 983/2025 (lei municipal de Corumbá)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2026-06-24",
+      "nome": "Dia de São João",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 983/2025 (lei municipal de Corumbá)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2026-09-21",
+      "nome": "Fundação do Município",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 983/2025 (lei municipal de Corumbá)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    }
+  ]
+}

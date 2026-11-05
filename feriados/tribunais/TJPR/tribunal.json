@@ -1,0 +1,698 @@
+{
+  "$schema": "../../../schema/feriados.schema.json",
+  "id": "TJPR",
+  "escopo": "tribunal",
+  "nome": "Tribunal de Justiça do Estado do Paraná",
+  "tribunal": "TJPR",
+  "uf": "PR",
+  "observacao": "Datas de 2025 e 2026 transcritas dos calendários anuais da Presidência do TJPR: Decreto Judiciário 645/2024 (2025, alterado pelos DJ 127/2025 e 533/2025) e Decreto Judiciário 621/2025 (2026; as alterações de 2026 encontradas, como DJ 88, 105, 573 e 585/2026, mexem só no art. 4º, feriados locais do interior), mais os recessos das Resoluções 470/2024-OE e 515/2025-OE e o expediente reduzido da Copa (DJ 268 e 308/2026). Dias de 'suspensão do expediente mediante compensação' entram como ponto_facultativo. 2026 NÃO está conferido: até 05/11/2026 não achei a resolução do Órgão Especial com o recesso de 20/12/2026 a 06/01/2027 (só 24 e 31/12, do DJ 621/2025, estão cadastrados; a suspensão de prazos de 20/12 a 20/01 vem do CPC 220, em nacional.json). Não cobre os feriados locais do interior (art. 4º dos decretos), as suspensões de unidades específicas (implantação do eproc, Juizado PUC-Cajuru, Foro Central de Maringá desde 02/11/2026 etc.) nem a prorrogação por indisponibilidade do Projudi (Res. CNJ 185/2013, ex.: noite de 01/09/2026). O 19/12 (Emancipação do Paraná) não é feriado estadual (Lei estadual 18.384/2014): o TJPR só suspende o expediente quando o decreto anual manda (2025 sim; em 2026 cai num sábado).",
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2025
+  ],
+  "comarcas": [
+    "Curitiba"
+  ],
+  "regras": [],
+  "datas": [
+    {
+      "data": "2025-01-01",
+      "nome": "Dia da Confraternização Universal",
+      "tipo": "feriado",
+      "fonte": "Decreto Judiciário 645/2024 (TJPR), art. 1º",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/decreto-judiciario-n-645-2024-pdf"
+    },
+    {
+      "data": "2025-01-01",
+      "nome": "Recesso forense (expediente suspenso)",
+      "tipo": "recesso",
+      "fonte": "Resolução 470/2024-OE (TJPR)",
+      "url": "https://www.tjpr.jus.br/home/-/asset_publisher/1lKI/content/tjpr-ficar%C3%A1-de-recesso-entre-20-de-dezembro-de-2024-at%C3%A9-6-de-janeiro-de-2025/18319"
+    },
+    {
+      "data": "2025-01-02",
+      "nome": "Recesso forense (expediente suspenso)",
+      "tipo": "recesso",
+      "fonte": "Resolução 470/2024-OE (TJPR)",
+      "url": "https://www.tjpr.jus.br/home/-/asset_publisher/1lKI/content/tjpr-ficar%C3%A1-de-recesso-entre-20-de-dezembro-de-2024-at%C3%A9-6-de-janeiro-de-2025/18319"
+    },
+    {
+      "data": "2025-01-03",
+      "nome": "Recesso forense (expediente suspenso)",
+      "tipo": "recesso",
+      "fonte": "Resolução 470/2024-OE (TJPR)",
+      "url": "https://www.tjpr.jus.br/home/-/asset_publisher/1lKI/content/tjpr-ficar%C3%A1-de-recesso-entre-20-de-dezembro-de-2024-at%C3%A9-6-de-janeiro-de-2025/18319"
+    },
+    {
+      "data": "2025-01-04",
+      "nome": "Recesso forense (expediente suspenso)",
+      "tipo": "recesso",
+      "fonte": "Resolução 470/2024-OE (TJPR)",
+      "url": "https://www.tjpr.jus.br/home/-/asset_publisher/1lKI/content/tjpr-ficar%C3%A1-de-recesso-entre-20-de-dezembro-de-2024-at%C3%A9-6-de-janeiro-de-2025/18319"
+    },
+    {
+      "data": "2025-01-05",
+      "nome": "Recesso forense (expediente suspenso)",
+      "tipo": "recesso",
+      "fonte": "Resolução 470/2024-OE (TJPR)",
+      "url": "https://www.tjpr.jus.br/home/-/asset_publisher/1lKI/content/tjpr-ficar%C3%A1-de-recesso-entre-20-de-dezembro-de-2024-at%C3%A9-6-de-janeiro-de-2025/18319"
+    },
+    {
+      "data": "2025-01-06",
+      "nome": "Recesso forense (expediente suspenso)",
+      "tipo": "recesso",
+      "fonte": "Resolução 470/2024-OE (TJPR)",
+      "url": "https://www.tjpr.jus.br/home/-/asset_publisher/1lKI/content/tjpr-ficar%C3%A1-de-recesso-entre-20-de-dezembro-de-2024-at%C3%A9-6-de-janeiro-de-2025/18319"
+    },
+    {
+      "data": "2025-01-07",
+      "nome": "Prazos processuais suspensos (CPC art. 220)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução 470/2024-OE (TJPR); CPC art. 220",
+      "url": "https://www.tjpr.jus.br/home/-/asset_publisher/1lKI/content/tjpr-ficar%C3%A1-de-recesso-entre-20-de-dezembro-de-2024-at%C3%A9-6-de-janeiro-de-2025/18319"
+    },
+    {
+      "data": "2025-01-08",
+      "nome": "Prazos processuais suspensos (CPC art. 220)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução 470/2024-OE (TJPR); CPC art. 220",
+      "url": "https://www.tjpr.jus.br/home/-/asset_publisher/1lKI/content/tjpr-ficar%C3%A1-de-recesso-entre-20-de-dezembro-de-2024-at%C3%A9-6-de-janeiro-de-2025/18319"
+    },
+    {
+      "data": "2025-01-09",
+      "nome": "Prazos processuais suspensos (CPC art. 220)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução 470/2024-OE (TJPR); CPC art. 220",
+      "url": "https://www.tjpr.jus.br/home/-/asset_publisher/1lKI/content/tjpr-ficar%C3%A1-de-recesso-entre-20-de-dezembro-de-2024-at%C3%A9-6-de-janeiro-de-2025/18319"
+    },
+    {
+      "data": "2025-01-10",
+      "nome": "Prazos processuais suspensos (CPC art. 220)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução 470/2024-OE (TJPR); CPC art. 220",
+      "url": "https://www.tjpr.jus.br/home/-/asset_publisher/1lKI/content/tjpr-ficar%C3%A1-de-recesso-entre-20-de-dezembro-de-2024-at%C3%A9-6-de-janeiro-de-2025/18319"
+    },
+    {
+      "data": "2025-01-11",
+      "nome": "Prazos processuais suspensos (CPC art. 220)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução 470/2024-OE (TJPR); CPC art. 220",
+      "url": "https://www.tjpr.jus.br/home/-/asset_publisher/1lKI/content/tjpr-ficar%C3%A1-de-recesso-entre-20-de-dezembro-de-2024-at%C3%A9-6-de-janeiro-de-2025/18319"
+    },
+    {
+      "data": "2025-01-12",
+      "nome": "Prazos processuais suspensos (CPC art. 220)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução 470/2024-OE (TJPR); CPC art. 220",
+      "url": "https://www.tjpr.jus.br/home/-/asset_publisher/1lKI/content/tjpr-ficar%C3%A1-de-recesso-entre-20-de-dezembro-de-2024-at%C3%A9-6-de-janeiro-de-2025/18319"
+    },
+    {
+      "data": "2025-01-13",
+      "nome": "Prazos processuais suspensos (CPC art. 220)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução 470/2024-OE (TJPR); CPC art. 220",
+      "url": "https://www.tjpr.jus.br/home/-/asset_publisher/1lKI/content/tjpr-ficar%C3%A1-de-recesso-entre-20-de-dezembro-de-2024-at%C3%A9-6-de-janeiro-de-2025/18319"
+    },
+    {
+      "data": "2025-01-14",
+      "nome": "Prazos processuais suspensos (CPC art. 220)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução 470/2024-OE (TJPR); CPC art. 220",
+      "url": "https://www.tjpr.jus.br/home/-/asset_publisher/1lKI/content/tjpr-ficar%C3%A1-de-recesso-entre-20-de-dezembro-de-2024-at%C3%A9-6-de-janeiro-de-2025/18319"
+    },
+    {
+      "data": "2025-01-15",
+      "nome": "Prazos processuais suspensos (CPC art. 220)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução 470/2024-OE (TJPR); CPC art. 220",
+      "url": "https://www.tjpr.jus.br/home/-/asset_publisher/1lKI/content/tjpr-ficar%C3%A1-de-recesso-entre-20-de-dezembro-de-2024-at%C3%A9-6-de-janeiro-de-2025/18319"
+    },
+    {
+      "data": "2025-01-16",
+      "nome": "Prazos processuais suspensos (CPC art. 220)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução 470/2024-OE (TJPR); CPC art. 220",
+      "url": "https://www.tjpr.jus.br/home/-/asset_publisher/1lKI/content/tjpr-ficar%C3%A1-de-recesso-entre-20-de-dezembro-de-2024-at%C3%A9-6-de-janeiro-de-2025/18319"
+    },
+    {
+      "data": "2025-01-17",
+      "nome": "Prazos processuais suspensos (CPC art. 220)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução 470/2024-OE (TJPR); CPC art. 220",
+      "url": "https://www.tjpr.jus.br/home/-/asset_publisher/1lKI/content/tjpr-ficar%C3%A1-de-recesso-entre-20-de-dezembro-de-2024-at%C3%A9-6-de-janeiro-de-2025/18319"
+    },
+    {
+      "data": "2025-01-18",
+      "nome": "Prazos processuais suspensos (CPC art. 220)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução 470/2024-OE (TJPR); CPC art. 220",
+      "url": "https://www.tjpr.jus.br/home/-/asset_publisher/1lKI/content/tjpr-ficar%C3%A1-de-recesso-entre-20-de-dezembro-de-2024-at%C3%A9-6-de-janeiro-de-2025/18319"
+    },
+    {
+      "data": "2025-01-19",
+      "nome": "Prazos processuais suspensos (CPC art. 220)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução 470/2024-OE (TJPR); CPC art. 220",
+      "url": "https://www.tjpr.jus.br/home/-/asset_publisher/1lKI/content/tjpr-ficar%C3%A1-de-recesso-entre-20-de-dezembro-de-2024-at%C3%A9-6-de-janeiro-de-2025/18319"
+    },
+    {
+      "data": "2025-01-20",
+      "nome": "Prazos processuais suspensos (CPC art. 220)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução 470/2024-OE (TJPR); CPC art. 220",
+      "url": "https://www.tjpr.jus.br/home/-/asset_publisher/1lKI/content/tjpr-ficar%C3%A1-de-recesso-entre-20-de-dezembro-de-2024-at%C3%A9-6-de-janeiro-de-2025/18319"
+    },
+    {
+      "data": "2025-03-03",
+      "nome": "Véspera de Carnaval (expediente suspenso)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Decreto Judiciário 645/2024 (TJPR), art. 2º",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/decreto-judiciario-n-645-2024-pdf"
+    },
+    {
+      "data": "2025-03-04",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Decreto Judiciário 645/2024 (TJPR), art. 1º",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/decreto-judiciario-n-645-2024-pdf"
+    },
+    {
+      "data": "2025-04-17",
+      "nome": "Quinta-feira Santa (expediente suspenso)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Decreto Judiciário 645/2024 (TJPR), art. 2º",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/decreto-judiciario-n-645-2024-pdf"
+    },
+    {
+      "data": "2025-04-18",
+      "nome": "Paixão de Cristo",
+      "tipo": "feriado",
+      "fonte": "Decreto Judiciário 645/2024 (TJPR), art. 1º",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/decreto-judiciario-n-645-2024-pdf"
+    },
+    {
+      "data": "2025-04-21",
+      "nome": "Tiradentes",
+      "tipo": "feriado",
+      "fonte": "Decreto Judiciário 645/2024 (TJPR), art. 1º",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/decreto-judiciario-n-645-2024-pdf"
+    },
+    {
+      "data": "2025-05-01",
+      "nome": "Dia do Trabalho",
+      "tipo": "feriado",
+      "fonte": "Decreto Judiciário 645/2024 (TJPR), art. 1º",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/decreto-judiciario-n-645-2024-pdf"
+    },
+    {
+      "data": "2025-05-02",
+      "nome": "Expediente suspenso (com compensação)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Decreto Judiciário 127/2025 (TJPR), que alterou o art. 2º do Decreto Judiciário 645/2024 (TJPR)",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/decreto-judiciario-n-127-2025-pdf"
+    },
+    {
+      "data": "2025-06-19",
+      "nome": "Corpus Christi",
+      "tipo": "feriado",
+      "fonte": "Decreto Judiciário 645/2024 (TJPR), art. 1º",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/decreto-judiciario-n-645-2024-pdf"
+    },
+    {
+      "data": "2025-06-20",
+      "nome": "Expediente suspenso (com compensação)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Decreto Judiciário 645/2024 (TJPR), art. 2º",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/decreto-judiciario-n-645-2024-pdf"
+    },
+    {
+      "data": "2025-09-07",
+      "nome": "Independência do Brasil",
+      "tipo": "feriado",
+      "fonte": "Decreto Judiciário 645/2024 (TJPR), art. 1º",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/decreto-judiciario-n-645-2024-pdf"
+    },
+    {
+      "data": "2025-10-12",
+      "nome": "Nossa Senhora Aparecida - Padroeira do Brasil",
+      "tipo": "feriado",
+      "fonte": "Decreto Judiciário 645/2024 (TJPR), art. 1º",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/decreto-judiciario-n-645-2024-pdf"
+    },
+    {
+      "data": "2025-10-27",
+      "nome": "Expediente suspenso (com compensação)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Decreto Judiciário 127/2025 (TJPR), que alterou o art. 2º do Decreto Judiciário 645/2024 (TJPR)",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/decreto-judiciario-n-127-2025-pdf"
+    },
+    {
+      "data": "2025-10-28",
+      "nome": "Dia do Funcionário Público",
+      "tipo": "feriado",
+      "fonte": "Decreto Judiciário 645/2024 (TJPR), art. 1º",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/decreto-judiciario-n-645-2024-pdf"
+    },
+    {
+      "data": "2025-11-02",
+      "nome": "Finados",
+      "tipo": "feriado",
+      "fonte": "Decreto Judiciário 645/2024 (TJPR), art. 1º",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/decreto-judiciario-n-645-2024-pdf"
+    },
+    {
+      "data": "2025-11-15",
+      "nome": "Proclamação da República",
+      "tipo": "feriado",
+      "fonte": "Decreto Judiciário 645/2024 (TJPR), art. 1º",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/decreto-judiciario-n-645-2024-pdf"
+    },
+    {
+      "data": "2025-11-20",
+      "nome": "Dia Nacional de Zumbi e da Consciência Negra",
+      "tipo": "feriado",
+      "fonte": "Decreto Judiciário 645/2024 (TJPR), art. 1º",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/decreto-judiciario-n-645-2024-pdf"
+    },
+    {
+      "data": "2025-11-21",
+      "nome": "Expediente suspenso (com compensação)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Decreto Judiciário 127/2025 (TJPR), que alterou o art. 2º do Decreto Judiciário 645/2024 (TJPR)",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/decreto-judiciario-n-127-2025-pdf"
+    },
+    {
+      "data": "2025-12-18",
+      "nome": "Dia da Justiça (transferido de 08/12)",
+      "tipo": "feriado",
+      "fonte": "Decreto Judiciário 533/2025 (TJPR), que alterou o art. 1º do Decreto Judiciário 645/2024 (TJPR)",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/sei_12541363_certidao-dia-18-12-2025"
+    },
+    {
+      "data": "2025-12-19",
+      "nome": "Emancipação Política do Paraná (expediente suspenso)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Decreto Judiciário 645/2024 (TJPR), art. 2º",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/decreto-judiciario-n-645-2024-pdf"
+    },
+    {
+      "data": "2025-12-20",
+      "nome": "Recesso forense (expediente suspenso)",
+      "tipo": "recesso",
+      "fonte": "Resolução 515/2025-OE (TJPR)",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/sei_12413666_certidao"
+    },
+    {
+      "data": "2025-12-21",
+      "nome": "Recesso forense (expediente suspenso)",
+      "tipo": "recesso",
+      "fonte": "Resolução 515/2025-OE (TJPR)",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/sei_12413666_certidao"
+    },
+    {
+      "data": "2025-12-22",
+      "nome": "Recesso forense (expediente suspenso)",
+      "tipo": "recesso",
+      "fonte": "Resolução 515/2025-OE (TJPR)",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/sei_12413666_certidao"
+    },
+    {
+      "data": "2025-12-23",
+      "nome": "Recesso forense (expediente suspenso)",
+      "tipo": "recesso",
+      "fonte": "Resolução 515/2025-OE (TJPR)",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/sei_12413666_certidao"
+    },
+    {
+      "data": "2025-12-24",
+      "nome": "Véspera de Natal (expediente suspenso)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Decreto Judiciário 645/2024 (TJPR), art. 3º",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/decreto-judiciario-n-645-2024-pdf"
+    },
+    {
+      "data": "2025-12-24",
+      "nome": "Recesso forense (expediente suspenso)",
+      "tipo": "recesso",
+      "fonte": "Resolução 515/2025-OE (TJPR)",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/sei_12413666_certidao"
+    },
+    {
+      "data": "2025-12-25",
+      "nome": "Natal",
+      "tipo": "feriado",
+      "fonte": "Decreto Judiciário 645/2024 (TJPR), art. 1º",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/decreto-judiciario-n-645-2024-pdf"
+    },
+    {
+      "data": "2025-12-25",
+      "nome": "Recesso forense (expediente suspenso)",
+      "tipo": "recesso",
+      "fonte": "Resolução 515/2025-OE (TJPR)",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/sei_12413666_certidao"
+    },
+    {
+      "data": "2025-12-26",
+      "nome": "Recesso forense (expediente suspenso)",
+      "tipo": "recesso",
+      "fonte": "Resolução 515/2025-OE (TJPR)",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/sei_12413666_certidao"
+    },
+    {
+      "data": "2025-12-27",
+      "nome": "Recesso forense (expediente suspenso)",
+      "tipo": "recesso",
+      "fonte": "Resolução 515/2025-OE (TJPR)",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/sei_12413666_certidao"
+    },
+    {
+      "data": "2025-12-28",
+      "nome": "Recesso forense (expediente suspenso)",
+      "tipo": "recesso",
+      "fonte": "Resolução 515/2025-OE (TJPR)",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/sei_12413666_certidao"
+    },
+    {
+      "data": "2025-12-29",
+      "nome": "Recesso forense (expediente suspenso)",
+      "tipo": "recesso",
+      "fonte": "Resolução 515/2025-OE (TJPR)",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/sei_12413666_certidao"
+    },
+    {
+      "data": "2025-12-30",
+      "nome": "Recesso forense (expediente suspenso)",
+      "tipo": "recesso",
+      "fonte": "Resolução 515/2025-OE (TJPR)",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/sei_12413666_certidao"
+    },
+    {
+      "data": "2025-12-31",
+      "nome": "Véspera de Ano Novo (expediente suspenso)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Decreto Judiciário 645/2024 (TJPR), art. 3º",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/decreto-judiciario-n-645-2024-pdf"
+    },
+    {
+      "data": "2025-12-31",
+      "nome": "Recesso forense (expediente suspenso)",
+      "tipo": "recesso",
+      "fonte": "Resolução 515/2025-OE (TJPR)",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/sei_12413666_certidao"
+    },
+    {
+      "data": "2026-01-01",
+      "nome": "Dia da Confraternização Universal",
+      "tipo": "feriado",
+      "fonte": "Decreto Judiciário 621/2025 (TJPR), art. 1º",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/sei_12428873_decreto"
+    },
+    {
+      "data": "2026-01-01",
+      "nome": "Recesso forense (expediente suspenso)",
+      "tipo": "recesso",
+      "fonte": "Resolução 515/2025-OE (TJPR)",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/sei_12413666_certidao"
+    },
+    {
+      "data": "2026-01-02",
+      "nome": "Recesso forense (expediente suspenso)",
+      "tipo": "recesso",
+      "fonte": "Resolução 515/2025-OE (TJPR)",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/sei_12413666_certidao"
+    },
+    {
+      "data": "2026-01-03",
+      "nome": "Recesso forense (expediente suspenso)",
+      "tipo": "recesso",
+      "fonte": "Resolução 515/2025-OE (TJPR)",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/sei_12413666_certidao"
+    },
+    {
+      "data": "2026-01-04",
+      "nome": "Recesso forense (expediente suspenso)",
+      "tipo": "recesso",
+      "fonte": "Resolução 515/2025-OE (TJPR)",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/sei_12413666_certidao"
+    },
+    {
+      "data": "2026-01-05",
+      "nome": "Recesso forense (expediente suspenso)",
+      "tipo": "recesso",
+      "fonte": "Resolução 515/2025-OE (TJPR)",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/sei_12413666_certidao"
+    },
+    {
+      "data": "2026-01-06",
+      "nome": "Recesso forense (expediente suspenso)",
+      "tipo": "recesso",
+      "fonte": "Resolução 515/2025-OE (TJPR)",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/sei_12413666_certidao"
+    },
+    {
+      "data": "2026-01-07",
+      "nome": "Prazos processuais suspensos (CPC art. 220)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução 515/2025-OE (TJPR), art. 1º, §§ 2º e 3º; CPC art. 220",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/sei_12413666_certidao"
+    },
+    {
+      "data": "2026-01-08",
+      "nome": "Prazos processuais suspensos (CPC art. 220)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução 515/2025-OE (TJPR), art. 1º, §§ 2º e 3º; CPC art. 220",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/sei_12413666_certidao"
+    },
+    {
+      "data": "2026-01-09",
+      "nome": "Prazos processuais suspensos (CPC art. 220)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução 515/2025-OE (TJPR), art. 1º, §§ 2º e 3º; CPC art. 220",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/sei_12413666_certidao"
+    },
+    {
+      "data": "2026-01-10",
+      "nome": "Prazos processuais suspensos (CPC art. 220)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução 515/2025-OE (TJPR), art. 1º, §§ 2º e 3º; CPC art. 220",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/sei_12413666_certidao"
+    },
+    {
+      "data": "2026-01-11",
+      "nome": "Prazos processuais suspensos (CPC art. 220)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução 515/2025-OE (TJPR), art. 1º, §§ 2º e 3º; CPC art. 220",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/sei_12413666_certidao"
+    },
+    {
+      "data": "2026-01-12",
+      "nome": "Prazos processuais suspensos (CPC art. 220)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução 515/2025-OE (TJPR), art. 1º, §§ 2º e 3º; CPC art. 220",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/sei_12413666_certidao"
+    },
+    {
+      "data": "2026-01-13",
+      "nome": "Prazos processuais suspensos (CPC art. 220)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução 515/2025-OE (TJPR), art. 1º, §§ 2º e 3º; CPC art. 220",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/sei_12413666_certidao"
+    },
+    {
+      "data": "2026-01-14",
+      "nome": "Prazos processuais suspensos (CPC art. 220)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução 515/2025-OE (TJPR), art. 1º, §§ 2º e 3º; CPC art. 220",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/sei_12413666_certidao"
+    },
+    {
+      "data": "2026-01-15",
+      "nome": "Prazos processuais suspensos (CPC art. 220)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução 515/2025-OE (TJPR), art. 1º, §§ 2º e 3º; CPC art. 220",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/sei_12413666_certidao"
+    },
+    {
+      "data": "2026-01-16",
+      "nome": "Prazos processuais suspensos (CPC art. 220)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução 515/2025-OE (TJPR), art. 1º, §§ 2º e 3º; CPC art. 220",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/sei_12413666_certidao"
+    },
+    {
+      "data": "2026-01-17",
+      "nome": "Prazos processuais suspensos (CPC art. 220)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução 515/2025-OE (TJPR), art. 1º, §§ 2º e 3º; CPC art. 220",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/sei_12413666_certidao"
+    },
+    {
+      "data": "2026-01-18",
+      "nome": "Prazos processuais suspensos (CPC art. 220)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução 515/2025-OE (TJPR), art. 1º, §§ 2º e 3º; CPC art. 220",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/sei_12413666_certidao"
+    },
+    {
+      "data": "2026-01-19",
+      "nome": "Prazos processuais suspensos (CPC art. 220)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução 515/2025-OE (TJPR), art. 1º, §§ 2º e 3º; CPC art. 220",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/sei_12413666_certidao"
+    },
+    {
+      "data": "2026-01-20",
+      "nome": "Prazos processuais suspensos (CPC art. 220)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução 515/2025-OE (TJPR), art. 1º, §§ 2º e 3º; CPC art. 220",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/sei_12413666_certidao"
+    },
+    {
+      "data": "2026-02-16",
+      "nome": "Véspera de Carnaval (expediente suspenso)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Decreto Judiciário 621/2025 (TJPR), art. 2º",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/sei_12428873_decreto"
+    },
+    {
+      "data": "2026-02-17",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Decreto Judiciário 621/2025 (TJPR), art. 1º",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/sei_12428873_decreto"
+    },
+    {
+      "data": "2026-04-02",
+      "nome": "Quinta-feira Santa (expediente suspenso)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Decreto Judiciário 621/2025 (TJPR), art. 2º",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/sei_12428873_decreto"
+    },
+    {
+      "data": "2026-04-03",
+      "nome": "Paixão de Cristo",
+      "tipo": "feriado",
+      "fonte": "Decreto Judiciário 621/2025 (TJPR), art. 1º",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/sei_12428873_decreto"
+    },
+    {
+      "data": "2026-04-20",
+      "nome": "Expediente suspenso (com compensação)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Decreto Judiciário 621/2025 (TJPR), art. 2º",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/sei_12428873_decreto"
+    },
+    {
+      "data": "2026-04-21",
+      "nome": "Tiradentes",
+      "tipo": "feriado",
+      "fonte": "Decreto Judiciário 621/2025 (TJPR), art. 1º",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/sei_12428873_decreto"
+    },
+    {
+      "data": "2026-05-01",
+      "nome": "Dia do Trabalho",
+      "tipo": "feriado",
+      "fonte": "Decreto Judiciário 621/2025 (TJPR), art. 1º",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/sei_12428873_decreto"
+    },
+    {
+      "data": "2026-06-04",
+      "nome": "Corpus Christi",
+      "tipo": "feriado",
+      "fonte": "Decreto Judiciário 621/2025 (TJPR), art. 1º",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/sei_12428873_decreto"
+    },
+    {
+      "data": "2026-06-05",
+      "nome": "Expediente suspenso (com compensação)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Decreto Judiciário 621/2025 (TJPR), art. 2º",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/sei_12428873_decreto"
+    },
+    {
+      "data": "2026-06-24",
+      "nome": "Jogo do Brasil na Copa do Mundo: expediente das 12h às 17h",
+      "tipo": "expediente_reduzido",
+      "fonte": "Decreto Judiciário 268/2026 (TJPR), art. 1º, III",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/sei_13111258_decreto-copa"
+    },
+    {
+      "data": "2026-06-29",
+      "nome": "Jogo do Brasil na Copa do Mundo: expediente das 8h às 12h",
+      "tipo": "expediente_reduzido",
+      "fonte": "Decreto Judiciário 308/2026 (TJPR), que incluiu o inciso IV no art. 1º do Decreto Judiciário 268/2026",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/sei_13188654_decreto"
+    },
+    {
+      "data": "2026-09-07",
+      "nome": "Independência do Brasil",
+      "tipo": "feriado",
+      "fonte": "Decreto Judiciário 621/2025 (TJPR), art. 1º",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/sei_12428873_decreto"
+    },
+    {
+      "data": "2026-10-12",
+      "nome": "Nossa Senhora Aparecida - Padroeira do Brasil",
+      "tipo": "feriado",
+      "fonte": "Decreto Judiciário 621/2025 (TJPR), art. 1º",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/sei_12428873_decreto"
+    },
+    {
+      "data": "2026-10-30",
+      "nome": "Dia do Funcionário Público (transferido de 28/10)",
+      "tipo": "feriado",
+      "fonte": "Decreto Judiciário 621/2025 (TJPR), art. 1º",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/sei_12428873_decreto"
+    },
+    {
+      "data": "2026-11-02",
+      "nome": "Finados",
+      "tipo": "feriado",
+      "fonte": "Decreto Judiciário 621/2025 (TJPR), art. 1º",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/sei_12428873_decreto"
+    },
+    {
+      "data": "2026-11-15",
+      "nome": "Proclamação da República",
+      "tipo": "feriado",
+      "fonte": "Decreto Judiciário 621/2025 (TJPR), art. 1º",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/sei_12428873_decreto"
+    },
+    {
+      "data": "2026-11-20",
+      "nome": "Dia Nacional de Zumbi e da Consciência Negra",
+      "tipo": "feriado",
+      "fonte": "Decreto Judiciário 621/2025 (TJPR), art. 1º",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/sei_12428873_decreto"
+    },
+    {
+      "data": "2026-12-18",
+      "nome": "Dia da Justiça (transferido de 08/12)",
+      "tipo": "feriado",
+      "fonte": "Decreto Judiciário 621/2025 (TJPR), art. 1º",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/sei_12428873_decreto"
+    },
+    {
+      "data": "2026-12-24",
+      "nome": "Véspera de Natal (expediente suspenso)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Decreto Judiciário 621/2025 (TJPR), art. 3º",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/sei_12428873_decreto"
+    },
+    {
+      "data": "2026-12-25",
+      "nome": "Natal",
+      "tipo": "feriado",
+      "fonte": "Decreto Judiciário 621/2025 (TJPR), art. 1º",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/sei_12428873_decreto"
+    },
+    {
+      "data": "2026-12-31",
+      "nome": "Véspera de Ano Novo (expediente suspenso)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Decreto Judiciário 621/2025 (TJPR), art. 3º",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/sei_12428873_decreto"
+    }
+  ]
+}

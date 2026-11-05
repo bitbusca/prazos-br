@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../../schema/feriados.schema.json",
+  "id": "TJSC/florianopolis",
+  "escopo": "comarca",
+  "tribunal": "TJSC",
+  "comarca": "Florianópolis",
+  "uf": "SC",
+  "ibge": 4205407,
+  "observacao": "O TJSC chama a capital de 'Comarca da Capital'; aqui é 'Florianópolis'. O 23/03 vale para 'Tribunal de Justiça, Turmas Recursais e a comarca da Capital' (Anexo Único das Res. GP 2/2025 e 1/2026): quem conta prazo no 2º grau ou nas Turmas Recursais deve usar esta comarca. Suspensões só do expediente presencial de unidades isoladas (ex.: Foro do Norte da Ilha, Vara de Execução Fiscal) não estão aqui. 2026 não conferido pelo mesmo motivo do tribunal.json (falta o ato do recesso de dezembro de 2026).",
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2025
+  ],
+  "regras": [
+    {
+      "nome": "Aniversário de emancipação política de Florianópolis",
+      "tipo": "feriado",
+      "quando": {
+        "dia": "03-23"
+      },
+      "fonte": "Lei municipal de Florianópolis 832/1967, art. 2º (redação da Lei 3.247/1989)",
+      "url": "https://sistemas.sc.gov.br/cmf/pesquisa/docs/1967/LPMF/lei832_67.DOC"
+    },
+    {
+      "nome": "Corpus Christi",
+      "tipo": "feriado",
+      "quando": {
+        "pascoa": 60
+      },
+      "fonte": "Lei municipal de Florianópolis 832/1967, art. 2º (redação da Lei 3.247/1989)",
+      "url": "https://sistemas.sc.gov.br/cmf/pesquisa/docs/1967/LPMF/lei832_67.DOC"
+    }
+  ],
+  "datas": [
+    {
+      "data": "2025-03-23",
+      "nome": "Dia do Município de Florianópolis",
+      "tipo": "feriado",
+      "fonte": "Resolução GP 2/2025 (TJSC), Anexo Único (redação da Res. GP 49/2025); Lei municipal 832/1967",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=187470&cdCategoria=1"
+    },
+    {
+      "data": "2026-03-23",
+      "nome": "Dia do Município de Florianópolis",
+      "tipo": "feriado",
+      "fonte": "Resolução GP 1/2026 (TJSC), Anexo Único (redação da Res. GP 45/2026); Lei municipal 832/1967",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=189546&cdCategoria=1"
+    }
+  ]
+}

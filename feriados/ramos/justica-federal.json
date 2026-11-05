@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schema/feriados.schema.json",
+  "id": "ramo/justica-federal",
+  "escopo": "ramo",
+  "nome": "Justiça da União (Lei 5.010/1966, art. 62)",
+  "aplicaA": ["TRF*", "TRT*", "TRE-*", "TST", "STJ", "STF", "STM", "TSE", "CJF", "CNJ"],
+  "observacao": "Feriados próprios da Justiça Federal, adotados também pela Justiça do Trabalho e pela Eleitoral nos seus calendários. Cada tribunal ainda publica portaria anual com pontos facultativos e feriados locais.",
+  "atualizadoEm": "2026-11-05",
+  "regras": [
+    { "nome": "Recesso forense de 20/12 a 06/01", "tipo": "recesso", "quando": { "de": "12-20", "ate": "01-06" }, "fonte": "Lei 5.010/1966, art. 62, I", "url": "https://www.planalto.gov.br/ccivil_03/leis/l5010.htm" },
+    { "nome": "Semana Santa (quarta-feira)", "tipo": "feriado", "quando": { "pascoa": -4 }, "fonte": "Lei 5.010/1966, art. 62, II", "url": "https://www.planalto.gov.br/ccivil_03/leis/l5010.htm" },
+    { "nome": "Semana Santa (quinta-feira)", "tipo": "feriado", "quando": { "pascoa": -3 }, "fonte": "Lei 5.010/1966, art. 62, II", "url": "https://www.planalto.gov.br/ccivil_03/leis/l5010.htm" },
+    { "nome": "Semana Santa (sexta-feira)", "tipo": "feriado", "quando": { "pascoa": -2 }, "fonte": "Lei 5.010/1966, art. 62, II", "url": "https://www.planalto.gov.br/ccivil_03/leis/l5010.htm" },
+    { "nome": "Semana Santa (sábado)", "tipo": "feriado", "quando": { "pascoa": -1 }, "fonte": "Lei 5.010/1966, art. 62, II", "url": "https://www.planalto.gov.br/ccivil_03/leis/l5010.htm" },
+    { "nome": "Domingo de Páscoa", "tipo": "feriado", "quando": { "pascoa": 0 }, "fonte": "Lei 5.010/1966, art. 62, II", "url": "https://www.planalto.gov.br/ccivil_03/leis/l5010.htm" },
+    { "nome": "Carnaval (segunda-feira)", "tipo": "feriado", "quando": { "pascoa": -48 }, "fonte": "Lei 5.010/1966, art. 62, III", "url": "https://www.planalto.gov.br/ccivil_03/leis/l5010.htm" },
+    { "nome": "Carnaval (terça-feira)", "tipo": "feriado", "quando": { "pascoa": -47 }, "fonte": "Lei 5.010/1966, art. 62, III", "url": "https://www.planalto.gov.br/ccivil_03/leis/l5010.htm" },
+    { "nome": "Criação dos cursos jurídicos", "tipo": "feriado", "quando": { "dia": "08-11" }, "fonte": "Lei 5.010/1966, art. 62, IV", "url": "https://www.planalto.gov.br/ccivil_03/leis/l5010.htm" },
+    { "nome": "Todos os Santos", "tipo": "feriado", "quando": { "dia": "11-01" }, "fonte": "Lei 5.010/1966, art. 62, IV", "url": "https://www.planalto.gov.br/ccivil_03/leis/l5010.htm" },
+    { "nome": "Finados", "tipo": "feriado", "quando": { "dia": "11-02" }, "fonte": "Lei 5.010/1966, art. 62, IV", "url": "https://www.planalto.gov.br/ccivil_03/leis/l5010.htm" },
+    { "nome": "Dia da Justiça", "tipo": "feriado", "quando": { "dia": "12-08" }, "fonte": "Lei 5.010/1966, art. 62, IV", "url": "https://www.planalto.gov.br/ccivil_03/leis/l5010.htm" }
+  ]
+}

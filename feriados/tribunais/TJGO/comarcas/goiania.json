@@ -1,0 +1,42 @@
+{
+  "$schema": "../../../../schema/feriados.schema.json",
+  "id": "TJGO/goiania",
+  "escopo": "comarca",
+  "tribunal": "TJGO",
+  "comarca": "Goiânia",
+  "uf": "GO",
+  "ibge": 5208707,
+  "observacao": "Comarca da capital e sede do TJGO (RITJGO art. 123, I: sem expediente nos feriados da capital). O aniversário de Goiânia (24/10) vale no Estado todo pelo COJEG e está no tribunal.json. A URL da regra é o Decreto estadual GO 7.626/2012, que cita a Lei municipal 701/1956 (texto oficial da lei municipal não localizado).",
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2025,
+    2026
+  ],
+  "regras": [
+    {
+      "nome": "Nossa Senhora Auxiliadora, padroeira de Goiânia",
+      "tipo": "feriado",
+      "quando": {
+        "dia": "05-24"
+      },
+      "fonte": "Lei municipal de Goiânia 701/1956 (citada no Decreto estadual GO 7.626/2012 e no calendário do TJGO)",
+      "url": "https://legisla.casacivil.go.gov.br/api/v2/pesquisa/legislacoes/65587/pdf"
+    }
+  ],
+  "datas": [
+    {
+      "data": "2025-05-24",
+      "nome": "Dia de Nossa Senhora Auxiliadora (feriado municipal: Tribunal e comarca de Goiânia)",
+      "tipo": "feriado",
+      "fonte": "Calendário de feriados 2025 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), atualizado em 02/04/2025",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2025_02042025.pdf"
+    },
+    {
+      "data": "2026-05-24",
+      "nome": "Dia de Nossa Senhora Auxiliadora (feriado municipal: Tribunal e comarca de Goiânia)",
+      "tipo": "feriado",
+      "fonte": "Calendário de feriados 2026 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), versão de 08/06/2026",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2026_08062026.pdf"
+    }
+  ]
+}

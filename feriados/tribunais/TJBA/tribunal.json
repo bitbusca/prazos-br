@@ -1,0 +1,453 @@
+{
+  "$schema": "../../../schema/feriados.schema.json",
+  "id": "TJBA",
+  "escopo": "tribunal",
+  "nome": "Tribunal de Justiça do Estado da Bahia",
+  "tribunal": "TJBA",
+  "uf": "BA",
+  "observacao": "2026 conferido no Decreto Judiciário 1.050/2025 (recesso 2025/2026, suspensão de 7 a 20/01 e art. 5º com feriados e pontos facultativos), no Decreto 1.414/2026 (23 a 25/12 e 30 e 31/12), no Decreto 944/2026 (29/06, jogo da Seleção) e no Decreto 974/2026 (30/06). O recesso de 20/12/2026 a 06/01/2027 vem da regra permanente da Res. TJBA 22/2016, art. 1º (o decreto do recesso 2026/2027 ainda não saiu; o Decreto 1.414/2026 já fixa 01/01/2027). NÃO entram as suspensões que valeram só para um sistema: PJe em 19/06 (Decreto 913/2026) e nos prazos que venciam em 04/09 (Ato Normativo Conjunto 24/2026), BRBJUS de 17 a 23/09 (Decreto 1.511/2026) e Projudi em 16, 19 e 20/10 (Decreto 1.707/2026); confira o sistema do seu processo. Feriados municipais das comarcas do interior (Decreto Judiciário 09/2026 e alterações) não estão cadastrados; só Salvador. 2025 não foi transcrito.",
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2026
+  ],
+  "comarcas": [
+    "Salvador"
+  ],
+  "regras": [
+    {
+      "nome": "Independência da Bahia (Dois de Julho, data magna do Estado)",
+      "tipo": "feriado",
+      "quando": {
+        "dia": "07-02"
+      },
+      "fonte": "Constituição do Estado da Bahia, art. 6º, § 3º",
+      "url": "https://www.legislabahia.ba.gov.br/documentos/constituicao-do-estado-da-bahia-de-05-de-outubro-de-1989"
+    },
+    {
+      "nome": "Recesso judiciário de 20/12 a 06/01",
+      "tipo": "recesso",
+      "quando": {
+        "de": "12-20",
+        "ate": "01-06"
+      },
+      "desde": 2016,
+      "fonte": "Resolução TJBA 22/2016, art. 1º (parágrafo único com redação da Res. TJBA 19/2024)",
+      "url": "https://www.tjba.jus.br/portal/wp-content/uploads/2019/11/Resolu%C3%A7%C3%A3o-22.2016-recesso-forense.pdf"
+    }
+  ],
+  "datas": [
+    {
+      "data": "2026-01-01",
+      "nome": "Confraternização Universal",
+      "tipo": "feriado",
+      "fonte": "Decreto Judiciário TJBA 1.050/2025, art. 5º, I",
+      "url": "https://www.tjba.jus.br/portal/wp-content/uploads/2025/12/Decreto-1050-Recesso-feriados-e-pontos-facultativos.pdf"
+    },
+    {
+      "data": "2026-01-02",
+      "nome": "Recesso judiciário 2025/2026",
+      "tipo": "recesso",
+      "fonte": "Decreto Judiciário TJBA 1.050/2025, art. 2º (Res. TJBA 22/2016)",
+      "url": "https://www.tjba.jus.br/portal/wp-content/uploads/2025/12/Decreto-1050-Recesso-feriados-e-pontos-facultativos.pdf"
+    },
+    {
+      "data": "2026-01-03",
+      "nome": "Recesso judiciário 2025/2026",
+      "tipo": "recesso",
+      "fonte": "Decreto Judiciário TJBA 1.050/2025, art. 2º (Res. TJBA 22/2016)",
+      "url": "https://www.tjba.jus.br/portal/wp-content/uploads/2025/12/Decreto-1050-Recesso-feriados-e-pontos-facultativos.pdf"
+    },
+    {
+      "data": "2026-01-04",
+      "nome": "Recesso judiciário 2025/2026",
+      "tipo": "recesso",
+      "fonte": "Decreto Judiciário TJBA 1.050/2025, art. 2º (Res. TJBA 22/2016)",
+      "url": "https://www.tjba.jus.br/portal/wp-content/uploads/2025/12/Decreto-1050-Recesso-feriados-e-pontos-facultativos.pdf"
+    },
+    {
+      "data": "2026-01-05",
+      "nome": "Recesso judiciário 2025/2026",
+      "tipo": "recesso",
+      "fonte": "Decreto Judiciário TJBA 1.050/2025, art. 2º (Res. TJBA 22/2016)",
+      "url": "https://www.tjba.jus.br/portal/wp-content/uploads/2025/12/Decreto-1050-Recesso-feriados-e-pontos-facultativos.pdf"
+    },
+    {
+      "data": "2026-01-06",
+      "nome": "Recesso judiciário 2025/2026",
+      "tipo": "recesso",
+      "fonte": "Decreto Judiciário TJBA 1.050/2025, art. 2º (Res. TJBA 22/2016)",
+      "url": "https://www.tjba.jus.br/portal/wp-content/uploads/2025/12/Decreto-1050-Recesso-feriados-e-pontos-facultativos.pdf"
+    },
+    {
+      "data": "2026-01-07",
+      "nome": "Suspensão dos prazos processuais (7 a 20/01)",
+      "tipo": "suspensao_prazos",
+      "naoSeAplica": [
+        "penal_urgente"
+      ],
+      "fonte": "Decreto Judiciário TJBA 1.050/2025, art. 4º (CPC art. 220; CPP art. 798-A)",
+      "url": "https://www.tjba.jus.br/portal/wp-content/uploads/2025/12/Decreto-1050-Recesso-feriados-e-pontos-facultativos.pdf"
+    },
+    {
+      "data": "2026-01-08",
+      "nome": "Suspensão dos prazos processuais (7 a 20/01)",
+      "tipo": "suspensao_prazos",
+      "naoSeAplica": [
+        "penal_urgente"
+      ],
+      "fonte": "Decreto Judiciário TJBA 1.050/2025, art. 4º (CPC art. 220; CPP art. 798-A)",
+      "url": "https://www.tjba.jus.br/portal/wp-content/uploads/2025/12/Decreto-1050-Recesso-feriados-e-pontos-facultativos.pdf"
+    },
+    {
+      "data": "2026-01-09",
+      "nome": "Suspensão dos prazos processuais (7 a 20/01)",
+      "tipo": "suspensao_prazos",
+      "naoSeAplica": [
+        "penal_urgente"
+      ],
+      "fonte": "Decreto Judiciário TJBA 1.050/2025, art. 4º (CPC art. 220; CPP art. 798-A)",
+      "url": "https://www.tjba.jus.br/portal/wp-content/uploads/2025/12/Decreto-1050-Recesso-feriados-e-pontos-facultativos.pdf"
+    },
+    {
+      "data": "2026-01-10",
+      "nome": "Suspensão dos prazos processuais (7 a 20/01)",
+      "tipo": "suspensao_prazos",
+      "naoSeAplica": [
+        "penal_urgente"
+      ],
+      "fonte": "Decreto Judiciário TJBA 1.050/2025, art. 4º (CPC art. 220; CPP art. 798-A)",
+      "url": "https://www.tjba.jus.br/portal/wp-content/uploads/2025/12/Decreto-1050-Recesso-feriados-e-pontos-facultativos.pdf"
+    },
+    {
+      "data": "2026-01-11",
+      "nome": "Suspensão dos prazos processuais (7 a 20/01)",
+      "tipo": "suspensao_prazos",
+      "naoSeAplica": [
+        "penal_urgente"
+      ],
+      "fonte": "Decreto Judiciário TJBA 1.050/2025, art. 4º (CPC art. 220; CPP art. 798-A)",
+      "url": "https://www.tjba.jus.br/portal/wp-content/uploads/2025/12/Decreto-1050-Recesso-feriados-e-pontos-facultativos.pdf"
+    },
+    {
+      "data": "2026-01-12",
+      "nome": "Suspensão dos prazos processuais (7 a 20/01)",
+      "tipo": "suspensao_prazos",
+      "naoSeAplica": [
+        "penal_urgente"
+      ],
+      "fonte": "Decreto Judiciário TJBA 1.050/2025, art. 4º (CPC art. 220; CPP art. 798-A)",
+      "url": "https://www.tjba.jus.br/portal/wp-content/uploads/2025/12/Decreto-1050-Recesso-feriados-e-pontos-facultativos.pdf"
+    },
+    {
+      "data": "2026-01-13",
+      "nome": "Suspensão dos prazos processuais (7 a 20/01)",
+      "tipo": "suspensao_prazos",
+      "naoSeAplica": [
+        "penal_urgente"
+      ],
+      "fonte": "Decreto Judiciário TJBA 1.050/2025, art. 4º (CPC art. 220; CPP art. 798-A)",
+      "url": "https://www.tjba.jus.br/portal/wp-content/uploads/2025/12/Decreto-1050-Recesso-feriados-e-pontos-facultativos.pdf"
+    },
+    {
+      "data": "2026-01-14",
+      "nome": "Suspensão dos prazos processuais (7 a 20/01)",
+      "tipo": "suspensao_prazos",
+      "naoSeAplica": [
+        "penal_urgente"
+      ],
+      "fonte": "Decreto Judiciário TJBA 1.050/2025, art. 4º (CPC art. 220; CPP art. 798-A)",
+      "url": "https://www.tjba.jus.br/portal/wp-content/uploads/2025/12/Decreto-1050-Recesso-feriados-e-pontos-facultativos.pdf"
+    },
+    {
+      "data": "2026-01-15",
+      "nome": "Suspensão dos prazos processuais (7 a 20/01)",
+      "tipo": "suspensao_prazos",
+      "naoSeAplica": [
+        "penal_urgente"
+      ],
+      "fonte": "Decreto Judiciário TJBA 1.050/2025, art. 4º (CPC art. 220; CPP art. 798-A)",
+      "url": "https://www.tjba.jus.br/portal/wp-content/uploads/2025/12/Decreto-1050-Recesso-feriados-e-pontos-facultativos.pdf"
+    },
+    {
+      "data": "2026-01-16",
+      "nome": "Suspensão dos prazos processuais (7 a 20/01)",
+      "tipo": "suspensao_prazos",
+      "naoSeAplica": [
+        "penal_urgente"
+      ],
+      "fonte": "Decreto Judiciário TJBA 1.050/2025, art. 4º (CPC art. 220; CPP art. 798-A)",
+      "url": "https://www.tjba.jus.br/portal/wp-content/uploads/2025/12/Decreto-1050-Recesso-feriados-e-pontos-facultativos.pdf"
+    },
+    {
+      "data": "2026-01-17",
+      "nome": "Suspensão dos prazos processuais (7 a 20/01)",
+      "tipo": "suspensao_prazos",
+      "naoSeAplica": [
+        "penal_urgente"
+      ],
+      "fonte": "Decreto Judiciário TJBA 1.050/2025, art. 4º (CPC art. 220; CPP art. 798-A)",
+      "url": "https://www.tjba.jus.br/portal/wp-content/uploads/2025/12/Decreto-1050-Recesso-feriados-e-pontos-facultativos.pdf"
+    },
+    {
+      "data": "2026-01-18",
+      "nome": "Suspensão dos prazos processuais (7 a 20/01)",
+      "tipo": "suspensao_prazos",
+      "naoSeAplica": [
+        "penal_urgente"
+      ],
+      "fonte": "Decreto Judiciário TJBA 1.050/2025, art. 4º (CPC art. 220; CPP art. 798-A)",
+      "url": "https://www.tjba.jus.br/portal/wp-content/uploads/2025/12/Decreto-1050-Recesso-feriados-e-pontos-facultativos.pdf"
+    },
+    {
+      "data": "2026-01-19",
+      "nome": "Suspensão dos prazos processuais (7 a 20/01)",
+      "tipo": "suspensao_prazos",
+      "naoSeAplica": [
+        "penal_urgente"
+      ],
+      "fonte": "Decreto Judiciário TJBA 1.050/2025, art. 4º (CPC art. 220; CPP art. 798-A)",
+      "url": "https://www.tjba.jus.br/portal/wp-content/uploads/2025/12/Decreto-1050-Recesso-feriados-e-pontos-facultativos.pdf"
+    },
+    {
+      "data": "2026-01-20",
+      "nome": "Suspensão dos prazos processuais (7 a 20/01)",
+      "tipo": "suspensao_prazos",
+      "naoSeAplica": [
+        "penal_urgente"
+      ],
+      "fonte": "Decreto Judiciário TJBA 1.050/2025, art. 4º (CPC art. 220; CPP art. 798-A)",
+      "url": "https://www.tjba.jus.br/portal/wp-content/uploads/2025/12/Decreto-1050-Recesso-feriados-e-pontos-facultativos.pdf"
+    },
+    {
+      "data": "2026-02-12",
+      "nome": "Carnaval",
+      "tipo": "ponto_facultativo",
+      "fonte": "Decreto Judiciário TJBA 1.050/2025, art. 5º, II",
+      "url": "https://www.tjba.jus.br/portal/wp-content/uploads/2025/12/Decreto-1050-Recesso-feriados-e-pontos-facultativos.pdf"
+    },
+    {
+      "data": "2026-02-13",
+      "nome": "Carnaval",
+      "tipo": "ponto_facultativo",
+      "fonte": "Decreto Judiciário TJBA 1.050/2025, art. 5º, II",
+      "url": "https://www.tjba.jus.br/portal/wp-content/uploads/2025/12/Decreto-1050-Recesso-feriados-e-pontos-facultativos.pdf"
+    },
+    {
+      "data": "2026-02-16",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Decreto Judiciário TJBA 1.050/2025, art. 5º, II",
+      "url": "https://www.tjba.jus.br/portal/wp-content/uploads/2025/12/Decreto-1050-Recesso-feriados-e-pontos-facultativos.pdf"
+    },
+    {
+      "data": "2026-02-17",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Decreto Judiciário TJBA 1.050/2025, art. 5º, II",
+      "url": "https://www.tjba.jus.br/portal/wp-content/uploads/2025/12/Decreto-1050-Recesso-feriados-e-pontos-facultativos.pdf"
+    },
+    {
+      "data": "2026-02-18",
+      "nome": "Quarta-feira de Cinzas",
+      "tipo": "ponto_facultativo",
+      "fonte": "Decreto Judiciário TJBA 1.050/2025, art. 5º, II",
+      "url": "https://www.tjba.jus.br/portal/wp-content/uploads/2025/12/Decreto-1050-Recesso-feriados-e-pontos-facultativos.pdf"
+    },
+    {
+      "data": "2026-04-02",
+      "nome": "Endoenças",
+      "tipo": "ponto_facultativo",
+      "fonte": "Decreto Judiciário TJBA 1.050/2025, art. 5º, III",
+      "url": "https://www.tjba.jus.br/portal/wp-content/uploads/2025/12/Decreto-1050-Recesso-feriados-e-pontos-facultativos.pdf"
+    },
+    {
+      "data": "2026-04-03",
+      "nome": "Sexta-feira Santa",
+      "tipo": "feriado",
+      "fonte": "Decreto Judiciário TJBA 1.050/2025, art. 5º, III",
+      "url": "https://www.tjba.jus.br/portal/wp-content/uploads/2025/12/Decreto-1050-Recesso-feriados-e-pontos-facultativos.pdf"
+    },
+    {
+      "data": "2026-04-20",
+      "nome": "Tiradentes (emenda)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Decreto Judiciário TJBA 1.050/2025, art. 5º, IV",
+      "url": "https://www.tjba.jus.br/portal/wp-content/uploads/2025/12/Decreto-1050-Recesso-feriados-e-pontos-facultativos.pdf"
+    },
+    {
+      "data": "2026-04-21",
+      "nome": "Tiradentes",
+      "tipo": "feriado",
+      "fonte": "Decreto Judiciário TJBA 1.050/2025, art. 5º, IV",
+      "url": "https://www.tjba.jus.br/portal/wp-content/uploads/2025/12/Decreto-1050-Recesso-feriados-e-pontos-facultativos.pdf"
+    },
+    {
+      "data": "2026-05-01",
+      "nome": "Dia do Trabalhador",
+      "tipo": "feriado",
+      "fonte": "Decreto Judiciário TJBA 1.050/2025, art. 5º, V",
+      "url": "https://www.tjba.jus.br/portal/wp-content/uploads/2025/12/Decreto-1050-Recesso-feriados-e-pontos-facultativos.pdf"
+    },
+    {
+      "data": "2026-06-04",
+      "nome": "Corpus Christi",
+      "tipo": "feriado",
+      "fonte": "Decreto Judiciário TJBA 1.050/2025, art. 5º, VI",
+      "url": "https://www.tjba.jus.br/portal/wp-content/uploads/2025/12/Decreto-1050-Recesso-feriados-e-pontos-facultativos.pdf"
+    },
+    {
+      "data": "2026-06-05",
+      "nome": "Corpus Christi (emenda)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Decreto Judiciário TJBA 1.050/2025, art. 5º, VI",
+      "url": "https://www.tjba.jus.br/portal/wp-content/uploads/2025/12/Decreto-1050-Recesso-feriados-e-pontos-facultativos.pdf"
+    },
+    {
+      "data": "2026-06-22",
+      "nome": "São João",
+      "tipo": "ponto_facultativo",
+      "fonte": "Decreto Judiciário TJBA 1.050/2025, art. 5º, VII",
+      "url": "https://www.tjba.jus.br/portal/wp-content/uploads/2025/12/Decreto-1050-Recesso-feriados-e-pontos-facultativos.pdf"
+    },
+    {
+      "data": "2026-06-23",
+      "nome": "São João",
+      "tipo": "ponto_facultativo",
+      "fonte": "Decreto Judiciário TJBA 1.050/2025, art. 5º, VII",
+      "url": "https://www.tjba.jus.br/portal/wp-content/uploads/2025/12/Decreto-1050-Recesso-feriados-e-pontos-facultativos.pdf"
+    },
+    {
+      "data": "2026-06-24",
+      "nome": "São João",
+      "tipo": "feriado",
+      "fonte": "Decreto Judiciário TJBA 1.050/2025, art. 5º, VII",
+      "url": "https://www.tjba.jus.br/portal/wp-content/uploads/2025/12/Decreto-1050-Recesso-feriados-e-pontos-facultativos.pdf"
+    },
+    {
+      "data": "2026-06-29",
+      "nome": "Jogo da Seleção na Copa do Mundo: expediente até 11h e prazos processuais suspensos",
+      "tipo": "suspensao_prazos",
+      "fonte": "Decreto Judiciário TJBA 944/2026, arts. 1º e 3º",
+      "url": "https://www7.tjba.jus.br/secao/lerPublicacao.wsp?tmp.mostrarDiv=sim&tmp.id=42896&tmp.secao=9"
+    },
+    {
+      "data": "2026-06-30",
+      "nome": "Suspensão excepcional dos prazos processuais (falha de acesso aos sistemas)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Decreto Judiciário TJBA 974/2026, art. 1º",
+      "url": "https://www7.tjba.jus.br/secao/lerPublicacao.wsp?tmp.mostrarDiv=sim&tmp.id=42951&tmp.secao=9"
+    },
+    {
+      "data": "2026-07-02",
+      "nome": "Independência da Bahia",
+      "tipo": "feriado",
+      "fonte": "Decreto Judiciário TJBA 1.050/2025, art. 5º, VIII",
+      "url": "https://www.tjba.jus.br/portal/wp-content/uploads/2025/12/Decreto-1050-Recesso-feriados-e-pontos-facultativos.pdf"
+    },
+    {
+      "data": "2026-07-03",
+      "nome": "Independência da Bahia (emenda)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Decreto Judiciário TJBA 1.050/2025, art. 5º, VIII",
+      "url": "https://www.tjba.jus.br/portal/wp-content/uploads/2025/12/Decreto-1050-Recesso-feriados-e-pontos-facultativos.pdf"
+    },
+    {
+      "data": "2026-08-10",
+      "nome": "Dia da Criação dos Cursos Jurídicos, do Magistrado e do Advogado (emenda)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Decreto Judiciário TJBA 1.050/2025, art. 5º, IX",
+      "url": "https://www.tjba.jus.br/portal/wp-content/uploads/2025/12/Decreto-1050-Recesso-feriados-e-pontos-facultativos.pdf"
+    },
+    {
+      "data": "2026-08-11",
+      "nome": "Dia da Criação dos Cursos Jurídicos, do Magistrado e do Advogado",
+      "tipo": "feriado",
+      "fonte": "Decreto Judiciário TJBA 1.050/2025, art. 5º, IX",
+      "url": "https://www.tjba.jus.br/portal/wp-content/uploads/2025/12/Decreto-1050-Recesso-feriados-e-pontos-facultativos.pdf"
+    },
+    {
+      "data": "2026-09-07",
+      "nome": "Independência do Brasil",
+      "tipo": "feriado",
+      "fonte": "Decreto Judiciário TJBA 1.050/2025, art. 5º, X",
+      "url": "https://www.tjba.jus.br/portal/wp-content/uploads/2025/12/Decreto-1050-Recesso-feriados-e-pontos-facultativos.pdf"
+    },
+    {
+      "data": "2026-10-12",
+      "nome": "Nossa Senhora da Conceição Aparecida",
+      "tipo": "feriado",
+      "fonte": "Decreto Judiciário TJBA 1.050/2025, art. 5º, XI",
+      "url": "https://www.tjba.jus.br/portal/wp-content/uploads/2025/12/Decreto-1050-Recesso-feriados-e-pontos-facultativos.pdf"
+    },
+    {
+      "data": "2026-10-30",
+      "nome": "Dia do Servidor Público (transferido de 28/10)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Decreto Judiciário TJBA 1.050/2025, art. 5º, XII",
+      "url": "https://www.tjba.jus.br/portal/wp-content/uploads/2025/12/Decreto-1050-Recesso-feriados-e-pontos-facultativos.pdf"
+    },
+    {
+      "data": "2026-11-02",
+      "nome": "Dia de Finados",
+      "tipo": "feriado",
+      "fonte": "Decreto Judiciário TJBA 1.050/2025, art. 5º, XIII",
+      "url": "https://www.tjba.jus.br/portal/wp-content/uploads/2025/12/Decreto-1050-Recesso-feriados-e-pontos-facultativos.pdf"
+    },
+    {
+      "data": "2026-11-20",
+      "nome": "Dia da Consciência Negra",
+      "tipo": "feriado",
+      "fonte": "Decreto Judiciário TJBA 1.050/2025, art. 5º, XIV",
+      "url": "https://www.tjba.jus.br/portal/wp-content/uploads/2025/12/Decreto-1050-Recesso-feriados-e-pontos-facultativos.pdf"
+    },
+    {
+      "data": "2026-12-07",
+      "nome": "Dia da Justiça (emenda)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Decreto Judiciário TJBA 1.050/2025, art. 5º, XV",
+      "url": "https://www.tjba.jus.br/portal/wp-content/uploads/2025/12/Decreto-1050-Recesso-feriados-e-pontos-facultativos.pdf"
+    },
+    {
+      "data": "2026-12-08",
+      "nome": "Dia da Justiça",
+      "tipo": "feriado",
+      "fonte": "Decreto Judiciário TJBA 1.050/2025, art. 5º, XV",
+      "url": "https://www.tjba.jus.br/portal/wp-content/uploads/2025/12/Decreto-1050-Recesso-feriados-e-pontos-facultativos.pdf"
+    },
+    {
+      "data": "2026-12-23",
+      "nome": "Festejos Natalinos",
+      "tipo": "ponto_facultativo",
+      "fonte": "Decreto Judiciário TJBA 1.050/2025, art. 5º, XVI (incluído pelo Decreto Judiciário 1.414/2026)",
+      "url": "https://www7.tjba.jus.br/secao/arquivo/9/41093/DECRETO%20JUDICIARIO%20N%201414%20DE%2015%20DE%20SETEMBRO%20DE%202026.pdf"
+    },
+    {
+      "data": "2026-12-24",
+      "nome": "Festejos Natalinos",
+      "tipo": "ponto_facultativo",
+      "fonte": "Decreto Judiciário TJBA 1.050/2025, art. 5º, XVI (incluído pelo Decreto Judiciário 1.414/2026)",
+      "url": "https://www7.tjba.jus.br/secao/arquivo/9/41093/DECRETO%20JUDICIARIO%20N%201414%20DE%2015%20DE%20SETEMBRO%20DE%202026.pdf"
+    },
+    {
+      "data": "2026-12-25",
+      "nome": "Festejos Natalinos (Natal)",
+      "tipo": "feriado",
+      "fonte": "Decreto Judiciário TJBA 1.050/2025, art. 5º, XVI (incluído pelo Decreto Judiciário 1.414/2026)",
+      "url": "https://www7.tjba.jus.br/secao/arquivo/9/41093/DECRETO%20JUDICIARIO%20N%201414%20DE%2015%20DE%20SETEMBRO%20DE%202026.pdf"
+    },
+    {
+      "data": "2026-12-30",
+      "nome": "Festejos Confraternização Universal",
+      "tipo": "ponto_facultativo",
+      "fonte": "Decreto Judiciário TJBA 1.050/2025, art. 5º, XVII (incluído pelo Decreto Judiciário 1.414/2026)",
+      "url": "https://www7.tjba.jus.br/secao/arquivo/9/41093/DECRETO%20JUDICIARIO%20N%201414%20DE%2015%20DE%20SETEMBRO%20DE%202026.pdf"
+    },
+    {
+      "data": "2026-12-31",
+      "nome": "Festejos Confraternização Universal",
+      "tipo": "ponto_facultativo",
+      "fonte": "Decreto Judiciário TJBA 1.050/2025, art. 5º, XVII (incluído pelo Decreto Judiciário 1.414/2026)",
+      "url": "https://www7.tjba.jus.br/secao/arquivo/9/41093/DECRETO%20JUDICIARIO%20N%201414%20DE%2015%20DE%20SETEMBRO%20DE%202026.pdf"
+    }
+  ]
+}

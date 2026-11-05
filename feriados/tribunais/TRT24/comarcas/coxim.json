@@ -1,0 +1,30 @@
+{
+  "$schema": "../../../../schema/feriados.schema.json",
+  "id": "TRT24/coxim",
+  "escopo": "comarca",
+  "tribunal": "TRT24",
+  "comarca": "Coxim",
+  "uf": "MS",
+  "ibge": 5003306,
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2026
+  ],
+  "regras": [],
+  "datas": [
+    {
+      "data": "2026-03-19",
+      "nome": "Padroeiro de Coxim",
+      "tipo": "feriado",
+      "fonte": "Lei 712/1993; Calendário oficial TRT24 2026 - Portaria TRT/GP/SGJ 51/2025 e alterações",
+      "url": "https://www.trt24.jus.br/web/guest/calendario"
+    },
+    {
+      "data": "2026-04-11",
+      "nome": "Aniversário de Coxim",
+      "tipo": "feriado",
+      "fonte": "Lei 216/1997; Calendário oficial TRT24 2026 - Portaria TRT/GP/SGJ 51/2025 e alterações",
+      "url": "https://www.trt24.jus.br/web/guest/calendario"
+    }
+  ]
+}

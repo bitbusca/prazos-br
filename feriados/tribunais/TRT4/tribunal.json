@@ -1,0 +1,330 @@
+{
+  "$schema": "../../../schema/feriados.schema.json",
+  "id": "TRT4",
+  "escopo": "tribunal",
+  "nome": "Tribunal Regional do Trabalho da 4ª Região (RS)",
+  "tribunal": "TRT4",
+  "uf": "RS",
+  "observacao": "2026 conferido no calendário oficial (Portaria da Corregedoria 08/2025, texto compilado com as Portarias 17/2025, 24/2025 e 04/2026), na RA 10/2026 (pontos facultativos: 18/02 até 14h, 20/04, 05/06, 10/08 e 07/12, sem contagem de prazos mesmo nas unidades que não aderirem), no Ato GP.TRT4 02/2026 (Copa: só 29/06 teve atendimento encerrado antes da hora normal) e nas Portarias 2.019/2026 e 2.075/2026 (suspensões gerais de 21/09 e 28/09). Prazos suspensos de 07 a 20/01 pela RA 33/2016 e CPC 220 (arquivo nacional). Feriados municipais das outras cidades (Anexo Único da Portaria 08/2025) e suspensões locais de Varas do interior não foram transcritos; só Porto Alegre tem arquivo.",
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2026
+  ],
+  "comarcas": [
+    "Porto Alegre"
+  ],
+  "regras": [
+    {
+      "nome": "Revolução Farroupilha (data magna do Estado)",
+      "tipo": "feriado",
+      "quando": {
+        "dia": "09-20"
+      },
+      "fonte": "Lei federal 9.093/1995, art. 1º, II; Decreto estadual 36.180/1995 (citados no calendário do TRT4); Constituição do RS, art. 6º",
+      "url": "https://www.trt4.jus.br/portais/documento-ato/1065334/Texto%20Compilado%20Portaria%208%20de%202025%20Calend%C3%A1rio%20Oficial.pdf"
+    }
+  ],
+  "datas": [
+    {
+      "data": "2026-01-01",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria Corregedoria TRT4 08/2025 (texto compilado, alterada pelas Portarias 17/2025, 24/2025 e 04/2026)",
+      "url": "https://www.trt4.jus.br/portais/documento-ato/1065334/Texto%20Compilado%20Portaria%208%20de%202025%20Calend%C3%A1rio%20Oficial.pdf"
+    },
+    {
+      "data": "2026-01-02",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria Corregedoria TRT4 08/2025 (texto compilado, alterada pelas Portarias 17/2025, 24/2025 e 04/2026)",
+      "url": "https://www.trt4.jus.br/portais/documento-ato/1065334/Texto%20Compilado%20Portaria%208%20de%202025%20Calend%C3%A1rio%20Oficial.pdf"
+    },
+    {
+      "data": "2026-01-03",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria Corregedoria TRT4 08/2025 (texto compilado, alterada pelas Portarias 17/2025, 24/2025 e 04/2026)",
+      "url": "https://www.trt4.jus.br/portais/documento-ato/1065334/Texto%20Compilado%20Portaria%208%20de%202025%20Calend%C3%A1rio%20Oficial.pdf"
+    },
+    {
+      "data": "2026-01-04",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria Corregedoria TRT4 08/2025 (texto compilado, alterada pelas Portarias 17/2025, 24/2025 e 04/2026)",
+      "url": "https://www.trt4.jus.br/portais/documento-ato/1065334/Texto%20Compilado%20Portaria%208%20de%202025%20Calend%C3%A1rio%20Oficial.pdf"
+    },
+    {
+      "data": "2026-01-05",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria Corregedoria TRT4 08/2025 (texto compilado, alterada pelas Portarias 17/2025, 24/2025 e 04/2026)",
+      "url": "https://www.trt4.jus.br/portais/documento-ato/1065334/Texto%20Compilado%20Portaria%208%20de%202025%20Calend%C3%A1rio%20Oficial.pdf"
+    },
+    {
+      "data": "2026-01-06",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria Corregedoria TRT4 08/2025 (texto compilado, alterada pelas Portarias 17/2025, 24/2025 e 04/2026)",
+      "url": "https://www.trt4.jus.br/portais/documento-ato/1065334/Texto%20Compilado%20Portaria%208%20de%202025%20Calend%C3%A1rio%20Oficial.pdf"
+    },
+    {
+      "data": "2026-02-16",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, III; Portaria Corregedoria TRT4 08/2025 (texto compilado, alterada pelas Portarias 17/2025, 24/2025 e 04/2026)",
+      "url": "https://www.trt4.jus.br/portais/documento-ato/1065334/Texto%20Compilado%20Portaria%208%20de%202025%20Calend%C3%A1rio%20Oficial.pdf"
+    },
+    {
+      "data": "2026-02-17",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, III; Portaria Corregedoria TRT4 08/2025 (texto compilado, alterada pelas Portarias 17/2025, 24/2025 e 04/2026)",
+      "url": "https://www.trt4.jus.br/portais/documento-ato/1065334/Texto%20Compilado%20Portaria%208%20de%202025%20Calend%C3%A1rio%20Oficial.pdf"
+    },
+    {
+      "data": "2026-02-18",
+      "nome": "Quarta-Feira de Cinzas: ponto facultativo até as 14h, sem contagem de prazos",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução Administrativa TRT4 10/2026, art. 1º, I e parágrafo único",
+      "url": "https://www.trt4.jus.br/portais/documento-ato/1066096/RA%2010-2026.pdf"
+    },
+    {
+      "data": "2026-04-01",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, II; Portaria Corregedoria TRT4 08/2025 (texto compilado, alterada pelas Portarias 17/2025, 24/2025 e 04/2026)",
+      "url": "https://www.trt4.jus.br/portais/documento-ato/1065334/Texto%20Compilado%20Portaria%208%20de%202025%20Calend%C3%A1rio%20Oficial.pdf"
+    },
+    {
+      "data": "2026-04-02",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, II; Portaria Corregedoria TRT4 08/2025 (texto compilado, alterada pelas Portarias 17/2025, 24/2025 e 04/2026)",
+      "url": "https://www.trt4.jus.br/portais/documento-ato/1065334/Texto%20Compilado%20Portaria%208%20de%202025%20Calend%C3%A1rio%20Oficial.pdf"
+    },
+    {
+      "data": "2026-04-03",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, II; Portaria Corregedoria TRT4 08/2025 (texto compilado, alterada pelas Portarias 17/2025, 24/2025 e 04/2026)",
+      "url": "https://www.trt4.jus.br/portais/documento-ato/1065334/Texto%20Compilado%20Portaria%208%20de%202025%20Calend%C3%A1rio%20Oficial.pdf"
+    },
+    {
+      "data": "2026-04-20",
+      "nome": "Ponto facultativo (sem expediente nas unidades que aderirem; sem contagem de prazos)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Resolução Administrativa TRT4 10/2026, art. 1º e parágrafo único; art. 3º, § 4º",
+      "url": "https://www.trt4.jus.br/portais/documento-ato/1066096/RA%2010-2026.pdf"
+    },
+    {
+      "data": "2026-04-21",
+      "nome": "Tiradentes",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; Portaria Corregedoria TRT4 08/2025 (texto compilado, alterada pelas Portarias 17/2025, 24/2025 e 04/2026)",
+      "url": "https://www.trt4.jus.br/portais/documento-ato/1065334/Texto%20Compilado%20Portaria%208%20de%202025%20Calend%C3%A1rio%20Oficial.pdf"
+    },
+    {
+      "data": "2026-05-01",
+      "nome": "Dia do Trabalho",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; Portaria Corregedoria TRT4 08/2025 (texto compilado, alterada pelas Portarias 17/2025, 24/2025 e 04/2026)",
+      "url": "https://www.trt4.jus.br/portais/documento-ato/1065334/Texto%20Compilado%20Portaria%208%20de%202025%20Calend%C3%A1rio%20Oficial.pdf"
+    },
+    {
+      "data": "2026-06-05",
+      "nome": "Ponto facultativo (sem expediente nas unidades que aderirem; sem contagem de prazos)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Resolução Administrativa TRT4 10/2026, art. 1º e parágrafo único; art. 3º, § 4º",
+      "url": "https://www.trt4.jus.br/portais/documento-ato/1066096/RA%2010-2026.pdf"
+    },
+    {
+      "data": "2026-06-29",
+      "nome": "Jogo do Brasil na Copa do Mundo (14h): atendimento das 8h às 12h",
+      "tipo": "expediente_reduzido",
+      "fonte": "Ato GP.TRT4 02/2026, arts. 1º, I, e 2º, I e parágrafo único",
+      "url": "https://www.trt4.jus.br/portais/trt4/modulos/noticias/51007931"
+    },
+    {
+      "data": "2026-08-10",
+      "nome": "Ponto facultativo (sem expediente nas unidades que aderirem; sem contagem de prazos)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Resolução Administrativa TRT4 10/2026, art. 1º e parágrafo único; art. 3º, § 4º",
+      "url": "https://www.trt4.jus.br/portais/documento-ato/1066096/RA%2010-2026.pdf"
+    },
+    {
+      "data": "2026-08-11",
+      "nome": "Dia do magistrado e do advogado",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, IV; Portaria Corregedoria TRT4 08/2025 (texto compilado, alterada pelas Portarias 17/2025, 24/2025 e 04/2026)",
+      "url": "https://www.trt4.jus.br/portais/documento-ato/1065334/Texto%20Compilado%20Portaria%208%20de%202025%20Calend%C3%A1rio%20Oficial.pdf"
+    },
+    {
+      "data": "2026-09-07",
+      "nome": "Independência do Brasil",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; Portaria Corregedoria TRT4 08/2025 (texto compilado, alterada pelas Portarias 17/2025, 24/2025 e 04/2026)",
+      "url": "https://www.trt4.jus.br/portais/documento-ato/1065334/Texto%20Compilado%20Portaria%208%20de%202025%20Calend%C3%A1rio%20Oficial.pdf"
+    },
+    {
+      "data": "2026-09-20",
+      "nome": "Revolução Farroupilha",
+      "tipo": "feriado",
+      "fonte": "Lei 9.093/1995, art. 1º, II, e Decreto estadual 36.180/1995; Portaria Corregedoria TRT4 08/2025 (texto compilado, alterada pelas Portarias 17/2025, 24/2025 e 04/2026)",
+      "url": "https://www.trt4.jus.br/portais/documento-ato/1065334/Texto%20Compilado%20Portaria%208%20de%202025%20Calend%C3%A1rio%20Oficial.pdf"
+    },
+    {
+      "data": "2026-09-21",
+      "nome": "Suspensão de prazos (fortes chuvas e ventanias)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Portaria GP.TRT4 2.019/2026",
+      "url": "https://www.trt4.jus.br/portais/media-noticia/51125981/2019%20-%20Suspende%20o%20curso%20dos%20prazos%20processuais%20no%20dia%2021_09_2026.pdf"
+    },
+    {
+      "data": "2026-09-28",
+      "nome": "Suspensão de prazos (fortes chuvas e ventanias)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Portaria TRT4 2.075/2026",
+      "url": "https://www.trt4.jus.br/portais/trt4/modulos/noticias/51135832"
+    },
+    {
+      "data": "2026-10-12",
+      "nome": "Nossa Senhora Aparecida",
+      "tipo": "feriado",
+      "fonte": "Lei 6.802/1980; Portaria Corregedoria TRT4 08/2025 (texto compilado, alterada pelas Portarias 17/2025, 24/2025 e 04/2026)",
+      "url": "https://www.trt4.jus.br/portais/documento-ato/1065334/Texto%20Compilado%20Portaria%208%20de%202025%20Calend%C3%A1rio%20Oficial.pdf"
+    },
+    {
+      "data": "2026-10-30",
+      "nome": "Dia do Servidor Público (transferido de 28/10)",
+      "tipo": "feriado",
+      "fonte": "Lei 8.112/1990; RA TRT4 04/2024 e 06/2026; Portaria Corregedoria TRT4 08/2025 (texto compilado, alterada pelas Portarias 17/2025, 24/2025 e 04/2026)",
+      "url": "https://www.trt4.jus.br/portais/documento-ato/1065334/Texto%20Compilado%20Portaria%208%20de%202025%20Calend%C3%A1rio%20Oficial.pdf"
+    },
+    {
+      "data": "2026-11-01",
+      "nome": "Dia de Todos os Santos",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, IV; Portaria Corregedoria TRT4 08/2025 (texto compilado, alterada pelas Portarias 17/2025, 24/2025 e 04/2026)",
+      "url": "https://www.trt4.jus.br/portais/documento-ato/1065334/Texto%20Compilado%20Portaria%208%20de%202025%20Calend%C3%A1rio%20Oficial.pdf"
+    },
+    {
+      "data": "2026-11-02",
+      "nome": "Finados",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, IV; Portaria Corregedoria TRT4 08/2025 (texto compilado, alterada pelas Portarias 17/2025, 24/2025 e 04/2026)",
+      "url": "https://www.trt4.jus.br/portais/documento-ato/1065334/Texto%20Compilado%20Portaria%208%20de%202025%20Calend%C3%A1rio%20Oficial.pdf"
+    },
+    {
+      "data": "2026-11-15",
+      "nome": "Proclamação da República",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; Portaria Corregedoria TRT4 08/2025 (texto compilado, alterada pelas Portarias 17/2025, 24/2025 e 04/2026)",
+      "url": "https://www.trt4.jus.br/portais/documento-ato/1065334/Texto%20Compilado%20Portaria%208%20de%202025%20Calend%C3%A1rio%20Oficial.pdf"
+    },
+    {
+      "data": "2026-11-20",
+      "nome": "Zumbi e Consciência Negra",
+      "tipo": "feriado",
+      "fonte": "Lei 14.759/2023; Portaria Corregedoria TRT4 08/2025 (texto compilado, alterada pelas Portarias 17/2025, 24/2025 e 04/2026)",
+      "url": "https://www.trt4.jus.br/portais/documento-ato/1065334/Texto%20Compilado%20Portaria%208%20de%202025%20Calend%C3%A1rio%20Oficial.pdf"
+    },
+    {
+      "data": "2026-12-07",
+      "nome": "Ponto facultativo (sem expediente nas unidades que aderirem; sem contagem de prazos)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Resolução Administrativa TRT4 10/2026, art. 1º e parágrafo único; art. 3º, § 4º",
+      "url": "https://www.trt4.jus.br/portais/documento-ato/1066096/RA%2010-2026.pdf"
+    },
+    {
+      "data": "2026-12-08",
+      "nome": "Dia da Justiça",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, IV; Portaria Corregedoria TRT4 08/2025 (texto compilado, alterada pelas Portarias 17/2025, 24/2025 e 04/2026)",
+      "url": "https://www.trt4.jus.br/portais/documento-ato/1065334/Texto%20Compilado%20Portaria%208%20de%202025%20Calend%C3%A1rio%20Oficial.pdf"
+    },
+    {
+      "data": "2026-12-20",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria Corregedoria TRT4 08/2025 (texto compilado, alterada pelas Portarias 17/2025, 24/2025 e 04/2026)",
+      "url": "https://www.trt4.jus.br/portais/documento-ato/1065334/Texto%20Compilado%20Portaria%208%20de%202025%20Calend%C3%A1rio%20Oficial.pdf"
+    },
+    {
+      "data": "2026-12-21",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria Corregedoria TRT4 08/2025 (texto compilado, alterada pelas Portarias 17/2025, 24/2025 e 04/2026)",
+      "url": "https://www.trt4.jus.br/portais/documento-ato/1065334/Texto%20Compilado%20Portaria%208%20de%202025%20Calend%C3%A1rio%20Oficial.pdf"
+    },
+    {
+      "data": "2026-12-22",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria Corregedoria TRT4 08/2025 (texto compilado, alterada pelas Portarias 17/2025, 24/2025 e 04/2026)",
+      "url": "https://www.trt4.jus.br/portais/documento-ato/1065334/Texto%20Compilado%20Portaria%208%20de%202025%20Calend%C3%A1rio%20Oficial.pdf"
+    },
+    {
+      "data": "2026-12-23",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria Corregedoria TRT4 08/2025 (texto compilado, alterada pelas Portarias 17/2025, 24/2025 e 04/2026)",
+      "url": "https://www.trt4.jus.br/portais/documento-ato/1065334/Texto%20Compilado%20Portaria%208%20de%202025%20Calend%C3%A1rio%20Oficial.pdf"
+    },
+    {
+      "data": "2026-12-24",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria Corregedoria TRT4 08/2025 (texto compilado, alterada pelas Portarias 17/2025, 24/2025 e 04/2026)",
+      "url": "https://www.trt4.jus.br/portais/documento-ato/1065334/Texto%20Compilado%20Portaria%208%20de%202025%20Calend%C3%A1rio%20Oficial.pdf"
+    },
+    {
+      "data": "2026-12-25",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria Corregedoria TRT4 08/2025 (texto compilado, alterada pelas Portarias 17/2025, 24/2025 e 04/2026)",
+      "url": "https://www.trt4.jus.br/portais/documento-ato/1065334/Texto%20Compilado%20Portaria%208%20de%202025%20Calend%C3%A1rio%20Oficial.pdf"
+    },
+    {
+      "data": "2026-12-26",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria Corregedoria TRT4 08/2025 (texto compilado, alterada pelas Portarias 17/2025, 24/2025 e 04/2026)",
+      "url": "https://www.trt4.jus.br/portais/documento-ato/1065334/Texto%20Compilado%20Portaria%208%20de%202025%20Calend%C3%A1rio%20Oficial.pdf"
+    },
+    {
+      "data": "2026-12-27",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria Corregedoria TRT4 08/2025 (texto compilado, alterada pelas Portarias 17/2025, 24/2025 e 04/2026)",
+      "url": "https://www.trt4.jus.br/portais/documento-ato/1065334/Texto%20Compilado%20Portaria%208%20de%202025%20Calend%C3%A1rio%20Oficial.pdf"
+    },
+    {
+      "data": "2026-12-28",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria Corregedoria TRT4 08/2025 (texto compilado, alterada pelas Portarias 17/2025, 24/2025 e 04/2026)",
+      "url": "https://www.trt4.jus.br/portais/documento-ato/1065334/Texto%20Compilado%20Portaria%208%20de%202025%20Calend%C3%A1rio%20Oficial.pdf"
+    },
+    {
+      "data": "2026-12-29",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria Corregedoria TRT4 08/2025 (texto compilado, alterada pelas Portarias 17/2025, 24/2025 e 04/2026)",
+      "url": "https://www.trt4.jus.br/portais/documento-ato/1065334/Texto%20Compilado%20Portaria%208%20de%202025%20Calend%C3%A1rio%20Oficial.pdf"
+    },
+    {
+      "data": "2026-12-30",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria Corregedoria TRT4 08/2025 (texto compilado, alterada pelas Portarias 17/2025, 24/2025 e 04/2026)",
+      "url": "https://www.trt4.jus.br/portais/documento-ato/1065334/Texto%20Compilado%20Portaria%208%20de%202025%20Calend%C3%A1rio%20Oficial.pdf"
+    },
+    {
+      "data": "2026-12-31",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria Corregedoria TRT4 08/2025 (texto compilado, alterada pelas Portarias 17/2025, 24/2025 e 04/2026)",
+      "url": "https://www.trt4.jus.br/portais/documento-ato/1065334/Texto%20Compilado%20Portaria%208%20de%202025%20Calend%C3%A1rio%20Oficial.pdf"
+    }
+  ]
+}

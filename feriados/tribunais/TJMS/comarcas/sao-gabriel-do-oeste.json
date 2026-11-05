@@ -1,0 +1,91 @@
+{
+  "$schema": "../../../../schema/feriados.schema.json",
+  "id": "TJMS/sao-gabriel-do-oeste",
+  "escopo": "comarca",
+  "tribunal": "TJMS",
+  "comarca": "São Gabriel do Oeste",
+  "uf": "MS",
+  "ibge": 5007695,
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "regras": [],
+  "datas": [
+    {
+      "data": "2021-05-12",
+      "nome": "Aniversário da cidade",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 3/2021 (lei municipal de São Gabriel do Oeste)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2021-09-29",
+      "nome": "Arcanjo São Gabriel - Padroeiro da cidade",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 3/2021 (lei municipal de São Gabriel do Oeste)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2022-05-12",
+      "nome": "Aniversário da cidade",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 16/2022 (lei municipal de São Gabriel do Oeste)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2022-09-29",
+      "nome": "Arcanjo São Gabriel - Padroeiro da cidade",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 16/2022 (lei municipal de São Gabriel do Oeste)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-05-12",
+      "nome": "Aniversário da cidade",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 4/2023 (lei municipal de São Gabriel do Oeste)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-09-29",
+      "nome": "Arcanjo São Gabriel - Padroeiro da cidade",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 4/2023 (lei municipal de São Gabriel do Oeste)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2025-05-12",
+      "nome": "Aniversário da cidade",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 1.265/2024 (lei municipal de São Gabriel do Oeste)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2025-09-29",
+      "nome": "Arcanjo São Gabriel - Padroeiro da cidade",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 1.265/2024 (lei municipal de São Gabriel do Oeste)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2026-05-12",
+      "nome": "Aniversário da cidade",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 983/2025 (lei municipal de São Gabriel do Oeste)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2026-09-29",
+      "nome": "Arcanjo São Gabriel",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 983/2025 (lei municipal de São Gabriel do Oeste)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    }
+  ]
+}

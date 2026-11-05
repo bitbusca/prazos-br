@@ -1,0 +1,30 @@
+{
+  "$schema": "../../../../schema/feriados.schema.json",
+  "id": "TRT24/fatima-do-sul",
+  "escopo": "comarca",
+  "tribunal": "TRT24",
+  "comarca": "Fátima do Sul",
+  "uf": "MS",
+  "ibge": 5003801,
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2026
+  ],
+  "regras": [],
+  "datas": [
+    {
+      "data": "2026-05-13",
+      "nome": "Padroeira de Fátima do Sul",
+      "tipo": "feriado",
+      "fonte": "Lei 53/1967; Calendário oficial TRT24 2026 - Portaria TRT/GP/SGJ 51/2025 e alterações",
+      "url": "https://www.trt24.jus.br/web/guest/calendario"
+    },
+    {
+      "data": "2026-07-09",
+      "nome": "Aniversário de Fátima do Sul",
+      "tipo": "feriado",
+      "fonte": "Lei 53/1967; Calendário oficial TRT24 2026 - Portaria TRT/GP/SGJ 51/2025 e alterações",
+      "url": "https://www.trt24.jus.br/web/guest/calendario"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+name: Feriado ou suspensão da minha comarca
+description: Mande a portaria, o provimento ou a lei de um feriado, ponto facultativo ou suspensão de prazos do seu tribunal ou comarca.
+title: "[feriado] <TRIBUNAL> / <comarca> / <ano>"
+labels: ["calendário", "mutirão"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por ajudar no [mutirão dos calendários](https://github.com/bitbusca/prazos-br/blob/main/docs/MUTIRAO.md)!
+        **Sem fonte oficial, não entra.** Vale portaria, provimento, resolução, ato ou decreto judiciário do tribunal,
+        ou lei municipal/estadual. Antes de mandar, veja o que já está em
+        [COBERTURA.md](https://github.com/bitbusca/prazos-br/blob/main/docs/COBERTURA.md).
+  - type: input
+    id: tribunal
+    attributes:
+      label: Tribunal
+      description: Sigla, como TJSP, TRT15, TRF1 ou TRE-MG.
+      placeholder: TJSP
+    validations:
+      required: true
+  - type: input
+    id: comarca
+    attributes:
+      label: Comarca, cidade ou subseção
+      description: Deixe em branco se o ato vale para o tribunal inteiro.
+      placeholder: São José dos Campos
+    validations:
+      required: false
+  - type: dropdown
+    id: tipo
+    attributes:
+      label: O que acontece no dia
+      options:
+        - Feriado (sem expediente)
+        - Ponto facultativo ou recesso (sem expediente)
+        - Expediente reduzido (o prazo não começa nem vence, CPC art. 224 § 1º)
+        - Prazos suspensos (há expediente, mas o prazo não corre)
+        - Feriado transferido (a data original passou a ter expediente normal)
+        - Mais de um tipo (explique abaixo)
+    validations:
+      required: true
+  - type: textarea
+    id: datas
+    attributes:
+      label: Datas e nomes
+      description: Uma linha por dia, no formato AAAA-MM-DD e nome. Para feriado que se repete todo ano por lei, escreva "todo ano" e o dia.
+      placeholder: |
+        2026-03-19 São José, padroeiro
+        todo ano 27/07 Aniversário da cidade
+    validations:
+      required: true
+  - type: input
+    id: ato
+    attributes:
+      label: Ato oficial (número e ano)
+      placeholder: Provimento CSM 2.813/2025 ou Lei municipal 1.234/1990
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Link oficial do ato
+      description: PDF ou página do site do tribunal, do Diário, da prefeitura, da câmara ou da assembleia.
+      placeholder: https://www.tjsp.jus.br/...
+    validations:
+      required: true
+  - type: dropdown
+    id: alcance
+    attributes:
+      label: Para quem vale
+      options:
+        - Todos os processos da comarca ou do tribunal
+        - Só um sistema (PJe, eproc, Projudi…)
+        - Só uma vara, fórum ou prédio
+        - Só uma parte ou classe (INSS, AGU…)
+        - Não sei
+    validations:
+      required: true
+  - type: dropdown
+    id: completo
+    attributes:
+      label: O ano está completo?
+      description: Responda "sim" só se você conferiu TODOS os dias daquela comarca no ano. É o que vai para anosConferidos.
+      options:
+        - Sim, conferi o calendário inteiro do ano
+        - Não, mando só estes dias
+    validations:
+      required: true
+  - type: textarea
+    id: obs
+    attributes:
+      label: Observações
+      description: "Ex.: o ato manda prorrogar os prazos para o dia seguinte, ou o feriado foi transferido de outra data."
+    validations:
+      required: false
+  - type: checkboxes
+    id: confirma
+    attributes:
+      label: Confirmação
+      options:
+        - label: O link aponta para o ato oficial, não para uma notícia de jornal nem para um site particular.
+          required: true

@@ -1,0 +1,597 @@
+{
+  "$schema": "../../../schema/feriados.schema.json",
+  "id": "TRT1",
+  "escopo": "tribunal",
+  "nome": "Tribunal Regional do Trabalho da 1ª Região (RJ)",
+  "tribunal": "TRT1",
+  "uf": "RJ",
+  "observacao": "Datas de 2025 (Ato 124/2024 e atos posteriores) e 2026 (Ato 109/2025, republicado, e atos posteriores: 56, 62, 70, 94, 105 e 140/2026) conferidas no texto dos atos na Biblioteca Digital do TRT1 e no calendário oficial do portal (www.trt1.jus.br/web/guest/calendario). Semana Santa, Carnaval, 11/08, 01/11, 08/12 e recesso também vêm da Lei 5.010/1966 (ramos/justica-federal.json). Não entram: dias só de trabalho remoto em que apenas os prazos de processos migrados dependentes de autos físicos ficam suspensos (13/02 e 03/07/2026; 22/04, 02/05, 27/10 e 07-10/01/2025, 04/07/2025), o encerramento do expediente às 16h em 24/06/2026 (Ato 71/2026, sem menção a prazos), a suspensão só para a AGU (Ato 49/2026) e suspensões de uma vara ou setor. Feriados municipais do interior (Ato 110/2025, alterado pelo Ato 91/2026) ainda sem arquivo de comarca.",
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2025,
+    2026
+  ],
+  "comarcas": [
+    "Rio de Janeiro"
+  ],
+  "regras": [
+    {
+      "nome": "São Jorge",
+      "tipo": "feriado",
+      "quando": {
+        "dia": "04-23"
+      },
+      "fonte": "Lei estadual 5.198/2008, art. 1º (citada nos Atos TRT1 124/2024 e 109/2025)",
+      "url": "https://alerjln1.alerj.rj.gov.br/CONTLEI.NSF/e9589b9aabd9cac8032564fe0065abb4/1baf90ca125ff96f8325740a00776600?OpenDocument="
+    }
+  ],
+  "datas": [
+    {
+      "data": "2025-01-01",
+      "nome": "Confraternização Universal",
+      "tipo": "feriado",
+      "fonte": "Ato TRT1 124/2024",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/html/1001/4326723/Ato2024-00124-C.htm"
+    },
+    {
+      "data": "2025-01-02",
+      "nome": "Recesso Forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Ato TRT1 124/2024",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/html/1001/4326723/Ato2024-00124-C.htm"
+    },
+    {
+      "data": "2025-01-03",
+      "nome": "Recesso Forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Ato TRT1 124/2024",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/html/1001/4326723/Ato2024-00124-C.htm"
+    },
+    {
+      "data": "2025-01-04",
+      "nome": "Recesso Forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Ato TRT1 124/2024",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/html/1001/4326723/Ato2024-00124-C.htm"
+    },
+    {
+      "data": "2025-01-05",
+      "nome": "Recesso Forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Ato TRT1 124/2024",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/html/1001/4326723/Ato2024-00124-C.htm"
+    },
+    {
+      "data": "2025-01-06",
+      "nome": "Recesso Forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Ato TRT1 124/2024",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/html/1001/4326723/Ato2024-00124-C.htm"
+    },
+    {
+      "data": "2025-01-21",
+      "nome": "Prazos processuais suspensos (físicos e eletrônicos)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Ato TRT1 2/2025",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/html/1001/4326985/Ato2025-0002-C.htm"
+    },
+    {
+      "data": "2025-01-22",
+      "nome": "Prazos processuais suspensos (físicos e eletrônicos)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Ato TRT1 2/2025",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/html/1001/4326985/Ato2025-0002-C.htm"
+    },
+    {
+      "data": "2025-01-23",
+      "nome": "Prazos processuais suspensos (físicos e eletrônicos)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Ato TRT1 2/2025",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/html/1001/4326985/Ato2025-0002-C.htm"
+    },
+    {
+      "data": "2025-01-24",
+      "nome": "Prazos processuais suspensos (físicos e eletrônicos)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Ato TRT1 2/2025",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/html/1001/4326985/Ato2025-0002-C.htm"
+    },
+    {
+      "data": "2025-03-03",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Ato TRT1 124/2024",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/html/1001/4326723/Ato2024-00124-C.htm"
+    },
+    {
+      "data": "2025-03-04",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Ato TRT1 124/2024",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/html/1001/4326723/Ato2024-00124-C.htm"
+    },
+    {
+      "data": "2025-03-05",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Ato TRT1 124/2024",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/html/1001/4326723/Ato2024-00124-C.htm"
+    },
+    {
+      "data": "2025-04-16",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, II; Ato TRT1 124/2024",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/html/1001/4326723/Ato2024-00124-C.htm"
+    },
+    {
+      "data": "2025-04-17",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, II; Ato TRT1 124/2024",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/html/1001/4326723/Ato2024-00124-C.htm"
+    },
+    {
+      "data": "2025-04-18",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, II; Ato TRT1 124/2024",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/html/1001/4326723/Ato2024-00124-C.htm"
+    },
+    {
+      "data": "2025-04-21",
+      "nome": "Tiradentes",
+      "tipo": "feriado",
+      "fonte": "Ato TRT1 124/2024",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/html/1001/4326723/Ato2024-00124-C.htm"
+    },
+    {
+      "data": "2025-04-23",
+      "nome": "São Jorge",
+      "tipo": "feriado",
+      "fonte": "Lei estadual 5.198/2008; Ato TRT1 124/2024",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/html/1001/4326723/Ato2024-00124-C.htm"
+    },
+    {
+      "data": "2025-05-01",
+      "nome": "Dia do Trabalho",
+      "tipo": "feriado",
+      "fonte": "Ato TRT1 124/2024",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/html/1001/4326723/Ato2024-00124-C.htm"
+    },
+    {
+      "data": "2025-06-19",
+      "nome": "Corpus Christi",
+      "tipo": "feriado",
+      "fonte": "Ato TRT1 124/2024",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/html/1001/4326723/Ato2024-00124-C.htm"
+    },
+    {
+      "data": "2025-06-20",
+      "nome": "Expediente interno e externo e prazos suspensos",
+      "tipo": "ponto_facultativo",
+      "fonte": "Ato TRT1 70/2025",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/bitstream/1001/4408864/6/Ato2025-0070-C-Rep.htm"
+    },
+    {
+      "data": "2025-08-11",
+      "nome": "Instituição dos Cursos Jurídicos",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, IV; Ato TRT1 124/2024",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/html/1001/4326723/Ato2024-00124-C.htm"
+    },
+    {
+      "data": "2025-10-28",
+      "nome": "Dia do Servidor Público",
+      "tipo": "feriado",
+      "fonte": "Ato TRT1 124/2024",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/html/1001/4326723/Ato2024-00124-C.htm"
+    },
+    {
+      "data": "2025-10-29",
+      "nome": "Atividades presenciais e prazos suspensos (físicos e eletrônicos)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Ato TRT1 120/2025",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/html/1001/4487810/Ato2025-0120-C.htm"
+    },
+    {
+      "data": "2025-11-20",
+      "nome": "Consciência Negra",
+      "tipo": "feriado",
+      "fonte": "Lei 14.759/2023; Ato TRT1 124/2024",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/html/1001/4326723/Ato2024-00124-C.htm"
+    },
+    {
+      "data": "2025-11-21",
+      "nome": "Expediente interno e externo e prazos suspensos",
+      "tipo": "ponto_facultativo",
+      "fonte": "Ato TRT1 112/2025",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/bitstream/1001/4481676/1/Ato2025-0112-C.htm"
+    },
+    {
+      "data": "2025-12-08",
+      "nome": "Dia da Justiça",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, IV; Ato TRT1 124/2024",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/html/1001/4326723/Ato2024-00124-C.htm"
+    },
+    {
+      "data": "2025-12-20",
+      "nome": "Recesso Forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Ato TRT1 124/2024",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/html/1001/4326723/Ato2024-00124-C.htm"
+    },
+    {
+      "data": "2025-12-21",
+      "nome": "Recesso Forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Ato TRT1 124/2024",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/html/1001/4326723/Ato2024-00124-C.htm"
+    },
+    {
+      "data": "2025-12-22",
+      "nome": "Recesso Forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Ato TRT1 124/2024",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/html/1001/4326723/Ato2024-00124-C.htm"
+    },
+    {
+      "data": "2025-12-23",
+      "nome": "Recesso Forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Ato TRT1 124/2024",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/html/1001/4326723/Ato2024-00124-C.htm"
+    },
+    {
+      "data": "2025-12-24",
+      "nome": "Recesso Forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Ato TRT1 124/2024",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/html/1001/4326723/Ato2024-00124-C.htm"
+    },
+    {
+      "data": "2025-12-25",
+      "nome": "Recesso Forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Ato TRT1 124/2024",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/html/1001/4326723/Ato2024-00124-C.htm"
+    },
+    {
+      "data": "2025-12-26",
+      "nome": "Recesso Forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Ato TRT1 124/2024",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/html/1001/4326723/Ato2024-00124-C.htm"
+    },
+    {
+      "data": "2025-12-27",
+      "nome": "Recesso Forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Ato TRT1 124/2024",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/html/1001/4326723/Ato2024-00124-C.htm"
+    },
+    {
+      "data": "2025-12-28",
+      "nome": "Recesso Forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Ato TRT1 124/2024",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/html/1001/4326723/Ato2024-00124-C.htm"
+    },
+    {
+      "data": "2025-12-29",
+      "nome": "Recesso Forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Ato TRT1 124/2024",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/html/1001/4326723/Ato2024-00124-C.htm"
+    },
+    {
+      "data": "2025-12-30",
+      "nome": "Recesso Forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Ato TRT1 124/2024",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/html/1001/4326723/Ato2024-00124-C.htm"
+    },
+    {
+      "data": "2025-12-31",
+      "nome": "Recesso Forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Ato TRT1 124/2024",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/html/1001/4326723/Ato2024-00124-C.htm"
+    },
+    {
+      "data": "2026-01-01",
+      "nome": "Confraternização Universal",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; Ato TRT1 109/2025",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/bitstream/1001/4472618/3/Ato2025-0109-C_Rep.htm"
+    },
+    {
+      "data": "2026-01-02",
+      "nome": "Recesso Forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Ato TRT1 109/2025",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/bitstream/1001/4472618/3/Ato2025-0109-C_Rep.htm"
+    },
+    {
+      "data": "2026-01-03",
+      "nome": "Recesso Forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Ato TRT1 109/2025",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/bitstream/1001/4472618/3/Ato2025-0109-C_Rep.htm"
+    },
+    {
+      "data": "2026-01-04",
+      "nome": "Recesso Forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Ato TRT1 109/2025",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/bitstream/1001/4472618/3/Ato2025-0109-C_Rep.htm"
+    },
+    {
+      "data": "2026-01-05",
+      "nome": "Recesso Forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Ato TRT1 109/2025",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/bitstream/1001/4472618/3/Ato2025-0109-C_Rep.htm"
+    },
+    {
+      "data": "2026-01-06",
+      "nome": "Recesso Forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Ato TRT1 109/2025",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/bitstream/1001/4472618/3/Ato2025-0109-C_Rep.htm"
+    },
+    {
+      "data": "2026-02-16",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966; Ato TRT1 109/2025",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/bitstream/1001/4472618/3/Ato2025-0109-C_Rep.htm"
+    },
+    {
+      "data": "2026-02-17",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966; Ato TRT1 109/2025",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/bitstream/1001/4472618/3/Ato2025-0109-C_Rep.htm"
+    },
+    {
+      "data": "2026-02-18",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966; Ato TRT1 109/2025",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/bitstream/1001/4472618/3/Ato2025-0109-C_Rep.htm"
+    },
+    {
+      "data": "2026-04-01",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966; Ato TRT1 109/2025",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/bitstream/1001/4472618/3/Ato2025-0109-C_Rep.htm"
+    },
+    {
+      "data": "2026-04-02",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966; Ato TRT1 109/2025",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/bitstream/1001/4472618/3/Ato2025-0109-C_Rep.htm"
+    },
+    {
+      "data": "2026-04-03",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966; Ato TRT1 109/2025",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/bitstream/1001/4472618/3/Ato2025-0109-C_Rep.htm"
+    },
+    {
+      "data": "2026-04-20",
+      "nome": "Expediente interno e externo e prazos suspensos",
+      "tipo": "ponto_facultativo",
+      "fonte": "Ato TRT1 56/2026 (altera o art. 2º do Ato 109/2025)",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/html/1001/4560206/Ato2026-0056-C.htm"
+    },
+    {
+      "data": "2026-04-21",
+      "nome": "Tiradentes",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; Ato TRT1 109/2025",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/bitstream/1001/4472618/3/Ato2025-0109-C_Rep.htm"
+    },
+    {
+      "data": "2026-04-23",
+      "nome": "São Jorge",
+      "tipo": "feriado",
+      "fonte": "Lei estadual 5.198/2008; Ato TRT1 109/2025",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/bitstream/1001/4472618/3/Ato2025-0109-C_Rep.htm"
+    },
+    {
+      "data": "2026-04-24",
+      "nome": "Expediente interno e externo e prazos suspensos",
+      "tipo": "ponto_facultativo",
+      "fonte": "Ato TRT1 62/2026",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/html/1001/4560265/Ato2026-0062-C.htm"
+    },
+    {
+      "data": "2026-05-01",
+      "nome": "Dia do Trabalho",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; Ato TRT1 109/2025",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/bitstream/1001/4472618/3/Ato2025-0109-C_Rep.htm"
+    },
+    {
+      "data": "2026-06-04",
+      "nome": "Corpus Christi",
+      "tipo": "feriado",
+      "fonte": "Lei 9.093/1995; Ato TRT1 109/2025",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/bitstream/1001/4472618/3/Ato2025-0109-C_Rep.htm"
+    },
+    {
+      "data": "2026-06-05",
+      "nome": "Expediente interno e externo e prazos suspensos",
+      "tipo": "ponto_facultativo",
+      "fonte": "Ato TRT1 56/2026",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/html/1001/4560206/Ato2026-0056-C.htm"
+    },
+    {
+      "data": "2026-06-29",
+      "nome": "Expediente único remoto das 8h às 12h, prazos suspensos (jogo do Brasil na Copa)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Ato TRT1 94/2026",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/bitstream/1001/4560490/3/Ato2026-0094-C.htm"
+    },
+    {
+      "data": "2026-07-29",
+      "nome": "Prazos processuais suspensos (físicos e eletrônicos)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Ato TRT1 105/2026",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/html/1001/4560580/Ato2026-0105-C.htm"
+    },
+    {
+      "data": "2026-08-10",
+      "nome": "Expediente interno e externo e prazos suspensos",
+      "tipo": "ponto_facultativo",
+      "fonte": "Ato TRT1 70/2026",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/html/1001/4560414/Ato2026-0070-C.htm"
+    },
+    {
+      "data": "2026-08-11",
+      "nome": "Instituição dos Cursos Jurídicos",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966; Ato TRT1 109/2025",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/bitstream/1001/4472618/3/Ato2025-0109-C_Rep.htm"
+    },
+    {
+      "data": "2026-09-07",
+      "nome": "Independência do Brasil",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; Ato TRT1 109/2025",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/bitstream/1001/4472618/3/Ato2025-0109-C_Rep.htm"
+    },
+    {
+      "data": "2026-10-12",
+      "nome": "Nossa Senhora Aparecida",
+      "tipo": "feriado",
+      "fonte": "Lei 6.802/1980; Ato TRT1 109/2025",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/bitstream/1001/4472618/3/Ato2025-0109-C_Rep.htm"
+    },
+    {
+      "data": "2026-10-30",
+      "nome": "Dia do Servidor Público (transferido de 28/10)",
+      "tipo": "feriado",
+      "fonte": "Lei 8.112/1990; Ato TRT1 109/2025, art. 1º, § 1º",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/bitstream/1001/4472618/3/Ato2025-0109-C_Rep.htm"
+    },
+    {
+      "data": "2026-11-02",
+      "nome": "Finados",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; Ato TRT1 109/2025",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/bitstream/1001/4472618/3/Ato2025-0109-C_Rep.htm"
+    },
+    {
+      "data": "2026-11-20",
+      "nome": "Consciência Negra",
+      "tipo": "feriado",
+      "fonte": "Lei 14.759/2023; Ato TRT1 109/2025",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/bitstream/1001/4472618/3/Ato2025-0109-C_Rep.htm"
+    },
+    {
+      "data": "2026-12-07",
+      "nome": "Expediente interno e externo e prazos suspensos",
+      "tipo": "ponto_facultativo",
+      "fonte": "Ato TRT1 140/2026",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/html/1001/4560745/Ato2026-0140-C.htm"
+    },
+    {
+      "data": "2026-12-08",
+      "nome": "Dia da Justiça",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966; Ato TRT1 109/2025",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/bitstream/1001/4472618/3/Ato2025-0109-C_Rep.htm"
+    },
+    {
+      "data": "2026-12-20",
+      "nome": "Recesso Forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Ato TRT1 109/2025",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/bitstream/1001/4472618/3/Ato2025-0109-C_Rep.htm"
+    },
+    {
+      "data": "2026-12-21",
+      "nome": "Recesso Forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Ato TRT1 109/2025",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/bitstream/1001/4472618/3/Ato2025-0109-C_Rep.htm"
+    },
+    {
+      "data": "2026-12-22",
+      "nome": "Recesso Forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Ato TRT1 109/2025",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/bitstream/1001/4472618/3/Ato2025-0109-C_Rep.htm"
+    },
+    {
+      "data": "2026-12-23",
+      "nome": "Recesso Forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Ato TRT1 109/2025",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/bitstream/1001/4472618/3/Ato2025-0109-C_Rep.htm"
+    },
+    {
+      "data": "2026-12-24",
+      "nome": "Recesso Forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Ato TRT1 109/2025",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/bitstream/1001/4472618/3/Ato2025-0109-C_Rep.htm"
+    },
+    {
+      "data": "2026-12-25",
+      "nome": "Recesso Forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Ato TRT1 109/2025",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/bitstream/1001/4472618/3/Ato2025-0109-C_Rep.htm"
+    },
+    {
+      "data": "2026-12-26",
+      "nome": "Recesso Forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Ato TRT1 109/2025",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/bitstream/1001/4472618/3/Ato2025-0109-C_Rep.htm"
+    },
+    {
+      "data": "2026-12-27",
+      "nome": "Recesso Forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Ato TRT1 109/2025",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/bitstream/1001/4472618/3/Ato2025-0109-C_Rep.htm"
+    },
+    {
+      "data": "2026-12-28",
+      "nome": "Recesso Forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Ato TRT1 109/2025",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/bitstream/1001/4472618/3/Ato2025-0109-C_Rep.htm"
+    },
+    {
+      "data": "2026-12-29",
+      "nome": "Recesso Forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Ato TRT1 109/2025",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/bitstream/1001/4472618/3/Ato2025-0109-C_Rep.htm"
+    },
+    {
+      "data": "2026-12-30",
+      "nome": "Recesso Forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Ato TRT1 109/2025",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/bitstream/1001/4472618/3/Ato2025-0109-C_Rep.htm"
+    },
+    {
+      "data": "2026-12-31",
+      "nome": "Recesso Forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Ato TRT1 109/2025",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/bitstream/1001/4472618/3/Ato2025-0109-C_Rep.htm"
+    }
+  ]
+}

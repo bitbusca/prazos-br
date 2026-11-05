@@ -1,0 +1,70 @@
+{
+  "$schema": "../../../../schema/feriados.schema.json",
+  "id": "TJMS/maracaju",
+  "escopo": "comarca",
+  "tribunal": "TJMS",
+  "comarca": "Maracaju",
+  "uf": "MS",
+  "ibge": 5005400,
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "regras": [],
+  "datas": [
+    {
+      "data": "2021-06-11",
+      "nome": "Aniversário da cidade",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 3/2021 (lei municipal de Maracaju)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2022-06-11",
+      "nome": "Aniversário da cidade",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 16/2022 (lei municipal de Maracaju)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-06-11",
+      "nome": "Aniversário da cidade",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 4/2023 (lei municipal de Maracaju)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2024-06-10",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria TJMS 1.536/2023",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2024-06-11",
+      "nome": "Aniversário da cidade",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 1.536/2023 (lei municipal de Maracaju)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2025-06-11",
+      "nome": "Aniversário da cidade",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 1.265/2024 (lei municipal de Maracaju)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2026-06-11",
+      "nome": "Aniversário da cidade",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 983/2025 (lei municipal de Maracaju)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    }
+  ]
+}

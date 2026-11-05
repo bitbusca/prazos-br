@@ -1,0 +1,91 @@
+{
+  "$schema": "../../../../schema/feriados.schema.json",
+  "id": "TJMS/paranaiba",
+  "escopo": "comarca",
+  "tribunal": "TJMS",
+  "comarca": "Paranaíba",
+  "uf": "MS",
+  "ibge": 5006309,
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "regras": [],
+  "datas": [
+    {
+      "data": "2021-07-04",
+      "nome": "Aniversário da cidade",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 3/2021 (lei municipal de Paranaíba)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2021-07-26",
+      "nome": "Nossa Senhora de Sant'Ana",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 3/2021 (lei municipal de Paranaíba)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2022-07-04",
+      "nome": "Aniversário da cidade",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 16/2022 (lei municipal de Paranaíba)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2022-07-26",
+      "nome": "Nossa Senhora de Sant'Ana",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 16/2022 (lei municipal de Paranaíba)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-07-04",
+      "nome": "Aniversário da cidade",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 4/2023 (lei municipal de Paranaíba)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-07-26",
+      "nome": "Nossa Senhora de Sant'Ana",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 4/2023 (lei municipal de Paranaíba)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2024-07-04",
+      "nome": "Aniversário da cidade",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 1.536/2023 (lei municipal de Paranaíba)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2024-07-05",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria TJMS 1.536/2023",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2024-07-26",
+      "nome": "Nossa Senhora de Sant'Ana",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 1.536/2023 (lei municipal de Paranaíba)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2025-07-04",
+      "nome": "Aniversário da cidade",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 1.265/2024 (lei municipal de Paranaíba)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    }
+  ]
+}

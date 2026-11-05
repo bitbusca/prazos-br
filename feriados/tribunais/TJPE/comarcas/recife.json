@@ -1,0 +1,41 @@
+{
+  "$schema": "../../../../schema/feriados.schema.json",
+  "id": "TJPE/recife",
+  "escopo": "comarca",
+  "tribunal": "TJPE",
+  "comarca": "Recife",
+  "uf": "PE",
+  "ibge": 2611606,
+  "observacao": "Dia de Nossa Senhora do Carmo, sem expediente na sede do TJPE e nas unidades da Comarca do Recife (art. 2º dos atos conjuntos anuais). São João (24/06) e 08/12 já estão no calendário do tribunal inteiro.",
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2026
+  ],
+  "regras": [
+    {
+      "nome": "Nossa Senhora do Carmo, padroeira do Recife",
+      "tipo": "feriado",
+      "quando": {
+        "dia": "07-16"
+      },
+      "fonte": "Lei municipal do Recife 9.777/1967 (citada no Ato TRF5 219/2026)",
+      "url": "https://www4.trf5.jus.br/comunicacao-social/anexo/114878"
+    }
+  ],
+  "datas": [
+    {
+      "data": "2025-07-16",
+      "nome": "Dia de Nossa Senhora do Carmo (feriado municipal)",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 42/2024, art. 2º",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/ato_conjunto_n-42-2024-pdf-1"
+    },
+    {
+      "data": "2026-07-16",
+      "nome": "Dia de Nossa Senhora do Carmo (feriado municipal)",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 43/2025, art. 2º",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/feriados-2026-pdf"
+    }
+  ]
+}

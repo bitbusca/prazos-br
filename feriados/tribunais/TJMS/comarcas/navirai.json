@@ -1,0 +1,119 @@
+{
+  "$schema": "../../../../schema/feriados.schema.json",
+  "id": "TJMS/navirai",
+  "escopo": "comarca",
+  "tribunal": "TJMS",
+  "comarca": "Naviraí",
+  "uf": "MS",
+  "ibge": 5005707,
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "regras": [],
+  "datas": [
+    {
+      "data": "2021-05-13",
+      "nome": "Nossa Senhora de Fátima",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 3/2021 (lei municipal de Naviraí)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2021-11-11",
+      "nome": "Aniversário da cidade",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 3/2021 (lei municipal de Naviraí)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2022-05-13",
+      "nome": "Nossa Senhora de Fátima",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 16/2022 (lei municipal de Naviraí)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2022-11-11",
+      "nome": "Aniversário da cidade",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 16/2022 (lei municipal de Naviraí)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-05-13",
+      "nome": "Nossa Senhora de Fátima",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 4/2023 (lei municipal de Naviraí)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-11-11",
+      "nome": "Aniversário da cidade",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 4/2023 (lei municipal de Naviraí)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2024-05-13",
+      "nome": "Nossa Senhora de Fátima",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 1.536/2023 (lei municipal de Naviraí)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2024-11-11",
+      "nome": "Aniversário da cidade",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 1.536/2023 (lei municipal de Naviraí)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2025-05-12",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria TJMS 1.265/2024",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2025-05-13",
+      "nome": "Nossa Senhora de Fátima",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 1.265/2024 (lei municipal de Naviraí)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2025-11-10",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria TJMS 1.265/2024",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2025-11-11",
+      "nome": "Aniversário da cidade",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 1.265/2024 (lei municipal de Naviraí)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2026-05-13",
+      "nome": "Nossa Senhora de Fátima",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 983/2025 (lei municipal de Naviraí)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2026-11-11",
+      "nome": "Aniversário da cidade",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 983/2025 (lei municipal de Naviraí)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    }
+  ]
+}

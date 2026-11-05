@@ -1,0 +1,30 @@
+{
+  "$schema": "../../../../schema/feriados.schema.json",
+  "id": "TRT24/paranaiba",
+  "escopo": "comarca",
+  "tribunal": "TRT24",
+  "comarca": "Paranaíba",
+  "uf": "MS",
+  "ibge": 5006309,
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2026
+  ],
+  "regras": [],
+  "datas": [
+    {
+      "data": "2026-07-04",
+      "nome": "Aniversário de Paranaíba",
+      "tipo": "feriado",
+      "fonte": "Lei Complementar n° 49/2011; Calendário oficial TRT24 2026 - Portaria TRT/GP/SGJ 51/2025 e alterações",
+      "url": "https://www.trt24.jus.br/web/guest/calendario"
+    },
+    {
+      "data": "2026-07-26",
+      "nome": "Padroeiro de Paranaíba",
+      "tipo": "feriado",
+      "fonte": "Lei Complementar n° 49/2011; Calendário oficial TRT24 2026 - Portaria TRT/GP/SGJ 51/2025 e alterações",
+      "url": "https://www.trt24.jus.br/web/guest/calendario"
+    }
+  ]
+}

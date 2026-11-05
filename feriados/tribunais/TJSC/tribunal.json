@@ -1,0 +1,794 @@
+{
+  "$schema": "../../../schema/feriados.schema.json",
+  "id": "TJSC",
+  "escopo": "tribunal",
+  "nome": "Tribunal de Justiça do Estado de Santa Catarina",
+  "tribunal": "TJSC",
+  "uf": "SC",
+  "observacao": "Datas de 2025 e 2026 transcritas dos calendários anuais da Presidência do TJSC (Resolução GP 2/2025, na redação final da Res. GP 49/2025, e Resolução GP 1/2026, na redação final da Res. GP 45/2026; as alterações só mexeram em feriados municipais do interior), dos recessos das Resoluções TJ 41/2024 e 30/2025 e dos atos avulsos de 2026 (Res. GP 31/2026, Copa; Res. GP 58/2026, 21/10). As regras são as permanentes da Resolução GP 1/1985 (com a Lei 1.408/1951). Quarta-feira de Cinzas tem expediente normal desde as 12h (Res. GP 13/2022), por isso não entra. 2026 NÃO está conferido: até 05/11/2026 a resolução do recesso de 20/12/2026 a 06/01/2027 ainda não tinha sido publicada (em 2025 a suspensão do expediente começou só em 22/12). A data magna estadual (11/08) é transferida por lei para o domingo seguinte (Lei estadual 18.531/2022) e não afeta o expediente. Não cobre feriados municipais do interior nem suspensões de unidades isoladas. Lista de comarcas da página oficial de atos normativos do TJSC, com a 'Capital' escrita como Florianópolis.",
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2025
+  ],
+  "comarcas": [
+    "Abelardo Luz",
+    "Anchieta",
+    "Anita Garibaldi",
+    "Araquari",
+    "Araranguá",
+    "Armazém",
+    "Ascurra",
+    "Balneário Camboriú",
+    "Balneário Piçarras",
+    "Barra Velha",
+    "Biguaçu",
+    "Blumenau",
+    "Bom Retiro",
+    "Braço do Norte",
+    "Brusque",
+    "Caçador",
+    "Camboriú",
+    "Campo Belo do Sul",
+    "Campo Erê",
+    "Campos Novos",
+    "Canoinhas",
+    "Capinzal",
+    "Capivari de Baixo",
+    "Catanduvas",
+    "Chapecó",
+    "Concórdia",
+    "Coronel Freitas",
+    "Correia Pinto",
+    "Criciúma",
+    "Cunha Porã",
+    "Curitibanos",
+    "Descanso",
+    "Dionísio Cerqueira",
+    "Florianópolis",
+    "Forquilhinha",
+    "Fraiburgo",
+    "Garopaba",
+    "Garuva",
+    "Gaspar",
+    "Guaramirim",
+    "Herval D'Oeste",
+    "Ibirama",
+    "Içara",
+    "Imaruí",
+    "Imbituba",
+    "Indaial",
+    "Ipumirim",
+    "Itá",
+    "Itaiópolis",
+    "Itajaí",
+    "Itapema",
+    "Itapiranga",
+    "Itapoá",
+    "Ituporanga",
+    "Jaguaruna",
+    "Jaraguá do Sul",
+    "Joaçaba",
+    "Joinville",
+    "Lages",
+    "Laguna",
+    "Lauro Müller",
+    "Lebon Régis",
+    "Mafra",
+    "Maravilha",
+    "Meleiro",
+    "Modelo",
+    "Mondaí",
+    "Navegantes",
+    "Orleans",
+    "Otacílio Costa",
+    "Palhoça",
+    "Palmitos",
+    "Papanduva",
+    "Paulo Lopes",
+    "Pinhalzinho",
+    "Pomerode",
+    "Ponte Serrada",
+    "Porto Belo",
+    "Porto União",
+    "Presidente Getúlio",
+    "Quilombo",
+    "Rio do Campo",
+    "Rio do Oeste",
+    "Rio do Sul",
+    "Rio Negrinho",
+    "Santa Cecília",
+    "Santa Rosa do Sul",
+    "Santo Amaro da Imperatriz",
+    "São Bento do Sul",
+    "São Carlos",
+    "São Domingos",
+    "São Francisco do Sul",
+    "São João Batista",
+    "São Joaquim",
+    "São José",
+    "São José do Cedro",
+    "São Lourenço do Oeste",
+    "São Miguel do Oeste",
+    "Seara",
+    "Sombrio",
+    "Taió",
+    "Tangará",
+    "Tijucas",
+    "Timbó",
+    "Trombudo Central",
+    "Tubarão",
+    "Turvo",
+    "Urubici",
+    "Urussanga",
+    "Videira",
+    "Xanxerê",
+    "Xaxim"
+  ],
+  "regras": [
+    {
+      "nome": "Segunda-feira de Carnaval",
+      "tipo": "feriado",
+      "quando": {
+        "pascoa": -48
+      },
+      "fonte": "Resolução GP 1/1985 (TJSC), art. 1º (redação da Res. GP 74/2023)",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=162382&cdCategoria=1"
+    },
+    {
+      "nome": "Terça-feira de Carnaval",
+      "tipo": "feriado",
+      "quando": {
+        "pascoa": -47
+      },
+      "fonte": "Lei 1.408/1951, art. 5º; Resolução GP 1/1985 (TJSC), Anexo Único",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=162382&cdCategoria=1"
+    },
+    {
+      "nome": "Quinta-feira da Semana Santa",
+      "tipo": "feriado",
+      "quando": {
+        "pascoa": -3
+      },
+      "fonte": "Resolução GP 1/1985 (TJSC), art. 1º (redação da Res. GP 74/2023)",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=162382&cdCategoria=1"
+    },
+    {
+      "nome": "Corpus Christi",
+      "tipo": "feriado",
+      "quando": {
+        "pascoa": 60
+      },
+      "fonte": "Resolução GP 1/1985 (TJSC), art. 1º (redação da Res. GP 74/2023)",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=162382&cdCategoria=1"
+    },
+    {
+      "nome": "Dia do Funcionário Público",
+      "tipo": "feriado",
+      "quando": {
+        "dia": "10-28"
+      },
+      "fonte": "Resolução GP 1/1985 (TJSC), art. 1º (redação da Res. GP 74/2023)",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=162382&cdCategoria=1"
+    },
+    {
+      "nome": "Dia da Justiça",
+      "tipo": "feriado",
+      "quando": {
+        "dia": "12-08"
+      },
+      "fonte": "Lei 1.408/1951, art. 5º; Resolução GP 1/1985 (TJSC), Anexo Único",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=162382&cdCategoria=1"
+    }
+  ],
+  "datas": [
+    {
+      "data": "2025-01-01",
+      "nome": "Confraternização Universal",
+      "tipo": "feriado",
+      "fonte": "Resolução GP 2/2025 (TJSC), Anexo Único (redação da Res. GP 49/2025)",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=187470&cdCategoria=1"
+    },
+    {
+      "data": "2025-01-01",
+      "nome": "Recesso judiciário (expediente suspenso)",
+      "tipo": "recesso",
+      "fonte": "Resolução TJ 41/2024 (TJSC), art. 1º, I",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=186074&cdCategoria=1"
+    },
+    {
+      "data": "2025-01-02",
+      "nome": "Recesso judiciário (expediente suspenso)",
+      "tipo": "recesso",
+      "fonte": "Resolução TJ 41/2024 (TJSC), art. 1º, I",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=186074&cdCategoria=1"
+    },
+    {
+      "data": "2025-01-03",
+      "nome": "Recesso judiciário (expediente suspenso)",
+      "tipo": "recesso",
+      "fonte": "Resolução TJ 41/2024 (TJSC), art. 1º, I",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=186074&cdCategoria=1"
+    },
+    {
+      "data": "2025-01-04",
+      "nome": "Recesso judiciário (expediente suspenso)",
+      "tipo": "recesso",
+      "fonte": "Resolução TJ 41/2024 (TJSC), art. 1º, I",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=186074&cdCategoria=1"
+    },
+    {
+      "data": "2025-01-05",
+      "nome": "Recesso judiciário (expediente suspenso)",
+      "tipo": "recesso",
+      "fonte": "Resolução TJ 41/2024 (TJSC), art. 1º, I",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=186074&cdCategoria=1"
+    },
+    {
+      "data": "2025-01-06",
+      "nome": "Recesso judiciário (expediente suspenso)",
+      "tipo": "recesso",
+      "fonte": "Resolução TJ 41/2024 (TJSC), art. 1º, I",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=186074&cdCategoria=1"
+    },
+    {
+      "data": "2025-01-07",
+      "nome": "Prazos judiciais suspensos",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução TJ 41/2024 (TJSC), art. 1º, II; CPC art. 220",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=186074&cdCategoria=1"
+    },
+    {
+      "data": "2025-01-08",
+      "nome": "Prazos judiciais suspensos",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução TJ 41/2024 (TJSC), art. 1º, II; CPC art. 220",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=186074&cdCategoria=1"
+    },
+    {
+      "data": "2025-01-09",
+      "nome": "Prazos judiciais suspensos",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução TJ 41/2024 (TJSC), art. 1º, II; CPC art. 220",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=186074&cdCategoria=1"
+    },
+    {
+      "data": "2025-01-10",
+      "nome": "Prazos judiciais suspensos",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução TJ 41/2024 (TJSC), art. 1º, II; CPC art. 220",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=186074&cdCategoria=1"
+    },
+    {
+      "data": "2025-01-11",
+      "nome": "Prazos judiciais suspensos",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução TJ 41/2024 (TJSC), art. 1º, II; CPC art. 220",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=186074&cdCategoria=1"
+    },
+    {
+      "data": "2025-01-12",
+      "nome": "Prazos judiciais suspensos",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução TJ 41/2024 (TJSC), art. 1º, II; CPC art. 220",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=186074&cdCategoria=1"
+    },
+    {
+      "data": "2025-01-13",
+      "nome": "Prazos judiciais suspensos",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução TJ 41/2024 (TJSC), art. 1º, II; CPC art. 220",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=186074&cdCategoria=1"
+    },
+    {
+      "data": "2025-01-14",
+      "nome": "Prazos judiciais suspensos",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução TJ 41/2024 (TJSC), art. 1º, II; CPC art. 220",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=186074&cdCategoria=1"
+    },
+    {
+      "data": "2025-01-15",
+      "nome": "Prazos judiciais suspensos",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução TJ 41/2024 (TJSC), art. 1º, II; CPC art. 220",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=186074&cdCategoria=1"
+    },
+    {
+      "data": "2025-01-16",
+      "nome": "Prazos judiciais suspensos",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução TJ 41/2024 (TJSC), art. 1º, II; CPC art. 220",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=186074&cdCategoria=1"
+    },
+    {
+      "data": "2025-01-17",
+      "nome": "Prazos judiciais suspensos",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução TJ 41/2024 (TJSC), art. 1º, II; CPC art. 220",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=186074&cdCategoria=1"
+    },
+    {
+      "data": "2025-01-18",
+      "nome": "Prazos judiciais suspensos",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução TJ 41/2024 (TJSC), art. 1º, II; CPC art. 220",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=186074&cdCategoria=1"
+    },
+    {
+      "data": "2025-01-19",
+      "nome": "Prazos judiciais suspensos",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução TJ 41/2024 (TJSC), art. 1º, II; CPC art. 220",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=186074&cdCategoria=1"
+    },
+    {
+      "data": "2025-01-20",
+      "nome": "Prazos judiciais suspensos",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução TJ 41/2024 (TJSC), art. 1º, II; CPC art. 220",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=186074&cdCategoria=1"
+    },
+    {
+      "data": "2025-03-03",
+      "nome": "Segunda-feira de Carnaval",
+      "tipo": "feriado",
+      "fonte": "Resolução GP 2/2025 (TJSC), Anexo Único (redação da Res. GP 49/2025)",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=187470&cdCategoria=1"
+    },
+    {
+      "data": "2025-03-04",
+      "nome": "Terça-feira de Carnaval",
+      "tipo": "feriado",
+      "fonte": "Resolução GP 2/2025 (TJSC), Anexo Único (redação da Res. GP 49/2025)",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=187470&cdCategoria=1"
+    },
+    {
+      "data": "2025-04-17",
+      "nome": "Quinta-feira da Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Resolução GP 2/2025 (TJSC), Anexo Único (redação da Res. GP 49/2025)",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=187470&cdCategoria=1"
+    },
+    {
+      "data": "2025-04-18",
+      "nome": "Sexta-feira Santa",
+      "tipo": "feriado",
+      "fonte": "Resolução GP 2/2025 (TJSC), Anexo Único (redação da Res. GP 49/2025)",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=187470&cdCategoria=1"
+    },
+    {
+      "data": "2025-04-21",
+      "nome": "Tiradentes",
+      "tipo": "feriado",
+      "fonte": "Resolução GP 2/2025 (TJSC), Anexo Único (redação da Res. GP 49/2025)",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=187470&cdCategoria=1"
+    },
+    {
+      "data": "2025-05-01",
+      "nome": "Dia do Trabalho",
+      "tipo": "feriado",
+      "fonte": "Resolução GP 2/2025 (TJSC), Anexo Único (redação da Res. GP 49/2025)",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=187470&cdCategoria=1"
+    },
+    {
+      "data": "2025-06-19",
+      "nome": "Corpus Christi",
+      "tipo": "feriado",
+      "fonte": "Resolução GP 2/2025 (TJSC), Anexo Único (redação da Res. GP 49/2025)",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=187470&cdCategoria=1"
+    },
+    {
+      "data": "2025-09-07",
+      "nome": "Independência do Brasil",
+      "tipo": "feriado",
+      "fonte": "Resolução GP 2/2025 (TJSC), Anexo Único (redação da Res. GP 49/2025)",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=187470&cdCategoria=1"
+    },
+    {
+      "data": "2025-10-12",
+      "nome": "Dia de Nossa Senhora Aparecida - Padroeira do Brasil",
+      "tipo": "feriado",
+      "fonte": "Resolução GP 2/2025 (TJSC), Anexo Único (redação da Res. GP 49/2025)",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=187470&cdCategoria=1"
+    },
+    {
+      "data": "2025-10-28",
+      "nome": "Dia do Funcionário Público",
+      "tipo": "feriado",
+      "fonte": "Resolução GP 2/2025 (TJSC), Anexo Único (redação da Res. GP 49/2025)",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=187470&cdCategoria=1"
+    },
+    {
+      "data": "2025-11-02",
+      "nome": "Finados",
+      "tipo": "feriado",
+      "fonte": "Resolução GP 2/2025 (TJSC), Anexo Único (redação da Res. GP 49/2025)",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=187470&cdCategoria=1"
+    },
+    {
+      "data": "2025-11-15",
+      "nome": "Proclamação da República",
+      "tipo": "feriado",
+      "fonte": "Resolução GP 2/2025 (TJSC), Anexo Único (redação da Res. GP 49/2025)",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=187470&cdCategoria=1"
+    },
+    {
+      "data": "2025-11-20",
+      "nome": "Dia Nacional de Zumbi e da Consciência Negra",
+      "tipo": "feriado",
+      "fonte": "Resolução GP 2/2025 (TJSC), Anexo Único (redação da Res. GP 49/2025)",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=187470&cdCategoria=1"
+    },
+    {
+      "data": "2025-12-08",
+      "nome": "Dia da Justiça",
+      "tipo": "feriado",
+      "fonte": "Resolução GP 2/2025 (TJSC), Anexo Único (redação da Res. GP 49/2025)",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=187470&cdCategoria=1"
+    },
+    {
+      "data": "2025-12-20",
+      "nome": "Prazos judiciais suspensos (recesso)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução TJ 30/2025 (TJSC), art. 1º, II; CPC art. 220",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=187990&cdCategoria=1"
+    },
+    {
+      "data": "2025-12-21",
+      "nome": "Prazos judiciais suspensos (recesso)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução TJ 30/2025 (TJSC), art. 1º, II; CPC art. 220",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=187990&cdCategoria=1"
+    },
+    {
+      "data": "2025-12-22",
+      "nome": "Recesso judiciário (expediente suspenso)",
+      "tipo": "recesso",
+      "fonte": "Resolução TJ 30/2025 (TJSC), art. 1º, I",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=187990&cdCategoria=1"
+    },
+    {
+      "data": "2025-12-23",
+      "nome": "Recesso judiciário (expediente suspenso)",
+      "tipo": "recesso",
+      "fonte": "Resolução TJ 30/2025 (TJSC), art. 1º, I",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=187990&cdCategoria=1"
+    },
+    {
+      "data": "2025-12-24",
+      "nome": "Recesso judiciário (expediente suspenso)",
+      "tipo": "recesso",
+      "fonte": "Resolução TJ 30/2025 (TJSC), art. 1º, I",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=187990&cdCategoria=1"
+    },
+    {
+      "data": "2025-12-25",
+      "nome": "Dia de Natal",
+      "tipo": "feriado",
+      "fonte": "Resolução GP 2/2025 (TJSC), Anexo Único (redação da Res. GP 49/2025)",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=187470&cdCategoria=1"
+    },
+    {
+      "data": "2025-12-25",
+      "nome": "Recesso judiciário (expediente suspenso)",
+      "tipo": "recesso",
+      "fonte": "Resolução TJ 30/2025 (TJSC), art. 1º, I",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=187990&cdCategoria=1"
+    },
+    {
+      "data": "2025-12-26",
+      "nome": "Recesso judiciário (expediente suspenso)",
+      "tipo": "recesso",
+      "fonte": "Resolução TJ 30/2025 (TJSC), art. 1º, I",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=187990&cdCategoria=1"
+    },
+    {
+      "data": "2025-12-27",
+      "nome": "Recesso judiciário (expediente suspenso)",
+      "tipo": "recesso",
+      "fonte": "Resolução TJ 30/2025 (TJSC), art. 1º, I",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=187990&cdCategoria=1"
+    },
+    {
+      "data": "2025-12-28",
+      "nome": "Recesso judiciário (expediente suspenso)",
+      "tipo": "recesso",
+      "fonte": "Resolução TJ 30/2025 (TJSC), art. 1º, I",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=187990&cdCategoria=1"
+    },
+    {
+      "data": "2025-12-29",
+      "nome": "Recesso judiciário (expediente suspenso)",
+      "tipo": "recesso",
+      "fonte": "Resolução TJ 30/2025 (TJSC), art. 1º, I",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=187990&cdCategoria=1"
+    },
+    {
+      "data": "2025-12-30",
+      "nome": "Recesso judiciário (expediente suspenso)",
+      "tipo": "recesso",
+      "fonte": "Resolução TJ 30/2025 (TJSC), art. 1º, I",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=187990&cdCategoria=1"
+    },
+    {
+      "data": "2025-12-31",
+      "nome": "Recesso judiciário (expediente suspenso)",
+      "tipo": "recesso",
+      "fonte": "Resolução TJ 30/2025 (TJSC), art. 1º, I",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=187990&cdCategoria=1"
+    },
+    {
+      "data": "2026-01-01",
+      "nome": "Confraternização Universal",
+      "tipo": "feriado",
+      "fonte": "Resolução GP 1/2026 (TJSC), Anexo Único (redação da Res. GP 45/2026)",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=189546&cdCategoria=1"
+    },
+    {
+      "data": "2026-01-01",
+      "nome": "Recesso judiciário (expediente suspenso)",
+      "tipo": "recesso",
+      "fonte": "Resolução TJ 30/2025 (TJSC), art. 1º, I",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=187990&cdCategoria=1"
+    },
+    {
+      "data": "2026-01-02",
+      "nome": "Recesso judiciário (expediente suspenso)",
+      "tipo": "recesso",
+      "fonte": "Resolução TJ 30/2025 (TJSC), art. 1º, I",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=187990&cdCategoria=1"
+    },
+    {
+      "data": "2026-01-03",
+      "nome": "Recesso judiciário (expediente suspenso)",
+      "tipo": "recesso",
+      "fonte": "Resolução TJ 30/2025 (TJSC), art. 1º, I",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=187990&cdCategoria=1"
+    },
+    {
+      "data": "2026-01-04",
+      "nome": "Recesso judiciário (expediente suspenso)",
+      "tipo": "recesso",
+      "fonte": "Resolução TJ 30/2025 (TJSC), art. 1º, I",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=187990&cdCategoria=1"
+    },
+    {
+      "data": "2026-01-05",
+      "nome": "Recesso judiciário (expediente suspenso)",
+      "tipo": "recesso",
+      "fonte": "Resolução TJ 30/2025 (TJSC), art. 1º, I",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=187990&cdCategoria=1"
+    },
+    {
+      "data": "2026-01-06",
+      "nome": "Recesso judiciário (expediente suspenso)",
+      "tipo": "recesso",
+      "fonte": "Resolução TJ 30/2025 (TJSC), art. 1º, I",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=187990&cdCategoria=1"
+    },
+    {
+      "data": "2026-01-07",
+      "nome": "Prazos judiciais suspensos",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução TJ 30/2025 (TJSC), art. 1º, II; CPC art. 220",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=187990&cdCategoria=1"
+    },
+    {
+      "data": "2026-01-08",
+      "nome": "Prazos judiciais suspensos",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução TJ 30/2025 (TJSC), art. 1º, II; CPC art. 220",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=187990&cdCategoria=1"
+    },
+    {
+      "data": "2026-01-09",
+      "nome": "Prazos judiciais suspensos",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução TJ 30/2025 (TJSC), art. 1º, II; CPC art. 220",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=187990&cdCategoria=1"
+    },
+    {
+      "data": "2026-01-10",
+      "nome": "Prazos judiciais suspensos",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução TJ 30/2025 (TJSC), art. 1º, II; CPC art. 220",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=187990&cdCategoria=1"
+    },
+    {
+      "data": "2026-01-11",
+      "nome": "Prazos judiciais suspensos",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução TJ 30/2025 (TJSC), art. 1º, II; CPC art. 220",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=187990&cdCategoria=1"
+    },
+    {
+      "data": "2026-01-12",
+      "nome": "Prazos judiciais suspensos",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução TJ 30/2025 (TJSC), art. 1º, II; CPC art. 220",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=187990&cdCategoria=1"
+    },
+    {
+      "data": "2026-01-13",
+      "nome": "Prazos judiciais suspensos",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução TJ 30/2025 (TJSC), art. 1º, II; CPC art. 220",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=187990&cdCategoria=1"
+    },
+    {
+      "data": "2026-01-14",
+      "nome": "Prazos judiciais suspensos",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução TJ 30/2025 (TJSC), art. 1º, II; CPC art. 220",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=187990&cdCategoria=1"
+    },
+    {
+      "data": "2026-01-15",
+      "nome": "Prazos judiciais suspensos",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução TJ 30/2025 (TJSC), art. 1º, II; CPC art. 220",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=187990&cdCategoria=1"
+    },
+    {
+      "data": "2026-01-16",
+      "nome": "Prazos judiciais suspensos",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução TJ 30/2025 (TJSC), art. 1º, II; CPC art. 220",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=187990&cdCategoria=1"
+    },
+    {
+      "data": "2026-01-17",
+      "nome": "Prazos judiciais suspensos",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução TJ 30/2025 (TJSC), art. 1º, II; CPC art. 220",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=187990&cdCategoria=1"
+    },
+    {
+      "data": "2026-01-18",
+      "nome": "Prazos judiciais suspensos",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução TJ 30/2025 (TJSC), art. 1º, II; CPC art. 220",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=187990&cdCategoria=1"
+    },
+    {
+      "data": "2026-01-19",
+      "nome": "Prazos judiciais suspensos",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução TJ 30/2025 (TJSC), art. 1º, II; CPC art. 220",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=187990&cdCategoria=1"
+    },
+    {
+      "data": "2026-01-20",
+      "nome": "Prazos judiciais suspensos",
+      "tipo": "suspensao_prazos",
+      "fonte": "Resolução TJ 30/2025 (TJSC), art. 1º, II; CPC art. 220",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=187990&cdCategoria=1"
+    },
+    {
+      "data": "2026-02-16",
+      "nome": "Segunda-feira de Carnaval",
+      "tipo": "feriado",
+      "fonte": "Resolução GP 1/2026 (TJSC), Anexo Único (redação da Res. GP 45/2026)",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=189546&cdCategoria=1"
+    },
+    {
+      "data": "2026-02-17",
+      "nome": "Terça-feira de Carnaval",
+      "tipo": "feriado",
+      "fonte": "Resolução GP 1/2026 (TJSC), Anexo Único (redação da Res. GP 45/2026)",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=189546&cdCategoria=1"
+    },
+    {
+      "data": "2026-04-02",
+      "nome": "Quinta-feira da Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Resolução GP 1/2026 (TJSC), Anexo Único (redação da Res. GP 45/2026)",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=189546&cdCategoria=1"
+    },
+    {
+      "data": "2026-04-03",
+      "nome": "Sexta-feira Santa",
+      "tipo": "feriado",
+      "fonte": "Resolução GP 1/2026 (TJSC), Anexo Único (redação da Res. GP 45/2026)",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=189546&cdCategoria=1"
+    },
+    {
+      "data": "2026-04-21",
+      "nome": "Tiradentes",
+      "tipo": "feriado",
+      "fonte": "Resolução GP 1/2026 (TJSC), Anexo Único (redação da Res. GP 45/2026)",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=189546&cdCategoria=1"
+    },
+    {
+      "data": "2026-05-01",
+      "nome": "Dia do Trabalho",
+      "tipo": "feriado",
+      "fonte": "Resolução GP 1/2026 (TJSC), Anexo Único (redação da Res. GP 45/2026)",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=189546&cdCategoria=1"
+    },
+    {
+      "data": "2026-06-04",
+      "nome": "Corpus Christi",
+      "tipo": "feriado",
+      "fonte": "Resolução GP 1/2026 (TJSC), Anexo Único (redação da Res. GP 45/2026)",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=189546&cdCategoria=1"
+    },
+    {
+      "data": "2026-06-24",
+      "nome": "Jogo do Brasil na Copa do Mundo (19h): expediente das 10h às 17h",
+      "tipo": "expediente_reduzido",
+      "fonte": "Resolução GP 31/2026 (TJSC), art. 1º, VI, e art. 2º",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=189133&cdCategoria=1"
+    },
+    {
+      "data": "2026-06-29",
+      "nome": "Jogo do Brasil na Copa do Mundo (14h): expediente das 8h às 12h",
+      "tipo": "expediente_reduzido",
+      "fonte": "Resolução GP 31/2026 (TJSC), art. 1º, I, e art. 2º (Brasil x Japão às 14h de Brasília)",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=189133&cdCategoria=1"
+    },
+    {
+      "data": "2026-09-07",
+      "nome": "Independência do Brasil",
+      "tipo": "feriado",
+      "fonte": "Resolução GP 1/2026 (TJSC), Anexo Único (redação da Res. GP 45/2026)",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=189546&cdCategoria=1"
+    },
+    {
+      "data": "2026-10-12",
+      "nome": "Dia de Nossa Senhora Aparecida - Padroeira do Brasil",
+      "tipo": "feriado",
+      "fonte": "Resolução GP 1/2026 (TJSC), Anexo Único (redação da Res. GP 45/2026)",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=189546&cdCategoria=1"
+    },
+    {
+      "data": "2026-10-21",
+      "nome": "Expediente encerrado às 13h (indisponibilidade dos sistemas)",
+      "tipo": "expediente_reduzido",
+      "fonte": "Resolução GP 58/2026 (TJSC), art. 1º, § 2º (começo e vencimento protraídos para 22/10)",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=189851&cdCategoria=1"
+    },
+    {
+      "data": "2026-10-28",
+      "nome": "Dia do Funcionário Público",
+      "tipo": "feriado",
+      "fonte": "Resolução GP 1/2026 (TJSC), Anexo Único (redação da Res. GP 45/2026)",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=189546&cdCategoria=1"
+    },
+    {
+      "data": "2026-11-02",
+      "nome": "Finados",
+      "tipo": "feriado",
+      "fonte": "Resolução GP 1/2026 (TJSC), Anexo Único (redação da Res. GP 45/2026)",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=189546&cdCategoria=1"
+    },
+    {
+      "data": "2026-11-15",
+      "nome": "Proclamação da República",
+      "tipo": "feriado",
+      "fonte": "Resolução GP 1/2026 (TJSC), Anexo Único (redação da Res. GP 45/2026)",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=189546&cdCategoria=1"
+    },
+    {
+      "data": "2026-11-20",
+      "nome": "Dia Nacional de Zumbi e da Consciência Negra",
+      "tipo": "feriado",
+      "fonte": "Resolução GP 1/2026 (TJSC), Anexo Único (redação da Res. GP 45/2026)",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=189546&cdCategoria=1"
+    },
+    {
+      "data": "2026-12-08",
+      "nome": "Dia da Justiça",
+      "tipo": "feriado",
+      "fonte": "Resolução GP 1/2026 (TJSC), Anexo Único (redação da Res. GP 45/2026)",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=189546&cdCategoria=1"
+    },
+    {
+      "data": "2026-12-25",
+      "nome": "Dia de Natal",
+      "tipo": "feriado",
+      "fonte": "Resolução GP 1/2026 (TJSC), Anexo Único (redação da Res. GP 45/2026)",
+      "url": "https://busca.tjsc.jus.br/buscatextual/integra.do?cdSistema=1&cdDocumento=189546&cdCategoria=1"
+    }
+  ]
+}

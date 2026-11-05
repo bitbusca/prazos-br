@@ -1,0 +1,56 @@
+{
+  "$schema": "../../../../schema/feriados.schema.json",
+  "id": "TRT1/rio-de-janeiro",
+  "escopo": "comarca",
+  "tribunal": "TRT1",
+  "comarca": "Rio de Janeiro",
+  "uf": "RJ",
+  "ibge": 3304557,
+  "observacao": "Varas do Trabalho do Rio de Janeiro (sede do TRT1). Feriados municipais dos Atos 125/2024 (2025) e 110/2025 (2026, alterado pelo Ato 91/2026) e suspensões só da cidade. Não entra a suspensão só da 29ª Vara em 19-20/02/2026 (Ato 32/2026).",
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2025,
+    2026
+  ],
+  "regras": [
+    {
+      "nome": "São Sebastião, padroeiro do Rio de Janeiro",
+      "tipo": "feriado",
+      "quando": {
+        "dia": "01-20"
+      },
+      "fonte": "Lei municipal do Rio de Janeiro 5.146/2010, art. 8º, I (citada nos Atos TRT1 125/2024 e 110/2025)",
+      "url": "https://leismunicipais.com.br/a/rj/r/rio-de-janeiro/lei-ordinaria/2010/514/5146/lei-ordinaria-n-5146-2010-dispoe-sobre-a-consolidacao-municipal-referente-a-eventos-datas-comemorativas-e-feriados-da-cidade-do-rio-de-janeiro-e-institui-o-calendario-oficial-de-eventos-e-datas-comemorativas-da-cidade-do-rio-de-janeiro"
+    }
+  ],
+  "datas": [
+    {
+      "data": "2025-01-20",
+      "nome": "São Sebastião (feriado municipal no Rio de Janeiro)",
+      "tipo": "feriado",
+      "fonte": "Lei municipal 5.146/2010, art. 8º, I; Ato TRT1 125/2024",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/bitstream/1001/4326724/11/Ato2024-00125_Rep-C.htm"
+    },
+    {
+      "data": "2025-02-28",
+      "nome": "Expediente interno e externo e prazos suspensos na cidade do Rio de Janeiro (véspera de Carnaval)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Ato TRT1 17/2025",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/bitstream/1001/4327155/1/Ato2025-0017-C.htm"
+    },
+    {
+      "data": "2025-07-07",
+      "nome": "Feriado municipal (Cúpula do BRICS): expediente e prazos suspensos no Município do Rio de Janeiro",
+      "tipo": "feriado",
+      "fonte": "Lei municipal 8.881/2025; Ato TRT1 81/2025",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/bitstream/1001/4423985/1/Ato2025-0081-C.htm"
+    },
+    {
+      "data": "2026-01-20",
+      "nome": "São Sebastião (feriado municipal no Rio de Janeiro)",
+      "tipo": "feriado",
+      "fonte": "Lei municipal 5.146/2010; Ato TRT1 110/2025",
+      "url": "https://bibliotecadigital.trt1.jus.br/jspui/bitstream/1001/4472617/5/Ato2025-0110-C.htm"
+    }
+  ]
+}

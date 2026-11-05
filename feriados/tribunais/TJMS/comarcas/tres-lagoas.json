@@ -1,0 +1,49 @@
+{
+  "$schema": "../../../../schema/feriados.schema.json",
+  "id": "TJMS/tres-lagoas",
+  "escopo": "comarca",
+  "tribunal": "TJMS",
+  "comarca": "Três Lagoas",
+  "uf": "MS",
+  "ibge": 5008305,
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "regras": [],
+  "datas": [
+    {
+      "data": "2021-06-15",
+      "nome": "Aniversário da cidade",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 3/2021 (lei municipal de Três Lagoas)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2022-06-15",
+      "nome": "Aniversário da cidade",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 16/2022 (lei municipal de Três Lagoas)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-06-15",
+      "nome": "Aniversário da cidade",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 4/2023 (lei municipal de Três Lagoas)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2026-06-15",
+      "nome": "Aniversário da cidade",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 983/2025 (lei municipal de Três Lagoas)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    }
+  ]
+}

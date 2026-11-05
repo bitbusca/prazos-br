@@ -1,0 +1,87 @@
+{
+  "$schema": "../../../../schema/feriados.schema.json",
+  "id": "TRF4/porto-alegre",
+  "escopo": "comarca",
+  "tribunal": "TRF4",
+  "comarca": "Porto Alegre",
+  "uf": "RS",
+  "ibge": 4314902,
+  "observacao": "Sede do TRF4 e da Seção Judiciária do RS. Feriados municipais e estadual conforme o calendário 2026 do TRF4 e da JFRS. As suspensões de 21, 22 e 28/09/2026 valeram para a Justiça Federal de 1º e 2º graus no Estado do RS.",
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2026
+  ],
+  "regras": [
+    {
+      "nome": "Data Magna do Estado (Revolução Farroupilha)",
+      "tipo": "feriado",
+      "quando": {
+        "dia": "09-20"
+      },
+      "fonte": "Decreto estadual 36.180/1995 (citado no calendário do TRF4); Constituição do RS, art. 6º, parágrafo único",
+      "url": "https://irga.rs.gov.br/upload/arquivos/202004/27151822-constituicao-estadual-rs-atualizada-ec-78.pdf"
+    },
+    {
+      "nome": "Nossa Senhora dos Navegantes e Iemanjá",
+      "tipo": "feriado",
+      "quando": {
+        "dia": "02-02"
+      },
+      "fonte": "Lei municipal de Porto Alegre 3.033/1967, art. 1º (redação da Lei 13.591/2023)",
+      "url": "https://legislacao.portoalegre.rs.gov.br/norma/15329"
+    },
+    {
+      "nome": "Corpus Christi",
+      "tipo": "feriado",
+      "quando": {
+        "pascoa": 60
+      },
+      "fonte": "Lei municipal de Porto Alegre 3.033/1967, art. 1º (redação da Lei 4.453/1978)",
+      "url": "https://legislacao.portoalegre.rs.gov.br/norma/15329"
+    }
+  ],
+  "datas": [
+    {
+      "data": "2026-02-02",
+      "nome": "Dia de Nossa Senhora dos Navegantes e Iemanjá",
+      "tipo": "feriado",
+      "fonte": "Lei municipal 13.591/2023; Calendário de Feriados 2026 da Justiça Federal da 4ª Região (Portaria TRF4 1.064/2022)",
+      "url": "https://www.trf4.jus.br/trf4/controlador.php?acao=calendario_feriados_listar&selOrgao=1"
+    },
+    {
+      "data": "2026-06-04",
+      "nome": "Corpus Christi",
+      "tipo": "feriado",
+      "fonte": "Lei municipal 4.453/1978; Calendário de Feriados 2026 da Justiça Federal da 4ª Região (Portaria TRF4 1.064/2022)",
+      "url": "https://www.trf4.jus.br/trf4/controlador.php?acao=calendario_feriados_listar&selOrgao=1"
+    },
+    {
+      "data": "2026-09-20",
+      "nome": "Data Magna do Estado",
+      "tipo": "feriado",
+      "fonte": "Decreto estadual 36.180/1995; Calendário de Feriados 2026 da Justiça Federal da 4ª Região (Portaria TRF4 1.064/2022)",
+      "url": "https://www.trf4.jus.br/trf4/controlador.php?acao=calendario_feriados_listar&selOrgao=2"
+    },
+    {
+      "data": "2026-09-21",
+      "nome": "Suspensão de prazos na JF do RS (temporais)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Portaria TRF4 825/2026",
+      "url": "https://www.trf4.jus.br/trf4/upload/editor/2026/mrc88_sei_8643189_portaria_825.pdf"
+    },
+    {
+      "data": "2026-09-22",
+      "nome": "Suspensão de prazos na JF do RS (temporais)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Portaria TRF4 829/2026",
+      "url": "https://www.trf4.jus.br/trf4/upload/editor/2026/mrc88_sei_8646457_portaria_829.pdf"
+    },
+    {
+      "data": "2026-09-28",
+      "nome": "Suspensão de prazos na JF do RS (temporais)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Portaria TRF4 840/2026",
+      "url": "https://www.trf4.jus.br/trf4/upload/editor/2026/rfs11_sei_8654523_portaria_840.pdf"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "$schema": "../../../../schema/feriados.schema.json",
+  "id": "TRT24/campo-grande",
+  "escopo": "comarca",
+  "tribunal": "TRT24",
+  "comarca": "Campo Grande",
+  "uf": "MS",
+  "ibge": 5002704,
+  "observacao": "Varas do Trabalho de Campo Grande (sede do TRT24).",
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2026
+  ],
+  "regras": [
+    {
+      "nome": "Santo Antônio, padroeiro de Campo Grande",
+      "tipo": "feriado",
+      "quando": {
+        "dia": "06-13"
+      },
+      "fonte": "Lei municipal de Campo Grande 3.901/2001 (citada no calendário do TRT24)",
+      "url": "https://www.trt24.jus.br/web/guest/calendario"
+    },
+    {
+      "nome": "Aniversário de Campo Grande",
+      "tipo": "feriado",
+      "quando": {
+        "dia": "08-26"
+      },
+      "fonte": "Lei municipal de Campo Grande 1.019/1967 (citada no calendário do TRT24)",
+      "url": "https://www.trt24.jus.br/web/guest/calendario"
+    },
+    {
+      "nome": "Corpus Christi",
+      "tipo": "feriado",
+      "quando": {
+        "pascoa": 60
+      },
+      "fonte": "Lei 9.093/1995, art. 2º, c/c Lei municipal de Campo Grande 1.019/1967 (citadas no calendário do TRT24)",
+      "url": "https://www.trt24.jus.br/web/guest/calendario"
+    }
+  ],
+  "datas": [
+    {
+      "data": "2026-06-13",
+      "nome": "Padroeiro de Campo Grande",
+      "tipo": "feriado",
+      "fonte": "Lei 3.901/2001; Calendário oficial TRT24 2026 - Portaria TRT/GP/SGJ 51/2025 e alterações",
+      "url": "https://www.trt24.jus.br/web/guest/calendario"
+    },
+    {
+      "data": "2026-08-26",
+      "nome": "Aniversário de Campo Grande",
+      "tipo": "feriado",
+      "fonte": "Lei 1.019/67; Calendário oficial TRT24 2026 - Portaria TRT/GP/SGJ 51/2025 e alterações",
+      "url": "https://www.trt24.jus.br/web/guest/calendario"
+    },
+    {
+      "data": "2026-09-10",
+      "nome": "Suspensão de prazos processuais e administrativos nas unidades de Campo Grande (suspensão das aulas na rede municipal)",
+      "tipo": "suspensao_prazos",
+      "fonte": "RA 97/2026",
+      "url": "https://www.trt24.jus.br/documents/20182/3304070/Resolucao-Administrativa-n-97.2026.pdf/8997ab69-0020-a7b4-178c-4e7183c27119?t=1791394534860"
+    },
+    {
+      "data": "2026-09-11",
+      "nome": "Suspensão de prazos processuais e administrativos nas unidades de Campo Grande (suspensão das aulas na rede municipal)",
+      "tipo": "suspensao_prazos",
+      "fonte": "RA 97/2026",
+      "url": "https://www.trt24.jus.br/documents/20182/3304070/Resolucao-Administrativa-n-97.2026.pdf/8997ab69-0020-a7b4-178c-4e7183c27119?t=1791394534860"
+    }
+  ]
+}

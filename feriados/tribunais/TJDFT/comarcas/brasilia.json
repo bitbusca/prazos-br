@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../../schema/feriados.schema.json",
+  "id": "TJDFT/brasilia",
+  "escopo": "comarca",
+  "tribunal": "TJDFT",
+  "comarca": "Brasília",
+  "uf": "DF",
+  "ibge": 5300108,
+  "observacao": "Circunscrição Judiciária de Brasília. O DF não tem municípios nem feriado municipal; os dias sem expediente são os do tribunal.json (Portaria Conjunta do TJDFT vale para todo o DF). O aniversário de Brasília (21/04) coincide com Tiradentes. O Dia do Evangélico (30/11) não suspende o expediente judicial (Portaria Conjunta 105/2025, art. 3º, só ofícios extrajudiciais).",
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2025,
+    2026
+  ],
+  "regras": [],
+  "datas": []
+}

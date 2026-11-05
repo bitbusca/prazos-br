@@ -1,0 +1,605 @@
+{
+  "$schema": "../../../schema/feriados.schema.json",
+  "id": "TRF6",
+  "escopo": "tribunal",
+  "nome": "Tribunal Regional Federal da 6ª Região (MG)",
+  "tribunal": "TRF6",
+  "uf": "MG",
+  "observacao": "Datas de 2025 e 2026 conferidas nas portarias anuais da Presidência (Portaria Presi 311/2024 consolidada, para 2025; Portaria Presi 1/2026, para 2026) e nos atos posteriores: Portaria Presi 73/2025 (Carnaval 2025), Portarias Conjuntas PRESI/COGER 3/2026 (Carnaval), 9/2026 e 10/2026 (Copa) e Decisão PRESI 309/2026 (sistemas fora do ar em 21/10/2026). Subseções = as do art. 2º da Portaria Presi 1/2026; só Belo Horizonte tem arquivo. Não cadastrado: feriados municipais do interior e suspensões locais (Juiz de Fora 24-27/02/2026, Viçosa 24-25/02/2026). A Decisão 309/2026 não foi lida no original (fonte: aviso oficial do TRF6); se houve prorrogação para 22/10/2026 não foi encontrada.",
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2025,
+    2026
+  ],
+  "comarcas": [
+    "Belo Horizonte",
+    "Divinópolis",
+    "Governador Valadares",
+    "Ipatinga",
+    "Ituiutaba",
+    "Janaúba",
+    "Juiz de Fora",
+    "Lavras",
+    "Manhuaçu",
+    "Montes Claros",
+    "Muriaé",
+    "Paracatu",
+    "Passos",
+    "Patos de Minas",
+    "Poços de Caldas",
+    "Ponte Nova",
+    "Pouso Alegre",
+    "São João del-Rei",
+    "São Sebastião do Paraíso",
+    "Sete Lagoas",
+    "Teófilo Otoni",
+    "Uberaba",
+    "Uberlândia",
+    "Unaí",
+    "Varginha",
+    "Viçosa"
+  ],
+  "regras": [],
+  "datas": [
+    {
+      "data": "2025-01-01",
+      "nome": "Confraternização Universal",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; Portaria Presi TRF6 311/2024 (consolidada, alterada pela 107/2025), art. 1º, I",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2025/04/PDF-0017096-41.2024.4.06.8000.pdf"
+    },
+    {
+      "data": "2025-01-02",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria Presi TRF6 311/2024 (consolidada, alterada pela 107/2025), art. 1º, I",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2025/04/PDF-0017096-41.2024.4.06.8000.pdf"
+    },
+    {
+      "data": "2025-01-03",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria Presi TRF6 311/2024 (consolidada, alterada pela 107/2025), art. 1º, I",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2025/04/PDF-0017096-41.2024.4.06.8000.pdf"
+    },
+    {
+      "data": "2025-01-04",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria Presi TRF6 311/2024 (consolidada, alterada pela 107/2025), art. 1º, I",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2025/04/PDF-0017096-41.2024.4.06.8000.pdf"
+    },
+    {
+      "data": "2025-01-05",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria Presi TRF6 311/2024 (consolidada, alterada pela 107/2025), art. 1º, I",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2025/04/PDF-0017096-41.2024.4.06.8000.pdf"
+    },
+    {
+      "data": "2025-01-06",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria Presi TRF6 311/2024 (consolidada, alterada pela 107/2025), art. 1º, I",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2025/04/PDF-0017096-41.2024.4.06.8000.pdf"
+    },
+    {
+      "data": "2025-03-03",
+      "nome": "Carnaval (segunda-feira)",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, III; Portaria Presi TRF6 311/2024 (consolidada, alterada pela 107/2025), art. 1º, II",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2025/04/PDF-0017096-41.2024.4.06.8000.pdf"
+    },
+    {
+      "data": "2025-03-04",
+      "nome": "Carnaval (terça-feira)",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, III; Portaria Presi TRF6 311/2024 (consolidada, alterada pela 107/2025), art. 1º, II",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2025/04/PDF-0017096-41.2024.4.06.8000.pdf"
+    },
+    {
+      "data": "2025-03-05",
+      "nome": "Quarta-feira de Cinzas: ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria Presi TRF6 73/2025, arts. 2º e 3º (altera o 'até as 14h' da Portaria Presi TRF6 311/2024 (consolidada, alterada pela 107/2025), art. 1º, III)",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2025/02/SEI_1137033_Portaria_Presi_73.pdf"
+    },
+    {
+      "data": "2025-04-16",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, II; Portaria Presi TRF6 311/2024 (consolidada, alterada pela 107/2025), art. 1º, IV",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2025/04/PDF-0017096-41.2024.4.06.8000.pdf"
+    },
+    {
+      "data": "2025-04-17",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, II; Portaria Presi TRF6 311/2024 (consolidada, alterada pela 107/2025), art. 1º, IV",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2025/04/PDF-0017096-41.2024.4.06.8000.pdf"
+    },
+    {
+      "data": "2025-04-18",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, II; Portaria Presi TRF6 311/2024 (consolidada, alterada pela 107/2025), art. 1º, IV",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2025/04/PDF-0017096-41.2024.4.06.8000.pdf"
+    },
+    {
+      "data": "2025-04-21",
+      "nome": "Tiradentes",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; Portaria Presi TRF6 311/2024 (consolidada, alterada pela 107/2025), art. 1º, V",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2025/04/PDF-0017096-41.2024.4.06.8000.pdf"
+    },
+    {
+      "data": "2025-05-01",
+      "nome": "Dia do Trabalho",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; Portaria Presi TRF6 311/2024 (consolidada, alterada pela 107/2025), art. 1º, VI",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2025/04/PDF-0017096-41.2024.4.06.8000.pdf"
+    },
+    {
+      "data": "2025-05-02",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria Presi TRF6 311/2024 (consolidada, alterada pela 107/2025), art. 1º, VI-A (Portaria Presi 107/2025)",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2025/04/PDF-0017096-41.2024.4.06.8000.pdf"
+    },
+    {
+      "data": "2025-06-19",
+      "nome": "Corpus Christi",
+      "tipo": "feriado",
+      "fonte": "Lei municipal de Belo Horizonte 11.397/2022; Portaria Presi TRF6 311/2024 (consolidada, alterada pela 107/2025), art. 1º, VII",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2025/04/PDF-0017096-41.2024.4.06.8000.pdf"
+    },
+    {
+      "data": "2025-06-20",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria MGI 9.783/2024; Portaria Presi TRF6 311/2024 (consolidada, alterada pela 107/2025), art. 1º, VIII",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2025/04/PDF-0017096-41.2024.4.06.8000.pdf"
+    },
+    {
+      "data": "2025-08-11",
+      "nome": "Criação dos cursos jurídicos",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, IV; Portaria Presi TRF6 311/2024 (consolidada, alterada pela 107/2025), art. 1º, IX",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2025/04/PDF-0017096-41.2024.4.06.8000.pdf"
+    },
+    {
+      "data": "2025-09-07",
+      "nome": "Independência do Brasil",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; Portaria Presi TRF6 311/2024 (consolidada, alterada pela 107/2025), art. 1º, X",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2025/04/PDF-0017096-41.2024.4.06.8000.pdf"
+    },
+    {
+      "data": "2025-10-12",
+      "nome": "Nossa Senhora Aparecida",
+      "tipo": "feriado",
+      "fonte": "Lei 9.093/1995; Portaria Presi TRF6 311/2024 (consolidada, alterada pela 107/2025), art. 1º, XI",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2025/04/PDF-0017096-41.2024.4.06.8000.pdf"
+    },
+    {
+      "data": "2025-10-31",
+      "nome": "Ponto facultativo (Dia do Servidor Público, transferido de 28/10)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Lei 8.112/1990, art. 236; Portaria Presi TRF6 311/2024 (consolidada, alterada pela 107/2025), art. 1º, XII",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2025/04/PDF-0017096-41.2024.4.06.8000.pdf"
+    },
+    {
+      "data": "2025-11-01",
+      "nome": "Todos os Santos",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, IV; Portaria Presi TRF6 311/2024 (consolidada, alterada pela 107/2025), art. 1º, XIII",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2025/04/PDF-0017096-41.2024.4.06.8000.pdf"
+    },
+    {
+      "data": "2025-11-02",
+      "nome": "Finados",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, IV; Portaria Presi TRF6 311/2024 (consolidada, alterada pela 107/2025), art. 1º, XIII",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2025/04/PDF-0017096-41.2024.4.06.8000.pdf"
+    },
+    {
+      "data": "2025-11-15",
+      "nome": "Proclamação da República",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; Portaria Presi TRF6 311/2024 (consolidada, alterada pela 107/2025), art. 1º, XIV",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2025/04/PDF-0017096-41.2024.4.06.8000.pdf"
+    },
+    {
+      "data": "2025-11-20",
+      "nome": "Dia Nacional de Zumbi e da Consciência Negra",
+      "tipo": "feriado",
+      "fonte": "Lei 14.759/2023; Portaria Presi TRF6 311/2024 (consolidada, alterada pela 107/2025), art. 1º, XV",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2025/04/PDF-0017096-41.2024.4.06.8000.pdf"
+    },
+    {
+      "data": "2025-11-21",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria Presi TRF6 311/2024 (consolidada, alterada pela 107/2025), art. 1º, XV-A (Portaria Presi 107/2025)",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2025/04/PDF-0017096-41.2024.4.06.8000.pdf"
+    },
+    {
+      "data": "2025-12-08",
+      "nome": "Dia da Justiça",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, IV; Portaria Presi TRF6 311/2024 (consolidada, alterada pela 107/2025), art. 1º, XVI",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2025/04/PDF-0017096-41.2024.4.06.8000.pdf"
+    },
+    {
+      "data": "2025-12-20",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria Presi TRF6 311/2024 (consolidada, alterada pela 107/2025), art. 1º, XVIII",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2025/04/PDF-0017096-41.2024.4.06.8000.pdf"
+    },
+    {
+      "data": "2025-12-21",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria Presi TRF6 311/2024 (consolidada, alterada pela 107/2025), art. 1º, XVIII",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2025/04/PDF-0017096-41.2024.4.06.8000.pdf"
+    },
+    {
+      "data": "2025-12-22",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria Presi TRF6 311/2024 (consolidada, alterada pela 107/2025), art. 1º, XVIII",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2025/04/PDF-0017096-41.2024.4.06.8000.pdf"
+    },
+    {
+      "data": "2025-12-23",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria Presi TRF6 311/2024 (consolidada, alterada pela 107/2025), art. 1º, XVIII",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2025/04/PDF-0017096-41.2024.4.06.8000.pdf"
+    },
+    {
+      "data": "2025-12-24",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria Presi TRF6 311/2024 (consolidada, alterada pela 107/2025), art. 1º, XVIII",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2025/04/PDF-0017096-41.2024.4.06.8000.pdf"
+    },
+    {
+      "data": "2025-12-25",
+      "nome": "Natal",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; Portaria Presi TRF6 311/2024 (consolidada, alterada pela 107/2025), art. 1º, XVII",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2025/04/PDF-0017096-41.2024.4.06.8000.pdf"
+    },
+    {
+      "data": "2025-12-26",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria Presi TRF6 311/2024 (consolidada, alterada pela 107/2025), art. 1º, XVIII",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2025/04/PDF-0017096-41.2024.4.06.8000.pdf"
+    },
+    {
+      "data": "2025-12-27",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria Presi TRF6 311/2024 (consolidada, alterada pela 107/2025), art. 1º, XVIII",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2025/04/PDF-0017096-41.2024.4.06.8000.pdf"
+    },
+    {
+      "data": "2025-12-28",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria Presi TRF6 311/2024 (consolidada, alterada pela 107/2025), art. 1º, XVIII",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2025/04/PDF-0017096-41.2024.4.06.8000.pdf"
+    },
+    {
+      "data": "2025-12-29",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria Presi TRF6 311/2024 (consolidada, alterada pela 107/2025), art. 1º, XVIII",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2025/04/PDF-0017096-41.2024.4.06.8000.pdf"
+    },
+    {
+      "data": "2025-12-30",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria Presi TRF6 311/2024 (consolidada, alterada pela 107/2025), art. 1º, XVIII",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2025/04/PDF-0017096-41.2024.4.06.8000.pdf"
+    },
+    {
+      "data": "2025-12-31",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria Presi TRF6 311/2024 (consolidada, alterada pela 107/2025), art. 1º, XVIII",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2025/04/PDF-0017096-41.2024.4.06.8000.pdf"
+    },
+    {
+      "data": "2026-01-01",
+      "nome": "Confraternização Universal",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; Portaria Presi TRF6 1/2026, art. 1º, I",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2026/01/SEI_1571312_Portaria_Presi_1.pdf"
+    },
+    {
+      "data": "2026-01-02",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria Presi TRF6 1/2026, art. 1º, I",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2026/01/SEI_1571312_Portaria_Presi_1.pdf"
+    },
+    {
+      "data": "2026-01-03",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria Presi TRF6 1/2026, art. 1º, I",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2026/01/SEI_1571312_Portaria_Presi_1.pdf"
+    },
+    {
+      "data": "2026-01-04",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria Presi TRF6 1/2026, art. 1º, I",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2026/01/SEI_1571312_Portaria_Presi_1.pdf"
+    },
+    {
+      "data": "2026-01-05",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria Presi TRF6 1/2026, art. 1º, I",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2026/01/SEI_1571312_Portaria_Presi_1.pdf"
+    },
+    {
+      "data": "2026-01-06",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria Presi TRF6 1/2026, art. 1º, I",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2026/01/SEI_1571312_Portaria_Presi_1.pdf"
+    },
+    {
+      "data": "2026-02-16",
+      "nome": "Carnaval (segunda-feira)",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, III; Portaria Presi TRF6 1/2026, art. 1º, II",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2026/01/SEI_1571312_Portaria_Presi_1.pdf"
+    },
+    {
+      "data": "2026-02-17",
+      "nome": "Carnaval (terça-feira)",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, III; Portaria Presi TRF6 1/2026, art. 1º, II",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2026/01/SEI_1571312_Portaria_Presi_1.pdf"
+    },
+    {
+      "data": "2026-02-18",
+      "nome": "Quarta-feira de Cinzas: ponto facultativo com suspensão do expediente e dos prazos",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria Conjunta PRESI/COGER TRF6 3/2026 (altera o 'até as 14h' da Portaria Presi TRF6 1/2026, art. 1º, III)",
+      "url": "https://portal.trf6.jus.br/trf6-suspende-expediente-presencial-na-sexta-feira-13-2-e-decreta-ponto-facultativo-na-quarta-feira-de-cinzas-18-2/"
+    },
+    {
+      "data": "2026-04-01",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, II; Portaria Presi TRF6 1/2026, art. 1º, IV",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2026/01/SEI_1571312_Portaria_Presi_1.pdf"
+    },
+    {
+      "data": "2026-04-02",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, II; Portaria Presi TRF6 1/2026, art. 1º, IV",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2026/01/SEI_1571312_Portaria_Presi_1.pdf"
+    },
+    {
+      "data": "2026-04-03",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, II; Portaria Presi TRF6 1/2026, art. 1º, IV",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2026/01/SEI_1571312_Portaria_Presi_1.pdf"
+    },
+    {
+      "data": "2026-04-20",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria CJF 813/2025, art. 1º, V; Portaria Presi TRF6 1/2026, art. 1º, V",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2026/01/SEI_1571312_Portaria_Presi_1.pdf"
+    },
+    {
+      "data": "2026-04-21",
+      "nome": "Tiradentes",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; Portaria Presi TRF6 1/2026, art. 1º, VI",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2026/01/SEI_1571312_Portaria_Presi_1.pdf"
+    },
+    {
+      "data": "2026-05-01",
+      "nome": "Dia do Trabalho",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; Portaria Presi TRF6 1/2026, art. 1º, VII",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2026/01/SEI_1571312_Portaria_Presi_1.pdf"
+    },
+    {
+      "data": "2026-06-04",
+      "nome": "Corpus Christi",
+      "tipo": "feriado",
+      "fonte": "Lei municipal de Belo Horizonte 11.397/2022; Portaria Presi TRF6 1/2026, art. 1º, VIII",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2026/01/SEI_1571312_Portaria_Presi_1.pdf"
+    },
+    {
+      "data": "2026-06-05",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria CJF 813/2025, art. 1º, IX; Portaria Presi TRF6 1/2026, art. 1º, IX",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2026/01/SEI_1571312_Portaria_Presi_1.pdf"
+    },
+    {
+      "data": "2026-06-24",
+      "nome": "Jogo da Seleção na Copa: expediente das 9h às 16h (prazo não começa nem vence)",
+      "tipo": "expediente_reduzido",
+      "fonte": "Portaria Conjunta PRESI/COGER TRF6 9/2026; CPC, art. 224, § 1º",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2026/06/SEI_1816465_Portaria_Conjunta_PRESI_COGER_9.pdf"
+    },
+    {
+      "data": "2026-06-29",
+      "nome": "Ponto facultativo (jogo da Seleção na Copa)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria Conjunta PRESI/COGER TRF6 10/2026",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2026/06/SEI_1825174_Portaria_Conjunta_PRESI_COGER_10.pdf"
+    },
+    {
+      "data": "2026-08-10",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria CJF 813/2025, art. 1º, X; Portaria Presi TRF6 1/2026, art. 1º, X",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2026/01/SEI_1571312_Portaria_Presi_1.pdf"
+    },
+    {
+      "data": "2026-08-11",
+      "nome": "Criação dos cursos jurídicos",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, IV; Portaria Presi TRF6 1/2026, art. 1º, XI",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2026/01/SEI_1571312_Portaria_Presi_1.pdf"
+    },
+    {
+      "data": "2026-09-07",
+      "nome": "Independência do Brasil",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; Portaria Presi TRF6 1/2026, art. 1º, XII",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2026/01/SEI_1571312_Portaria_Presi_1.pdf"
+    },
+    {
+      "data": "2026-10-12",
+      "nome": "Nossa Senhora Aparecida",
+      "tipo": "feriado",
+      "fonte": "Lei 6.802/1980; Portaria Presi TRF6 1/2026, art. 1º, XIII",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2026/01/SEI_1571312_Portaria_Presi_1.pdf"
+    },
+    {
+      "data": "2026-10-21",
+      "nome": "Suspensão do expediente em toda a 6ª Região (indisponibilidade do eproc e de outros sistemas)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Decisão PRESI TRF6 309/2026 (aviso oficial do TRF6)",
+      "url": "https://portal.trf6.jus.br/central-de-atendimento-informa-suspensao-do-expediente-nesta-quarta-feira-21-10/"
+    },
+    {
+      "data": "2026-10-30",
+      "nome": "Ponto facultativo (Dia do Servidor Público, transferido de 28/10)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Lei 8.112/1990, art. 236; Portaria Presi TRF6 1/2026, art. 1º, XIV",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2026/01/SEI_1571312_Portaria_Presi_1.pdf"
+    },
+    {
+      "data": "2026-11-02",
+      "nome": "Finados",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, IV; Portaria Presi TRF6 1/2026, art. 1º, XV",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2026/01/SEI_1571312_Portaria_Presi_1.pdf"
+    },
+    {
+      "data": "2026-11-20",
+      "nome": "Dia Nacional de Zumbi e da Consciência Negra",
+      "tipo": "feriado",
+      "fonte": "Lei 14.759/2023; Portaria Presi TRF6 1/2026, art. 1º, XVI",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2026/01/SEI_1571312_Portaria_Presi_1.pdf"
+    },
+    {
+      "data": "2026-12-07",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria CJF 813/2025, art. 1º, XVII; Portaria Presi TRF6 1/2026, art. 1º, XVII",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2026/01/SEI_1571312_Portaria_Presi_1.pdf"
+    },
+    {
+      "data": "2026-12-08",
+      "nome": "Dia da Justiça",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, IV; Portaria Presi TRF6 1/2026, art. 1º, XVIII",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2026/01/SEI_1571312_Portaria_Presi_1.pdf"
+    },
+    {
+      "data": "2026-12-20",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria Presi TRF6 1/2026, art. 1º, XX",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2026/01/SEI_1571312_Portaria_Presi_1.pdf"
+    },
+    {
+      "data": "2026-12-21",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria Presi TRF6 1/2026, art. 1º, XX",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2026/01/SEI_1571312_Portaria_Presi_1.pdf"
+    },
+    {
+      "data": "2026-12-22",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria Presi TRF6 1/2026, art. 1º, XX",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2026/01/SEI_1571312_Portaria_Presi_1.pdf"
+    },
+    {
+      "data": "2026-12-23",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria Presi TRF6 1/2026, art. 1º, XX",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2026/01/SEI_1571312_Portaria_Presi_1.pdf"
+    },
+    {
+      "data": "2026-12-24",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria Presi TRF6 1/2026, art. 1º, XX",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2026/01/SEI_1571312_Portaria_Presi_1.pdf"
+    },
+    {
+      "data": "2026-12-25",
+      "nome": "Natal",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; Portaria Presi TRF6 1/2026, art. 1º, XIX",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2026/01/SEI_1571312_Portaria_Presi_1.pdf"
+    },
+    {
+      "data": "2026-12-26",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria Presi TRF6 1/2026, art. 1º, XX",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2026/01/SEI_1571312_Portaria_Presi_1.pdf"
+    },
+    {
+      "data": "2026-12-27",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria Presi TRF6 1/2026, art. 1º, XX",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2026/01/SEI_1571312_Portaria_Presi_1.pdf"
+    },
+    {
+      "data": "2026-12-28",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria Presi TRF6 1/2026, art. 1º, XX",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2026/01/SEI_1571312_Portaria_Presi_1.pdf"
+    },
+    {
+      "data": "2026-12-29",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria Presi TRF6 1/2026, art. 1º, XX",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2026/01/SEI_1571312_Portaria_Presi_1.pdf"
+    },
+    {
+      "data": "2026-12-30",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria Presi TRF6 1/2026, art. 1º, XX",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2026/01/SEI_1571312_Portaria_Presi_1.pdf"
+    },
+    {
+      "data": "2026-12-31",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria Presi TRF6 1/2026, art. 1º, XX",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2026/01/SEI_1571312_Portaria_Presi_1.pdf"
+    }
+  ]
+}

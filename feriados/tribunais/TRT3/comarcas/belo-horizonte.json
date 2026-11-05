@@ -1,0 +1,95 @@
+{
+  "$schema": "../../../../schema/feriados.schema.json",
+  "id": "TRT3/belo-horizonte",
+  "escopo": "comarca",
+  "tribunal": "TRT3",
+  "comarca": "Belo Horizonte",
+  "uf": "MG",
+  "ibge": 3106200,
+  "observacao": "Varas do Trabalho de Belo Horizonte (sede do TRT3). Feriados religiosos municipais da Lei 11.397/2022, Anexo V, integrados ao calendário pela RA 142/2024 (2025) e RA 109/2025 (2026).",
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2025,
+    2026
+  ],
+  "regras": [
+    {
+      "nome": "Corpus Christi",
+      "tipo": "feriado",
+      "quando": {
+        "pascoa": 60
+      },
+      "fonte": "Lei municipal de Belo Horizonte 11.397/2022, art. 2º e Anexo V (antes Lei 1.327/1967) (citada na RA TRT3 109/2025)",
+      "url": "https://www.cmbh.mg.gov.br/atividade-legislativa/pesquisar-legislacao/lei/11397/2022"
+    },
+    {
+      "nome": "Assunção de Nossa Senhora",
+      "tipo": "feriado",
+      "quando": {
+        "dia": "08-15"
+      },
+      "fonte": "Lei municipal de Belo Horizonte 11.397/2022, art. 2º e Anexo V (antes Lei 1.327/1967) (citada na RA TRT3 109/2025)",
+      "url": "https://www.cmbh.mg.gov.br/atividade-legislativa/pesquisar-legislacao/lei/11397/2022"
+    },
+    {
+      "nome": "Imaculada Conceição",
+      "tipo": "feriado",
+      "quando": {
+        "dia": "12-08"
+      },
+      "fonte": "Lei municipal de Belo Horizonte 11.397/2022, art. 2º e Anexo V (antes Lei 1.327/1967) (citada na RA TRT3 109/2025)",
+      "url": "https://www.cmbh.mg.gov.br/atividade-legislativa/pesquisar-legislacao/lei/11397/2022"
+    }
+  ],
+  "datas": [
+    {
+      "data": "2025-06-19",
+      "nome": "Corpus Christi",
+      "tipo": "feriado",
+      "fonte": "Lei municipal de Belo Horizonte 11.397/2022, Anexo V; RA TRT3 142/2024 (calendário 2025)",
+      "url": "https://sistemas.trt3.jus.br/bd-trt3/bitstream/handle/11103/89803/RA%20TRT3_SETPOE%20142_2024%20ORIG.pdf?sequence=1&isAllowed=y"
+    },
+    {
+      "data": "2025-08-15",
+      "nome": "Assunção de Nossa Senhora",
+      "tipo": "feriado",
+      "fonte": "Lei municipal de Belo Horizonte 11.397/2022, Anexo V; RA TRT3 142/2024 (calendário 2025)",
+      "url": "https://sistemas.trt3.jus.br/bd-trt3/bitstream/handle/11103/89803/RA%20TRT3_SETPOE%20142_2024%20ORIG.pdf?sequence=1&isAllowed=y"
+    },
+    {
+      "data": "2025-12-08",
+      "nome": "Imaculada Conceição (também Dia da Justiça)",
+      "tipo": "feriado",
+      "fonte": "Lei municipal de Belo Horizonte 1.327/1967 / 11.397/2022, Anexo V; Feriados locais 2025 do TRT3 (Portaria TRT3/SEGP 1.136/2024)",
+      "url": "https://portal.trt3.jus.br/internet/institucional/calendario/feriados-locais-1/copy6_of_feriados-locais"
+    },
+    {
+      "data": "2026-06-04",
+      "nome": "Corpus Christi",
+      "tipo": "feriado",
+      "fonte": "Lei municipal de Belo Horizonte 11.397/2022, Anexo V; RA TRT3 109/2025 (calendário 2026), item II",
+      "url": "https://portal.trt3.jus.br/internet/conheca-o-trt/comunicacao/noticias-institucionais/downloads/resolucao-administrativa-n-109-de-12-de-agosto-de-2025.pdf"
+    },
+    {
+      "data": "2026-06-05",
+      "nome": "Suspensão de expediente (dia seguinte a Corpus Christi)",
+      "tipo": "ponto_facultativo",
+      "fonte": "RA TRT3 109/2025 (calendário 2026), item II; Anexo Único da Portaria TRT3/SEGP 991/2025",
+      "url": "https://portal.trt3.jus.br/internet/conheca-o-trt/comunicacao/noticias-institucionais/downloads/resolucao-administrativa-n-109-de-12-de-agosto-de-2025.pdf"
+    },
+    {
+      "data": "2026-08-15",
+      "nome": "Assunção de Nossa Senhora",
+      "tipo": "feriado",
+      "fonte": "Lei municipal de Belo Horizonte 11.397/2022, Anexo V; RA TRT3 109/2025 (calendário 2026), item II",
+      "url": "https://portal.trt3.jus.br/internet/conheca-o-trt/comunicacao/noticias-institucionais/downloads/resolucao-administrativa-n-109-de-12-de-agosto-de-2025.pdf"
+    },
+    {
+      "data": "2026-12-08",
+      "nome": "Imaculada Conceição (também Dia da Justiça)",
+      "tipo": "feriado",
+      "fonte": "Lei municipal de Belo Horizonte 11.397/2022, Anexo V; RA TRT3 109/2025 (calendário 2026), item II",
+      "url": "https://portal.trt3.jus.br/internet/conheca-o-trt/comunicacao/noticias-institucionais/downloads/resolucao-administrativa-n-109-de-12-de-agosto-de-2025.pdf"
+    }
+  ]
+}

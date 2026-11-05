@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/bitbusca/prazos-br/schema/catalogo.schema.json",
+  "title": "Catálogo de prazos processuais do prazos-br",
+  "type": "object",
+  "required": ["versao", "categorias", "prazos"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "versao": { "type": "string" },
+    "descricao": { "type": "string" },
+    "legenda": { "type": "object" },
+    "categorias": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "nome", "total"],
+        "properties": { "id": { "type": "string" }, "nome": { "type": "string" }, "total": { "type": "integer" } }
+      }
+    },
+    "prazos": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "categoria", "ato", "dias", "contagem", "conta", "quem", "ramo", "baseLegal"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+          "categoria": { "type": "string" },
+          "ato": { "type": "string" },
+          "dias": { "type": "integer", "minimum": 0 },
+          "contagem": { "enum": ["uteis", "corridos"] },
+          "conta": { "enum": ["da_intimacao", "antes_do_ato", "na_data"] },
+          "quem": { "enum": ["parte", "juizo"] },
+          "ramo": { "enum": ["civel", "trabalho", "juizado"] },
+          "baseLegal": { "type": "string" },
+          "prazoGenerico": { "type": "boolean" },
+          "unidadeNaLei": { "enum": ["meses", "anos"] },
+          "quantidadeNaLei": { "type": "integer" }
+        }
+      }
+    }
+  }
+}

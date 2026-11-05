@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/feriados.schema.json",
+  "id": "ramo/justica-trabalho",
+  "escopo": "ramo",
+  "nome": "Justiça do Trabalho (CLT)",
+  "aplicaA": ["TRT*", "TST"],
+  "observacao": "A suspensão de 20/12 a 20/01 da CLT coincide com a do CPC (arquivo nacional); fica aqui para o passo a passo citar a base trabalhista.",
+  "atualizadoEm": "2026-11-05",
+  "regras": [
+    {
+      "nome": "Suspensão dos prazos processuais de 20/12 a 20/01 (Justiça do Trabalho)",
+      "tipo": "suspensao_prazos",
+      "quando": { "de": "12-20", "ate": "01-20" },
+      "desde": 2018,
+      "fonte": "CLT, art. 775-A (incluído pela Lei 13.545/2017)",
+      "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm"
+    }
+  ]
+}

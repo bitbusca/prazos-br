@@ -1,0 +1,44 @@
+{
+  "$schema": "../../../../schema/feriados.schema.json",
+  "id": "TRT24/corumba",
+  "escopo": "comarca",
+  "tribunal": "TRT24",
+  "comarca": "Corumbá",
+  "uf": "MS",
+  "ibge": 5003207,
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2026
+  ],
+  "regras": [],
+  "datas": [
+    {
+      "data": "2026-02-02",
+      "nome": "Padroeiro de Corumbá",
+      "tipo": "feriado",
+      "fonte": "Lei 985/1987; Calendário oficial TRT24 2026 - Portaria TRT/GP/SGJ 51/2025 e alterações",
+      "url": "https://www.trt24.jus.br/web/guest/calendario"
+    },
+    {
+      "data": "2026-06-13",
+      "nome": "Retomada de Corumbá",
+      "tipo": "feriado",
+      "fonte": "Lei 985/1987; Calendário oficial TRT24 2026 - Portaria TRT/GP/SGJ 51/2025 e alterações",
+      "url": "https://www.trt24.jus.br/web/guest/calendario"
+    },
+    {
+      "data": "2026-09-21",
+      "nome": "Aniversário de Corumbá",
+      "tipo": "feriado",
+      "fonte": "Lei 985/1987; Calendário oficial TRT24 2026 - Portaria TRT/GP/SGJ 51/2025 e alterações",
+      "url": "https://www.trt24.jus.br/web/guest/calendario"
+    },
+    {
+      "data": "2026-11-20",
+      "nome": "Dia da Consciência Negra",
+      "tipo": "feriado",
+      "fonte": "Lei 2.084/2008; Calendário oficial TRT24 2026 - Portaria TRT/GP/SGJ 51/2025 e alterações",
+      "url": "https://www.trt24.jus.br/web/guest/calendario"
+    }
+  ]
+}

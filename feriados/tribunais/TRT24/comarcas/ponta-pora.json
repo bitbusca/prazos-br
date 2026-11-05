@@ -1,0 +1,30 @@
+{
+  "$schema": "../../../../schema/feriados.schema.json",
+  "id": "TRT24/ponta-pora",
+  "escopo": "comarca",
+  "tribunal": "TRT24",
+  "comarca": "Ponta Porã",
+  "uf": "MS",
+  "ibge": 5006606,
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2026
+  ],
+  "regras": [],
+  "datas": [
+    {
+      "data": "2026-03-19",
+      "nome": "Padroeiro de Ponta Porã",
+      "tipo": "feriado",
+      "fonte": "Lei 3.153/2000; Calendário oficial TRT24 2026 - Portaria TRT/GP/SGJ 51/2025 e alterações",
+      "url": "https://www.trt24.jus.br/web/guest/calendario"
+    },
+    {
+      "data": "2026-07-18",
+      "nome": "Aniversário de Ponta Porã",
+      "tipo": "feriado",
+      "fonte": "Lei 2.563/1989; Calendário oficial TRT24 2026 - Portaria TRT/GP/SGJ 51/2025 e alterações",
+      "url": "https://www.trt24.jus.br/web/guest/calendario"
+    }
+  ]
+}

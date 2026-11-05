@@ -1,0 +1,528 @@
+{
+  "$schema": "../../../schema/feriados.schema.json",
+  "id": "TJSP",
+  "escopo": "tribunal",
+  "nome": "Tribunal de Justiça do Estado de São Paulo",
+  "tribunal": "TJSP",
+  "uf": "SP",
+  "observacao": "Datas de 2025 e 2026 transcritas dos Provimentos CSM 2.765/2024 (2025, alterado pelo 2.804/2025) e 2.813/2025 (2026, alterado pelo 2.845/2026), que valem para o Foro Judicial de 1ª e 2ª instâncias de todo o Estado, e do Comunicado da Presidência 184/2026 (29/06/2026). Em 28/10/2025 e 28/10/2026 houve expediente normal (Dia do Servidor transferido). NÃO coberto: (1) 24/06/2026, dia de jogo do Brasil às 19h em que o Provimento CSM 2.832/2026 fixou expediente das 9h às 16h sem citar data nem o art. 224, § 1º, do CPC (confira antes de contar prazo que começa ou vence nesse dia); (2) as suspensões locais de expediente e de prazos por foro, vara ou comarca publicadas ao longo do ano (comunicados da Presidência/Corregedoria) e as indisponibilidades do sistema; (3) os feriados municipais das comarcas do interior (edital do CSM de 24/11/2025, Processo 2018/206016). A Lei estadual 9.497/1997 teve exceção em 2020 (Lei 17.264/2020 transferiu o 9 de julho para 25/05).",
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2025,
+    2026
+  ],
+  "comarcas": [
+    "São Paulo"
+  ],
+  "regras": [
+    {
+      "nome": "Data Magna do Estado de São Paulo",
+      "tipo": "feriado",
+      "quando": {
+        "dia": "07-09"
+      },
+      "desde": 1997,
+      "fonte": "Lei estadual 9.497/1997, art. 1º",
+      "url": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1997/lei-9497-05.03.1997.html"
+    }
+  ],
+  "datas": [
+    {
+      "data": "2025-01-01",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Provimento CSM 2.765/2024 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/222439"
+    },
+    {
+      "data": "2025-01-02",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Provimento CSM 2.765/2024 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/222439"
+    },
+    {
+      "data": "2025-01-03",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Provimento CSM 2.765/2024 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/222439"
+    },
+    {
+      "data": "2025-01-04",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Provimento CSM 2.765/2024 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/222439"
+    },
+    {
+      "data": "2025-01-05",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Provimento CSM 2.765/2024 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/222439"
+    },
+    {
+      "data": "2025-01-06",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Provimento CSM 2.765/2024 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/222439"
+    },
+    {
+      "data": "2025-03-03",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Provimento CSM 2.765/2024 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/222439"
+    },
+    {
+      "data": "2025-03-04",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Provimento CSM 2.765/2024 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/222439"
+    },
+    {
+      "data": "2025-03-05",
+      "nome": "Quarta-feira de Cinzas (atendimento a partir das 13h)",
+      "tipo": "expediente_reduzido",
+      "fonte": "Provimento CSM 2.765/2024 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/222439"
+    },
+    {
+      "data": "2025-04-17",
+      "nome": "Endoenças",
+      "tipo": "feriado",
+      "fonte": "Provimento CSM 2.765/2024 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/222439"
+    },
+    {
+      "data": "2025-04-18",
+      "nome": "Paixão",
+      "tipo": "feriado",
+      "fonte": "Provimento CSM 2.765/2024 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/222439"
+    },
+    {
+      "data": "2025-04-21",
+      "nome": "Tiradentes",
+      "tipo": "feriado",
+      "fonte": "Provimento CSM 2.765/2024 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/222439"
+    },
+    {
+      "data": "2025-05-01",
+      "nome": "Dia do Trabalho",
+      "tipo": "feriado",
+      "fonte": "Provimento CSM 2.765/2024 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/222439"
+    },
+    {
+      "data": "2025-05-02",
+      "nome": "Suspensão do expediente",
+      "tipo": "ponto_facultativo",
+      "fonte": "Provimento CSM 2.765/2024 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/222439"
+    },
+    {
+      "data": "2025-06-19",
+      "nome": "Corpus Christi",
+      "tipo": "feriado",
+      "fonte": "Provimento CSM 2.765/2024 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/222439"
+    },
+    {
+      "data": "2025-06-20",
+      "nome": "Suspensão do expediente",
+      "tipo": "ponto_facultativo",
+      "fonte": "Provimento CSM 2.765/2024 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/222439"
+    },
+    {
+      "data": "2025-07-09",
+      "nome": "Data Magna do Estado de São Paulo",
+      "tipo": "feriado",
+      "fonte": "Provimento CSM 2.765/2024 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/222439"
+    },
+    {
+      "data": "2025-10-27",
+      "nome": "Dia do Servidor Público (transferido de 28/10)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Provimento CSM 2.804/2025 (TJSP), que altera o Provimento CSM 2.765/2024",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/233664"
+    },
+    {
+      "data": "2025-11-20",
+      "nome": "Dia Nacional de Zumbi e da Consciência Negra",
+      "tipo": "feriado",
+      "fonte": "Provimento CSM 2.765/2024 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/222439"
+    },
+    {
+      "data": "2025-11-21",
+      "nome": "Suspensão do expediente",
+      "tipo": "ponto_facultativo",
+      "fonte": "Provimento CSM 2.765/2024 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/222439"
+    },
+    {
+      "data": "2025-12-08",
+      "nome": "Dia da Justiça",
+      "tipo": "feriado",
+      "fonte": "Provimento CSM 2.765/2024 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/222439"
+    },
+    {
+      "data": "2025-12-20",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Provimento CSM 2.765/2024 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/222439"
+    },
+    {
+      "data": "2025-12-21",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Provimento CSM 2.765/2024 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/222439"
+    },
+    {
+      "data": "2025-12-22",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Provimento CSM 2.765/2024 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/222439"
+    },
+    {
+      "data": "2025-12-23",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Provimento CSM 2.765/2024 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/222439"
+    },
+    {
+      "data": "2025-12-24",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Provimento CSM 2.765/2024 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/222439"
+    },
+    {
+      "data": "2025-12-25",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Provimento CSM 2.765/2024 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/222439"
+    },
+    {
+      "data": "2025-12-26",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Provimento CSM 2.765/2024 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/222439"
+    },
+    {
+      "data": "2025-12-27",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Provimento CSM 2.765/2024 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/222439"
+    },
+    {
+      "data": "2025-12-28",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Provimento CSM 2.765/2024 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/222439"
+    },
+    {
+      "data": "2025-12-29",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Provimento CSM 2.765/2024 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/222439"
+    },
+    {
+      "data": "2025-12-30",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Provimento CSM 2.765/2024 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/222439"
+    },
+    {
+      "data": "2025-12-31",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Provimento CSM 2.765/2024 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/222439"
+    },
+    {
+      "data": "2026-01-01",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Provimento CSM 2.813/2025 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/236794"
+    },
+    {
+      "data": "2026-01-02",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Provimento CSM 2.813/2025 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/236794"
+    },
+    {
+      "data": "2026-01-03",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Provimento CSM 2.813/2025 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/236794"
+    },
+    {
+      "data": "2026-01-04",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Provimento CSM 2.813/2025 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/236794"
+    },
+    {
+      "data": "2026-01-05",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Provimento CSM 2.813/2025 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/236794"
+    },
+    {
+      "data": "2026-01-06",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Provimento CSM 2.813/2025 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/236794"
+    },
+    {
+      "data": "2026-02-16",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Provimento CSM 2.813/2025 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/236794"
+    },
+    {
+      "data": "2026-02-17",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Provimento CSM 2.813/2025 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/236794"
+    },
+    {
+      "data": "2026-02-18",
+      "nome": "Quarta-feira de Cinzas (atendimento a partir das 13h)",
+      "tipo": "expediente_reduzido",
+      "fonte": "Provimento CSM 2.813/2025 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/236794"
+    },
+    {
+      "data": "2026-04-02",
+      "nome": "Endoenças",
+      "tipo": "feriado",
+      "fonte": "Provimento CSM 2.813/2025 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/236794"
+    },
+    {
+      "data": "2026-04-03",
+      "nome": "Sexta-feira da Paixão",
+      "tipo": "feriado",
+      "fonte": "Provimento CSM 2.813/2025 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/236794"
+    },
+    {
+      "data": "2026-04-20",
+      "nome": "Suspensão do expediente",
+      "tipo": "ponto_facultativo",
+      "fonte": "Provimento CSM 2.813/2025 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/236794"
+    },
+    {
+      "data": "2026-04-21",
+      "nome": "Tiradentes",
+      "tipo": "feriado",
+      "fonte": "Provimento CSM 2.813/2025 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/236794"
+    },
+    {
+      "data": "2026-05-01",
+      "nome": "Dia do Trabalho",
+      "tipo": "feriado",
+      "fonte": "Provimento CSM 2.813/2025 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/236794"
+    },
+    {
+      "data": "2026-06-04",
+      "nome": "Corpus Christi",
+      "tipo": "feriado",
+      "fonte": "Provimento CSM 2.813/2025 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/236794"
+    },
+    {
+      "data": "2026-06-05",
+      "nome": "Suspensão do expediente",
+      "tipo": "ponto_facultativo",
+      "fonte": "Provimento CSM 2.813/2025 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/236794"
+    },
+    {
+      "data": "2026-06-29",
+      "nome": "Jogo do Brasil na Copa do Mundo: expediente remoto das 8h às 13h",
+      "tipo": "expediente_reduzido",
+      "fonte": "Comunicado da Presidência 184/2026 (TJSP): expediente remoto das 8h às 13h; processos digitais pelo art. 224, § 1º, do CPC; prazos dos processos físicos suspensos",
+      "url": "https://www.tjsp.jus.br/Noticias/Noticia?codigoNoticia=114629"
+    },
+    {
+      "data": "2026-07-09",
+      "nome": "Data Magna do Estado de São Paulo",
+      "tipo": "feriado",
+      "fonte": "Provimento CSM 2.813/2025 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/236794"
+    },
+    {
+      "data": "2026-07-10",
+      "nome": "Suspensão do expediente",
+      "tipo": "ponto_facultativo",
+      "fonte": "Provimento CSM 2.813/2025 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/236794"
+    },
+    {
+      "data": "2026-09-07",
+      "nome": "Independência do Brasil",
+      "tipo": "feriado",
+      "fonte": "Provimento CSM 2.813/2025 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/236794"
+    },
+    {
+      "data": "2026-10-12",
+      "nome": "Nossa Senhora Aparecida",
+      "tipo": "feriado",
+      "fonte": "Provimento CSM 2.813/2025 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/236794"
+    },
+    {
+      "data": "2026-10-30",
+      "nome": "Dia do Servidor Público (transferido de 28/10)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Provimento CSM 2.845/2026 (TJSP), que altera o Provimento CSM 2.813/2025",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/246161"
+    },
+    {
+      "data": "2026-11-02",
+      "nome": "Finados",
+      "tipo": "feriado",
+      "fonte": "Provimento CSM 2.813/2025 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/236794"
+    },
+    {
+      "data": "2026-11-20",
+      "nome": "Dia Nacional de Zumbi e da Consciência Negra",
+      "tipo": "feriado",
+      "fonte": "Provimento CSM 2.813/2025 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/236794"
+    },
+    {
+      "data": "2026-12-07",
+      "nome": "Suspensão do expediente",
+      "tipo": "ponto_facultativo",
+      "fonte": "Provimento CSM 2.813/2025 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/236794"
+    },
+    {
+      "data": "2026-12-08",
+      "nome": "Dia da Justiça",
+      "tipo": "feriado",
+      "fonte": "Provimento CSM 2.813/2025 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/236794"
+    },
+    {
+      "data": "2026-12-20",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Provimento CSM 2.813/2025 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/236794"
+    },
+    {
+      "data": "2026-12-21",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Provimento CSM 2.813/2025 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/236794"
+    },
+    {
+      "data": "2026-12-22",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Provimento CSM 2.813/2025 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/236794"
+    },
+    {
+      "data": "2026-12-23",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Provimento CSM 2.813/2025 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/236794"
+    },
+    {
+      "data": "2026-12-24",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Provimento CSM 2.813/2025 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/236794"
+    },
+    {
+      "data": "2026-12-25",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Provimento CSM 2.813/2025 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/236794"
+    },
+    {
+      "data": "2026-12-26",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Provimento CSM 2.813/2025 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/236794"
+    },
+    {
+      "data": "2026-12-27",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Provimento CSM 2.813/2025 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/236794"
+    },
+    {
+      "data": "2026-12-28",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Provimento CSM 2.813/2025 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/236794"
+    },
+    {
+      "data": "2026-12-29",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Provimento CSM 2.813/2025 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/236794"
+    },
+    {
+      "data": "2026-12-30",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Provimento CSM 2.813/2025 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/236794"
+    },
+    {
+      "data": "2026-12-31",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Provimento CSM 2.813/2025 (TJSP)",
+      "url": "https://esaj.tjsp.jus.br/gcn-frontend-vue/legislacao/find/236794"
+    }
+  ]
+}

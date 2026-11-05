@@ -1,0 +1,734 @@
+{
+  "$schema": "../../../schema/feriados.schema.json",
+  "id": "TJDFT",
+  "escopo": "tribunal",
+  "nome": "Tribunal de Justiça do Distrito Federal e dos Territórios",
+  "tribunal": "TJDFT",
+  "uf": "DF",
+  "observacao": "Datas de 2025 (Portaria Conjunta 1/2025) e 2026 (Portaria Conjunta 105/2025, Portarias Conjuntas 48 e 53/2026 e a página oficial 'Feriados e expedientes suspensos'). Regras permanentes: Lei 11.697/2008 (LOJDFT), art. 60. O DF não tem municípios: o calendário vale em todas as circunscrições. O Dia do Evangélico (30/11, feriado distrital) só aparece na Portaria Conjunta 105/2025 para os ofícios extrajudiciais (art. 3º); nos ofícios judiciais há expediente, por isso não entra. Não cobertos: suspensões só do atendimento presencial de uma unidade (os prazos correm) e o funcionamento do NAC.",
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2025,
+    2026
+  ],
+  "comarcas": [
+    "Brasília"
+  ],
+  "regras": [
+    {
+      "nome": "Feriado forense de 20/12 a 06/01 (prazos suspensos)",
+      "tipo": "recesso",
+      "quando": {
+        "de": "12-20",
+        "ate": "01-06"
+      },
+      "fonte": "Lei 11.697/2008, art. 60, caput e § 2º",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/lei/l11697.htm"
+    },
+    {
+      "nome": "Carnaval (segunda-feira)",
+      "tipo": "feriado",
+      "quando": {
+        "pascoa": -48
+      },
+      "fonte": "Lei 11.697/2008, art. 60, § 3º, II",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/lei/l11697.htm"
+    },
+    {
+      "nome": "Carnaval (terça-feira)",
+      "tipo": "feriado",
+      "quando": {
+        "pascoa": -47
+      },
+      "fonte": "Lei 11.697/2008, art. 60, § 3º, II",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/lei/l11697.htm"
+    },
+    {
+      "nome": "Quarta-feira de Cinzas",
+      "tipo": "feriado",
+      "quando": {
+        "pascoa": -46
+      },
+      "fonte": "Lei 11.697/2008, art. 60, § 3º, II",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/lei/l11697.htm"
+    },
+    {
+      "nome": "Semana Santa (quarta-feira)",
+      "tipo": "feriado",
+      "quando": {
+        "pascoa": -4
+      },
+      "fonte": "Lei 11.697/2008, art. 60, § 3º, I",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/lei/l11697.htm"
+    },
+    {
+      "nome": "Semana Santa (quinta-feira)",
+      "tipo": "feriado",
+      "quando": {
+        "pascoa": -3
+      },
+      "fonte": "Lei 11.697/2008, art. 60, § 3º, I",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/lei/l11697.htm"
+    },
+    {
+      "nome": "Semana Santa (sexta-feira)",
+      "tipo": "feriado",
+      "quando": {
+        "pascoa": -2
+      },
+      "fonte": "Lei 11.697/2008, art. 60, § 3º, I",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/lei/l11697.htm"
+    },
+    {
+      "nome": "Semana Santa (sábado)",
+      "tipo": "feriado",
+      "quando": {
+        "pascoa": -1
+      },
+      "fonte": "Lei 11.697/2008, art. 60, § 3º, I",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/lei/l11697.htm"
+    },
+    {
+      "nome": "Domingo de Páscoa",
+      "tipo": "feriado",
+      "quando": {
+        "pascoa": 0
+      },
+      "fonte": "Lei 11.697/2008, art. 60, § 3º, I",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/lei/l11697.htm"
+    },
+    {
+      "nome": "Criação dos cursos jurídicos",
+      "tipo": "feriado",
+      "quando": {
+        "dia": "08-11"
+      },
+      "fonte": "Lei 11.697/2008, art. 60, § 3º, III",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/lei/l11697.htm"
+    },
+    {
+      "nome": "Todos os Santos",
+      "tipo": "feriado",
+      "quando": {
+        "dia": "11-01"
+      },
+      "fonte": "Lei 11.697/2008, art. 60, § 3º, III",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/lei/l11697.htm"
+    },
+    {
+      "nome": "Finados",
+      "tipo": "feriado",
+      "quando": {
+        "dia": "11-02"
+      },
+      "fonte": "Lei 11.697/2008, art. 60, § 3º, III",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/lei/l11697.htm"
+    },
+    {
+      "nome": "Dia da Justiça",
+      "tipo": "feriado",
+      "quando": {
+        "dia": "12-08"
+      },
+      "fonte": "Lei 11.697/2008, art. 60, § 3º, III",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/lei/l11697.htm"
+    }
+  ],
+  "datas": [
+    {
+      "data": "2025-01-01",
+      "nome": "Confraternização Universal",
+      "tipo": "feriado",
+      "fonte": "Portaria Conjunta 1/2025 (TJDFT); Lei 662/1949",
+      "url": "https://www.tjdft.jus.br/institucional/imprensa/noticias/imagens-e-arquivos-2025/dje.pdf"
+    },
+    {
+      "data": "2025-01-02",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 11.697/2008, art. 60",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/lei/l11697.htm"
+    },
+    {
+      "data": "2025-01-03",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 11.697/2008, art. 60",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/lei/l11697.htm"
+    },
+    {
+      "data": "2025-01-04",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 11.697/2008, art. 60",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/lei/l11697.htm"
+    },
+    {
+      "data": "2025-01-05",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 11.697/2008, art. 60",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/lei/l11697.htm"
+    },
+    {
+      "data": "2025-01-06",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 11.697/2008, art. 60",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/lei/l11697.htm"
+    },
+    {
+      "data": "2025-03-03",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Portaria Conjunta 1/2025 (TJDFT); Lei 11.697/2008, art. 60",
+      "url": "https://www.tjdft.jus.br/institucional/imprensa/noticias/imagens-e-arquivos-2025/dje.pdf"
+    },
+    {
+      "data": "2025-03-04",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Portaria Conjunta 1/2025 (TJDFT); Lei 11.697/2008, art. 60",
+      "url": "https://www.tjdft.jus.br/institucional/imprensa/noticias/imagens-e-arquivos-2025/dje.pdf"
+    },
+    {
+      "data": "2025-03-05",
+      "nome": "Quarta-feira de Cinzas",
+      "tipo": "feriado",
+      "fonte": "Portaria Conjunta 1/2025 (TJDFT); Lei 11.697/2008, art. 60",
+      "url": "https://www.tjdft.jus.br/institucional/imprensa/noticias/imagens-e-arquivos-2025/dje.pdf"
+    },
+    {
+      "data": "2025-04-16",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Portaria Conjunta 1/2025 (TJDFT); Lei 11.697/2008, art. 60",
+      "url": "https://www.tjdft.jus.br/institucional/imprensa/noticias/imagens-e-arquivos-2025/dje.pdf"
+    },
+    {
+      "data": "2025-04-17",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Portaria Conjunta 1/2025 (TJDFT); Lei 11.697/2008, art. 60",
+      "url": "https://www.tjdft.jus.br/institucional/imprensa/noticias/imagens-e-arquivos-2025/dje.pdf"
+    },
+    {
+      "data": "2025-04-18",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Portaria Conjunta 1/2025 (TJDFT); Lei 11.697/2008, art. 60",
+      "url": "https://www.tjdft.jus.br/institucional/imprensa/noticias/imagens-e-arquivos-2025/dje.pdf"
+    },
+    {
+      "data": "2025-04-19",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Portaria Conjunta 1/2025 (TJDFT); Lei 11.697/2008, art. 60",
+      "url": "https://www.tjdft.jus.br/institucional/imprensa/noticias/imagens-e-arquivos-2025/dje.pdf"
+    },
+    {
+      "data": "2025-04-20",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Portaria Conjunta 1/2025 (TJDFT); Lei 11.697/2008, art. 60",
+      "url": "https://www.tjdft.jus.br/institucional/imprensa/noticias/imagens-e-arquivos-2025/dje.pdf"
+    },
+    {
+      "data": "2025-04-21",
+      "nome": "Tiradentes",
+      "tipo": "feriado",
+      "fonte": "Portaria Conjunta 1/2025 (TJDFT); Lei 662/1949",
+      "url": "https://www.tjdft.jus.br/institucional/imprensa/noticias/imagens-e-arquivos-2025/dje.pdf"
+    },
+    {
+      "data": "2025-05-01",
+      "nome": "Dia do Trabalho",
+      "tipo": "feriado",
+      "fonte": "Portaria Conjunta 1/2025 (TJDFT); Lei 662/1949",
+      "url": "https://www.tjdft.jus.br/institucional/imprensa/noticias/imagens-e-arquivos-2025/dje.pdf"
+    },
+    {
+      "data": "2025-05-02",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria Conjunta 1/2025 (TJDFT)",
+      "url": "https://www.tjdft.jus.br/institucional/imprensa/noticias/imagens-e-arquivos-2025/dje.pdf"
+    },
+    {
+      "data": "2025-06-19",
+      "nome": "Ponto facultativo (Corpus Christi)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria Conjunta 1/2025 (TJDFT)",
+      "url": "https://www.tjdft.jus.br/institucional/imprensa/noticias/imagens-e-arquivos-2025/dje.pdf"
+    },
+    {
+      "data": "2025-06-20",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria Conjunta 1/2025 (TJDFT)",
+      "url": "https://www.tjdft.jus.br/institucional/imprensa/noticias/imagens-e-arquivos-2025/dje.pdf"
+    },
+    {
+      "data": "2025-08-11",
+      "nome": "Feriado forense (criação dos cursos jurídicos)",
+      "tipo": "feriado",
+      "fonte": "Portaria Conjunta 1/2025 (TJDFT); Lei 11.697/2008, art. 60",
+      "url": "https://www.tjdft.jus.br/institucional/imprensa/noticias/imagens-e-arquivos-2025/dje.pdf"
+    },
+    {
+      "data": "2025-09-07",
+      "nome": "Independência do Brasil",
+      "tipo": "feriado",
+      "fonte": "Portaria Conjunta 1/2025 (TJDFT); Lei 662/1949",
+      "url": "https://www.tjdft.jus.br/institucional/imprensa/noticias/imagens-e-arquivos-2025/dje.pdf"
+    },
+    {
+      "data": "2025-10-12",
+      "nome": "Nossa Senhora Aparecida",
+      "tipo": "feriado",
+      "fonte": "Portaria Conjunta 1/2025 (TJDFT); Lei 6.802/1980",
+      "url": "https://www.tjdft.jus.br/institucional/imprensa/noticias/imagens-e-arquivos-2025/dje.pdf"
+    },
+    {
+      "data": "2025-10-31",
+      "nome": "Dia do Servidor Público (transferido de 28/10)",
+      "tipo": "feriado",
+      "fonte": "Portaria Conjunta 1/2025 (TJDFT); Lei 8.112/1990, art. 236",
+      "url": "https://www.tjdft.jus.br/institucional/imprensa/noticias/imagens-e-arquivos-2025/dje.pdf"
+    },
+    {
+      "data": "2025-11-01",
+      "nome": "Feriado forense (Todos os Santos)",
+      "tipo": "feriado",
+      "fonte": "Portaria Conjunta 1/2025 (TJDFT); Lei 11.697/2008, art. 60",
+      "url": "https://www.tjdft.jus.br/institucional/imprensa/noticias/imagens-e-arquivos-2025/dje.pdf"
+    },
+    {
+      "data": "2025-11-02",
+      "nome": "Finados",
+      "tipo": "feriado",
+      "fonte": "Portaria Conjunta 1/2025 (TJDFT); Lei 11.697/2008, art. 60",
+      "url": "https://www.tjdft.jus.br/institucional/imprensa/noticias/imagens-e-arquivos-2025/dje.pdf"
+    },
+    {
+      "data": "2025-11-15",
+      "nome": "Proclamação da República",
+      "tipo": "feriado",
+      "fonte": "Portaria Conjunta 1/2025 (TJDFT); Lei 662/1949",
+      "url": "https://www.tjdft.jus.br/institucional/imprensa/noticias/imagens-e-arquivos-2025/dje.pdf"
+    },
+    {
+      "data": "2025-11-20",
+      "nome": "Dia Nacional de Zumbi e da Consciência Negra",
+      "tipo": "feriado",
+      "fonte": "Portaria Conjunta 1/2025 (TJDFT); Lei 14.759/2023",
+      "url": "https://www.tjdft.jus.br/institucional/imprensa/noticias/imagens-e-arquivos-2025/dje.pdf"
+    },
+    {
+      "data": "2025-11-21",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria Conjunta 1/2025 (TJDFT)",
+      "url": "https://www.tjdft.jus.br/institucional/imprensa/noticias/imagens-e-arquivos-2025/dje.pdf"
+    },
+    {
+      "data": "2025-12-08",
+      "nome": "Dia da Justiça",
+      "tipo": "feriado",
+      "fonte": "Portaria Conjunta 1/2025 (TJDFT); Lei 11.697/2008, art. 60",
+      "url": "https://www.tjdft.jus.br/institucional/imprensa/noticias/imagens-e-arquivos-2025/dje.pdf"
+    },
+    {
+      "data": "2025-12-20",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 11.697/2008, art. 60",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/lei/l11697.htm"
+    },
+    {
+      "data": "2025-12-21",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 11.697/2008, art. 60",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/lei/l11697.htm"
+    },
+    {
+      "data": "2025-12-22",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 11.697/2008, art. 60",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/lei/l11697.htm"
+    },
+    {
+      "data": "2025-12-23",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 11.697/2008, art. 60",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/lei/l11697.htm"
+    },
+    {
+      "data": "2025-12-24",
+      "nome": "Véspera de Natal",
+      "tipo": "feriado",
+      "fonte": "Portaria Conjunta 1/2025 (TJDFT)",
+      "url": "https://www.tjdft.jus.br/institucional/imprensa/noticias/imagens-e-arquivos-2025/dje.pdf"
+    },
+    {
+      "data": "2025-12-25",
+      "nome": "Natal",
+      "tipo": "feriado",
+      "fonte": "Portaria Conjunta 1/2025 (TJDFT); Lei 662/1949",
+      "url": "https://www.tjdft.jus.br/institucional/imprensa/noticias/imagens-e-arquivos-2025/dje.pdf"
+    },
+    {
+      "data": "2025-12-26",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 11.697/2008, art. 60",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/lei/l11697.htm"
+    },
+    {
+      "data": "2025-12-27",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 11.697/2008, art. 60",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/lei/l11697.htm"
+    },
+    {
+      "data": "2025-12-28",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 11.697/2008, art. 60",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/lei/l11697.htm"
+    },
+    {
+      "data": "2025-12-29",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 11.697/2008, art. 60",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/lei/l11697.htm"
+    },
+    {
+      "data": "2025-12-30",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 11.697/2008, art. 60",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/lei/l11697.htm"
+    },
+    {
+      "data": "2025-12-31",
+      "nome": "Véspera de Ano-Novo",
+      "tipo": "feriado",
+      "fonte": "Portaria Conjunta 1/2025 (TJDFT)",
+      "url": "https://www.tjdft.jus.br/institucional/imprensa/noticias/imagens-e-arquivos-2025/dje.pdf"
+    },
+    {
+      "data": "2026-01-01",
+      "nome": "Confraternização Universal",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; página oficial de feriados do TJDFT",
+      "url": "https://www.tjdft.jus.br/feriados-e-expedientes-suspensos"
+    },
+    {
+      "data": "2026-01-02",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 11.697/2008, art. 60; página oficial de feriados do TJDFT",
+      "url": "https://www.tjdft.jus.br/feriados-e-expedientes-suspensos"
+    },
+    {
+      "data": "2026-01-03",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 11.697/2008, art. 60; página oficial de feriados do TJDFT",
+      "url": "https://www.tjdft.jus.br/feriados-e-expedientes-suspensos"
+    },
+    {
+      "data": "2026-01-04",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 11.697/2008, art. 60; página oficial de feriados do TJDFT",
+      "url": "https://www.tjdft.jus.br/feriados-e-expedientes-suspensos"
+    },
+    {
+      "data": "2026-01-05",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 11.697/2008, art. 60; página oficial de feriados do TJDFT",
+      "url": "https://www.tjdft.jus.br/feriados-e-expedientes-suspensos"
+    },
+    {
+      "data": "2026-01-06",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 11.697/2008, art. 60; página oficial de feriados do TJDFT",
+      "url": "https://www.tjdft.jus.br/feriados-e-expedientes-suspensos"
+    },
+    {
+      "data": "2026-02-16",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Portaria Conjunta 105/2025 (TJDFT); Lei 11.697/2008, art. 60",
+      "url": "https://sei.tjdft.jus.br/sei/publicacoes/controlador_publicacoes.php?acao=publicacao_visualizar&id_orgao_publicacao=0&id_documento=5146952"
+    },
+    {
+      "data": "2026-02-17",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Portaria Conjunta 105/2025 (TJDFT); Lei 11.697/2008, art. 60",
+      "url": "https://sei.tjdft.jus.br/sei/publicacoes/controlador_publicacoes.php?acao=publicacao_visualizar&id_orgao_publicacao=0&id_documento=5146952"
+    },
+    {
+      "data": "2026-02-18",
+      "nome": "Quarta-feira de Cinzas",
+      "tipo": "feriado",
+      "fonte": "Portaria Conjunta 105/2025 (TJDFT); Lei 11.697/2008, art. 60",
+      "url": "https://sei.tjdft.jus.br/sei/publicacoes/controlador_publicacoes.php?acao=publicacao_visualizar&id_orgao_publicacao=0&id_documento=5146952"
+    },
+    {
+      "data": "2026-04-01",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Portaria Conjunta 105/2025 (TJDFT); Lei 11.697/2008, art. 60",
+      "url": "https://sei.tjdft.jus.br/sei/publicacoes/controlador_publicacoes.php?acao=publicacao_visualizar&id_orgao_publicacao=0&id_documento=5146952"
+    },
+    {
+      "data": "2026-04-02",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Portaria Conjunta 105/2025 (TJDFT); Lei 11.697/2008, art. 60",
+      "url": "https://sei.tjdft.jus.br/sei/publicacoes/controlador_publicacoes.php?acao=publicacao_visualizar&id_orgao_publicacao=0&id_documento=5146952"
+    },
+    {
+      "data": "2026-04-03",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Portaria Conjunta 105/2025 (TJDFT); Lei 11.697/2008, art. 60",
+      "url": "https://sei.tjdft.jus.br/sei/publicacoes/controlador_publicacoes.php?acao=publicacao_visualizar&id_orgao_publicacao=0&id_documento=5146952"
+    },
+    {
+      "data": "2026-04-04",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Portaria Conjunta 105/2025 (TJDFT); Lei 11.697/2008, art. 60",
+      "url": "https://sei.tjdft.jus.br/sei/publicacoes/controlador_publicacoes.php?acao=publicacao_visualizar&id_orgao_publicacao=0&id_documento=5146952"
+    },
+    {
+      "data": "2026-04-05",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Portaria Conjunta 105/2025 (TJDFT); Lei 11.697/2008, art. 60",
+      "url": "https://sei.tjdft.jus.br/sei/publicacoes/controlador_publicacoes.php?acao=publicacao_visualizar&id_orgao_publicacao=0&id_documento=5146952"
+    },
+    {
+      "data": "2026-04-20",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria Conjunta 105/2025 (TJDFT)",
+      "url": "https://sei.tjdft.jus.br/sei/publicacoes/controlador_publicacoes.php?acao=publicacao_visualizar&id_orgao_publicacao=0&id_documento=5146952"
+    },
+    {
+      "data": "2026-04-21",
+      "nome": "Tiradentes",
+      "tipo": "feriado",
+      "fonte": "Portaria Conjunta 105/2025 (TJDFT); Lei 662/1949",
+      "url": "https://sei.tjdft.jus.br/sei/publicacoes/controlador_publicacoes.php?acao=publicacao_visualizar&id_orgao_publicacao=0&id_documento=5146952"
+    },
+    {
+      "data": "2026-05-01",
+      "nome": "Dia do Trabalho",
+      "tipo": "feriado",
+      "fonte": "Portaria Conjunta 105/2025 (TJDFT); Lei 662/1949",
+      "url": "https://sei.tjdft.jus.br/sei/publicacoes/controlador_publicacoes.php?acao=publicacao_visualizar&id_orgao_publicacao=0&id_documento=5146952"
+    },
+    {
+      "data": "2026-06-04",
+      "nome": "Ponto facultativo (Corpus Christi)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria Conjunta 105/2025 (TJDFT)",
+      "url": "https://sei.tjdft.jus.br/sei/publicacoes/controlador_publicacoes.php?acao=publicacao_visualizar&id_orgao_publicacao=0&id_documento=5146952"
+    },
+    {
+      "data": "2026-06-05",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria Conjunta 105/2025 (TJDFT)",
+      "url": "https://sei.tjdft.jus.br/sei/publicacoes/controlador_publicacoes.php?acao=publicacao_visualizar&id_orgao_publicacao=0&id_documento=5146952"
+    },
+    {
+      "data": "2026-06-24",
+      "nome": "Jogo do Brasil na Copa do Mundo: expediente das 9h às 16h (prazos que começariam ou venceriam no dia prorrogados)",
+      "tipo": "expediente_reduzido",
+      "fonte": "Portaria Conjunta 48/2026 (TJDFT)",
+      "url": "https://sei.tjdft.jus.br/sei/publicacoes/controlador_publicacoes.php?acao=publicacao_visualizar&id_orgao_publicacao=0&id_documento=5522413"
+    },
+    {
+      "data": "2026-06-29",
+      "nome": "Ponto facultativo (jogo do Brasil na Copa do Mundo às 14h)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria Conjunta 48/2026, alterada pela Portaria Conjunta 53/2026 (TJDFT)",
+      "url": "https://sei.tjdft.jus.br/sei/publicacoes/controlador_publicacoes.php?acao=publicacao_visualizar&id_orgao_publicacao=0&id_documento=5554050"
+    },
+    {
+      "data": "2026-08-10",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria Conjunta 105/2025 (TJDFT)",
+      "url": "https://sei.tjdft.jus.br/sei/publicacoes/controlador_publicacoes.php?acao=publicacao_visualizar&id_orgao_publicacao=0&id_documento=5146952"
+    },
+    {
+      "data": "2026-08-11",
+      "nome": "Feriado forense (criação dos cursos jurídicos)",
+      "tipo": "feriado",
+      "fonte": "Portaria Conjunta 105/2025 (TJDFT); Lei 11.697/2008, art. 60",
+      "url": "https://sei.tjdft.jus.br/sei/publicacoes/controlador_publicacoes.php?acao=publicacao_visualizar&id_orgao_publicacao=0&id_documento=5146952"
+    },
+    {
+      "data": "2026-09-07",
+      "nome": "Independência do Brasil",
+      "tipo": "feriado",
+      "fonte": "Portaria Conjunta 105/2025 (TJDFT); Lei 662/1949",
+      "url": "https://sei.tjdft.jus.br/sei/publicacoes/controlador_publicacoes.php?acao=publicacao_visualizar&id_orgao_publicacao=0&id_documento=5146952"
+    },
+    {
+      "data": "2026-10-12",
+      "nome": "Nossa Senhora Aparecida",
+      "tipo": "feriado",
+      "fonte": "Portaria Conjunta 105/2025 (TJDFT); Lei 6.802/1980",
+      "url": "https://sei.tjdft.jus.br/sei/publicacoes/controlador_publicacoes.php?acao=publicacao_visualizar&id_orgao_publicacao=0&id_documento=5146952"
+    },
+    {
+      "data": "2026-10-30",
+      "nome": "Dia do Servidor Público (transferido de 28/10)",
+      "tipo": "feriado",
+      "fonte": "Portaria Conjunta 105/2025 (TJDFT); Lei 8.112/1990, art. 236",
+      "url": "https://sei.tjdft.jus.br/sei/publicacoes/controlador_publicacoes.php?acao=publicacao_visualizar&id_orgao_publicacao=0&id_documento=5146952"
+    },
+    {
+      "data": "2026-11-01",
+      "nome": "Feriado forense (Todos os Santos)",
+      "tipo": "feriado",
+      "fonte": "Portaria Conjunta 105/2025 (TJDFT); Lei 11.697/2008, art. 60",
+      "url": "https://sei.tjdft.jus.br/sei/publicacoes/controlador_publicacoes.php?acao=publicacao_visualizar&id_orgao_publicacao=0&id_documento=5146952"
+    },
+    {
+      "data": "2026-11-02",
+      "nome": "Finados",
+      "tipo": "feriado",
+      "fonte": "Portaria Conjunta 105/2025 (TJDFT); Lei 11.697/2008, art. 60",
+      "url": "https://sei.tjdft.jus.br/sei/publicacoes/controlador_publicacoes.php?acao=publicacao_visualizar&id_orgao_publicacao=0&id_documento=5146952"
+    },
+    {
+      "data": "2026-11-15",
+      "nome": "Proclamação da República",
+      "tipo": "feriado",
+      "fonte": "Portaria Conjunta 105/2025 (TJDFT); Lei 662/1949",
+      "url": "https://sei.tjdft.jus.br/sei/publicacoes/controlador_publicacoes.php?acao=publicacao_visualizar&id_orgao_publicacao=0&id_documento=5146952"
+    },
+    {
+      "data": "2026-11-20",
+      "nome": "Dia Nacional de Zumbi e da Consciência Negra",
+      "tipo": "feriado",
+      "fonte": "Portaria Conjunta 105/2025 (TJDFT); Lei 14.759/2023",
+      "url": "https://sei.tjdft.jus.br/sei/publicacoes/controlador_publicacoes.php?acao=publicacao_visualizar&id_orgao_publicacao=0&id_documento=5146952"
+    },
+    {
+      "data": "2026-12-07",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria Conjunta 105/2025 (TJDFT)",
+      "url": "https://sei.tjdft.jus.br/sei/publicacoes/controlador_publicacoes.php?acao=publicacao_visualizar&id_orgao_publicacao=0&id_documento=5146952"
+    },
+    {
+      "data": "2026-12-08",
+      "nome": "Dia da Justiça",
+      "tipo": "feriado",
+      "fonte": "Portaria Conjunta 105/2025 (TJDFT); Lei 11.697/2008, art. 60",
+      "url": "https://sei.tjdft.jus.br/sei/publicacoes/controlador_publicacoes.php?acao=publicacao_visualizar&id_orgao_publicacao=0&id_documento=5146952"
+    },
+    {
+      "data": "2026-12-20",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 11.697/2008, art. 60; página oficial de feriados do TJDFT",
+      "url": "https://www.tjdft.jus.br/feriados-e-expedientes-suspensos"
+    },
+    {
+      "data": "2026-12-21",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 11.697/2008, art. 60; página oficial de feriados do TJDFT",
+      "url": "https://www.tjdft.jus.br/feriados-e-expedientes-suspensos"
+    },
+    {
+      "data": "2026-12-22",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 11.697/2008, art. 60; página oficial de feriados do TJDFT",
+      "url": "https://www.tjdft.jus.br/feriados-e-expedientes-suspensos"
+    },
+    {
+      "data": "2026-12-23",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 11.697/2008, art. 60; página oficial de feriados do TJDFT",
+      "url": "https://www.tjdft.jus.br/feriados-e-expedientes-suspensos"
+    },
+    {
+      "data": "2026-12-24",
+      "nome": "Véspera de Natal",
+      "tipo": "feriado",
+      "fonte": "Portaria Conjunta 105/2025 (TJDFT)",
+      "url": "https://sei.tjdft.jus.br/sei/publicacoes/controlador_publicacoes.php?acao=publicacao_visualizar&id_orgao_publicacao=0&id_documento=5146952"
+    },
+    {
+      "data": "2026-12-25",
+      "nome": "Natal",
+      "tipo": "feriado",
+      "fonte": "Portaria Conjunta 105/2025 (TJDFT); Lei 662/1949",
+      "url": "https://sei.tjdft.jus.br/sei/publicacoes/controlador_publicacoes.php?acao=publicacao_visualizar&id_orgao_publicacao=0&id_documento=5146952"
+    },
+    {
+      "data": "2026-12-26",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 11.697/2008, art. 60; página oficial de feriados do TJDFT",
+      "url": "https://www.tjdft.jus.br/feriados-e-expedientes-suspensos"
+    },
+    {
+      "data": "2026-12-27",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 11.697/2008, art. 60; página oficial de feriados do TJDFT",
+      "url": "https://www.tjdft.jus.br/feriados-e-expedientes-suspensos"
+    },
+    {
+      "data": "2026-12-28",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 11.697/2008, art. 60; página oficial de feriados do TJDFT",
+      "url": "https://www.tjdft.jus.br/feriados-e-expedientes-suspensos"
+    },
+    {
+      "data": "2026-12-29",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 11.697/2008, art. 60; página oficial de feriados do TJDFT",
+      "url": "https://www.tjdft.jus.br/feriados-e-expedientes-suspensos"
+    },
+    {
+      "data": "2026-12-30",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 11.697/2008, art. 60; página oficial de feriados do TJDFT",
+      "url": "https://www.tjdft.jus.br/feriados-e-expedientes-suspensos"
+    },
+    {
+      "data": "2026-12-31",
+      "nome": "Véspera de Ano-Novo",
+      "tipo": "feriado",
+      "fonte": "Portaria Conjunta 105/2025 (TJDFT)",
+      "url": "https://sei.tjdft.jus.br/sei/publicacoes/controlador_publicacoes.php?acao=publicacao_visualizar&id_orgao_publicacao=0&id_documento=5146952"
+    }
+  ]
+}

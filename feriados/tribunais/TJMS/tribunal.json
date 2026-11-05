@@ -1,0 +1,1740 @@
+{
+  "$schema": "../../../schema/feriados.schema.json",
+  "id": "TJMS",
+  "escopo": "tribunal",
+  "nome": "Tribunal de Justiça de Mato Grosso do Sul",
+  "tribunal": "TJMS",
+  "uf": "MS",
+  "observacao": "Datas de 2021 a 2026 conferidas nas portarias anuais do TJMS (3/2021, 16/2022, 4/2023, 1.536/2023, 1.265/2024 e 983/2025). As regras abaixo são as permanentes (CODJ-MS e feriado estadual) e valem para anos ainda sem portaria cadastrada. O TJMS só lista o feriado que cai em dia útil.",
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "comarcas": [
+    "Água Clara",
+    "Amambai",
+    "Anastácio",
+    "Anaurilândia",
+    "Angélica",
+    "Aparecida do Taboado",
+    "Aquidauana",
+    "Bandeirantes",
+    "Bataguassu",
+    "Batayporã",
+    "Bela Vista",
+    "Bonito",
+    "Brasilândia",
+    "Caarapó",
+    "Camapuã",
+    "Campo Grande",
+    "Cassilândia",
+    "Chapadão do Sul",
+    "Coronel Sapucaia",
+    "Corumbá",
+    "Costa Rica",
+    "Coxim",
+    "Deodápolis",
+    "Dois Irmãos do Buriti",
+    "Dourados",
+    "Eldorado",
+    "Fátima do Sul",
+    "Figueirão",
+    "Glória de Dourados",
+    "Iguatemi",
+    "Inocência",
+    "Itaporã",
+    "Itaquiraí",
+    "Ivinhema",
+    "Jardim",
+    "Maracaju",
+    "Miranda",
+    "Mundo Novo",
+    "Naviraí",
+    "Nioaque",
+    "Nova Alvorada do Sul",
+    "Nova Andradina",
+    "Paranaíba",
+    "Pedro Gomes",
+    "Ponta Porã",
+    "Porto Murtinho",
+    "Ribas do Rio Pardo",
+    "Rio Brilhante",
+    "Rio Negro",
+    "Rio Verde de Mato Grosso",
+    "São Gabriel do Oeste",
+    "Sete Quedas",
+    "Sidrolândia",
+    "Sonora",
+    "Terenos",
+    "Três Lagoas"
+  ],
+  "regras": [
+    {
+      "nome": "Carnaval (segunda-feira)",
+      "tipo": "feriado",
+      "quando": {
+        "pascoa": -48
+      },
+      "fonte": "CODJ-MS, art. 164, § 2º (citado nas portarias anuais do TJMS)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "nome": "Carnaval (terça-feira)",
+      "tipo": "feriado",
+      "quando": {
+        "pascoa": -47
+      },
+      "fonte": "CODJ-MS, art. 164, § 2º (citado nas portarias anuais do TJMS)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "nome": "Quinta-feira Santa",
+      "tipo": "feriado",
+      "quando": {
+        "pascoa": -3
+      },
+      "fonte": "CODJ-MS, art. 164, § 2º",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "nome": "Sexta-feira Santa",
+      "tipo": "feriado",
+      "quando": {
+        "pascoa": -2
+      },
+      "fonte": "CODJ-MS, art. 164, § 2º",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "nome": "Instituição dos Cursos Jurídicos",
+      "tipo": "feriado",
+      "quando": {
+        "dia": "08-11"
+      },
+      "fonte": "CODJ-MS, art. 164, § 2º",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "nome": "Divisão do Estado (criação de Mato Grosso do Sul)",
+      "tipo": "feriado",
+      "quando": {
+        "dia": "10-11"
+      },
+      "fonte": "Feriado estadual de MS, listado nas portarias anuais do TJMS",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "nome": "Feriado forense de 20/12 a 06/01",
+      "tipo": "recesso",
+      "quando": {
+        "de": "12-20",
+        "ate": "01-06"
+      },
+      "fonte": "CODJ-MS, art. 268 (citado nas portarias anuais do TJMS)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    }
+  ],
+  "datas": [
+    {
+      "data": "2021-01-01",
+      "nome": "Confraternização Universal",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 3/2021",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2021-01-02",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 3/2021; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2021-01-03",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 3/2021; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2021-01-04",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 3/2021; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2021-01-05",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 3/2021; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2021-01-06",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 3/2021; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2021-02-15",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 3/2021; CODJ-MS, art. 164 § 2º",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2021-02-16",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 3/2021; CODJ-MS, art. 164 § 2º",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2021-02-17",
+      "nome": "Quarta-feira de Cinzas",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 3/2021",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2021-04-01",
+      "nome": "Quinta-feira Santa",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 3/2021; CODJ-MS, art. 164 § 2º",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2021-04-02",
+      "nome": "Sexta-feira Santa",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 3/2021; CODJ-MS, art. 164 § 2º",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2021-04-21",
+      "nome": "Feriado nacional (Tiradentes)",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 3/2021",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2021-05-01",
+      "nome": "Feriado nacional (Dia do Trabalho)",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 3/2021",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2021-06-03",
+      "nome": "Feriado (Corpus Christi)",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 3/2021",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2021-06-04",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria TJMS 3/2021",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2021-08-11",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 3/2021; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2021-08-27",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria TJMS 3/2021",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2021-09-06",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria TJMS 3/2021",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2021-09-07",
+      "nome": "Feriado nacional (Independência do Brasil)",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 3/2021",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2021-10-08",
+      "nome": "Feriado nacional – Dia do Servidor Público",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 3/2021",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2021-10-11",
+      "nome": "Divisão do Estado",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 3/2021",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2021-10-12",
+      "nome": "Feriado nacional (Dia da Padroeira do Brasil – Nossa Senhora Aparecida)",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 3/2021",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2021-11-01",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria TJMS 3/2021",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2021-11-02",
+      "nome": "Feriado nacional (Finados)",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 3/2021",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2021-11-15",
+      "nome": "Feriado nacional (Proclamação da República)",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 3/2021",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2021-12-08",
+      "nome": "Dia da Justiça",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 3/2021",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2021-12-20",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 3/2021; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2021-12-21",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 3/2021; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2021-12-22",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 3/2021; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2021-12-23",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 3/2021; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2021-12-24",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 3/2021; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2021-12-25",
+      "nome": "Feriado nacional (Natal)",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 3/2021",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2021-12-25",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 3/2021; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2021-12-26",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 3/2021; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2021-12-27",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 3/2021; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2021-12-28",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 3/2021; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2021-12-29",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 3/2021; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2021-12-30",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 3/2021; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2021-12-31",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 3/2021; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2022-01-01",
+      "nome": "Confraternização Universal",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 16/2022",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2022-01-02",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 16/2022; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2022-01-03",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 16/2022; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2022-01-04",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 16/2022; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2022-01-05",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 16/2022; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2022-01-06",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 16/2022; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2022-01-07",
+      "nome": "Transferência do Feriado do Dia da Justiça do ano de 2021 (Portaria n.º 1.160/2021, publicada no D.J. n.º 4849, de 23/11/2021)",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 16/2022",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2022-02-28",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 16/2022",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2022-03-01",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 16/2022",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2022-03-02",
+      "nome": "Quarta-feira de Cinzas",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 16/2022",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2022-04-14",
+      "nome": "Quinta-feira Santa",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 16/2022; CODJ-MS, art. 164 § 2º",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2022-04-15",
+      "nome": "Sexta-feira Santa",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 16/2022; CODJ-MS, art. 164 § 2º",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2022-04-21",
+      "nome": "Feriado nacional (Tiradentes)",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 16/2022",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2022-04-22",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria TJMS 16/2022",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2022-06-16",
+      "nome": "Feriado (Corpus Christi)",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 16/2022",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2022-06-17",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria TJMS 16/2022",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2022-08-11",
+      "nome": "Instituição dos Cursos Jurídicos",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 16/2022; CODJ-MS, art. 164 § 2º",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2022-09-07",
+      "nome": "Feriado nacional (Independência do Brasil)",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 16/2022",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2022-10-10",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria TJMS 16/2022",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2022-10-11",
+      "nome": "Divisão do Estado",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 16/2022",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2022-10-12",
+      "nome": "Feriado nacional (Dia da Padroeira do Brasil – Nossa Senhora Aparecida)",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 16/2022",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2022-10-28",
+      "nome": "Feriado nacional – Dia do Servidor Público",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 16/2022",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2022-11-02",
+      "nome": "Feriado nacional (Finados)",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 16/2022",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2022-11-14",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria TJMS 16/2022",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2022-11-15",
+      "nome": "Feriado nacional (Proclamação da República)",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 16/2022",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2022-12-19",
+      "nome": "Transferência do feriado do dia 8 de dezembro - Dia da Justiça",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 16/2022",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2022-12-20",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 16/2022; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2022-12-21",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 16/2022; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2022-12-22",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 16/2022; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2022-12-23",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 16/2022; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2022-12-24",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 16/2022; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2022-12-25",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 16/2022; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2022-12-26",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 16/2022; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2022-12-27",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 16/2022; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2022-12-28",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 16/2022; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2022-12-29",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 16/2022; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2022-12-30",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 16/2022; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2022-12-31",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 16/2022; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-01-01",
+      "nome": "Confraternização Universal",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 4/2023",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-01-02",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 4/2023; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-01-03",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 4/2023; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-01-04",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 4/2023; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-01-05",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 4/2023; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-01-06",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 4/2023; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-02-20",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 4/2023",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-02-21",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 4/2023",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-02-22",
+      "nome": "Quarta-feira de Cinzas",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 4/2023",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-04-06",
+      "nome": "Quinta-feira Santa",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 4/2023",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-04-07",
+      "nome": "Sexta-feira Santa",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 4/2023",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-04-21",
+      "nome": "Feriado nacional (Tiradentes)",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 4/2023",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-05-01",
+      "nome": "Dia do Trabalho",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 4/2023",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-06-08",
+      "nome": "Feriado (Corpus Christi)",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 4/2023",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-06-09",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria TJMS 4/2023",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-06-12",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria TJMS 4/2023",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-06-30",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria TJMS 4/2023",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-07-03",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria TJMS 4/2023",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-07-17",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria TJMS 4/2023",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-07-21",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria TJMS 4/2023",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-07-24",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria TJMS 4/2023",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-07-31",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria TJMS 4/2023",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-08-04",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria TJMS 4/2023",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-08-11",
+      "nome": "Instituição dos Cursos Jurídicos",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 4/2023; CODJ-MS, art. 164 § 2º",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-08-14",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria TJMS 4/2023",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-09-07",
+      "nome": "Feriado nacional (Independência do Brasil)",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 4/2023",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-09-08",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria TJMS 4/2023",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-09-22",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria TJMS 4/2023",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-09-25",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria TJMS 4/2023",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-09-29",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria TJMS 4/2023",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-10-11",
+      "nome": "Divisão do Estado",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 4/2023",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-10-12",
+      "nome": "Feriado nacional (Dia da Padroeira do Brasil – Nossa Senhora Aparecida)",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 4/2023",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-10-13",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria TJMS 4/2023",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-11-02",
+      "nome": "Feriado nacional (Finados)",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 4/2023",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-11-03",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria TJMS 4/2023",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-11-14",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria TJMS 4/2023",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-11-15",
+      "nome": "Feriado nacional (Proclamação da República)",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 4/2023",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-12-08",
+      "nome": "Dia da Justiça",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 4/2023",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-12-20",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 4/2023; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-12-21",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 4/2023; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-12-22",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 4/2023; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-12-23",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 4/2023; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-12-24",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 4/2023; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-12-25",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 4/2023; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-12-26",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 4/2023; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-12-27",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 4/2023; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-12-28",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 4/2023; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-12-29",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 4/2023; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-12-30",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 4/2023; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-12-31",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 4/2023; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2024-01-01",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 1.536/2023; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2024-01-02",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 1.536/2023; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2024-01-03",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 1.536/2023; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2024-01-04",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 1.536/2023; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2024-01-05",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 1.536/2023; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2024-01-06",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 1.536/2023; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2024-02-12",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 1.536/2023",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2024-02-13",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 1.536/2023",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2024-02-14",
+      "nome": "Quarta-feira de Cinzas",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 1.536/2023",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2024-03-28",
+      "nome": "Quinta-feira - Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 1.536/2023",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2024-03-29",
+      "nome": "Sexta-feira - Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 1.536/2023",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2024-05-01",
+      "nome": "Quarta-feira - (Dia do trabalho)",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 1.536/2023",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2024-05-30",
+      "nome": "Quinta-feira (Corpus Christi)",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 1.536/2023",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2024-05-31",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria TJMS 1.536/2023",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2024-10-11",
+      "nome": "Divisão do Estado",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 1.536/2023",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2024-10-28",
+      "nome": "Feriado nacional – Dia do Servidor Público",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 1.536/2023",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2024-11-15",
+      "nome": "Feriado nacional (Proclamação da República)",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 1.536/2023",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2024-11-20",
+      "nome": "Feriado nacional (Dia Nacional de Zumbi e da Consciência Negra)",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 1.536/2023",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2024-12-20",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 1.536/2023; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2024-12-21",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 1.536/2023; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2024-12-22",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 1.536/2023; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2024-12-23",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 1.536/2023; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2024-12-24",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 1.536/2023; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2024-12-25",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 1.536/2023; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2024-12-26",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 1.536/2023; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2024-12-27",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 1.536/2023; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2024-12-28",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 1.536/2023; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2024-12-29",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 1.536/2023; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2024-12-30",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 1.536/2023; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2024-12-31",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 1.536/2023; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2025-01-01",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 1.265/2024; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2025-01-02",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 1.265/2024; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2025-01-03",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 1.265/2024; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2025-01-04",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 1.265/2024; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2025-01-05",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 1.265/2024; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2025-01-06",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 1.265/2024; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2025-03-03",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 1.265/2024",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2025-03-04",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 1.265/2024",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2025-03-05",
+      "nome": "Quarta-feira de Cinzas",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 1.265/2024",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2025-04-17",
+      "nome": "Quinta-feira Santa",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 1.265/2024; CODJ-MS, art. 164 § 2º",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2025-04-18",
+      "nome": "Sexta-feira Santa",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 1.265/2024; CODJ-MS, art. 164 § 2º",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2025-04-21",
+      "nome": "Feriado nacional (Tiradentes)",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 1.265/2024",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2025-05-01",
+      "nome": "Feriado nacional (dia do trabalho)",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 1.265/2024",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2025-05-02",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria TJMS 1.265/2024",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2025-06-19",
+      "nome": "Feriado (Corpus Christi)",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 1.265/2024",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2025-06-20",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria TJMS 1.265/2024",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2025-08-11",
+      "nome": "Instituição dos Cursos Jurídicos",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 1.265/2024; CODJ-MS, art. 164 § 2º",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2025-10-27",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria TJMS 1.265/2024",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2025-10-28",
+      "nome": "Feriado nacional – Dia do Servidor Público",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 1.265/2024",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2025-11-20",
+      "nome": "Feriado nacional (Dia Nacional de Zumbi e da Consciência Negra)",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 1.265/2024",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2025-11-21",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria TJMS 1.265/2024",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2025-12-08",
+      "nome": "Feriado Nacional (Dia da Justiça)",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 1.265/2024",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2025-12-20",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 1.265/2024; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2025-12-21",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 1.265/2024; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2025-12-22",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 1.265/2024; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2025-12-23",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 1.265/2024; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2025-12-24",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 1.265/2024; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2025-12-25",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 1.265/2024; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2025-12-26",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 1.265/2024; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2025-12-27",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 1.265/2024; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2025-12-28",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 1.265/2024; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2025-12-29",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 1.265/2024; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2025-12-30",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 1.265/2024; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2025-12-31",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 1.265/2024; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2026-01-01",
+      "nome": "Confraternização Universal / feriado forense 1º a 6/01",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 983/2025; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2026-01-02",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 983/2025; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2026-01-03",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 983/2025; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2026-01-04",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 983/2025; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2026-01-05",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 983/2025; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2026-01-06",
+      "nome": "Feriado forense",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 983/2025; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2026-02-16",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 983/2025",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2026-02-17",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 983/2025",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2026-02-18",
+      "nome": "Quarta-feira de Cinzas",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 983/2025",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2026-04-02",
+      "nome": "Quinta-feira Santa",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 983/2025; CODJ-MS, art. 164 § 2º",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2026-04-03",
+      "nome": "Sexta-feira Santa",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 983/2025; CODJ-MS, art. 164 § 2º",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2026-04-20",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria TJMS 983/2025",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2026-04-21",
+      "nome": "Tiradentes",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 983/2025",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2026-05-01",
+      "nome": "Dia do Trabalho",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 983/2025",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2026-06-04",
+      "nome": "Corpus Christi",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 983/2025",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2026-06-05",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria TJMS 983/2025",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2026-08-10",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria TJMS 983/2025",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2026-08-11",
+      "nome": "Instituição dos Cursos Jurídicos",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 983/2025; CODJ-MS, art. 164 § 2º",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2026-09-07",
+      "nome": "Independência do Brasil",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 983/2025",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2026-10-12",
+      "nome": "Nossa Senhora Aparecida",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 983/2025",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2026-10-30",
+      "nome": "Dia do Servidor Público",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 983/2025",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2026-11-02",
+      "nome": "Finados",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 983/2025",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2026-11-20",
+      "nome": "Dia Nacional de Zumbi e da Consciência Negra",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 983/2025",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2026-12-07",
+      "nome": "Ponto facultativo em todas as comarcas",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria TJMS 983/2025",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2026-12-08",
+      "nome": "Dia da Justiça",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 983/2025",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2026-12-20",
+      "nome": "Feriado forense de fim de ano",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 983/2025; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2026-12-21",
+      "nome": "Feriado forense de fim de ano",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 983/2025; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2026-12-22",
+      "nome": "Feriado forense de fim de ano",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 983/2025; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2026-12-23",
+      "nome": "Feriado forense de fim de ano",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 983/2025; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2026-12-24",
+      "nome": "Feriado forense de fim de ano",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 983/2025; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2026-12-25",
+      "nome": "Natal (dentro do feriado forense)",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 983/2025",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2026-12-26",
+      "nome": "Feriado forense de fim de ano",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 983/2025; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2026-12-27",
+      "nome": "Feriado forense de fim de ano",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 983/2025; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2026-12-28",
+      "nome": "Feriado forense de fim de ano",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 983/2025; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2026-12-29",
+      "nome": "Feriado forense de fim de ano",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 983/2025; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2026-12-30",
+      "nome": "Feriado forense de fim de ano",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 983/2025; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2026-12-31",
+      "nome": "Feriado forense de fim de ano",
+      "tipo": "recesso",
+      "fonte": "Portaria TJMS 983/2025; CODJ-MS, art. 268",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    }
+  ]
+}

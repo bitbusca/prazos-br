@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>prazos-br · calculadora de prazos processuais</title>
+<meta name="description" content="Conte prazos processuais (CPC, CLT, DJEN, intimação eletrônica) com o passo a passo de cada dia e a fonte de cada feriado. Código aberto.">
+<style>
+  :root {
+    --papel: #f6f3ec; --cartao: #fffdf8; --tinta: #1c2230; --suave: #5d6475; --linha: #e4ddcf;
+    --conta: #0f6b5f; --conta-bg: #e3f1ec; --pula: #9aa0ab; --pula-bg: #efece5;
+    --marco: #3346a8; --marco-bg: #e6e9fb; --venc: #b4232f; --venc-bg: #fde8e7; --aviso: #8a5a00; --aviso-bg: #fff4dc;
+    --raio: 14px; --sombra: 0 1px 2px rgba(28,34,48,.06), 0 8px 24px rgba(28,34,48,.06);
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--papel); color: var(--tinta); font: 15px/1.5 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  .topo { max-width: 1120px; margin: 0 auto; padding: 32px 20px 8px; display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; }
+  .marca { font: 700 26px/1 ui-serif, Georgia, "Times New Roman", serif; letter-spacing: -.5px; }
+  .marca span { color: var(--conta); }
+  .lema { color: var(--suave); }
+  .topo a { margin-left: auto; color: var(--tinta); font-size: 14px; }
+  main { max-width: 1120px; margin: 0 auto; padding: 12px 20px 40px; display: grid; grid-template-columns: 360px 1fr; gap: 20px; align-items: start; }
+  @media (max-width: 860px) { main { grid-template-columns: 1fr; } }
+  .cartao { background: var(--cartao); border: 1px solid var(--linha); border-radius: var(--raio); box-shadow: var(--sombra); padding: 20px; }
+  form { display: grid; gap: 14px; position: sticky; top: 12px; }
+  label { display: grid; gap: 5px; font-size: 13px; font-weight: 600; color: var(--suave); }
+  input, select { font: inherit; color: var(--tinta); background: #fff; border: 1px solid var(--linha); border-radius: 9px; padding: 9px 11px; width: 100%; }
+  input:focus, select:focus { outline: 2px solid var(--conta); outline-offset: 1px; border-color: transparent; }
+  .linha2 { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .check { display: flex; align-items: center; gap: 8px; font-weight: 500; color: var(--tinta); }
+  .check input { width: auto; }
+  .dica { font-size: 12px; font-weight: 400; color: var(--suave); }
+  .oculto { display: none !important; }
+  .resultado { display: grid; gap: 18px; }
+  .venc { display: flex; gap: 18px; align-items: center; flex-wrap: wrap; }
+  .venc .data { font: 700 44px/1 ui-serif, Georgia, serif; letter-spacing: -1px; color: var(--venc); }
+  .venc .sem { font-size: 15px; color: var(--suave); }
+  .resumo { margin: 6px 0 0; color: var(--suave); }
+  .chips { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 10px; }
+  .chip { font-size: 12px; padding: 3px 9px; border-radius: 99px; background: var(--pula-bg); color: var(--suave); }
+  .avisos { display: grid; gap: 8px; }
+  .avisos p { margin: 0; padding: 10px 12px; border-radius: 10px; background: var(--aviso-bg); color: var(--aviso); font-size: 14px; }
+  .meses { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 16px; }
+  .mes h3 { margin: 0 0 8px; font-size: 14px; }
+  .mes h3::first-letter { text-transform: uppercase; }
+  .grade { display: grid; grid-template-columns: repeat(7, 1fr); gap: 3px; }
+  .grade .dow { font-size: 11px; color: var(--suave); text-align: center; padding-bottom: 2px; }
+  .dia { position: relative; aspect-ratio: 1; border-radius: 8px; display: grid; place-items: center; font-size: 13px; color: #c3bfb5; }
+  .dia.fora { visibility: hidden; }
+  .dia.conta { background: var(--conta-bg); color: var(--conta); font-weight: 700; }
+  .dia.conta small { position: absolute; top: 2px; right: 4px; font-size: 9px; font-weight: 600; opacity: .8; }
+  .dia.pula { background: repeating-linear-gradient(135deg, var(--pula-bg) 0 4px, #e6e2d8 4px 8px); color: var(--pula); cursor: help; }
+  .dia.marco { background: var(--marco-bg); color: var(--marco); font-weight: 700; outline: 2px solid var(--marco); outline-offset: -2px; }
+  .dia.venc { background: var(--venc); color: #fff; font-weight: 800; }
+  .legenda { display: flex; gap: 14px; flex-wrap: wrap; font-size: 12px; color: var(--suave); }
+  .legenda i { display: inline-block; width: 12px; height: 12px; border-radius: 3px; vertical-align: -2px; margin-right: 5px; }
+  ol.passos { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
+  ol.passos li { display: grid; grid-template-columns: 132px 34px 1fr; gap: 10px; padding: 7px 8px; border-radius: 8px; font-size: 14px; }
+  ol.passos li:nth-child(odd) { background: #faf7f0; }
+  ol.passos .d { font-variant-numeric: tabular-nums; color: var(--suave); }
+  ol.passos .n { font-weight: 700; color: var(--conta); text-align: right; font-variant-numeric: tabular-nums; }
+  ol.passos .pula { color: var(--pula); }
+  ol.passos .fonte { display: block; font-size: 12px; color: #a29d92; }
+  ol.passos .evento .t, ol.passos .publicacao .t, ol.passos .ciencia .t { color: var(--marco); font-weight: 600; }
+  ol.passos .vencimento .t { color: var(--venc); font-weight: 700; }
+  ol.passos .prorroga .t { color: var(--aviso); font-weight: 600; }
+  h2 { margin: 0 0 12px; font-size: 16px; }
+  .base { font-size: 13px; color: var(--suave); }
+  footer { max-width: 1120px; margin: 0 auto; padding: 0 20px 40px; color: var(--suave); font-size: 13px; display: grid; gap: 8px; }
+  footer .legal { font-weight: 600; color: var(--tinta); }
+  footer a { color: var(--conta); }
+  .erro { color: var(--venc); font-weight: 600; }
+</style>
+</head>
+<body>
+<header class="topo">
+  <div class="marca">prazos<span>-br</span></div>
+  <div class="lema">Conte o prazo e veja por que cada dia foi pulado.</div>
+  <a href="https://github.com/bitbusca/prazos-br">Código aberto · GitHub</a>
+</header>
+
+<main>
+  <form class="cartao" id="f" autocomplete="off">
+    <label>Tipo de ato <span class="dica">opcional: preenche os dias pelo catálogo (só lei)</span>
+      <input id="ato" list="atos" placeholder="ex.: apelação, contestação, embargos de declaração">
+      <datalist id="atos"></datalist>
+    </label>
+    <div class="linha2">
+      <label>Dias <input id="dias" type="number" min="1" max="3650" value="15" required></label>
+      <label>Contagem
+        <select id="tipo">
+          <option value="uteis">Dias úteis (CPC 219)</option>
+          <option value="clt">Dias úteis (CLT 775)</option>
+          <option value="corridos">Dias corridos</option>
+        </select>
+      </label>
+    </div>
+    <label>A data abaixo é
+      <select id="evento">
+        <option value="publicacao">a publicação / intimação</option>
+        <option value="djen">a disponibilização no DJEN</option>
+        <option value="intimacao_eletronica">o envio da intimação eletrônica</option>
+      </select>
+    </label>
+    <div class="linha2">
+      <label>Data <input id="inicio" type="date" value="2026-11-05" required></label>
+      <label id="lconsulta" class="oculto">Consulta <span class="dica">se abriu antes de 10 dias</span><input id="consulta" type="date"></label>
+    </div>
+    <label>Tribunal <select id="tribunal"></select></label>
+    <label>Comarca <select id="comarca"></select></label>
+    <label>Prazo em dobro
+      <select id="dobro">
+        <option value="">Não</option>
+        <option value="fazenda">Fazenda Pública (CPC 183)</option>
+        <option value="defensoria">Defensoria Pública (CPC 186)</option>
+        <option value="mp">Ministério Público (CPC 180)</option>
+        <option value="litisconsortes">Litisconsortes com procuradores diferentes (CPC 229)</option>
+      </select>
+    </label>
+    <label class="check"><input id="fisico" type="checkbox"> Autos físicos</label>
+    <label class="check"><input id="juizado" type="checkbox"> Juizado Especial</label>
+  </form>
+
+  <section class="resultado" id="saida" aria-live="polite">
+    <div class="cartao"><p>Carregando…</p></div>
+  </section>
+</main>
+
+<footer>
+  <div class="legal">Confira sempre no processo; não substitui conferência profissional.</div>
+  <div>Feriados com a fonte de cada um, em JSON aberto por tribunal e comarca. Faltou o da sua comarca? <a href="https://github.com/bitbusca/prazos-br/blob/main/CONTRIBUTING.md">Contribua</a>.</div>
+  <div>Quer as intimações da sua OAB lidas no DJEN, com o prazo já contado e a tarefa na agenda? Conheça a <a href="https://bitbusca.net/busca-juridica?utm_source=github&amp;utm_medium=prazos-br&amp;utm_content=demo">Busca Jurídica da BitBusca</a> ou receba grátis as <a href="https://bitbusca.net/intimacoes-gratis?utm_source=github&amp;utm_medium=prazos-br&amp;utm_content=demo">intimações da semana</a>.</div>
+</footer>
+
+<script type="module">
+const $ = (id) => document.getElementById(id);
+const saida = $('saida');
+let lib, cat;
+try {
+  lib = await import('../dist/esm/index.js');
+  cat = await import('../dist/esm/catalogo.js');
+} catch (e) {
+  saida.innerHTML = `<div class="cartao"><p class="erro">Não consegui carregar a biblioteca.</p>
+    <p>Na pasta do projeto rode <code>npm run build</code> e depois <code>npm run demo</code> (módulos ES não abrem direto do arquivo).</p></div>`;
+  throw e;
+}
+
+const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
+const br = lib.br;
+const DIAS = ['dom', 'seg', 'ter', 'qua', 'qui', 'sex', 'sáb'];
+
+// tribunais: os que têm calendário no pacote + alguns comuns (mostram o aviso de "contribua")
+const disp = lib.calendariosDisponiveis();
+const comuns = ['TRF3', 'TJCE', 'TJES', 'TJMT', 'TJPA', 'TRT5', 'TRT6', 'TRT9', 'STJ'].filter((s) => !disp.some((d) => d.tribunal === s));
+$('tribunal').innerHTML =
+  `<option value="">Só feriados nacionais</option>` +
+  `<optgroup label="Com calendário próprio">${disp.map((d) => `<option value="${d.tribunal}">${d.tribunal} · ${esc(d.nome)}</option>`).join('')}</optgroup>` +
+  `<optgroup label="Ainda sem calendário (contribua!)">${comuns.map((s) => `<option value="${s}">${s}</option>`).join('')}</optgroup>`;
+$('tribunal').value = 'TJMS';
+
+function preencherComarcas() {
+  const t = disp.find((d) => d.tribunal === $('tribunal').value);
+  const lista = t ? t.comarcas : [];
+  const atual = $('comarca').value;
+  $('comarca').innerHTML = `<option value="">— sem comarca (só feriados do tribunal) —</option>` + lista.map((c) => `<option>${esc(c)}</option>`).join('');
+  $('comarca').disabled = !lista.length;
+  $('comarca').value = lista.includes(atual) ? atual : lista.includes('Campo Grande') ? 'Campo Grande' : '';
+}
+preencherComarcas();
+
+// catálogo de atos
+const prazos = cat.catalogo().prazos.filter((p) => p.quem === 'parte' && p.conta === 'da_intimacao' && !p.unidadeNaLei);
+$('atos').innerHTML = prazos.map((p) => `<option value="${esc(p.ato)}">${p.dias} dias · ${esc(p.baseLegal)}</option>`).join('');
+$('ato').addEventListener('change', () => {
+  const p = prazos.find((x) => x.ato === $('ato').value);
+  if (!p) return;
+  $('dias').value = p.dias;
+  $('tipo').value = p.ramo === 'trabalho' ? 'clt' : p.contagem;
+  calcular();
+});
+
+function meses(de, ate) {
+  const out = [];
+  let [y, m] = de.split('-').map(Number);
+  const [y2, m2] = ate.split('-').map(Number);
+  while ((y < y2 || (y === y2 && m <= m2)) && out.length < 6) {
+    out.push([y, m]);
+    m++;
+    if (m > 12) { m = 1; y++; }
+  }
+  return out;
+}
+
+function calendario(r) {
+  const porData = new Map();
+  for (const p of r.passos) {
+    const atual = porData.get(p.data);
+    // o vencimento tem prioridade visual
+    if (!atual || p.acao === 'vencimento') porData.set(p.data, p);
+  }
+  const html = meses(r.passos[0].data, r.vencimento).map(([y, m]) => {
+    const primeiro = new Date(Date.UTC(y, m - 1, 1));
+    const total = new Date(Date.UTC(y, m, 0)).getUTCDate();
+    const nome = primeiro.toLocaleDateString('pt-BR', { month: 'long', year: 'numeric', timeZone: 'UTC' });
+    let cel = DIAS.map((d) => `<div class="dow">${d}</div>`).join('');
+    for (let i = 0; i < primeiro.getUTCDay(); i++) cel += '<div class="dia fora"></div>';
+    for (let d = 1; d <= total; d++) {
+      const iso = `${y}-${String(m).padStart(2, '0')}-${String(d).padStart(2, '0')}`;
+      const p = porData.get(iso);
+      let cls = 'dia', extra = '', titulo = '';
+      if (p) {
+        titulo = p.texto + (p.fonte ? ` — ${p.fonte}` : '');
+        if (p.acao === 'vencimento') cls += ' venc';
+        else if (p.acao === 'conta') { cls += ' conta'; extra = `<small>${p.contagem}</small>`; }
+        else if (p.acao === 'pula' || p.acao === 'prorroga') cls += ' pula';
+        else cls += ' marco';
+      }
+      cel += `<div class="${cls}" title="${esc(titulo)}">${d}${extra}</div>`;
+    }
+    return `<div class="mes"><h3>${nome}</h3><div class="grade">${cel}</div></div>`;
+  }).join('');
+  return `<div class="meses">${html}</div>
+    <div class="legenda" style="margin-top:12px">
+      <span><i style="background:var(--marco-bg);outline:2px solid var(--marco);outline-offset:-2px"></i>publicação / ciência</span>
+      <span><i style="background:var(--conta-bg)"></i>dia contado</span>
+      <span><i style="background:repeating-linear-gradient(135deg,var(--pula-bg) 0 3px,#e0dbd0 3px 6px)"></i>pulado (passe o mouse)</span>
+      <span><i style="background:var(--venc)"></i>vencimento</span>
+    </div>`;
+}
+
+function passos(r) {
+  // agrupa sequências de dias pulados pelo mesmo motivo
+  const lista = [];
+  for (const p of r.passos) {
+    const ult = lista[lista.length - 1];
+    const chave = (x) => (x.motivo || '').split(' · ').filter((s) => s !== 'sábado' && s !== 'domingo').join(' · ') || 'fim de semana';
+    if (p.acao === 'pula' && ult && ult.acao === 'pula' && chave(ult) === chave(p) && ult.texto.split(':')[0] === p.texto.split(':')[0]) { ult.ate = p.data; continue; }
+    lista.push({ ...p });
+  }
+  return `<ol class="passos">${lista.map((p) => {
+    const chave = (p.motivo || '').split(' · ').filter((s) => s !== 'sábado' && s !== 'domingo').join(' · ') || 'fim de semana';
+    const data = p.ate ? `${br(p.data).slice(0, 5)} a ${br(p.ate)}` : `${br(p.data)} ${p.diaSemana.slice(0, 3)}`;
+    const texto = p.ate ? `${p.texto.split(':')[0]}: ${chave}` : p.texto;
+    const n = p.acao === 'conta' ? `${p.contagem}º` : '';
+    const t = p.acao === 'conta' ? (p.contagem === 1 ? 'início da contagem' : /reduzido/.test(p.texto) ? 'expediente reduzido: conta no meio do prazo' : 'dia útil') : texto;
+    return `<li class="${p.acao}"><span class="d">${data}</span><span class="n">${n}</span><span class="t ${p.acao === 'pula' ? 'pula' : ''}">${esc(t)}${p.fonte && p.acao !== 'conta' ? `<span class="fonte">${esc(p.fonte)}</span>` : ''}</span></li>`;
+  }).join('')}</ol>`;
+}
+
+function calcular() {
+  $('lconsulta').classList.toggle('oculto', $('evento').value !== 'intimacao_eletronica');
+  try {
+    const r = lib.calcularPrazo({
+      inicio: $('inicio').value,
+      dias: Number($('dias').value),
+      tipo: $('tipo').value,
+      evento: $('evento').value,
+      consulta: $('evento').value === 'intimacao_eletronica' && $('consulta').value ? $('consulta').value : undefined,
+      tribunal: $('tribunal').value || undefined,
+      comarca: $('comarca').value || undefined,
+      dobro: $('dobro').value || undefined,
+      autosEletronicos: !$('fisico').checked,
+      juizado: $('juizado').checked,
+    });
+    const dia = new Date(`${r.vencimento}T00:00:00Z`).toLocaleDateString('pt-BR', { weekday: 'long', timeZone: 'UTC' });
+    saida.innerHTML = `
+      <div class="cartao">
+        <div class="venc"><div><div class="sem">Vence em</div><div class="data">${r.vencimentoBR}</div></div><div class="sem">${dia}${r.prorrogado ? `<br>prorrogado: ${esc(r.motivoProrrogacao)}` : ''}</div></div>
+        <p class="resumo">${esc(r.resumo)}</p>
+        <div class="chips">${r.baseLegal.map((b) => `<span class="chip">${esc(b)}</span>`).join('')}</div>
+      </div>
+      ${r.avisos.length ? `<div class="avisos">${r.avisos.map((a) => `<p>${esc(a)}</p>`).join('')}</div>` : ''}
+      <div class="cartao">${calendario(r)}</div>
+      <div class="cartao"><h2>Passo a passo</h2>${passos(r)}
+        <p class="base">Calendários usados: ${r.calendarios.map(esc).join(', ')}</p></div>`;
+  } catch (e) {
+    saida.innerHTML = `<div class="cartao"><p class="erro">${esc(e.message)}</p></div>`;
+  }
+}
+
+$('tribunal').addEventListener('change', () => { preencherComarcas(); calcular(); });
+for (const id of ['dias', 'tipo', 'evento', 'inicio', 'consulta', 'comarca', 'dobro', 'fisico', 'juizado']) $(id).addEventListener('input', calcular);
+calcular();
+</script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+{
+  "$schema": "../../../../schema/feriados.schema.json",
+  "id": "TRT24/bataguassu",
+  "escopo": "comarca",
+  "tribunal": "TRT24",
+  "comarca": "Bataguassu",
+  "uf": "MS",
+  "ibge": 5001904,
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2026
+  ],
+  "regras": [],
+  "datas": [
+    {
+      "data": "2026-06-24",
+      "nome": "Padroeiro de Bataguassu",
+      "tipo": "feriado",
+      "fonte": "Lei 25/1979; Calendário oficial TRT24 2026 - Portaria TRT/GP/SGJ 51/2025 e alterações",
+      "url": "https://www.trt24.jus.br/web/guest/calendario"
+    },
+    {
+      "data": "2026-08-15",
+      "nome": "Padroeira de Bataguassu",
+      "tipo": "feriado",
+      "fonte": "Lei 456/1979; Calendário oficial TRT24 2026 - Portaria TRT/GP/SGJ 51/2025 e alterações",
+      "url": "https://www.trt24.jus.br/web/guest/calendario"
+    },
+    {
+      "data": "2026-12-11",
+      "nome": "Aniversário de Bataguassu",
+      "tipo": "feriado",
+      "fonte": "Lei 18/1985; Calendário oficial TRT24 2026 - Portaria TRT/GP/SGJ 51/2025 e alterações",
+      "url": "https://www.trt24.jus.br/web/guest/calendario"
+    }
+  ]
+}

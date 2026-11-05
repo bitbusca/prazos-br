@@ -1,0 +1,64 @@
+{
+  "$schema": "../../../../schema/feriados.schema.json",
+  "id": "TJRS/porto-alegre",
+  "escopo": "comarca",
+  "tribunal": "TJRS",
+  "comarca": "Porto Alegre",
+  "uf": "RS",
+  "ibge": 4314902,
+  "observacao": "Comarca da Capital (Foro Central e foros regionais). Feriados municipais conforme os dias com asterisco dos Atos 05/2025-OE e 12/2024-OE. Não incluído: fechamento só do prédio do Foro Central I em 08/04/2026, com suspensão de prazos (Portaria 05/2026-DF da Direção do Foro, https://www.tjrs.jus.br/static/2026/04/Portaria_05_2026_DF.pdf), porque não vale para toda a comarca; confira se o processo tramita no Foro Central I.",
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2026
+  ],
+  "regras": [
+    {
+      "nome": "Nossa Senhora dos Navegantes e Iemanjá",
+      "tipo": "feriado",
+      "quando": {
+        "dia": "02-02"
+      },
+      "fonte": "Lei municipal de Porto Alegre 3.033/1967, art. 1º (redação da Lei 13.591/2023)",
+      "url": "https://legislacao.portoalegre.rs.gov.br/norma/15329"
+    },
+    {
+      "nome": "Corpus Christi",
+      "tipo": "feriado",
+      "quando": {
+        "pascoa": 60
+      },
+      "fonte": "Lei municipal de Porto Alegre 3.033/1967, art. 1º (redação da Lei 4.453/1978)",
+      "url": "https://legislacao.portoalegre.rs.gov.br/norma/15329"
+    }
+  ],
+  "datas": [
+    {
+      "data": "2025-02-02",
+      "nome": "Nossa Senhora dos Navegantes",
+      "tipo": "feriado",
+      "fonte": "Ato 12/2024-OE (TJRS), dia com asterisco (lei de Porto Alegre)",
+      "url": "https://www.tjrs.jus.br/static/2024/11/Ato_12_2024_OE-Feriados-2025.pdf"
+    },
+    {
+      "data": "2025-06-19",
+      "nome": "Corpus Christi",
+      "tipo": "feriado",
+      "fonte": "Ato 12/2024-OE (TJRS), dia com asterisco (lei de Porto Alegre)",
+      "url": "https://www.tjrs.jus.br/static/2024/11/Ato_12_2024_OE-Feriados-2025.pdf"
+    },
+    {
+      "data": "2026-02-02",
+      "nome": "Nossa Senhora dos Navegantes",
+      "tipo": "feriado",
+      "fonte": "Ato 05/2025-OE (TJRS), dia com asterisco (lei de Porto Alegre)",
+      "url": "https://www.tjrs.jus.br/static/2025/10/Ato_05_2025_OE-Feriados-2026.pdf"
+    },
+    {
+      "data": "2026-06-04",
+      "nome": "Corpus Christi",
+      "tipo": "feriado",
+      "fonte": "Ato 05/2025-OE (TJRS), dia com asterisco (lei de Porto Alegre)",
+      "url": "https://www.tjrs.jus.br/static/2025/10/Ato_05_2025_OE-Feriados-2026.pdf"
+    }
+  ]
+}

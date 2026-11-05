@@ -1,0 +1,30 @@
+{
+  "$schema": "../../../../schema/feriados.schema.json",
+  "id": "TRT24/nova-andradina",
+  "escopo": "comarca",
+  "tribunal": "TRT24",
+  "comarca": "Nova Andradina",
+  "uf": "MS",
+  "ibge": 5006200,
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2026
+  ],
+  "regras": [],
+  "datas": [
+    {
+      "data": "2026-04-30",
+      "nome": "Aniversário de Nova Andradina",
+      "tipo": "feriado",
+      "fonte": "Lei 670/2007; Calendário oficial TRT24 2026 - Portaria TRT/GP/SGJ 51/2025 e alterações",
+      "url": "https://www.trt24.jus.br/web/guest/calendario"
+    },
+    {
+      "data": "2026-05-31",
+      "nome": "Padroeira de Nova Andradina",
+      "tipo": "feriado",
+      "fonte": "Lei 670/2007; Calendário oficial TRT24 2026 - Portaria TRT/GP/SGJ 51/2025 e alterações",
+      "url": "https://www.trt24.jus.br/web/guest/calendario"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "$schema": "../../../../schema/feriados.schema.json",
+  "id": "TJRJ/rio-de-janeiro",
+  "escopo": "comarca",
+  "tribunal": "TJRJ",
+  "comarca": "Rio de Janeiro",
+  "uf": "RJ",
+  "ibge": 3304557,
+  "observacao": "Comarca da Capital do TJRJ (município do Rio de Janeiro: Fórum Central e Fóruns Regionais). O TJRJ escreve \"Capital\"; aqui o nome é \"Rio de Janeiro\", igual ao TRT1 e ao TRF2. Datas do calendário oficial do TJRJ para a Capital. Não entram suspensões de um só fórum regional ou vara (ex.: Foro Central em 07/02/2025, Pavuna, Madureira, Campo Grande, 12ª Vara de Órfãos e Sucessões).",
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2025,
+    2026
+  ],
+  "regras": [
+    {
+      "nome": "São Sebastião, padroeiro do Rio de Janeiro",
+      "tipo": "feriado",
+      "quando": {
+        "dia": "01-20"
+      },
+      "fonte": "Lei Orgânica do Município do Rio de Janeiro, art. 26; Lei municipal 5.146/2010, art. 8º, I",
+      "url": "https://leismunicipais.com.br/a/rj/r/rio-de-janeiro/lei-ordinaria/2010/514/5146/lei-ordinaria-n-5146-2010-dispoe-sobre-a-consolidacao-municipal-referente-a-eventos-datas-comemorativas-e-feriados-da-cidade-do-rio-de-janeiro-e-institui-o-calendario-oficial-de-eventos-e-datas-comemorativas-da-cidade-do-rio-de-janeiro"
+    }
+  ],
+  "datas": [
+    {
+      "data": "2025-01-20",
+      "nome": "São Sebastião, padroeiro do Rio de Janeiro",
+      "tipo": "feriado",
+      "fonte": "Lei Orgânica do Município do Rio de Janeiro, art. 26 (calendário TJRJ 2025)",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-comarca-capital-e-2a-inst_2025_seesc"
+    },
+    {
+      "data": "2025-07-04",
+      "nome": "Expediente e prazos suspensos na Comarca da Capital e Regionais (Cúpula do BRICS)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Ato Executivo TJ 122/2025; Decreto estadual 49.690/2025",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-comarca-capital-e-2a-inst_2025_seesc"
+    },
+    {
+      "data": "2025-07-07",
+      "nome": "Feriado municipal (Cúpula do BRICS)",
+      "tipo": "feriado",
+      "fonte": "Lei municipal 8.881/2025; Ato Executivo TJ 87/2025",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-comarca-capital-e-2a-inst_2025_seesc"
+    },
+    {
+      "data": "2025-10-28",
+      "nome": "Prazos suspensos nas unidades da Região Metropolitana",
+      "tipo": "suspensao_prazos",
+      "fonte": "Ato Executivo TJ 190/2025",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2025_seesc"
+    },
+    {
+      "data": "2026-01-20",
+      "nome": "São Sebastião, padroeiro do Rio de Janeiro",
+      "tipo": "feriado",
+      "fonte": "Lei Orgânica do Município do Rio de Janeiro, art. 26 (calendário TJRJ 2026)",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-comarca-capital-e-2a-inst_2026_seesc"
+    },
+    {
+      "data": "2026-09-04",
+      "nome": "Expediente das 11h às 15h na Comarca da Capital e Regionais, prazos suspensos",
+      "tipo": "suspensao_prazos",
+      "fonte": "Ato Executivo TJ 159/2026; Decreto estadual 50.458/2026",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-comarca-capital-e-2a-inst_2026_seesc"
+    },
+    {
+      "data": "2026-09-11",
+      "nome": "Expediente das 11h às 15h na Comarca da Capital (Fórum Central e Regionais), prazos suspensos",
+      "tipo": "suspensao_prazos",
+      "fonte": "Ato Executivo TJ 162/2026; Decreto estadual 50.466/2026",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-comarca-capital-e-2a-inst_2026_seesc"
+    }
+  ]
+}

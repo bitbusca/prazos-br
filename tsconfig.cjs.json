@@ -1,0 +1,5 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": { "module": "CommonJS", "moduleResolution": "Node10", "outDir": "dist/cjs", "ignoreDeprecations": "5.0" },
+  "exclude": ["src/cli.ts"]
+}

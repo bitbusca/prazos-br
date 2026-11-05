@@ -1,0 +1,141 @@
+{
+  "$schema": "../../../../schema/feriados.schema.json",
+  "id": "TJMS/campo-grande",
+  "escopo": "comarca",
+  "tribunal": "TJMS",
+  "comarca": "Campo Grande",
+  "uf": "MS",
+  "ibge": 5002704,
+  "observacao": "Comarca da Capital (a \"sede\" do TJMS).",
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "regras": [
+    {
+      "nome": "Santo Antônio, padroeiro de Campo Grande",
+      "tipo": "feriado",
+      "quando": {
+        "dia": "06-13"
+      },
+      "fonte": "Lei municipal de Campo Grande 3.901/2001 (citada no calendário do TRT24)",
+      "url": "https://www.trt24.jus.br/web/guest/calendario"
+    },
+    {
+      "nome": "Aniversário de Campo Grande",
+      "tipo": "feriado",
+      "quando": {
+        "dia": "08-26"
+      },
+      "fonte": "Lei municipal de Campo Grande 1.019/1967 (citada no calendário do TRT24)",
+      "url": "https://www.trt24.jus.br/web/guest/calendario"
+    },
+    {
+      "nome": "Corpus Christi",
+      "tipo": "feriado",
+      "quando": {
+        "pascoa": 60
+      },
+      "fonte": "Lei 9.093/1995, art. 2º, c/c Lei municipal de Campo Grande 1.019/1967 (citadas no calendário do TRT24)",
+      "url": "https://www.trt24.jus.br/web/guest/calendario"
+    }
+  ],
+  "datas": [
+    {
+      "data": "2021-06-13",
+      "nome": "Santo Antônio",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 3/2021 (lei municipal de Campo Grande)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2021-08-26",
+      "nome": "Aniversário da cidade",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 3/2021 (lei municipal de Campo Grande)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2022-06-13",
+      "nome": "Santo Antônio",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 16/2022 (lei municipal de Campo Grande)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2022-08-26",
+      "nome": "Aniversário da cidade",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 16/2022 (lei municipal de Campo Grande)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-06-13",
+      "nome": "Santo Antônio",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 4/2023 (lei municipal de Campo Grande)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-08-26",
+      "nome": "Aniversário da cidade",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 4/2023 (lei municipal de Campo Grande)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2024-06-13",
+      "nome": "Santo Antônio",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 1.536/2023 (lei municipal de Campo Grande)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2024-06-14",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria TJMS 1.536/2023",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2024-08-26",
+      "nome": "Aniversário da cidade",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 1.536/2023 (lei municipal de Campo Grande)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2025-06-13",
+      "nome": "Santo Antônio",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 1.265/2024 (lei municipal de Campo Grande)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2025-08-25",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria TJMS 1.265/2024",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2025-08-26",
+      "nome": "Aniversário da cidade",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 1.265/2024 (lei municipal de Campo Grande)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2026-08-26",
+      "nome": "Aniversário de Campo Grande (feriado municipal, só comarca da Capital)",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 983/2025",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    }
+  ]
+}

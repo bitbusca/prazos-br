@@ -1,0 +1,30 @@
+{
+  "$schema": "../../../../schema/feriados.schema.json",
+  "id": "TRT24/navirai",
+  "escopo": "comarca",
+  "tribunal": "TRT24",
+  "comarca": "Naviraí",
+  "uf": "MS",
+  "ibge": 5005707,
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2026
+  ],
+  "regras": [],
+  "datas": [
+    {
+      "data": "2026-05-13",
+      "nome": "Padroeira de Naviraí",
+      "tipo": "feriado",
+      "fonte": "Lei 713/1994; Calendário oficial TRT24 2026 - Portaria TRT/GP/SGJ 51/2025 e alterações",
+      "url": "https://www.trt24.jus.br/web/guest/calendario"
+    },
+    {
+      "data": "2026-11-11",
+      "nome": "Aniversário de Naviraí",
+      "tipo": "feriado",
+      "fonte": "Lei 31/1970; Calendário oficial TRT24 2026 - Portaria TRT/GP/SGJ 51/2025 e alterações",
+      "url": "https://www.trt24.jus.br/web/guest/calendario"
+    }
+  ]
+}

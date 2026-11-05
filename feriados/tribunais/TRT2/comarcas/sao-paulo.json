@@ -1,0 +1,65 @@
+{
+  "$schema": "../../../../schema/feriados.schema.json",
+  "id": "TRT2/sao-paulo",
+  "escopo": "comarca",
+  "tribunal": "TRT2",
+  "comarca": "São Paulo",
+  "uf": "SP",
+  "ibge": 3550308,
+  "observacao": "Varas do Trabalho da Capital e sede do TRT2. Não cobre suspensões de prédio ou vara isolada da Capital em 2026 (Ed. Sede 03-05/02, Fórum da Zona Sul 20/03 e 25/09, 10ª VT da Zona Leste 24/04, 12ª VT 21/08, Unidade Administrativa III 26/10) nem de 2025, registradas no calendário do portal.",
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2025,
+    2026
+  ],
+  "regras": [
+    {
+      "nome": "Aniversário de São Paulo",
+      "tipo": "feriado",
+      "quando": {
+        "dia": "01-25"
+      },
+      "fonte": "Lei municipal de São Paulo 14.485/2007, art. 10",
+      "url": "https://www.saopaulo.sp.leg.br/iah/fulltext/leis/L14485.pdf"
+    },
+    {
+      "nome": "Corpus Christi",
+      "tipo": "feriado",
+      "quando": {
+        "pascoa": 60
+      },
+      "fonte": "Lei municipal de São Paulo 14.485/2007, art. 10",
+      "url": "https://www.saopaulo.sp.leg.br/iah/fulltext/leis/L14485.pdf"
+    }
+  ],
+  "datas": [
+    {
+      "data": "2025-01-25",
+      "nome": "Aniversário do Município de São Paulo",
+      "tipo": "feriado",
+      "fonte": "Lei municipal 14.485/2007; Portaria GP 45/2024 (TRT2)",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/16754/2024_port0045_gp.pdf"
+    },
+    {
+      "data": "2025-06-19",
+      "nome": "Corpus Christi",
+      "tipo": "feriado",
+      "fonte": "Lei municipal 14.485/2007; Portaria GP 45/2024 (TRT2)",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/16754/2024_port0045_gp.pdf"
+    },
+    {
+      "data": "2026-01-25",
+      "nome": "Aniversário do Município de São Paulo",
+      "tipo": "feriado",
+      "fonte": "Lei municipal 14.485/2007; Portaria GP 50/2025 (TRT2)",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/17686/2025_port0050_gp.pdf"
+    },
+    {
+      "data": "2026-06-04",
+      "nome": "Corpus Christi",
+      "tipo": "feriado",
+      "fonte": "Lei municipal 14.485/2007; Portaria GP 50/2025 (TRT2)",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/17686/2025_port0050_gp.pdf"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../../schema/feriados.schema.json",
+  "id": "TJPR/curitiba",
+  "escopo": "comarca",
+  "tribunal": "TJPR",
+  "comarca": "Curitiba",
+  "uf": "PR",
+  "ibge": 4106902,
+  "observacao": "O TJPR chama a capital de 'Foro Central da Comarca da Região Metropolitana de Curitiba'; aqui é 'Curitiba' (município de Curitiba). Os foros regionais da comarca (São José dos Pinhais, Colombo, Pinhais, Araucária etc.) têm feriados próprios no art. 4º dos decretos anuais e não estão aqui. O 08/09 vale 'somente no Município de Curitiba' (DJ 621/2025) e alcança também a sede do Tribunal (2º grau), que fica em Curitiba. 2026 não conferido pelo mesmo motivo do tribunal.json (falta o ato do recesso de dezembro de 2026).",
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2025
+  ],
+  "regras": [
+    {
+      "nome": "Nossa Senhora da Luz dos Pinhais, padroeira de Curitiba",
+      "tipo": "feriado",
+      "quando": {
+        "dia": "09-08"
+      },
+      "fonte": "Lei municipal de Curitiba 3.015/1967, art. 1º, III (citada no Decreto municipal 95/2024)",
+      "url": "https://mid.curitiba.pr.gov.br/2024/00429306.pdf"
+    },
+    {
+      "nome": "Corpus Christi",
+      "tipo": "feriado",
+      "quando": {
+        "pascoa": 60
+      },
+      "fonte": "Lei municipal de Curitiba 3.015/1967, art. 1º, II (citada no Decreto municipal 95/2024)",
+      "url": "https://mid.curitiba.pr.gov.br/2024/00429306.pdf"
+    }
+  ],
+  "datas": [
+    {
+      "data": "2025-09-08",
+      "nome": "Padroeira de Curitiba (somente no Foro Central de Curitiba)",
+      "tipo": "feriado",
+      "fonte": "Decreto Judiciário 645/2024 (TJPR), art. 1º; Lei municipal 3.015/1967",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/decreto-judiciario-n-645-2024-pdf"
+    },
+    {
+      "data": "2026-09-08",
+      "nome": "Padroeira de Curitiba (somente no Município de Curitiba)",
+      "tipo": "feriado",
+      "fonte": "Decreto Judiciário 621/2025 (TJPR), art. 1º; Lei municipal 3.015/1967",
+      "url": "https://www.tjpr.jus.br/documents/d/comunicacao/sei_12428873_decreto"
+    }
+  ]
+}

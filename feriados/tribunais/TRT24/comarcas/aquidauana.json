@@ -1,0 +1,30 @@
+{
+  "$schema": "../../../../schema/feriados.schema.json",
+  "id": "TRT24/aquidauana",
+  "escopo": "comarca",
+  "tribunal": "TRT24",
+  "comarca": "Aquidauana",
+  "uf": "MS",
+  "ibge": 5001102,
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2026
+  ],
+  "regras": [],
+  "datas": [
+    {
+      "data": "2026-08-15",
+      "nome": "Aniversário de Aquidauana",
+      "tipo": "feriado",
+      "fonte": "Lei 19/1944; Calendário oficial TRT24 2026 - Portaria TRT/GP/SGJ 51/2025 e alterações",
+      "url": "https://www.trt24.jus.br/web/guest/calendario"
+    },
+    {
+      "data": "2026-12-08",
+      "nome": "Padroeiro de Aquidauana",
+      "tipo": "feriado",
+      "fonte": "Lei 19/1944; Calendário oficial TRT24 2026 - Portaria TRT/GP/SGJ 51/2025 e alterações",
+      "url": "https://www.trt24.jus.br/web/guest/calendario"
+    }
+  ]
+}

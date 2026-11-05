@@ -1,0 +1,30 @@
+{
+  "$schema": "../../../../schema/feriados.schema.json",
+  "id": "TRT24/jardim",
+  "escopo": "comarca",
+  "tribunal": "TRT24",
+  "comarca": "Jardim",
+  "uf": "MS",
+  "ibge": 5005004,
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2026
+  ],
+  "regras": [],
+  "datas": [
+    {
+      "data": "2026-05-14",
+      "nome": "Aniversário de Jardim",
+      "tipo": "feriado",
+      "fonte": "Decreto 006/2021; Calendário oficial TRT24 2026 - Portaria TRT/GP/SGJ 51/2025 e alterações",
+      "url": "https://www.trt24.jus.br/web/guest/calendario"
+    },
+    {
+      "data": "2026-06-13",
+      "nome": "Padroeiro de Jardim",
+      "tipo": "feriado",
+      "fonte": "Decreto 006/2021; Calendário oficial TRT24 2026 - Portaria TRT/GP/SGJ 51/2025 e alterações",
+      "url": "https://www.trt24.jus.br/web/guest/calendario"
+    }
+  ]
+}

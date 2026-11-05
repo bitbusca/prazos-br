@@ -1,0 +1,291 @@
+{
+  "$schema": "../../../schema/feriados.schema.json",
+  "id": "TRF2",
+  "escopo": "tribunal",
+  "nome": "Tribunal Regional Federal da 2ª Região",
+  "tribunal": "TRF2",
+  "observacao": "Datas de 2026 comuns ao Tribunal (Portaria PRES/TRF2 843/2025), à Seção Judiciária do Rio de Janeiro (844/2025) e à do Espírito Santo (845/2025), todas alteradas pelas Portarias 30, 31 e 32/2026 e pela 338/2026. Feriados estaduais e municipais ficam nos arquivos de comarca: o do Rio de Janeiro (sede do TRF2 e da Subseção do Rio) traz São Sebastião, São Jorge e a suspensão de 13/02/2026; para recurso no próprio TRF2 use a comarca 'Rio de Janeiro'. Pendentes: Espírito Santo (13/04 N. Sra. da Penha e municipais da Portaria 845/2025) e demais subseções do RJ (São Jorge 23/04 vale em toda a SJRJ, mas só está no arquivo da capital). Não entram suspensões só para INSS, AGU ou DPU (Portarias 36, 44, 177, 188, 223 e 227/2026). 2025 não conferido.",
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2026
+  ],
+  "comarcas": [
+    "Rio de Janeiro"
+  ],
+  "regras": [],
+  "datas": [
+    {
+      "data": "2026-01-01",
+      "nome": "Recesso judiciário",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portarias PRES/TRF2 843, 844 e 845/2025, alteradas pelas 30, 31 e 32/2026",
+      "url": "https://www.trf2.jus.br/sites/default/publico/motivo-ato/2026-02/SEI_1551034_Portaria_PRES_30.pdf"
+    },
+    {
+      "data": "2026-01-02",
+      "nome": "Recesso judiciário",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portarias PRES/TRF2 843, 844 e 845/2025, alteradas pelas 30, 31 e 32/2026",
+      "url": "https://www.trf2.jus.br/sites/default/publico/motivo-ato/2026-02/SEI_1551034_Portaria_PRES_30.pdf"
+    },
+    {
+      "data": "2026-01-03",
+      "nome": "Recesso judiciário",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portarias PRES/TRF2 843, 844 e 845/2025, alteradas pelas 30, 31 e 32/2026",
+      "url": "https://www.trf2.jus.br/sites/default/publico/motivo-ato/2026-02/SEI_1551034_Portaria_PRES_30.pdf"
+    },
+    {
+      "data": "2026-01-04",
+      "nome": "Recesso judiciário",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portarias PRES/TRF2 843, 844 e 845/2025, alteradas pelas 30, 31 e 32/2026",
+      "url": "https://www.trf2.jus.br/sites/default/publico/motivo-ato/2026-02/SEI_1551034_Portaria_PRES_30.pdf"
+    },
+    {
+      "data": "2026-01-05",
+      "nome": "Recesso judiciário",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portarias PRES/TRF2 843, 844 e 845/2025, alteradas pelas 30, 31 e 32/2026",
+      "url": "https://www.trf2.jus.br/sites/default/publico/motivo-ato/2026-02/SEI_1551034_Portaria_PRES_30.pdf"
+    },
+    {
+      "data": "2026-01-06",
+      "nome": "Recesso judiciário",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portarias PRES/TRF2 843, 844 e 845/2025, alteradas pelas 30, 31 e 32/2026",
+      "url": "https://www.trf2.jus.br/sites/default/publico/motivo-ato/2026-02/SEI_1551034_Portaria_PRES_30.pdf"
+    },
+    {
+      "data": "2026-02-16",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, III; Portarias PRES/TRF2 843, 844 e 845/2025, alteradas pelas 30, 31 e 32/2026",
+      "url": "https://www.trf2.jus.br/sites/default/publico/motivo-ato/2026-02/SEI_1551034_Portaria_PRES_30.pdf"
+    },
+    {
+      "data": "2026-02-17",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, III; Portarias PRES/TRF2 843, 844 e 845/2025, alteradas pelas 30, 31 e 32/2026",
+      "url": "https://www.trf2.jus.br/sites/default/publico/motivo-ato/2026-02/SEI_1551034_Portaria_PRES_30.pdf"
+    },
+    {
+      "data": "2026-02-18",
+      "nome": "Quarta-Feira de Cinzas - Ponto Facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portarias PRES/TRF2 843, 844 e 845/2025, alteradas pelas 30, 31 e 32/2026",
+      "url": "https://www.trf2.jus.br/sites/default/publico/motivo-ato/2026-02/SEI_1551034_Portaria_PRES_30.pdf"
+    },
+    {
+      "data": "2026-04-01",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, II; Portarias PRES/TRF2 843, 844 e 845/2025, alteradas pelas 30, 31 e 32/2026",
+      "url": "https://www.trf2.jus.br/sites/default/publico/motivo-ato/2026-02/SEI_1551034_Portaria_PRES_30.pdf"
+    },
+    {
+      "data": "2026-04-02",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, II; Portarias PRES/TRF2 843, 844 e 845/2025, alteradas pelas 30, 31 e 32/2026",
+      "url": "https://www.trf2.jus.br/sites/default/publico/motivo-ato/2026-02/SEI_1551034_Portaria_PRES_30.pdf"
+    },
+    {
+      "data": "2026-04-03",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, II; Portarias PRES/TRF2 843, 844 e 845/2025, alteradas pelas 30, 31 e 32/2026",
+      "url": "https://www.trf2.jus.br/sites/default/publico/motivo-ato/2026-02/SEI_1551034_Portaria_PRES_30.pdf"
+    },
+    {
+      "data": "2026-04-20",
+      "nome": "Ponto Facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portarias PRES/TRF2 30, 31 e 32/2026 (alteram as 843, 844 e 845/2025)",
+      "url": "https://www.trf2.jus.br/sites/default/publico/motivo-ato/2026-02/SEI_1551034_Portaria_PRES_30.pdf"
+    },
+    {
+      "data": "2026-04-21",
+      "nome": "Tiradentes",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; Portarias PRES/TRF2 843, 844 e 845/2025, alteradas pelas 30, 31 e 32/2026",
+      "url": "https://www.trf2.jus.br/sites/default/publico/motivo-ato/2026-02/SEI_1551034_Portaria_PRES_30.pdf"
+    },
+    {
+      "data": "2026-05-01",
+      "nome": "Dia Mundial do Trabalho",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; Portarias PRES/TRF2 843, 844 e 845/2025, alteradas pelas 30, 31 e 32/2026",
+      "url": "https://www.trf2.jus.br/sites/default/publico/motivo-ato/2026-02/SEI_1551034_Portaria_PRES_30.pdf"
+    },
+    {
+      "data": "2026-06-04",
+      "nome": "Corpus Christi - Ponto Facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portarias PRES/TRF2 843, 844 e 845/2025, alteradas pelas 30, 31 e 32/2026",
+      "url": "https://www.trf2.jus.br/sites/default/publico/motivo-ato/2026-02/SEI_1551034_Portaria_PRES_30.pdf"
+    },
+    {
+      "data": "2026-06-05",
+      "nome": "Ponto Facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portarias PRES/TRF2 30, 31 e 32/2026 (alteram as 843, 844 e 845/2025)",
+      "url": "https://www.trf2.jus.br/sites/default/publico/motivo-ato/2026-02/SEI_1551034_Portaria_PRES_30.pdf"
+    },
+    {
+      "data": "2026-06-29",
+      "nome": "Ponto facultativo (jogo do Brasil na Copa do Mundo)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria PRES/TRF2 338/2026 (acrescenta às Portarias 843, 844 e 845/2025)",
+      "url": "https://www.trf2.jus.br/sites/default/publico/motivo-ato/2026-06/portaria-pres-trf2-no-338.pdf"
+    },
+    {
+      "data": "2026-08-10",
+      "nome": "Ponto Facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portarias PRES/TRF2 30, 31 e 32/2026 (alteram as 843, 844 e 845/2025)",
+      "url": "https://www.trf2.jus.br/sites/default/publico/motivo-ato/2026-02/SEI_1551034_Portaria_PRES_30.pdf"
+    },
+    {
+      "data": "2026-08-11",
+      "nome": "Dia do Advogado",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, IV; Portarias PRES/TRF2 843, 844 e 845/2025, alteradas pelas 30, 31 e 32/2026",
+      "url": "https://www.trf2.jus.br/sites/default/publico/motivo-ato/2026-02/SEI_1551034_Portaria_PRES_30.pdf"
+    },
+    {
+      "data": "2026-09-07",
+      "nome": "Dia da Independência do Brasil",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; Portarias PRES/TRF2 843, 844 e 845/2025, alteradas pelas 30, 31 e 32/2026",
+      "url": "https://www.trf2.jus.br/sites/default/publico/motivo-ato/2026-02/SEI_1551034_Portaria_PRES_30.pdf"
+    },
+    {
+      "data": "2026-10-12",
+      "nome": "Dia de Nossa Senhora Aparecida",
+      "tipo": "feriado",
+      "fonte": "Lei 6.802/1980; Portarias PRES/TRF2 843, 844 e 845/2025, alteradas pelas 30, 31 e 32/2026",
+      "url": "https://www.trf2.jus.br/sites/default/publico/motivo-ato/2026-02/SEI_1551034_Portaria_PRES_30.pdf"
+    },
+    {
+      "data": "2026-10-30",
+      "nome": "Dia do Servidor Público - Ponto Facultativo (transferido de 28/10)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portarias PRES/TRF2 30, 31 e 32/2026 (alteram as 843, 844 e 845/2025)",
+      "url": "https://www.trf2.jus.br/sites/default/publico/motivo-ato/2026-02/SEI_1551034_Portaria_PRES_30.pdf"
+    },
+    {
+      "data": "2026-11-02",
+      "nome": "Finados",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, IV; Portarias PRES/TRF2 843, 844 e 845/2025, alteradas pelas 30, 31 e 32/2026",
+      "url": "https://www.trf2.jus.br/sites/default/publico/motivo-ato/2026-02/SEI_1551034_Portaria_PRES_30.pdf"
+    },
+    {
+      "data": "2026-11-20",
+      "nome": "Dia Nacional de Zumbi e da Consciência Negra",
+      "tipo": "feriado",
+      "fonte": "Lei 14.759/2023; Portarias PRES/TRF2 843, 844 e 845/2025, alteradas pelas 30, 31 e 32/2026",
+      "url": "https://www.trf2.jus.br/sites/default/publico/motivo-ato/2026-02/SEI_1551034_Portaria_PRES_30.pdf"
+    },
+    {
+      "data": "2026-12-07",
+      "nome": "Ponto Facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portarias PRES/TRF2 30, 31 e 32/2026 (alteram as 843, 844 e 845/2025)",
+      "url": "https://www.trf2.jus.br/sites/default/publico/motivo-ato/2026-02/SEI_1551034_Portaria_PRES_30.pdf"
+    },
+    {
+      "data": "2026-12-08",
+      "nome": "Dia da Justiça",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, IV; Portarias PRES/TRF2 843, 844 e 845/2025, alteradas pelas 30, 31 e 32/2026",
+      "url": "https://www.trf2.jus.br/sites/default/publico/motivo-ato/2026-02/SEI_1551034_Portaria_PRES_30.pdf"
+    },
+    {
+      "data": "2026-12-20",
+      "nome": "Recesso judiciário (regime de plantão)",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria PRES/TRF2 843/2025, art. 2º",
+      "url": "https://www.trf2.jus.br/sites/default/publico/motivo-ato/2026-02/SEI_1420312_Portaria_PRES_843.pdf"
+    },
+    {
+      "data": "2026-12-21",
+      "nome": "Recesso judiciário (regime de plantão)",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria PRES/TRF2 843/2025, art. 2º",
+      "url": "https://www.trf2.jus.br/sites/default/publico/motivo-ato/2026-02/SEI_1420312_Portaria_PRES_843.pdf"
+    },
+    {
+      "data": "2026-12-22",
+      "nome": "Recesso judiciário (regime de plantão)",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria PRES/TRF2 843/2025, art. 2º",
+      "url": "https://www.trf2.jus.br/sites/default/publico/motivo-ato/2026-02/SEI_1420312_Portaria_PRES_843.pdf"
+    },
+    {
+      "data": "2026-12-23",
+      "nome": "Recesso judiciário (regime de plantão)",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria PRES/TRF2 843/2025, art. 2º",
+      "url": "https://www.trf2.jus.br/sites/default/publico/motivo-ato/2026-02/SEI_1420312_Portaria_PRES_843.pdf"
+    },
+    {
+      "data": "2026-12-24",
+      "nome": "Recesso judiciário (regime de plantão)",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria PRES/TRF2 843/2025, art. 2º",
+      "url": "https://www.trf2.jus.br/sites/default/publico/motivo-ato/2026-02/SEI_1420312_Portaria_PRES_843.pdf"
+    },
+    {
+      "data": "2026-12-25",
+      "nome": "Natal",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria PRES/TRF2 843/2025, art. 2º",
+      "url": "https://www.trf2.jus.br/sites/default/publico/motivo-ato/2026-02/SEI_1420312_Portaria_PRES_843.pdf"
+    },
+    {
+      "data": "2026-12-26",
+      "nome": "Recesso judiciário (regime de plantão)",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria PRES/TRF2 843/2025, art. 2º",
+      "url": "https://www.trf2.jus.br/sites/default/publico/motivo-ato/2026-02/SEI_1420312_Portaria_PRES_843.pdf"
+    },
+    {
+      "data": "2026-12-27",
+      "nome": "Recesso judiciário (regime de plantão)",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria PRES/TRF2 843/2025, art. 2º",
+      "url": "https://www.trf2.jus.br/sites/default/publico/motivo-ato/2026-02/SEI_1420312_Portaria_PRES_843.pdf"
+    },
+    {
+      "data": "2026-12-28",
+      "nome": "Recesso judiciário (regime de plantão)",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria PRES/TRF2 843/2025, art. 2º",
+      "url": "https://www.trf2.jus.br/sites/default/publico/motivo-ato/2026-02/SEI_1420312_Portaria_PRES_843.pdf"
+    },
+    {
+      "data": "2026-12-29",
+      "nome": "Recesso judiciário (regime de plantão)",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria PRES/TRF2 843/2025, art. 2º",
+      "url": "https://www.trf2.jus.br/sites/default/publico/motivo-ato/2026-02/SEI_1420312_Portaria_PRES_843.pdf"
+    },
+    {
+      "data": "2026-12-30",
+      "nome": "Recesso judiciário (regime de plantão)",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria PRES/TRF2 843/2025, art. 2º",
+      "url": "https://www.trf2.jus.br/sites/default/publico/motivo-ato/2026-02/SEI_1420312_Portaria_PRES_843.pdf"
+    },
+    {
+      "data": "2026-12-31",
+      "nome": "Recesso judiciário (regime de plantão)",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria PRES/TRF2 843/2025, art. 2º",
+      "url": "https://www.trf2.jus.br/sites/default/publico/motivo-ato/2026-02/SEI_1420312_Portaria_PRES_843.pdf"
+    }
+  ]
+}

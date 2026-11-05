@@ -1,0 +1,786 @@
+{
+  "$schema": "../../../schema/feriados.schema.json",
+  "id": "TJPE",
+  "escopo": "tribunal",
+  "nome": "Tribunal de Justiça do Estado de Pernambuco",
+  "tribunal": "TJPE",
+  "uf": "PE",
+  "observacao": "2026 conferido no Ato Conjunto 43/2025 (calendário de feriados forenses de 2026, inclusive 02 a 06/01 e 20 a 31/12 pelo COJE art. 94 e Res. TJPE 520/2024) e nos Atos 966/2026 e 977/2026 (prazos suspensos de 11 a 15/05/2026). 2025 transcrito do Ato Conjunto 42/2024 e da suspensão de 19 a 23/05/2025, mas NÃO marcado como conferido: há atos avulsos de 2025 não cadastrados (ex.: suspensões por chuva no Recife e RMR em 05/02/2025 e portarias de maio de 2025). As regras abaixo não incluem 11/08 (o TJPE costuma transferir; em 2026 foi para 10/08) nem 20 a 23/12 e 02 a 06/01 (vêm da Res. 520/2024, que não li). Comarcas do interior: feriados municipais (art. 4º do ato) não cadastrados; só Recife. O 13/02/2026 teve expediente normal (remoto em três prédios do Recife).",
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2026
+  ],
+  "comarcas": [
+    "Recife"
+  ],
+  "regras": [
+    {
+      "nome": "Data Magna de Pernambuco (Revolução Pernambucana de 1817)",
+      "tipo": "feriado",
+      "quando": {
+        "dia": "03-06"
+      },
+      "desde": 2018,
+      "fonte": "Lei estadual PE 16.241/2017, art. 49 (consolidou a Lei 16.059/2017)",
+      "url": "https://legis.alepe.pe.gov.br/texto.aspx?tiponorma=1&numero=16241&complemento=0&ano=2017&tipo=&url="
+    },
+    {
+      "nome": "Feriado forense (23/06)",
+      "tipo": "feriado",
+      "quando": {
+        "dia": "06-23"
+      },
+      "desde": 2010,
+      "fonte": "COJE-PE (LC 100/2007), art. 94, redação da LC 145/2009",
+      "url": "https://legis.alepe.pe.gov.br/texto.aspx?tiponorma=2&numero=100&complemento=0&ano=2007&tipo=&url="
+    },
+    {
+      "nome": "Feriado forense (25 a 30/06)",
+      "tipo": "feriado",
+      "quando": {
+        "de": "06-25",
+        "ate": "06-30"
+      },
+      "desde": 2010,
+      "fonte": "COJE-PE (LC 100/2007), art. 94, redação da LC 145/2009",
+      "url": "https://legis.alepe.pe.gov.br/texto.aspx?tiponorma=2&numero=100&complemento=0&ano=2007&tipo=&url="
+    },
+    {
+      "nome": "Feriado forense (24/12)",
+      "tipo": "feriado",
+      "quando": {
+        "dia": "12-24"
+      },
+      "desde": 2010,
+      "fonte": "COJE-PE (LC 100/2007), art. 94, redação da LC 145/2009",
+      "url": "https://legis.alepe.pe.gov.br/texto.aspx?tiponorma=2&numero=100&complemento=0&ano=2007&tipo=&url="
+    },
+    {
+      "nome": "Feriado forense (26 a 31/12)",
+      "tipo": "feriado",
+      "quando": {
+        "de": "12-26",
+        "ate": "12-31"
+      },
+      "desde": 2010,
+      "fonte": "COJE-PE (LC 100/2007), art. 94, redação da LC 145/2009",
+      "url": "https://legis.alepe.pe.gov.br/texto.aspx?tiponorma=2&numero=100&complemento=0&ano=2007&tipo=&url="
+    }
+  ],
+  "datas": [
+    {
+      "data": "2025-01-01",
+      "nome": "Confraternização Universal",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 42/2024, art. 1º, I",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/ato_conjunto_n-42-2024-pdf-1"
+    },
+    {
+      "data": "2025-01-02",
+      "nome": "Feriado forense (recesso de início de ano)",
+      "tipo": "recesso",
+      "fonte": "Ato Conjunto TJPE 42/2024, art. 1º, par. único (COJE-PE (LC 100/2007), art. 94, e Res. TJPE 520/2024)",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/ato_conjunto_n-42-2024-pdf-1"
+    },
+    {
+      "data": "2025-01-03",
+      "nome": "Feriado forense (recesso de início de ano)",
+      "tipo": "recesso",
+      "fonte": "Ato Conjunto TJPE 42/2024, art. 1º, par. único (COJE-PE (LC 100/2007), art. 94, e Res. TJPE 520/2024)",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/ato_conjunto_n-42-2024-pdf-1"
+    },
+    {
+      "data": "2025-01-04",
+      "nome": "Feriado forense (recesso de início de ano)",
+      "tipo": "recesso",
+      "fonte": "Ato Conjunto TJPE 42/2024, art. 1º, par. único (COJE-PE (LC 100/2007), art. 94, e Res. TJPE 520/2024)",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/ato_conjunto_n-42-2024-pdf-1"
+    },
+    {
+      "data": "2025-01-05",
+      "nome": "Feriado forense (recesso de início de ano)",
+      "tipo": "recesso",
+      "fonte": "Ato Conjunto TJPE 42/2024, art. 1º, par. único (COJE-PE (LC 100/2007), art. 94, e Res. TJPE 520/2024)",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/ato_conjunto_n-42-2024-pdf-1"
+    },
+    {
+      "data": "2025-01-06",
+      "nome": "Feriado forense (recesso de início de ano)",
+      "tipo": "recesso",
+      "fonte": "Ato Conjunto TJPE 42/2024, art. 1º, par. único (COJE-PE (LC 100/2007), art. 94, e Res. TJPE 520/2024)",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/ato_conjunto_n-42-2024-pdf-1"
+    },
+    {
+      "data": "2025-02-28",
+      "nome": "Sem expediente (elevado custo operacional, com compensação)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Ato Conjunto TJPE 42/2024, art. 3º",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/ato_conjunto_n-42-2024-pdf-1"
+    },
+    {
+      "data": "2025-03-03",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 42/2024, art. 1º, II",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/ato_conjunto_n-42-2024-pdf-1"
+    },
+    {
+      "data": "2025-03-04",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 42/2024, art. 1º, III",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/ato_conjunto_n-42-2024-pdf-1"
+    },
+    {
+      "data": "2025-03-05",
+      "nome": "Cinzas",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 42/2024, art. 1º, IV",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/ato_conjunto_n-42-2024-pdf-1"
+    },
+    {
+      "data": "2025-03-06",
+      "nome": "Data Magna de Pernambuco (Lei estadual 16.241/2017)",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 42/2024, art. 1º, V",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/ato_conjunto_n-42-2024-pdf-1"
+    },
+    {
+      "data": "2025-03-07",
+      "nome": "Sem expediente (elevado custo operacional, com compensação)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Ato Conjunto TJPE 42/2024, art. 3º",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/ato_conjunto_n-42-2024-pdf-1"
+    },
+    {
+      "data": "2025-04-17",
+      "nome": "Semana Santa (Paixão de Cristo)",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 42/2024, art. 1º, VI",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/ato_conjunto_n-42-2024-pdf-1"
+    },
+    {
+      "data": "2025-04-18",
+      "nome": "Semana Santa (Paixão de Cristo)",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 42/2024, art. 1º, VII",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/ato_conjunto_n-42-2024-pdf-1"
+    },
+    {
+      "data": "2025-04-20",
+      "nome": "Páscoa",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 42/2024, art. 1º, VIII",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/ato_conjunto_n-42-2024-pdf-1"
+    },
+    {
+      "data": "2025-04-21",
+      "nome": "Tiradentes",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 42/2024, art. 1º, IX",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/ato_conjunto_n-42-2024-pdf-1"
+    },
+    {
+      "data": "2025-05-01",
+      "nome": "Dia do Trabalho",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 42/2024, art. 1º, X",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/ato_conjunto_n-42-2024-pdf-1"
+    },
+    {
+      "data": "2025-05-02",
+      "nome": "Sem expediente (elevado custo operacional, com compensação)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Ato Conjunto TJPE 42/2024, art. 3º",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/ato_conjunto_n-42-2024-pdf-1"
+    },
+    {
+      "data": "2025-05-19",
+      "nome": "Suspensão dos prazos processuais (implantação do DJEN e do Domicílio Judicial Eletrônico)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Decisão da Presidência do TJPE de 20/05/2025, SEI 000017461-68.2025.8.17.8017 (DJe 130/2025; Ato 415/2025)",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/suspensao_prazos_pje-pdf"
+    },
+    {
+      "data": "2025-05-20",
+      "nome": "Suspensão dos prazos processuais (implantação do DJEN e do Domicílio Judicial Eletrônico)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Decisão da Presidência do TJPE de 20/05/2025, SEI 000017461-68.2025.8.17.8017 (DJe 130/2025; Ato 415/2025)",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/suspensao_prazos_pje-pdf"
+    },
+    {
+      "data": "2025-05-21",
+      "nome": "Suspensão dos prazos processuais (implantação do DJEN e do Domicílio Judicial Eletrônico)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Decisão da Presidência do TJPE de 20/05/2025, SEI 000017461-68.2025.8.17.8017 (DJe 130/2025; Ato 415/2025)",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/suspensao_prazos_pje-pdf"
+    },
+    {
+      "data": "2025-05-22",
+      "nome": "Suspensão dos prazos processuais (implantação do DJEN e do Domicílio Judicial Eletrônico)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Decisão da Presidência do TJPE de 20/05/2025, SEI 000017461-68.2025.8.17.8017 (DJe 130/2025; Ato 415/2025)",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/suspensao_prazos_pje-pdf"
+    },
+    {
+      "data": "2025-05-23",
+      "nome": "Suspensão dos prazos processuais (implantação do DJEN e do Domicílio Judicial Eletrônico)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Decisão da Presidência do TJPE de 20/05/2025, SEI 000017461-68.2025.8.17.8017 (DJe 130/2025; Ato 415/2025)",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/suspensao_prazos_pje-pdf"
+    },
+    {
+      "data": "2025-06-20",
+      "nome": "Corpus Christi (transferido de 19/06)",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 42/2024, art. 1º, XI",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/ato_conjunto_n-42-2024-pdf-1"
+    },
+    {
+      "data": "2025-06-23",
+      "nome": "Feriado forense (festas juninas)",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 42/2024, art. 1º, par. único (COJE-PE (LC 100/2007), art. 94, e Res. TJPE 520/2024)",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/ato_conjunto_n-42-2024-pdf-1"
+    },
+    {
+      "data": "2025-06-24",
+      "nome": "São João",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 42/2024, art. 1º, XII",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/ato_conjunto_n-42-2024-pdf-1"
+    },
+    {
+      "data": "2025-06-25",
+      "nome": "Feriado forense (festas juninas)",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 42/2024, art. 1º, par. único (COJE-PE (LC 100/2007), art. 94, e Res. TJPE 520/2024)",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/ato_conjunto_n-42-2024-pdf-1"
+    },
+    {
+      "data": "2025-06-26",
+      "nome": "Feriado forense (festas juninas)",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 42/2024, art. 1º, par. único (COJE-PE (LC 100/2007), art. 94, e Res. TJPE 520/2024)",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/ato_conjunto_n-42-2024-pdf-1"
+    },
+    {
+      "data": "2025-06-27",
+      "nome": "Feriado forense (festas juninas)",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 42/2024, art. 1º, par. único (COJE-PE (LC 100/2007), art. 94, e Res. TJPE 520/2024)",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/ato_conjunto_n-42-2024-pdf-1"
+    },
+    {
+      "data": "2025-06-28",
+      "nome": "Feriado forense (festas juninas)",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 42/2024, art. 1º, par. único (COJE-PE (LC 100/2007), art. 94, e Res. TJPE 520/2024)",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/ato_conjunto_n-42-2024-pdf-1"
+    },
+    {
+      "data": "2025-06-29",
+      "nome": "Feriado forense (festas juninas)",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 42/2024, art. 1º, par. único (COJE-PE (LC 100/2007), art. 94, e Res. TJPE 520/2024)",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/ato_conjunto_n-42-2024-pdf-1"
+    },
+    {
+      "data": "2025-06-30",
+      "nome": "Feriado forense (festas juninas)",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 42/2024, art. 1º, par. único (COJE-PE (LC 100/2007), art. 94, e Res. TJPE 520/2024)",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/ato_conjunto_n-42-2024-pdf-1"
+    },
+    {
+      "data": "2025-08-11",
+      "nome": "Dia dos Cursos Jurídicos (COJE art. 94)",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 42/2024, art. 1º, XIII",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/ato_conjunto_n-42-2024-pdf-1"
+    },
+    {
+      "data": "2025-09-07",
+      "nome": "Independência do Brasil",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 42/2024, art. 1º, XIV",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/ato_conjunto_n-42-2024-pdf-1"
+    },
+    {
+      "data": "2025-10-12",
+      "nome": "Nossa Senhora Aparecida",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 42/2024, art. 1º, XV",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/ato_conjunto_n-42-2024-pdf-1"
+    },
+    {
+      "data": "2025-10-27",
+      "nome": "Dia do Servidor Público (antecipado de 28/10)",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 42/2024, art. 1º, XVI",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/ato_conjunto_n-42-2024-pdf-1"
+    },
+    {
+      "data": "2025-11-02",
+      "nome": "Dia de Finados",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 42/2024, art. 1º, XVII",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/ato_conjunto_n-42-2024-pdf-1"
+    },
+    {
+      "data": "2025-11-15",
+      "nome": "Proclamação da República",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 42/2024, art. 1º, XVIII",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/ato_conjunto_n-42-2024-pdf-1"
+    },
+    {
+      "data": "2025-11-20",
+      "nome": "Dia Nacional de Zumbi e da Consciência Negra",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 42/2024, art. 1º, XIX",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/ato_conjunto_n-42-2024-pdf-1"
+    },
+    {
+      "data": "2025-11-21",
+      "nome": "Sem expediente (elevado custo operacional, com compensação)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Ato Conjunto TJPE 42/2024, art. 3º",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/ato_conjunto_n-42-2024-pdf-1"
+    },
+    {
+      "data": "2025-12-08",
+      "nome": "Nossa Senhora da Conceição e Dia da Justiça",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 42/2024, art. 1º, XX",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/ato_conjunto_n-42-2024-pdf-1"
+    },
+    {
+      "data": "2025-12-20",
+      "nome": "Feriado forense (recesso de fim de ano)",
+      "tipo": "recesso",
+      "fonte": "Ato Conjunto TJPE 42/2024, art. 1º, par. único (COJE-PE (LC 100/2007), art. 94, e Res. TJPE 520/2024)",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/ato_conjunto_n-42-2024-pdf-1"
+    },
+    {
+      "data": "2025-12-21",
+      "nome": "Feriado forense (recesso de fim de ano)",
+      "tipo": "recesso",
+      "fonte": "Ato Conjunto TJPE 42/2024, art. 1º, par. único (COJE-PE (LC 100/2007), art. 94, e Res. TJPE 520/2024)",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/ato_conjunto_n-42-2024-pdf-1"
+    },
+    {
+      "data": "2025-12-22",
+      "nome": "Feriado forense (recesso de fim de ano)",
+      "tipo": "recesso",
+      "fonte": "Ato Conjunto TJPE 42/2024, art. 1º, par. único (COJE-PE (LC 100/2007), art. 94, e Res. TJPE 520/2024)",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/ato_conjunto_n-42-2024-pdf-1"
+    },
+    {
+      "data": "2025-12-23",
+      "nome": "Feriado forense (recesso de fim de ano)",
+      "tipo": "recesso",
+      "fonte": "Ato Conjunto TJPE 42/2024, art. 1º, par. único (COJE-PE (LC 100/2007), art. 94, e Res. TJPE 520/2024)",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/ato_conjunto_n-42-2024-pdf-1"
+    },
+    {
+      "data": "2025-12-24",
+      "nome": "Feriado forense (recesso de fim de ano)",
+      "tipo": "recesso",
+      "fonte": "Ato Conjunto TJPE 42/2024, art. 1º, par. único (COJE-PE (LC 100/2007), art. 94, e Res. TJPE 520/2024)",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/ato_conjunto_n-42-2024-pdf-1"
+    },
+    {
+      "data": "2025-12-25",
+      "nome": "Natal",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 42/2024, art. 1º, XXI",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/ato_conjunto_n-42-2024-pdf-1"
+    },
+    {
+      "data": "2025-12-26",
+      "nome": "Feriado forense (recesso de fim de ano)",
+      "tipo": "recesso",
+      "fonte": "Ato Conjunto TJPE 42/2024, art. 1º, par. único (COJE-PE (LC 100/2007), art. 94, e Res. TJPE 520/2024)",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/ato_conjunto_n-42-2024-pdf-1"
+    },
+    {
+      "data": "2025-12-27",
+      "nome": "Feriado forense (recesso de fim de ano)",
+      "tipo": "recesso",
+      "fonte": "Ato Conjunto TJPE 42/2024, art. 1º, par. único (COJE-PE (LC 100/2007), art. 94, e Res. TJPE 520/2024)",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/ato_conjunto_n-42-2024-pdf-1"
+    },
+    {
+      "data": "2025-12-28",
+      "nome": "Feriado forense (recesso de fim de ano)",
+      "tipo": "recesso",
+      "fonte": "Ato Conjunto TJPE 42/2024, art. 1º, par. único (COJE-PE (LC 100/2007), art. 94, e Res. TJPE 520/2024)",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/ato_conjunto_n-42-2024-pdf-1"
+    },
+    {
+      "data": "2025-12-29",
+      "nome": "Feriado forense (recesso de fim de ano)",
+      "tipo": "recesso",
+      "fonte": "Ato Conjunto TJPE 42/2024, art. 1º, par. único (COJE-PE (LC 100/2007), art. 94, e Res. TJPE 520/2024)",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/ato_conjunto_n-42-2024-pdf-1"
+    },
+    {
+      "data": "2025-12-30",
+      "nome": "Feriado forense (recesso de fim de ano)",
+      "tipo": "recesso",
+      "fonte": "Ato Conjunto TJPE 42/2024, art. 1º, par. único (COJE-PE (LC 100/2007), art. 94, e Res. TJPE 520/2024)",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/ato_conjunto_n-42-2024-pdf-1"
+    },
+    {
+      "data": "2025-12-31",
+      "nome": "Feriado forense (recesso de fim de ano)",
+      "tipo": "recesso",
+      "fonte": "Ato Conjunto TJPE 42/2024, art. 1º, par. único (COJE-PE (LC 100/2007), art. 94, e Res. TJPE 520/2024)",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/ato_conjunto_n-42-2024-pdf-1"
+    },
+    {
+      "data": "2026-01-01",
+      "nome": "Confraternização Universal",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 43/2025, art. 1º, I",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/feriados-2026-pdf"
+    },
+    {
+      "data": "2026-01-02",
+      "nome": "Feriado forense (recesso de início de ano)",
+      "tipo": "recesso",
+      "fonte": "Ato Conjunto TJPE 43/2025, art. 1º, par. único (COJE-PE (LC 100/2007), art. 94, e Res. TJPE 520/2024)",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/feriados-2026-pdf"
+    },
+    {
+      "data": "2026-01-03",
+      "nome": "Feriado forense (recesso de início de ano)",
+      "tipo": "recesso",
+      "fonte": "Ato Conjunto TJPE 43/2025, art. 1º, par. único (COJE-PE (LC 100/2007), art. 94, e Res. TJPE 520/2024)",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/feriados-2026-pdf"
+    },
+    {
+      "data": "2026-01-04",
+      "nome": "Feriado forense (recesso de início de ano)",
+      "tipo": "recesso",
+      "fonte": "Ato Conjunto TJPE 43/2025, art. 1º, par. único (COJE-PE (LC 100/2007), art. 94, e Res. TJPE 520/2024)",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/feriados-2026-pdf"
+    },
+    {
+      "data": "2026-01-05",
+      "nome": "Feriado forense (recesso de início de ano)",
+      "tipo": "recesso",
+      "fonte": "Ato Conjunto TJPE 43/2025, art. 1º, par. único (COJE-PE (LC 100/2007), art. 94, e Res. TJPE 520/2024)",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/feriados-2026-pdf"
+    },
+    {
+      "data": "2026-01-06",
+      "nome": "Feriado forense (recesso de início de ano)",
+      "tipo": "recesso",
+      "fonte": "Ato Conjunto TJPE 43/2025, art. 1º, par. único (COJE-PE (LC 100/2007), art. 94, e Res. TJPE 520/2024)",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/feriados-2026-pdf"
+    },
+    {
+      "data": "2026-02-16",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 43/2025, art. 1º, II",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/feriados-2026-pdf"
+    },
+    {
+      "data": "2026-02-17",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 43/2025, art. 1º, III",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/feriados-2026-pdf"
+    },
+    {
+      "data": "2026-02-18",
+      "nome": "Cinzas",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 43/2025, art. 1º, IV",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/feriados-2026-pdf"
+    },
+    {
+      "data": "2026-03-06",
+      "nome": "Data Magna de Pernambuco (Lei estadual 16.241/2017)",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 43/2025, art. 1º, V",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/feriados-2026-pdf"
+    },
+    {
+      "data": "2026-04-02",
+      "nome": "Semana Santa (Paixão de Cristo)",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 43/2025, art. 1º, VI",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/feriados-2026-pdf"
+    },
+    {
+      "data": "2026-04-03",
+      "nome": "Semana Santa (Paixão de Cristo)",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 43/2025, art. 1º, VII",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/feriados-2026-pdf"
+    },
+    {
+      "data": "2026-04-05",
+      "nome": "Páscoa",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 43/2025, art. 1º, VIII",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/feriados-2026-pdf"
+    },
+    {
+      "data": "2026-04-21",
+      "nome": "Tiradentes",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 43/2025, art. 1º, IX",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/feriados-2026-pdf"
+    },
+    {
+      "data": "2026-05-01",
+      "nome": "Dia do Trabalho",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 43/2025, art. 1º, X",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/feriados-2026-pdf"
+    },
+    {
+      "data": "2026-05-11",
+      "nome": "Suspensão dos prazos processuais (instabilidade do PJe)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Ato TJPE 966/2026, art. 1º",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/ato_n-966-2026-pdf"
+    },
+    {
+      "data": "2026-05-12",
+      "nome": "Suspensão dos prazos processuais (instabilidade do PJe)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Ato TJPE 966/2026, art. 1º",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/ato_n-966-2026-pdf"
+    },
+    {
+      "data": "2026-05-13",
+      "nome": "Suspensão dos prazos processuais (instabilidade do PJe)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Ato TJPE 966/2026, art. 1º",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/ato_n-966-2026-pdf"
+    },
+    {
+      "data": "2026-05-14",
+      "nome": "Suspensão dos prazos processuais (instabilidade do PJe)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Ato TJPE 977/2026, art. 1º",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/ato_n-977-2026-pdf"
+    },
+    {
+      "data": "2026-05-15",
+      "nome": "Suspensão dos prazos processuais (instabilidade do PJe)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Ato TJPE 977/2026, art. 1º",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/ato_n-977-2026-pdf"
+    },
+    {
+      "data": "2026-06-22",
+      "nome": "Corpus Christi (transferido de 04/06)",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 43/2025, art. 1º, XI",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/feriados-2026-pdf"
+    },
+    {
+      "data": "2026-06-23",
+      "nome": "Feriado forense (festas juninas)",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 43/2025, art. 1º, par. único (COJE-PE (LC 100/2007), art. 94, e Res. TJPE 520/2024)",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/feriados-2026-pdf"
+    },
+    {
+      "data": "2026-06-24",
+      "nome": "São João",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 43/2025, art. 1º, XII",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/feriados-2026-pdf"
+    },
+    {
+      "data": "2026-06-25",
+      "nome": "Feriado forense (festas juninas)",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 43/2025, art. 1º, par. único (COJE-PE (LC 100/2007), art. 94, e Res. TJPE 520/2024)",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/feriados-2026-pdf"
+    },
+    {
+      "data": "2026-06-26",
+      "nome": "Feriado forense (festas juninas)",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 43/2025, art. 1º, par. único (COJE-PE (LC 100/2007), art. 94, e Res. TJPE 520/2024)",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/feriados-2026-pdf"
+    },
+    {
+      "data": "2026-06-27",
+      "nome": "Feriado forense (festas juninas)",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 43/2025, art. 1º, par. único (COJE-PE (LC 100/2007), art. 94, e Res. TJPE 520/2024)",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/feriados-2026-pdf"
+    },
+    {
+      "data": "2026-06-28",
+      "nome": "Feriado forense (festas juninas)",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 43/2025, art. 1º, par. único (COJE-PE (LC 100/2007), art. 94, e Res. TJPE 520/2024)",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/feriados-2026-pdf"
+    },
+    {
+      "data": "2026-06-29",
+      "nome": "Feriado forense (festas juninas)",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 43/2025, art. 1º, par. único (COJE-PE (LC 100/2007), art. 94, e Res. TJPE 520/2024)",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/feriados-2026-pdf"
+    },
+    {
+      "data": "2026-06-30",
+      "nome": "Feriado forense (festas juninas)",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 43/2025, art. 1º, par. único (COJE-PE (LC 100/2007), art. 94, e Res. TJPE 520/2024)",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/feriados-2026-pdf"
+    },
+    {
+      "data": "2026-08-10",
+      "nome": "Dia dos Cursos Jurídicos (antecipado de 11/08; COJE art. 94)",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 43/2025, art. 1º, XIII",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/feriados-2026-pdf"
+    },
+    {
+      "data": "2026-09-07",
+      "nome": "Independência do Brasil",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 43/2025, art. 1º, XIV",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/feriados-2026-pdf"
+    },
+    {
+      "data": "2026-10-12",
+      "nome": "Nossa Senhora Aparecida",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 43/2025, art. 1º, XV",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/feriados-2026-pdf"
+    },
+    {
+      "data": "2026-10-30",
+      "nome": "Dia do Servidor Público (transferido de 28/10)",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 43/2025, art. 1º, XVI",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/feriados-2026-pdf"
+    },
+    {
+      "data": "2026-11-02",
+      "nome": "Dia de Finados",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 43/2025, art. 1º, XVII",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/feriados-2026-pdf"
+    },
+    {
+      "data": "2026-11-15",
+      "nome": "Proclamação da República",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 43/2025, art. 1º, XVIII",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/feriados-2026-pdf"
+    },
+    {
+      "data": "2026-11-20",
+      "nome": "Dia Nacional de Zumbi e da Consciência Negra",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 43/2025, art. 1º, XIX",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/feriados-2026-pdf"
+    },
+    {
+      "data": "2026-12-08",
+      "nome": "Nossa Senhora da Conceição e Dia da Justiça",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 43/2025, art. 1º, XX",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/feriados-2026-pdf"
+    },
+    {
+      "data": "2026-12-20",
+      "nome": "Feriado forense (recesso de fim de ano)",
+      "tipo": "recesso",
+      "fonte": "Ato Conjunto TJPE 43/2025, art. 1º, par. único (COJE-PE (LC 100/2007), art. 94, e Res. TJPE 520/2024)",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/feriados-2026-pdf"
+    },
+    {
+      "data": "2026-12-21",
+      "nome": "Feriado forense (recesso de fim de ano)",
+      "tipo": "recesso",
+      "fonte": "Ato Conjunto TJPE 43/2025, art. 1º, par. único (COJE-PE (LC 100/2007), art. 94, e Res. TJPE 520/2024)",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/feriados-2026-pdf"
+    },
+    {
+      "data": "2026-12-22",
+      "nome": "Feriado forense (recesso de fim de ano)",
+      "tipo": "recesso",
+      "fonte": "Ato Conjunto TJPE 43/2025, art. 1º, par. único (COJE-PE (LC 100/2007), art. 94, e Res. TJPE 520/2024)",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/feriados-2026-pdf"
+    },
+    {
+      "data": "2026-12-23",
+      "nome": "Feriado forense (recesso de fim de ano)",
+      "tipo": "recesso",
+      "fonte": "Ato Conjunto TJPE 43/2025, art. 1º, par. único (COJE-PE (LC 100/2007), art. 94, e Res. TJPE 520/2024)",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/feriados-2026-pdf"
+    },
+    {
+      "data": "2026-12-24",
+      "nome": "Feriado forense (recesso de fim de ano)",
+      "tipo": "recesso",
+      "fonte": "Ato Conjunto TJPE 43/2025, art. 1º, par. único (COJE-PE (LC 100/2007), art. 94, e Res. TJPE 520/2024)",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/feriados-2026-pdf"
+    },
+    {
+      "data": "2026-12-25",
+      "nome": "Natal",
+      "tipo": "feriado",
+      "fonte": "Ato Conjunto TJPE 43/2025, art. 1º, XXI",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/feriados-2026-pdf"
+    },
+    {
+      "data": "2026-12-26",
+      "nome": "Feriado forense (recesso de fim de ano)",
+      "tipo": "recesso",
+      "fonte": "Ato Conjunto TJPE 43/2025, art. 1º, par. único (COJE-PE (LC 100/2007), art. 94, e Res. TJPE 520/2024)",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/feriados-2026-pdf"
+    },
+    {
+      "data": "2026-12-27",
+      "nome": "Feriado forense (recesso de fim de ano)",
+      "tipo": "recesso",
+      "fonte": "Ato Conjunto TJPE 43/2025, art. 1º, par. único (COJE-PE (LC 100/2007), art. 94, e Res. TJPE 520/2024)",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/feriados-2026-pdf"
+    },
+    {
+      "data": "2026-12-28",
+      "nome": "Feriado forense (recesso de fim de ano)",
+      "tipo": "recesso",
+      "fonte": "Ato Conjunto TJPE 43/2025, art. 1º, par. único (COJE-PE (LC 100/2007), art. 94, e Res. TJPE 520/2024)",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/feriados-2026-pdf"
+    },
+    {
+      "data": "2026-12-29",
+      "nome": "Feriado forense (recesso de fim de ano)",
+      "tipo": "recesso",
+      "fonte": "Ato Conjunto TJPE 43/2025, art. 1º, par. único (COJE-PE (LC 100/2007), art. 94, e Res. TJPE 520/2024)",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/feriados-2026-pdf"
+    },
+    {
+      "data": "2026-12-30",
+      "nome": "Feriado forense (recesso de fim de ano)",
+      "tipo": "recesso",
+      "fonte": "Ato Conjunto TJPE 43/2025, art. 1º, par. único (COJE-PE (LC 100/2007), art. 94, e Res. TJPE 520/2024)",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/feriados-2026-pdf"
+    },
+    {
+      "data": "2026-12-31",
+      "nome": "Feriado forense (recesso de fim de ano)",
+      "tipo": "recesso",
+      "fonte": "Ato Conjunto TJPE 43/2025, art. 1º, par. único (COJE-PE (LC 100/2007), art. 94, e Res. TJPE 520/2024)",
+      "url": "https://portal.tjpe.jus.br/documents/d/portal/feriados-2026-pdf"
+    }
+  ]
+}

@@ -1,0 +1,286 @@
+{
+  "$schema": "../../../schema/feriados.schema.json",
+  "id": "TRF4",
+  "escopo": "tribunal",
+  "nome": "Tribunal Regional Federal da 4ª Região (RS, SC e PR)",
+  "tribunal": "TRF4",
+  "observacao": "2026 conferido no Calendário de Feriados 2026 oficial do TRF4 (Portaria 1.064/2022; Dia do Servidor em 30/10 pela Portaria 233/2026) e nas Portarias da Presidência 39/2026 (Carnaval e Cinzas), 449/2026 e 531/2026 (Copa) e 917/2026 (eproc, 21/10). Suspensões de um só estado (RS, PR, SC) estão no arquivo da capital. Fora do tribunal.json: Portaria 492/2026 (prazos suspensos em 17/06/2026 só no 2º grau), Portaria CJF 57/2026 (27/01 a 01/02/2026, só processos com o INSS) e suspensões de subseções do interior. Feriados municipais das subseções do interior não foram transcritos.",
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2026
+  ],
+  "comarcas": [
+    "Curitiba",
+    "Florianópolis",
+    "Porto Alegre"
+  ],
+  "regras": [],
+  "datas": [
+    {
+      "data": "2026-01-01",
+      "nome": "Recesso",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Calendário de Feriados 2026 da Justiça Federal da 4ª Região (Portaria TRF4 1.064/2022)",
+      "url": "https://www.trf4.jus.br/trf4/controlador.php?acao=calendario_feriados_listar&selOrgao=1"
+    },
+    {
+      "data": "2026-01-02",
+      "nome": "Recesso",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Calendário de Feriados 2026 da Justiça Federal da 4ª Região (Portaria TRF4 1.064/2022)",
+      "url": "https://www.trf4.jus.br/trf4/controlador.php?acao=calendario_feriados_listar&selOrgao=1"
+    },
+    {
+      "data": "2026-01-03",
+      "nome": "Recesso",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Calendário de Feriados 2026 da Justiça Federal da 4ª Região (Portaria TRF4 1.064/2022)",
+      "url": "https://www.trf4.jus.br/trf4/controlador.php?acao=calendario_feriados_listar&selOrgao=1"
+    },
+    {
+      "data": "2026-01-04",
+      "nome": "Recesso",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Calendário de Feriados 2026 da Justiça Federal da 4ª Região (Portaria TRF4 1.064/2022)",
+      "url": "https://www.trf4.jus.br/trf4/controlador.php?acao=calendario_feriados_listar&selOrgao=1"
+    },
+    {
+      "data": "2026-01-05",
+      "nome": "Recesso",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Calendário de Feriados 2026 da Justiça Federal da 4ª Região (Portaria TRF4 1.064/2022)",
+      "url": "https://www.trf4.jus.br/trf4/controlador.php?acao=calendario_feriados_listar&selOrgao=1"
+    },
+    {
+      "data": "2026-01-06",
+      "nome": "Recesso",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Calendário de Feriados 2026 da Justiça Federal da 4ª Região (Portaria TRF4 1.064/2022)",
+      "url": "https://www.trf4.jus.br/trf4/controlador.php?acao=calendario_feriados_listar&selOrgao=1"
+    },
+    {
+      "data": "2026-02-16",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, III; Portaria TRF4 39/2026; Calendário de Feriados 2026 da Justiça Federal da 4ª Região (Portaria TRF4 1.064/2022)",
+      "url": "https://www.trf4.jus.br/trf4/controlador.php?acao=calendario_feriados_listar&selOrgao=1"
+    },
+    {
+      "data": "2026-02-17",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, III; Portaria TRF4 39/2026; Calendário de Feriados 2026 da Justiça Federal da 4ª Região (Portaria TRF4 1.064/2022)",
+      "url": "https://www.trf4.jus.br/trf4/controlador.php?acao=calendario_feriados_listar&selOrgao=1"
+    },
+    {
+      "data": "2026-02-18",
+      "nome": "Quarta-Feira de Cinzas: expediente das 13h às 19h",
+      "tipo": "expediente_reduzido",
+      "fonte": "Portaria TRF4 39/2026",
+      "url": "https://www.trf4.jus.br/trf4/controlador.php?acao=aviso_visualizar&id_aviso=4342"
+    },
+    {
+      "data": "2026-04-01",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, II; Calendário de Feriados 2026 da Justiça Federal da 4ª Região (Portaria TRF4 1.064/2022)",
+      "url": "https://www.trf4.jus.br/trf4/controlador.php?acao=calendario_feriados_listar&selOrgao=1"
+    },
+    {
+      "data": "2026-04-02",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, II; Calendário de Feriados 2026 da Justiça Federal da 4ª Região (Portaria TRF4 1.064/2022)",
+      "url": "https://www.trf4.jus.br/trf4/controlador.php?acao=calendario_feriados_listar&selOrgao=1"
+    },
+    {
+      "data": "2026-04-03",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, II; Calendário de Feriados 2026 da Justiça Federal da 4ª Região (Portaria TRF4 1.064/2022)",
+      "url": "https://www.trf4.jus.br/trf4/controlador.php?acao=calendario_feriados_listar&selOrgao=1"
+    },
+    {
+      "data": "2026-04-21",
+      "nome": "Tiradentes",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; Calendário de Feriados 2026 da Justiça Federal da 4ª Região (Portaria TRF4 1.064/2022)",
+      "url": "https://www.trf4.jus.br/trf4/controlador.php?acao=calendario_feriados_listar&selOrgao=1"
+    },
+    {
+      "data": "2026-05-01",
+      "nome": "Dia do Trabalho",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; Calendário de Feriados 2026 da Justiça Federal da 4ª Região (Portaria TRF4 1.064/2022)",
+      "url": "https://www.trf4.jus.br/trf4/controlador.php?acao=calendario_feriados_listar&selOrgao=1"
+    },
+    {
+      "data": "2026-06-24",
+      "nome": "Jogo do Brasil na Copa do Mundo: expediente reduzido e prazos suspensos",
+      "tipo": "suspensao_prazos",
+      "fonte": "Portaria TRF4 449/2026",
+      "url": "https://www.trf4.jus.br/trf4/controlador.php?acao=aviso_visualizar&id_aviso=4446"
+    },
+    {
+      "data": "2026-06-29",
+      "nome": "Jogo do Brasil na Copa do Mundo: funcionamento das 9h às 12h e prazos suspensos",
+      "tipo": "suspensao_prazos",
+      "fonte": "Portaria TRF4 531/2026, art. 1º, § 1º",
+      "url": "https://www.trf4.jus.br/trf4/upload/editor/2026/rfs11_sei_8488273_portaria_531.pdf"
+    },
+    {
+      "data": "2026-08-11",
+      "nome": "Dia do Advogado",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, IV; Calendário de Feriados 2026 da Justiça Federal da 4ª Região (Portaria TRF4 1.064/2022)",
+      "url": "https://www.trf4.jus.br/trf4/controlador.php?acao=calendario_feriados_listar&selOrgao=1"
+    },
+    {
+      "data": "2026-09-07",
+      "nome": "Independência do Brasil",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; Calendário de Feriados 2026 da Justiça Federal da 4ª Região (Portaria TRF4 1.064/2022)",
+      "url": "https://www.trf4.jus.br/trf4/controlador.php?acao=calendario_feriados_listar&selOrgao=1"
+    },
+    {
+      "data": "2026-10-12",
+      "nome": "Nossa Senhora Aparecida",
+      "tipo": "feriado",
+      "fonte": "Lei 6.802/1980; Calendário de Feriados 2026 da Justiça Federal da 4ª Região (Portaria TRF4 1.064/2022)",
+      "url": "https://www.trf4.jus.br/trf4/controlador.php?acao=calendario_feriados_listar&selOrgao=1"
+    },
+    {
+      "data": "2026-10-21",
+      "nome": "Suspensão de prazos (atualização de segurança do eproc)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Portaria TRF4 917/2026",
+      "url": "https://www.trf4.jus.br/trf4/upload/editor/2026/kkf21_sei_trf4---8696924---portaria.pdf"
+    },
+    {
+      "data": "2026-10-30",
+      "nome": "Dia do Servidor Público (transferido de 28/10)",
+      "tipo": "feriado",
+      "fonte": "Lei 8.112/1990, art. 236; Portaria TRF4 233/2026; Calendário de Feriados 2026 da Justiça Federal da 4ª Região (Portaria TRF4 1.064/2022)",
+      "url": "https://www.trf4.jus.br/trf4/controlador.php?acao=calendario_feriados_listar&selOrgao=1"
+    },
+    {
+      "data": "2026-11-01",
+      "nome": "Dia de Todos os Santos",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, IV; Calendário de Feriados 2026 da Justiça Federal da 4ª Região (Portaria TRF4 1.064/2022)",
+      "url": "https://www.trf4.jus.br/trf4/controlador.php?acao=calendario_feriados_listar&selOrgao=1"
+    },
+    {
+      "data": "2026-11-02",
+      "nome": "Finados",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, IV; Calendário de Feriados 2026 da Justiça Federal da 4ª Região (Portaria TRF4 1.064/2022)",
+      "url": "https://www.trf4.jus.br/trf4/controlador.php?acao=calendario_feriados_listar&selOrgao=1"
+    },
+    {
+      "data": "2026-11-15",
+      "nome": "Proclamação da República",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; Calendário de Feriados 2026 da Justiça Federal da 4ª Região (Portaria TRF4 1.064/2022)",
+      "url": "https://www.trf4.jus.br/trf4/controlador.php?acao=calendario_feriados_listar&selOrgao=1"
+    },
+    {
+      "data": "2026-11-20",
+      "nome": "Dia Nacional de Zumbi e da Consciência Negra",
+      "tipo": "feriado",
+      "fonte": "Lei 14.759/2023; Calendário de Feriados 2026 da Justiça Federal da 4ª Região (Portaria TRF4 1.064/2022)",
+      "url": "https://www.trf4.jus.br/trf4/controlador.php?acao=calendario_feriados_listar&selOrgao=1"
+    },
+    {
+      "data": "2026-12-08",
+      "nome": "Dia da Justiça",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, IV; Calendário de Feriados 2026 da Justiça Federal da 4ª Região (Portaria TRF4 1.064/2022)",
+      "url": "https://www.trf4.jus.br/trf4/controlador.php?acao=calendario_feriados_listar&selOrgao=1"
+    },
+    {
+      "data": "2026-12-20",
+      "nome": "Recesso",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Calendário de Feriados 2026 da Justiça Federal da 4ª Região (Portaria TRF4 1.064/2022)",
+      "url": "https://www.trf4.jus.br/trf4/controlador.php?acao=calendario_feriados_listar&selOrgao=1"
+    },
+    {
+      "data": "2026-12-21",
+      "nome": "Recesso",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Calendário de Feriados 2026 da Justiça Federal da 4ª Região (Portaria TRF4 1.064/2022)",
+      "url": "https://www.trf4.jus.br/trf4/controlador.php?acao=calendario_feriados_listar&selOrgao=1"
+    },
+    {
+      "data": "2026-12-22",
+      "nome": "Recesso",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Calendário de Feriados 2026 da Justiça Federal da 4ª Região (Portaria TRF4 1.064/2022)",
+      "url": "https://www.trf4.jus.br/trf4/controlador.php?acao=calendario_feriados_listar&selOrgao=1"
+    },
+    {
+      "data": "2026-12-23",
+      "nome": "Recesso",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Calendário de Feriados 2026 da Justiça Federal da 4ª Região (Portaria TRF4 1.064/2022)",
+      "url": "https://www.trf4.jus.br/trf4/controlador.php?acao=calendario_feriados_listar&selOrgao=1"
+    },
+    {
+      "data": "2026-12-24",
+      "nome": "Recesso",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Calendário de Feriados 2026 da Justiça Federal da 4ª Região (Portaria TRF4 1.064/2022)",
+      "url": "https://www.trf4.jus.br/trf4/controlador.php?acao=calendario_feriados_listar&selOrgao=1"
+    },
+    {
+      "data": "2026-12-25",
+      "nome": "Recesso",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Calendário de Feriados 2026 da Justiça Federal da 4ª Região (Portaria TRF4 1.064/2022)",
+      "url": "https://www.trf4.jus.br/trf4/controlador.php?acao=calendario_feriados_listar&selOrgao=1"
+    },
+    {
+      "data": "2026-12-26",
+      "nome": "Recesso",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Calendário de Feriados 2026 da Justiça Federal da 4ª Região (Portaria TRF4 1.064/2022)",
+      "url": "https://www.trf4.jus.br/trf4/controlador.php?acao=calendario_feriados_listar&selOrgao=1"
+    },
+    {
+      "data": "2026-12-27",
+      "nome": "Recesso",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Calendário de Feriados 2026 da Justiça Federal da 4ª Região (Portaria TRF4 1.064/2022)",
+      "url": "https://www.trf4.jus.br/trf4/controlador.php?acao=calendario_feriados_listar&selOrgao=1"
+    },
+    {
+      "data": "2026-12-28",
+      "nome": "Recesso",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Calendário de Feriados 2026 da Justiça Federal da 4ª Região (Portaria TRF4 1.064/2022)",
+      "url": "https://www.trf4.jus.br/trf4/controlador.php?acao=calendario_feriados_listar&selOrgao=1"
+    },
+    {
+      "data": "2026-12-29",
+      "nome": "Recesso",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Calendário de Feriados 2026 da Justiça Federal da 4ª Região (Portaria TRF4 1.064/2022)",
+      "url": "https://www.trf4.jus.br/trf4/controlador.php?acao=calendario_feriados_listar&selOrgao=1"
+    },
+    {
+      "data": "2026-12-30",
+      "nome": "Recesso",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Calendário de Feriados 2026 da Justiça Federal da 4ª Região (Portaria TRF4 1.064/2022)",
+      "url": "https://www.trf4.jus.br/trf4/controlador.php?acao=calendario_feriados_listar&selOrgao=1"
+    },
+    {
+      "data": "2026-12-31",
+      "nome": "Recesso",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Calendário de Feriados 2026 da Justiça Federal da 4ª Região (Portaria TRF4 1.064/2022)",
+      "url": "https://www.trf4.jus.br/trf4/controlador.php?acao=calendario_feriados_listar&selOrgao=1"
+    }
+  ]
+}

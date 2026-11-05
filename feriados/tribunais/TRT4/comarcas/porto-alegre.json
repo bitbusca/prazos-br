@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../../schema/feriados.schema.json",
+  "id": "TRT4/porto-alegre",
+  "escopo": "comarca",
+  "tribunal": "TRT4",
+  "comarca": "Porto Alegre",
+  "uf": "RS",
+  "ibge": 4314902,
+  "observacao": "Varas do Trabalho de Porto Alegre e sede do TRT4. Feriados municipais conforme o Anexo Único da Portaria 08/2025 da Corregedoria (texto compilado).",
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2026
+  ],
+  "regras": [
+    {
+      "nome": "Nossa Senhora dos Navegantes e Iemanjá",
+      "tipo": "feriado",
+      "quando": {
+        "dia": "02-02"
+      },
+      "fonte": "Lei municipal de Porto Alegre 3.033/1967, art. 1º (redação da Lei 13.591/2023)",
+      "url": "https://legislacao.portoalegre.rs.gov.br/norma/15329"
+    },
+    {
+      "nome": "Corpus Christi",
+      "tipo": "feriado",
+      "quando": {
+        "pascoa": 60
+      },
+      "fonte": "Lei municipal de Porto Alegre 3.033/1967, art. 1º (redação da Lei 4.453/1978)",
+      "url": "https://legislacao.portoalegre.rs.gov.br/norma/15329"
+    }
+  ],
+  "datas": [
+    {
+      "data": "2026-02-02",
+      "nome": "Nossa Senhora dos Navegantes",
+      "tipo": "feriado",
+      "fonte": "Lei municipal 3.033/1967; Portaria Corregedoria TRT4 08/2025 (texto compilado, alterada pelas Portarias 17/2025, 24/2025 e 04/2026)",
+      "url": "https://www.trt4.jus.br/portais/documento-ato/1065334/Texto%20Compilado%20Portaria%208%20de%202025%20Calend%C3%A1rio%20Oficial.pdf"
+    },
+    {
+      "data": "2026-06-04",
+      "nome": "Corpus Christi",
+      "tipo": "feriado",
+      "fonte": "Lei municipal 3.033/1967; Portaria Corregedoria TRT4 08/2025 (texto compilado, alterada pelas Portarias 17/2025, 24/2025 e 04/2026)",
+      "url": "https://www.trt4.jus.br/portais/documento-ato/1065334/Texto%20Compilado%20Portaria%208%20de%202025%20Calend%C3%A1rio%20Oficial.pdf"
+    }
+  ]
+}

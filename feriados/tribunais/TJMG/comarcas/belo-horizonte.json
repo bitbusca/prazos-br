@@ -1,0 +1,88 @@
+{
+  "$schema": "../../../../schema/feriados.schema.json",
+  "id": "TJMG/belo-horizonte",
+  "escopo": "comarca",
+  "tribunal": "TJMG",
+  "comarca": "Belo Horizonte",
+  "uf": "MG",
+  "ibge": 3106200,
+  "observacao": "Feriados religiosos municipais de Belo Horizonte (Lei 11.397/2022, Anexo V, citada nas Portarias Conjuntas 1.658/PR/2025 e 1.798/PR/2026). Sexta-feira da Paixão e Consciência Negra, também municipais, já são nacionais; Imaculada Conceição (08/12) coincide com o Dia da Justiça.",
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2025,
+    2026
+  ],
+  "regras": [
+    {
+      "nome": "Corpus Christi",
+      "tipo": "feriado",
+      "quando": {
+        "pascoa": 60
+      },
+      "fonte": "Lei municipal de Belo Horizonte 11.397/2022, art. 2º e Anexo V (antes Lei 1.327/1967) (citada na Portaria Conjunta TJMG 1.798/PR/2026)",
+      "url": "https://www.cmbh.mg.gov.br/atividade-legislativa/pesquisar-legislacao/lei/11397/2022"
+    },
+    {
+      "nome": "Assunção de Nossa Senhora",
+      "tipo": "feriado",
+      "quando": {
+        "dia": "08-15"
+      },
+      "fonte": "Lei municipal de Belo Horizonte 11.397/2022, art. 2º e Anexo V (antes Lei 1.327/1967) (citada na Portaria Conjunta TJMG 1.798/PR/2026)",
+      "url": "https://www.cmbh.mg.gov.br/atividade-legislativa/pesquisar-legislacao/lei/11397/2022"
+    },
+    {
+      "nome": "Imaculada Conceição",
+      "tipo": "feriado",
+      "quando": {
+        "dia": "12-08"
+      },
+      "fonte": "Lei municipal de Belo Horizonte 11.397/2022, art. 2º e Anexo V (antes Lei 1.327/1967) (citada na Portaria Conjunta TJMG 1.798/PR/2026)",
+      "url": "https://www.cmbh.mg.gov.br/atividade-legislativa/pesquisar-legislacao/lei/11397/2022"
+    }
+  ],
+  "datas": [
+    {
+      "data": "2025-06-19",
+      "nome": "Corpus Christi",
+      "tipo": "feriado",
+      "fonte": "Lei municipal de Belo Horizonte 11.397/2022, Anexo V; Portaria Conjunta TJMG 1.658/PR/2025, art. 2º, I",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc16582025.pdf"
+    },
+    {
+      "data": "2025-06-20",
+      "nome": "Sem expediente forense (dia seguinte a Corpus Christi)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria Conjunta TJMG 1.658/PR/2025, art. 2º, parágrafo único; Portaria Conjunta TJMG 1.629/PR/2025, art. 1º, II",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc16582025.pdf"
+    },
+    {
+      "data": "2025-08-15",
+      "nome": "Assunção de Nossa Senhora",
+      "tipo": "feriado",
+      "fonte": "Lei municipal de Belo Horizonte 11.397/2022, Anexo V; Portaria Conjunta TJMG 1.658/PR/2025, art. 2º, II",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc16582025.pdf"
+    },
+    {
+      "data": "2026-06-04",
+      "nome": "Corpus Christi",
+      "tipo": "feriado",
+      "fonte": "Lei municipal de Belo Horizonte 11.397/2022, Anexo V; Portaria Conjunta TJMG 1.798/PR/2026, art. 2º, I",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc17982026.pdf"
+    },
+    {
+      "data": "2026-06-05",
+      "nome": "Sem expediente forense (dia seguinte a Corpus Christi)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria Conjunta TJMG 1.798/PR/2026, art. 2º, parágrafo único; Portaria Conjunta TJMG 1.764/PR/2026, art. 1º, IV",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc17982026.pdf"
+    },
+    {
+      "data": "2026-08-15",
+      "nome": "Assunção de Nossa Senhora",
+      "tipo": "feriado",
+      "fonte": "Lei municipal de Belo Horizonte 11.397/2022, Anexo V; Portaria Conjunta TJMG 1.798/PR/2026, art. 2º, II",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc17982026.pdf"
+    }
+  ]
+}

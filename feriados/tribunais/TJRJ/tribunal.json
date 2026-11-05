@@ -1,0 +1,664 @@
+{
+  "$schema": "../../../schema/feriados.schema.json",
+  "id": "TJRJ",
+  "escopo": "tribunal",
+  "nome": "Tribunal de Justiça do Estado do Rio de Janeiro",
+  "tribunal": "TJRJ",
+  "uf": "RJ",
+  "observacao": "Datas de 2025 e 2026 transcritas do calendário oficial 'Suspensão de prazos e de expediente forense' do Portal do Conhecimento do TJRJ (atualizado em 03/11/2026), que lista os Atos Executivos, Avisos e a LODJ-RJ (Lei estadual 10.633/2024, art. 83). Regras permanentes: art. 83 da LODJ (Dia da Justiça, Carnaval seg-qua, quinta e sexta da Semana Santa, recesso 20/12-06/01), São Jorge e Corpus Christi (leis estaduais). A suspensão de 07/01 a 20/01 vem do arquivo nacional (CPC 220 e LODJ art. 83, § 1º). Não entram: suspensões só para INSS (Aviso 28/2026) ou AGU (Aviso 89/2026), só para advogados de Juiz de Fora (Ato 66/2026), prorrogações por indisponibilidade de sistema (só início/vencimento, só um sistema: Atos 24, 73 e 177/2026; 55, 89, 101, 149, 193 e 200/2025) e suspensões de uma vara ou fórum. Comarcas do interior e fóruns regionais isolados não conferidos.",
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2025,
+    2026
+  ],
+  "comarcas": [
+    "Rio de Janeiro"
+  ],
+  "regras": [
+    {
+      "nome": "Dia da Justiça",
+      "tipo": "feriado",
+      "quando": {
+        "dia": "12-08"
+      },
+      "desde": 2025,
+      "fonte": "Lei estadual 10.633/2024 (LODJ-RJ), art. 83, I",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/lei-de-organizacao_e_divisao_judiciarias_do-estado_do_rio_de_janeiro_lodj-lei_n-10-633-2024"
+    },
+    {
+      "nome": "Carnaval (segunda-feira)",
+      "tipo": "feriado",
+      "quando": {
+        "pascoa": -48
+      },
+      "desde": 2025,
+      "fonte": "Lei estadual 10.633/2024 (LODJ-RJ), art. 83, III",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/lei-de-organizacao_e_divisao_judiciarias_do-estado_do_rio_de_janeiro_lodj-lei_n-10-633-2024"
+    },
+    {
+      "nome": "Carnaval (terça-feira)",
+      "tipo": "feriado",
+      "quando": {
+        "pascoa": -47
+      },
+      "desde": 2025,
+      "fonte": "Lei estadual 10.633/2024 (LODJ-RJ), art. 83, III",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/lei-de-organizacao_e_divisao_judiciarias_do-estado_do_rio_de_janeiro_lodj-lei_n-10-633-2024"
+    },
+    {
+      "nome": "Quarta-feira de Cinzas (semana do Carnaval)",
+      "tipo": "feriado",
+      "quando": {
+        "pascoa": -46
+      },
+      "desde": 2025,
+      "fonte": "Lei estadual 10.633/2024 (LODJ-RJ), art. 83, III",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/lei-de-organizacao_e_divisao_judiciarias_do-estado_do_rio_de_janeiro_lodj-lei_n-10-633-2024"
+    },
+    {
+      "nome": "Quinta-feira da Semana Santa",
+      "tipo": "feriado",
+      "quando": {
+        "pascoa": -3
+      },
+      "desde": 2025,
+      "fonte": "Lei estadual 10.633/2024 (LODJ-RJ), art. 83, IV",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/lei-de-organizacao_e_divisao_judiciarias_do-estado_do_rio_de_janeiro_lodj-lei_n-10-633-2024"
+    },
+    {
+      "nome": "Sexta-feira da Semana Santa",
+      "tipo": "feriado",
+      "quando": {
+        "pascoa": -2
+      },
+      "desde": 2025,
+      "fonte": "Lei estadual 10.633/2024 (LODJ-RJ), art. 83, IV",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/lei-de-organizacao_e_divisao_judiciarias_do-estado_do_rio_de_janeiro_lodj-lei_n-10-633-2024"
+    },
+    {
+      "nome": "Recesso forense de 20/12 a 06/01 (sem expediente regular)",
+      "tipo": "recesso",
+      "quando": {
+        "de": "12-20",
+        "ate": "01-06"
+      },
+      "desde": 2025,
+      "fonte": "Lei estadual 10.633/2024 (LODJ-RJ), art. 83, § 1º",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/lei-de-organizacao_e_divisao_judiciarias_do-estado_do_rio_de_janeiro_lodj-lei_n-10-633-2024"
+    },
+    {
+      "nome": "Dia de São Jorge",
+      "tipo": "feriado",
+      "quando": {
+        "dia": "04-23"
+      },
+      "fonte": "Lei estadual 5.198/2008, art. 1º",
+      "url": "https://alerjln1.alerj.rj.gov.br/CONTLEI.NSF/e9589b9aabd9cac8032564fe0065abb4/1baf90ca125ff96f8325740a00776600?OpenDocument="
+    },
+    {
+      "nome": "Corpus Christi",
+      "tipo": "feriado",
+      "quando": {
+        "pascoa": 60
+      },
+      "desde": 2026,
+      "fonte": "Lei estadual 11.002/2025 (citada no calendário do TJRJ)",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2026_seesc"
+    }
+  ],
+  "datas": [
+    {
+      "data": "2025-01-01",
+      "nome": "Confraternização Universal",
+      "tipo": "feriado",
+      "fonte": "Lei 10.607/2002; Lei estadual 10.633/2024 (LODJ-RJ), art. 83, V (calendário TJRJ 2025)",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2025_seesc"
+    },
+    {
+      "data": "2025-01-02",
+      "nome": "Recesso forense (sem expediente regular, plantão)",
+      "tipo": "recesso",
+      "fonte": "Lei estadual 10.633/2024 (LODJ-RJ), art. 83, § 1º; Ato Executivo TJ 192/2024",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2025_seesc"
+    },
+    {
+      "data": "2025-01-03",
+      "nome": "Recesso forense (sem expediente regular, plantão)",
+      "tipo": "recesso",
+      "fonte": "Lei estadual 10.633/2024 (LODJ-RJ), art. 83, § 1º; Ato Executivo TJ 192/2024",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2025_seesc"
+    },
+    {
+      "data": "2025-01-04",
+      "nome": "Recesso forense (sem expediente regular, plantão)",
+      "tipo": "recesso",
+      "fonte": "Lei estadual 10.633/2024 (LODJ-RJ), art. 83, § 1º; Ato Executivo TJ 192/2024",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2025_seesc"
+    },
+    {
+      "data": "2025-01-05",
+      "nome": "Recesso forense (sem expediente regular, plantão)",
+      "tipo": "recesso",
+      "fonte": "Lei estadual 10.633/2024 (LODJ-RJ), art. 83, § 1º; Ato Executivo TJ 192/2024",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2025_seesc"
+    },
+    {
+      "data": "2025-01-06",
+      "nome": "Recesso forense (sem expediente regular, plantão)",
+      "tipo": "recesso",
+      "fonte": "Lei estadual 10.633/2024 (LODJ-RJ), art. 83, § 1º; Ato Executivo TJ 192/2024",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2025_seesc"
+    },
+    {
+      "data": "2025-02-28",
+      "nome": "Ponto facultativo (sexta-feira antes do Carnaval)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Ato Executivo TJ 35/2025; Decreto estadual 49.504/2025",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2025_seesc"
+    },
+    {
+      "data": "2025-03-03",
+      "nome": "Carnaval (segunda-feira)",
+      "tipo": "feriado",
+      "fonte": "Lei estadual 10.633/2024 (LODJ-RJ), art. 83, III; Ato Executivo TJ 35/2025",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2025_seesc"
+    },
+    {
+      "data": "2025-03-04",
+      "nome": "Carnaval (terça-feira)",
+      "tipo": "feriado",
+      "fonte": "Lei estadual 10.633/2024 (LODJ-RJ), art. 83, III; Ato Executivo TJ 35/2025",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2025_seesc"
+    },
+    {
+      "data": "2025-03-05",
+      "nome": "Quarta-feira de Cinzas (semana do Carnaval)",
+      "tipo": "feriado",
+      "fonte": "Lei estadual 10.633/2024 (LODJ-RJ), art. 83, III; Ato Executivo TJ 35/2025",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2025_seesc"
+    },
+    {
+      "data": "2025-04-17",
+      "nome": "Quinta-feira da Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Lei estadual 10.633/2024 (LODJ-RJ), art. 83, IV",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2025_seesc"
+    },
+    {
+      "data": "2025-04-18",
+      "nome": "Sexta-feira da Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Lei estadual 10.633/2024 (LODJ-RJ), art. 83, IV",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2025_seesc"
+    },
+    {
+      "data": "2025-04-21",
+      "nome": "Tiradentes",
+      "tipo": "feriado",
+      "fonte": "Lei 10.607/2002; Lei estadual 10.633/2024 (LODJ-RJ), art. 83, V",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2025_seesc"
+    },
+    {
+      "data": "2025-04-22",
+      "nome": "Ponto facultativo estadual",
+      "tipo": "ponto_facultativo",
+      "fonte": "Ato Executivo TJ 68/2025; Decreto estadual 49.570/2025",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2025_seesc"
+    },
+    {
+      "data": "2025-04-23",
+      "nome": "Dia de São Jorge",
+      "tipo": "feriado",
+      "fonte": "Lei estadual 5.198/2008",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2025_seesc"
+    },
+    {
+      "data": "2025-05-01",
+      "nome": "Dia do Trabalhador",
+      "tipo": "feriado",
+      "fonte": "Lei 10.607/2002",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2025_seesc"
+    },
+    {
+      "data": "2025-05-02",
+      "nome": "Ponto facultativo estadual",
+      "tipo": "ponto_facultativo",
+      "fonte": "Ato Executivo TJ 77/2025; Decreto estadual 49.607/2025",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2025_seesc"
+    },
+    {
+      "data": "2025-06-19",
+      "nome": "Corpus Christi (ponto facultativo estadual)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Ato Executivo TJ 112/2025; Decreto estadual 49.671/2025",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2025_seesc"
+    },
+    {
+      "data": "2025-06-20",
+      "nome": "Ponto facultativo estadual",
+      "tipo": "ponto_facultativo",
+      "fonte": "Ato Executivo TJ 112/2025; Decreto estadual 49.671/2025",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2025_seesc"
+    },
+    {
+      "data": "2025-08-11",
+      "nome": "Dia do Advogado: prazos suspensos em todo o Estado",
+      "tipo": "suspensao_prazos",
+      "fonte": "Ato Executivo TJ 138/2025",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2025_seesc"
+    },
+    {
+      "data": "2025-10-31",
+      "nome": "Dia do Servidor Público (transferido de 28/10): ponto facultativo, atividades e prazos suspensos",
+      "tipo": "ponto_facultativo",
+      "fonte": "Aviso TJRJ 255/2025; Decreto estadual 49.889/2025",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2025_seesc"
+    },
+    {
+      "data": "2025-11-20",
+      "nome": "Dia Nacional da Consciência Negra",
+      "tipo": "feriado",
+      "fonte": "Lei estadual 4.007/2002; Lei estadual 10.633/2024 (LODJ-RJ), art. 83, V",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2025_seesc"
+    },
+    {
+      "data": "2025-11-21",
+      "nome": "Ponto facultativo estadual",
+      "tipo": "ponto_facultativo",
+      "fonte": "Ato Executivo TJ 191/2025; Decreto estadual 49.962/2025",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2025_seesc"
+    },
+    {
+      "data": "2025-12-08",
+      "nome": "Dia da Justiça",
+      "tipo": "feriado",
+      "fonte": "Lei estadual 10.633/2024 (LODJ-RJ), art. 83, I",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2025_seesc"
+    },
+    {
+      "data": "2025-12-17",
+      "nome": "Atividades e prazos suspensos (finais da Copa do Brasil e Intercontinental)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Ato Executivo TJ 208/2025; Decreto estadual 50.055/2025",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2025_seesc"
+    },
+    {
+      "data": "2025-12-20",
+      "nome": "Recesso forense (sem expediente regular, plantão)",
+      "tipo": "recesso",
+      "fonte": "Lei estadual 10.633/2024 (LODJ-RJ), art. 83, § 1º; Ato Executivo TJ 168/2025",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2025_seesc"
+    },
+    {
+      "data": "2025-12-21",
+      "nome": "Recesso forense (sem expediente regular, plantão)",
+      "tipo": "recesso",
+      "fonte": "Lei estadual 10.633/2024 (LODJ-RJ), art. 83, § 1º; Ato Executivo TJ 168/2025",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2025_seesc"
+    },
+    {
+      "data": "2025-12-22",
+      "nome": "Recesso forense (sem expediente regular, plantão)",
+      "tipo": "recesso",
+      "fonte": "Lei estadual 10.633/2024 (LODJ-RJ), art. 83, § 1º; Ato Executivo TJ 168/2025",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2025_seesc"
+    },
+    {
+      "data": "2025-12-23",
+      "nome": "Recesso forense (sem expediente regular, plantão)",
+      "tipo": "recesso",
+      "fonte": "Lei estadual 10.633/2024 (LODJ-RJ), art. 83, § 1º; Ato Executivo TJ 168/2025",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2025_seesc"
+    },
+    {
+      "data": "2025-12-24",
+      "nome": "Recesso forense (sem expediente regular, plantão)",
+      "tipo": "recesso",
+      "fonte": "Lei estadual 10.633/2024 (LODJ-RJ), art. 83, § 1º; Ato Executivo TJ 168/2025",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2025_seesc"
+    },
+    {
+      "data": "2025-12-25",
+      "nome": "Natal",
+      "tipo": "feriado",
+      "fonte": "Lei estadual 10.633/2024 (LODJ-RJ), art. 83, § 1º; Ato Executivo TJ 168/2025",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2025_seesc"
+    },
+    {
+      "data": "2025-12-26",
+      "nome": "Recesso forense (sem expediente regular, plantão)",
+      "tipo": "recesso",
+      "fonte": "Lei estadual 10.633/2024 (LODJ-RJ), art. 83, § 1º; Ato Executivo TJ 168/2025",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2025_seesc"
+    },
+    {
+      "data": "2025-12-27",
+      "nome": "Recesso forense (sem expediente regular, plantão)",
+      "tipo": "recesso",
+      "fonte": "Lei estadual 10.633/2024 (LODJ-RJ), art. 83, § 1º; Ato Executivo TJ 168/2025",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2025_seesc"
+    },
+    {
+      "data": "2025-12-28",
+      "nome": "Recesso forense (sem expediente regular, plantão)",
+      "tipo": "recesso",
+      "fonte": "Lei estadual 10.633/2024 (LODJ-RJ), art. 83, § 1º; Ato Executivo TJ 168/2025",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2025_seesc"
+    },
+    {
+      "data": "2025-12-29",
+      "nome": "Recesso forense (sem expediente regular, plantão)",
+      "tipo": "recesso",
+      "fonte": "Lei estadual 10.633/2024 (LODJ-RJ), art. 83, § 1º; Ato Executivo TJ 168/2025",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2025_seesc"
+    },
+    {
+      "data": "2025-12-30",
+      "nome": "Recesso forense (sem expediente regular, plantão)",
+      "tipo": "recesso",
+      "fonte": "Lei estadual 10.633/2024 (LODJ-RJ), art. 83, § 1º; Ato Executivo TJ 168/2025",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2025_seesc"
+    },
+    {
+      "data": "2025-12-31",
+      "nome": "Recesso forense (sem expediente regular, plantão)",
+      "tipo": "recesso",
+      "fonte": "Lei estadual 10.633/2024 (LODJ-RJ), art. 83, § 1º; Ato Executivo TJ 168/2025",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2025_seesc"
+    },
+    {
+      "data": "2026-01-01",
+      "nome": "Confraternização Universal",
+      "tipo": "feriado",
+      "fonte": "Lei 10.607/2002 (calendário TJRJ 2026)",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2026_seesc"
+    },
+    {
+      "data": "2026-01-02",
+      "nome": "Recesso forense (sem expediente regular, plantão)",
+      "tipo": "recesso",
+      "fonte": "Lei estadual 10.633/2024 (LODJ-RJ), art. 83, § 1º; Ato Executivo TJ 168/2025",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2026_seesc"
+    },
+    {
+      "data": "2026-01-03",
+      "nome": "Recesso forense (sem expediente regular, plantão)",
+      "tipo": "recesso",
+      "fonte": "Lei estadual 10.633/2024 (LODJ-RJ), art. 83, § 1º; Ato Executivo TJ 168/2025",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2026_seesc"
+    },
+    {
+      "data": "2026-01-04",
+      "nome": "Recesso forense (sem expediente regular, plantão)",
+      "tipo": "recesso",
+      "fonte": "Lei estadual 10.633/2024 (LODJ-RJ), art. 83, § 1º; Ato Executivo TJ 168/2025",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2026_seesc"
+    },
+    {
+      "data": "2026-01-05",
+      "nome": "Recesso forense (sem expediente regular, plantão)",
+      "tipo": "recesso",
+      "fonte": "Lei estadual 10.633/2024 (LODJ-RJ), art. 83, § 1º; Ato Executivo TJ 168/2025",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2026_seesc"
+    },
+    {
+      "data": "2026-01-06",
+      "nome": "Recesso forense (sem expediente regular, plantão)",
+      "tipo": "recesso",
+      "fonte": "Lei estadual 10.633/2024 (LODJ-RJ), art. 83, § 1º; Ato Executivo TJ 168/2025",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2026_seesc"
+    },
+    {
+      "data": "2026-02-13",
+      "nome": "Expediente e prazos suspensos (sexta-feira antes do Carnaval)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Ato Executivo TJ 20/2026; Decreto estadual 50.133/2026",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2026_seesc"
+    },
+    {
+      "data": "2026-02-16",
+      "nome": "Carnaval (segunda-feira)",
+      "tipo": "feriado",
+      "fonte": "Lei estadual 10.633/2024 (LODJ-RJ), art. 83, III; Ato Executivo TJ 20/2026",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2026_seesc"
+    },
+    {
+      "data": "2026-02-17",
+      "nome": "Carnaval (terça-feira)",
+      "tipo": "feriado",
+      "fonte": "Lei estadual 10.633/2024 (LODJ-RJ), art. 83, III; Ato Executivo TJ 20/2026",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2026_seesc"
+    },
+    {
+      "data": "2026-02-18",
+      "nome": "Quarta-feira de Cinzas (semana do Carnaval)",
+      "tipo": "feriado",
+      "fonte": "Lei estadual 10.633/2024 (LODJ-RJ), art. 83, III; Ato Executivo TJ 20/2026",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2026_seesc"
+    },
+    {
+      "data": "2026-02-27",
+      "nome": "Prazos processuais suspensos nas 1ª e 2ª instâncias",
+      "tipo": "suspensao_prazos",
+      "fonte": "Ato Executivo TJ 60/2026",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2026_seesc"
+    },
+    {
+      "data": "2026-04-02",
+      "nome": "Quinta-feira da Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Lei estadual 10.633/2024 (LODJ-RJ), art. 83, IV",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2026_seesc"
+    },
+    {
+      "data": "2026-04-03",
+      "nome": "Sexta-feira da Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Lei estadual 10.633/2024 (LODJ-RJ), art. 83, IV",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2026_seesc"
+    },
+    {
+      "data": "2026-04-21",
+      "nome": "Tiradentes",
+      "tipo": "feriado",
+      "fonte": "Lei 10.607/2002; Lei estadual 10.633/2024 (LODJ-RJ), art. 83, V",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2026_seesc"
+    },
+    {
+      "data": "2026-04-23",
+      "nome": "Dia de São Jorge",
+      "tipo": "feriado",
+      "fonte": "Lei estadual 5.198/2008",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2026_seesc"
+    },
+    {
+      "data": "2026-04-24",
+      "nome": "Expediente e prazos suspensos (ponto facultativo estadual)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Ato Executivo TJ 79/2026; Decreto estadual 50.252/2026",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2026_seesc"
+    },
+    {
+      "data": "2026-05-01",
+      "nome": "Dia do Trabalhador",
+      "tipo": "feriado",
+      "fonte": "Lei 10.607/2002",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2026_seesc"
+    },
+    {
+      "data": "2026-06-04",
+      "nome": "Corpus Christi",
+      "tipo": "feriado",
+      "fonte": "Lei estadual 11.002/2025",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2026_seesc"
+    },
+    {
+      "data": "2026-06-05",
+      "nome": "Expediente e prazos suspensos (ponto facultativo estadual)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Ato Executivo TJ 91/2026; Decreto estadual 50.313/2026; Lei estadual 10.633/2024 (LODJ-RJ), art. 83, II",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2026_seesc"
+    },
+    {
+      "data": "2026-06-24",
+      "nome": "Expediente das 11h às 15h, prazos suspensos (jogo do Brasil na Copa)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Ato Executivo TJ 96/2026",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2026_seesc"
+    },
+    {
+      "data": "2026-06-29",
+      "nome": "Expediente e prazos suspensos (jogo do Brasil na Copa)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Ato Executivo TJ 103/2026; Decreto estadual 50.346/2026",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2026_seesc"
+    },
+    {
+      "data": "2026-07-29",
+      "nome": "Prazos processuais suspensos em todas as unidades",
+      "tipo": "suspensao_prazos",
+      "fonte": "Ato Executivo TJ 116/2026",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2026_seesc"
+    },
+    {
+      "data": "2026-08-07",
+      "nome": "Expediente presencial suspenso a partir das 13h e prazos suspensos (condições climáticas)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Ato Executivo TJ 129/2026; Decreto estadual 50.418/2026",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2026_seesc"
+    },
+    {
+      "data": "2026-08-11",
+      "nome": "Dia do Advogado: prazos suspensos em todo o Estado",
+      "tipo": "suspensao_prazos",
+      "fonte": "Ato Executivo TJ 114/2026",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2026_seesc"
+    },
+    {
+      "data": "2026-09-07",
+      "nome": "Independência do Brasil",
+      "tipo": "feriado",
+      "fonte": "Lei 10.607/2002; Lei estadual 10.633/2024 (LODJ-RJ), art. 83, V",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2026_seesc"
+    },
+    {
+      "data": "2026-10-12",
+      "nome": "Nossa Senhora Aparecida",
+      "tipo": "feriado",
+      "fonte": "Lei 6.802/1980",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2026_seesc"
+    },
+    {
+      "data": "2026-10-30",
+      "nome": "Dia do Servidor Público (transferido de 28/10): ponto facultativo, atividades e prazos suspensos",
+      "tipo": "ponto_facultativo",
+      "fonte": "Aviso TJRJ 290/2026; Decreto estadual 50.525/2026",
+      "url": "https://www.tjrj.jus.br/web/portal-conhecimento/noticias/noticia/-/visualizar-conteudo/5736540/406979295"
+    },
+    {
+      "data": "2026-11-02",
+      "nome": "Finados",
+      "tipo": "feriado",
+      "fonte": "Lei 10.607/2002; Lei estadual 10.633/2024 (LODJ-RJ), art. 83, V",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2026_seesc"
+    },
+    {
+      "data": "2026-11-20",
+      "nome": "Dia Nacional da Consciência Negra",
+      "tipo": "feriado",
+      "fonte": "Lei estadual 4.007/2002; Lei estadual 10.633/2024 (LODJ-RJ), art. 83, V",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2026_seesc"
+    },
+    {
+      "data": "2026-12-08",
+      "nome": "Dia da Justiça",
+      "tipo": "feriado",
+      "fonte": "Lei estadual 10.633/2024 (LODJ-RJ), art. 83, I",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2026_seesc"
+    },
+    {
+      "data": "2026-12-20",
+      "nome": "Recesso forense (sem expediente regular, plantão)",
+      "tipo": "recesso",
+      "fonte": "Lei estadual 10.633/2024 (LODJ-RJ), art. 83, § 1º (calendário TJRJ 2026)",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2026_seesc"
+    },
+    {
+      "data": "2026-12-21",
+      "nome": "Recesso forense (sem expediente regular, plantão)",
+      "tipo": "recesso",
+      "fonte": "Lei estadual 10.633/2024 (LODJ-RJ), art. 83, § 1º (calendário TJRJ 2026)",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2026_seesc"
+    },
+    {
+      "data": "2026-12-22",
+      "nome": "Recesso forense (sem expediente regular, plantão)",
+      "tipo": "recesso",
+      "fonte": "Lei estadual 10.633/2024 (LODJ-RJ), art. 83, § 1º (calendário TJRJ 2026)",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2026_seesc"
+    },
+    {
+      "data": "2026-12-23",
+      "nome": "Recesso forense (sem expediente regular, plantão)",
+      "tipo": "recesso",
+      "fonte": "Lei estadual 10.633/2024 (LODJ-RJ), art. 83, § 1º (calendário TJRJ 2026)",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2026_seesc"
+    },
+    {
+      "data": "2026-12-24",
+      "nome": "Recesso forense (sem expediente regular, plantão)",
+      "tipo": "recesso",
+      "fonte": "Lei estadual 10.633/2024 (LODJ-RJ), art. 83, § 1º (calendário TJRJ 2026)",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2026_seesc"
+    },
+    {
+      "data": "2026-12-25",
+      "nome": "Natal",
+      "tipo": "feriado",
+      "fonte": "Lei estadual 10.633/2024 (LODJ-RJ), art. 83, § 1º (calendário TJRJ 2026)",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2026_seesc"
+    },
+    {
+      "data": "2026-12-26",
+      "nome": "Recesso forense (sem expediente regular, plantão)",
+      "tipo": "recesso",
+      "fonte": "Lei estadual 10.633/2024 (LODJ-RJ), art. 83, § 1º (calendário TJRJ 2026)",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2026_seesc"
+    },
+    {
+      "data": "2026-12-27",
+      "nome": "Recesso forense (sem expediente regular, plantão)",
+      "tipo": "recesso",
+      "fonte": "Lei estadual 10.633/2024 (LODJ-RJ), art. 83, § 1º (calendário TJRJ 2026)",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2026_seesc"
+    },
+    {
+      "data": "2026-12-28",
+      "nome": "Recesso forense (sem expediente regular, plantão)",
+      "tipo": "recesso",
+      "fonte": "Lei estadual 10.633/2024 (LODJ-RJ), art. 83, § 1º (calendário TJRJ 2026)",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2026_seesc"
+    },
+    {
+      "data": "2026-12-29",
+      "nome": "Recesso forense (sem expediente regular, plantão)",
+      "tipo": "recesso",
+      "fonte": "Lei estadual 10.633/2024 (LODJ-RJ), art. 83, § 1º (calendário TJRJ 2026)",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2026_seesc"
+    },
+    {
+      "data": "2026-12-30",
+      "nome": "Recesso forense (sem expediente regular, plantão)",
+      "tipo": "recesso",
+      "fonte": "Lei estadual 10.633/2024 (LODJ-RJ), art. 83, § 1º (calendário TJRJ 2026)",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2026_seesc"
+    },
+    {
+      "data": "2026-12-31",
+      "nome": "Recesso forense (sem expediente regular, plantão)",
+      "tipo": "recesso",
+      "fonte": "Lei estadual 10.633/2024 (LODJ-RJ), art. 83, § 1º (calendário TJRJ 2026)",
+      "url": "https://www.tjrj.jus.br/documents/d/portal-conhecimento/suspensao-prazos-1a-e-2a-instancia_2026_seesc"
+    }
+  ]
+}

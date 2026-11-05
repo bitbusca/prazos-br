@@ -1,0 +1,516 @@
+{
+  "$schema": "../../../schema/feriados.schema.json",
+  "id": "TJRS",
+  "escopo": "tribunal",
+  "nome": "Tribunal de Justiça do Estado do Rio Grande do Sul",
+  "tribunal": "TJRS",
+  "uf": "RS",
+  "observacao": "2026 conferido no Ato 05/2025-OE (feriados), no Ato 13/2024-OE (recesso de 20/12 a 06/01 com expediente suspenso; prazos suspensos de 20/12 a 20/01), na Ordem de Serviço 003/2026-P (jogos do Brasil na Copa: 24/06 e 29/06 com prazos suspensos; o Brasil saiu nas oitavas, num domingo) e nos Atos Conjuntos P e CGJ 004 a 007/2026 (suspensões gerais). 2025 tem os feriados do Ato 12/2024-OE e o recesso, mas as suspensões extraordinárias de 2025 não foram levantadas; por isso 2025 não está em anosConferidos. Os dias com asterisco no ato (Navegantes e Corpus Christi) são feriados de Porto Alegre e estão no arquivo da comarca. Não cobre feriados municipais nem fechamentos/suspensões de foros do interior (portarias de Direção do Foro). Pontos facultativos do Executivo não valem no TJRS; o ato não altera a Quarta-feira de Cinzas.",
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2026
+  ],
+  "comarcas": [
+    "Porto Alegre"
+  ],
+  "regras": [
+    {
+      "nome": "Revolução Farroupilha (data magna do Estado)",
+      "tipo": "feriado",
+      "quando": {
+        "dia": "09-20"
+      },
+      "fonte": "Constituição do Estado do RS, art. 6º, parágrafo único (EC 11/1995); Lei federal 9.093/1995, art. 1º, II",
+      "url": "https://irga.rs.gov.br/upload/arquivos/202004/27151822-constituicao-estadual-rs-atualizada-ec-78.pdf"
+    },
+    {
+      "nome": "Recesso forense (expediente suspenso de 20/12 a 06/01)",
+      "tipo": "recesso",
+      "quando": {
+        "de": "12-20",
+        "ate": "01-06"
+      },
+      "desde": 2025,
+      "fonte": "Ato 13/2024-OE (TJRS), art. 3º",
+      "url": "https://www.tjrs.jus.br/static/2024/11/SEI_7344685_Ato_13_2024___ORGAO_ESPECIAL.pdf"
+    }
+  ],
+  "datas": [
+    {
+      "data": "2025-01-01",
+      "nome": "Confraternização Universal",
+      "tipo": "feriado",
+      "fonte": "Ato 12/2024-OE (TJRS)",
+      "url": "https://www.tjrs.jus.br/static/2024/11/Ato_12_2024_OE-Feriados-2025.pdf"
+    },
+    {
+      "data": "2025-01-02",
+      "nome": "Recesso forense (expediente suspenso de 20/12 a 06/01)",
+      "tipo": "recesso",
+      "fonte": "Ato 13/2024-OE (TJRS), art. 3º",
+      "url": "https://www.tjrs.jus.br/static/2024/11/SEI_7344685_Ato_13_2024___ORGAO_ESPECIAL.pdf"
+    },
+    {
+      "data": "2025-01-03",
+      "nome": "Recesso forense (expediente suspenso de 20/12 a 06/01)",
+      "tipo": "recesso",
+      "fonte": "Ato 13/2024-OE (TJRS), art. 3º",
+      "url": "https://www.tjrs.jus.br/static/2024/11/SEI_7344685_Ato_13_2024___ORGAO_ESPECIAL.pdf"
+    },
+    {
+      "data": "2025-01-04",
+      "nome": "Recesso forense (expediente suspenso de 20/12 a 06/01)",
+      "tipo": "recesso",
+      "fonte": "Ato 13/2024-OE (TJRS), art. 3º",
+      "url": "https://www.tjrs.jus.br/static/2024/11/SEI_7344685_Ato_13_2024___ORGAO_ESPECIAL.pdf"
+    },
+    {
+      "data": "2025-01-05",
+      "nome": "Recesso forense (expediente suspenso de 20/12 a 06/01)",
+      "tipo": "recesso",
+      "fonte": "Ato 13/2024-OE (TJRS), art. 3º",
+      "url": "https://www.tjrs.jus.br/static/2024/11/SEI_7344685_Ato_13_2024___ORGAO_ESPECIAL.pdf"
+    },
+    {
+      "data": "2025-01-06",
+      "nome": "Recesso forense (expediente suspenso de 20/12 a 06/01)",
+      "tipo": "recesso",
+      "fonte": "Ato 13/2024-OE (TJRS), art. 3º",
+      "url": "https://www.tjrs.jus.br/static/2024/11/SEI_7344685_Ato_13_2024___ORGAO_ESPECIAL.pdf"
+    },
+    {
+      "data": "2025-03-03",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Ato 12/2024-OE (TJRS)",
+      "url": "https://www.tjrs.jus.br/static/2024/11/Ato_12_2024_OE-Feriados-2025.pdf"
+    },
+    {
+      "data": "2025-03-04",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Ato 12/2024-OE (TJRS)",
+      "url": "https://www.tjrs.jus.br/static/2024/11/Ato_12_2024_OE-Feriados-2025.pdf"
+    },
+    {
+      "data": "2025-04-18",
+      "nome": "Sexta-Feira Santa",
+      "tipo": "feriado",
+      "fonte": "Ato 12/2024-OE (TJRS)",
+      "url": "https://www.tjrs.jus.br/static/2024/11/Ato_12_2024_OE-Feriados-2025.pdf"
+    },
+    {
+      "data": "2025-04-20",
+      "nome": "Páscoa",
+      "tipo": "feriado",
+      "fonte": "Ato 12/2024-OE (TJRS)",
+      "url": "https://www.tjrs.jus.br/static/2024/11/Ato_12_2024_OE-Feriados-2025.pdf"
+    },
+    {
+      "data": "2025-04-21",
+      "nome": "Tiradentes",
+      "tipo": "feriado",
+      "fonte": "Ato 12/2024-OE (TJRS)",
+      "url": "https://www.tjrs.jus.br/static/2024/11/Ato_12_2024_OE-Feriados-2025.pdf"
+    },
+    {
+      "data": "2025-05-01",
+      "nome": "Dia do Trabalho",
+      "tipo": "feriado",
+      "fonte": "Ato 12/2024-OE (TJRS)",
+      "url": "https://www.tjrs.jus.br/static/2024/11/Ato_12_2024_OE-Feriados-2025.pdf"
+    },
+    {
+      "data": "2025-09-07",
+      "nome": "Independência do Brasil",
+      "tipo": "feriado",
+      "fonte": "Ato 12/2024-OE (TJRS)",
+      "url": "https://www.tjrs.jus.br/static/2024/11/Ato_12_2024_OE-Feriados-2025.pdf"
+    },
+    {
+      "data": "2025-09-20",
+      "nome": "Revolução Farroupilha",
+      "tipo": "feriado",
+      "fonte": "Ato 12/2024-OE (TJRS)",
+      "url": "https://www.tjrs.jus.br/static/2024/11/Ato_12_2024_OE-Feriados-2025.pdf"
+    },
+    {
+      "data": "2025-10-12",
+      "nome": "Nossa Senhora Aparecida",
+      "tipo": "feriado",
+      "fonte": "Ato 12/2024-OE (TJRS)",
+      "url": "https://www.tjrs.jus.br/static/2024/11/Ato_12_2024_OE-Feriados-2025.pdf"
+    },
+    {
+      "data": "2025-11-02",
+      "nome": "Finados",
+      "tipo": "feriado",
+      "fonte": "Ato 12/2024-OE (TJRS)",
+      "url": "https://www.tjrs.jus.br/static/2024/11/Ato_12_2024_OE-Feriados-2025.pdf"
+    },
+    {
+      "data": "2025-11-15",
+      "nome": "Proclamação da República",
+      "tipo": "feriado",
+      "fonte": "Ato 12/2024-OE (TJRS)",
+      "url": "https://www.tjrs.jus.br/static/2024/11/Ato_12_2024_OE-Feriados-2025.pdf"
+    },
+    {
+      "data": "2025-11-20",
+      "nome": "Dia Nacional de Zumbi e da Consciência Negra",
+      "tipo": "feriado",
+      "fonte": "Ato 12/2024-OE (TJRS)",
+      "url": "https://www.tjrs.jus.br/static/2024/11/Ato_12_2024_OE-Feriados-2025.pdf"
+    },
+    {
+      "data": "2025-12-08",
+      "nome": "Dia da Justiça",
+      "tipo": "feriado",
+      "fonte": "Ato 12/2024-OE (TJRS)",
+      "url": "https://www.tjrs.jus.br/static/2024/11/Ato_12_2024_OE-Feriados-2025.pdf"
+    },
+    {
+      "data": "2025-12-20",
+      "nome": "Recesso forense (expediente suspenso de 20/12 a 06/01)",
+      "tipo": "recesso",
+      "fonte": "Ato 13/2024-OE (TJRS), art. 3º",
+      "url": "https://www.tjrs.jus.br/static/2024/11/SEI_7344685_Ato_13_2024___ORGAO_ESPECIAL.pdf"
+    },
+    {
+      "data": "2025-12-21",
+      "nome": "Recesso forense (expediente suspenso de 20/12 a 06/01)",
+      "tipo": "recesso",
+      "fonte": "Ato 13/2024-OE (TJRS), art. 3º",
+      "url": "https://www.tjrs.jus.br/static/2024/11/SEI_7344685_Ato_13_2024___ORGAO_ESPECIAL.pdf"
+    },
+    {
+      "data": "2025-12-22",
+      "nome": "Recesso forense (expediente suspenso de 20/12 a 06/01)",
+      "tipo": "recesso",
+      "fonte": "Ato 13/2024-OE (TJRS), art. 3º",
+      "url": "https://www.tjrs.jus.br/static/2024/11/SEI_7344685_Ato_13_2024___ORGAO_ESPECIAL.pdf"
+    },
+    {
+      "data": "2025-12-23",
+      "nome": "Recesso forense (expediente suspenso de 20/12 a 06/01)",
+      "tipo": "recesso",
+      "fonte": "Ato 13/2024-OE (TJRS), art. 3º",
+      "url": "https://www.tjrs.jus.br/static/2024/11/SEI_7344685_Ato_13_2024___ORGAO_ESPECIAL.pdf"
+    },
+    {
+      "data": "2025-12-24",
+      "nome": "Recesso forense (expediente suspenso de 20/12 a 06/01)",
+      "tipo": "recesso",
+      "fonte": "Ato 13/2024-OE (TJRS), art. 3º",
+      "url": "https://www.tjrs.jus.br/static/2024/11/SEI_7344685_Ato_13_2024___ORGAO_ESPECIAL.pdf"
+    },
+    {
+      "data": "2025-12-25",
+      "nome": "Natal",
+      "tipo": "feriado",
+      "fonte": "Ato 12/2024-OE (TJRS)",
+      "url": "https://www.tjrs.jus.br/static/2024/11/Ato_12_2024_OE-Feriados-2025.pdf"
+    },
+    {
+      "data": "2025-12-26",
+      "nome": "Recesso forense (expediente suspenso de 20/12 a 06/01)",
+      "tipo": "recesso",
+      "fonte": "Ato 13/2024-OE (TJRS), art. 3º",
+      "url": "https://www.tjrs.jus.br/static/2024/11/SEI_7344685_Ato_13_2024___ORGAO_ESPECIAL.pdf"
+    },
+    {
+      "data": "2025-12-27",
+      "nome": "Recesso forense (expediente suspenso de 20/12 a 06/01)",
+      "tipo": "recesso",
+      "fonte": "Ato 13/2024-OE (TJRS), art. 3º",
+      "url": "https://www.tjrs.jus.br/static/2024/11/SEI_7344685_Ato_13_2024___ORGAO_ESPECIAL.pdf"
+    },
+    {
+      "data": "2025-12-28",
+      "nome": "Recesso forense (expediente suspenso de 20/12 a 06/01)",
+      "tipo": "recesso",
+      "fonte": "Ato 13/2024-OE (TJRS), art. 3º",
+      "url": "https://www.tjrs.jus.br/static/2024/11/SEI_7344685_Ato_13_2024___ORGAO_ESPECIAL.pdf"
+    },
+    {
+      "data": "2025-12-29",
+      "nome": "Recesso forense (expediente suspenso de 20/12 a 06/01)",
+      "tipo": "recesso",
+      "fonte": "Ato 13/2024-OE (TJRS), art. 3º",
+      "url": "https://www.tjrs.jus.br/static/2024/11/SEI_7344685_Ato_13_2024___ORGAO_ESPECIAL.pdf"
+    },
+    {
+      "data": "2025-12-30",
+      "nome": "Recesso forense (expediente suspenso de 20/12 a 06/01)",
+      "tipo": "recesso",
+      "fonte": "Ato 13/2024-OE (TJRS), art. 3º",
+      "url": "https://www.tjrs.jus.br/static/2024/11/SEI_7344685_Ato_13_2024___ORGAO_ESPECIAL.pdf"
+    },
+    {
+      "data": "2025-12-31",
+      "nome": "Recesso forense (expediente suspenso de 20/12 a 06/01)",
+      "tipo": "recesso",
+      "fonte": "Ato 13/2024-OE (TJRS), art. 3º",
+      "url": "https://www.tjrs.jus.br/static/2024/11/SEI_7344685_Ato_13_2024___ORGAO_ESPECIAL.pdf"
+    },
+    {
+      "data": "2026-01-01",
+      "nome": "Confraternização Universal",
+      "tipo": "feriado",
+      "fonte": "Ato 05/2025-OE (TJRS)",
+      "url": "https://www.tjrs.jus.br/static/2025/10/Ato_05_2025_OE-Feriados-2026.pdf"
+    },
+    {
+      "data": "2026-01-02",
+      "nome": "Recesso forense (expediente suspenso de 20/12 a 06/01)",
+      "tipo": "recesso",
+      "fonte": "Ato 13/2024-OE (TJRS), art. 3º",
+      "url": "https://www.tjrs.jus.br/static/2024/11/SEI_7344685_Ato_13_2024___ORGAO_ESPECIAL.pdf"
+    },
+    {
+      "data": "2026-01-03",
+      "nome": "Recesso forense (expediente suspenso de 20/12 a 06/01)",
+      "tipo": "recesso",
+      "fonte": "Ato 13/2024-OE (TJRS), art. 3º",
+      "url": "https://www.tjrs.jus.br/static/2024/11/SEI_7344685_Ato_13_2024___ORGAO_ESPECIAL.pdf"
+    },
+    {
+      "data": "2026-01-04",
+      "nome": "Recesso forense (expediente suspenso de 20/12 a 06/01)",
+      "tipo": "recesso",
+      "fonte": "Ato 13/2024-OE (TJRS), art. 3º",
+      "url": "https://www.tjrs.jus.br/static/2024/11/SEI_7344685_Ato_13_2024___ORGAO_ESPECIAL.pdf"
+    },
+    {
+      "data": "2026-01-05",
+      "nome": "Recesso forense (expediente suspenso de 20/12 a 06/01)",
+      "tipo": "recesso",
+      "fonte": "Ato 13/2024-OE (TJRS), art. 3º",
+      "url": "https://www.tjrs.jus.br/static/2024/11/SEI_7344685_Ato_13_2024___ORGAO_ESPECIAL.pdf"
+    },
+    {
+      "data": "2026-01-06",
+      "nome": "Recesso forense (expediente suspenso de 20/12 a 06/01)",
+      "tipo": "recesso",
+      "fonte": "Ato 13/2024-OE (TJRS), art. 3º",
+      "url": "https://www.tjrs.jus.br/static/2024/11/SEI_7344685_Ato_13_2024___ORGAO_ESPECIAL.pdf"
+    },
+    {
+      "data": "2026-02-16",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Ato 05/2025-OE (TJRS)",
+      "url": "https://www.tjrs.jus.br/static/2025/10/Ato_05_2025_OE-Feriados-2026.pdf"
+    },
+    {
+      "data": "2026-02-17",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Ato 05/2025-OE (TJRS)",
+      "url": "https://www.tjrs.jus.br/static/2025/10/Ato_05_2025_OE-Feriados-2026.pdf"
+    },
+    {
+      "data": "2026-04-03",
+      "nome": "Sexta-Feira Santa",
+      "tipo": "feriado",
+      "fonte": "Ato 05/2025-OE (TJRS)",
+      "url": "https://www.tjrs.jus.br/static/2025/10/Ato_05_2025_OE-Feriados-2026.pdf"
+    },
+    {
+      "data": "2026-04-05",
+      "nome": "Páscoa",
+      "tipo": "feriado",
+      "fonte": "Ato 05/2025-OE (TJRS)",
+      "url": "https://www.tjrs.jus.br/static/2025/10/Ato_05_2025_OE-Feriados-2026.pdf"
+    },
+    {
+      "data": "2026-04-21",
+      "nome": "Tiradentes",
+      "tipo": "feriado",
+      "fonte": "Ato 05/2025-OE (TJRS)",
+      "url": "https://www.tjrs.jus.br/static/2025/10/Ato_05_2025_OE-Feriados-2026.pdf"
+    },
+    {
+      "data": "2026-05-01",
+      "nome": "Dia do Trabalho",
+      "tipo": "feriado",
+      "fonte": "Ato 05/2025-OE (TJRS)",
+      "url": "https://www.tjrs.jus.br/static/2025/10/Ato_05_2025_OE-Feriados-2026.pdf"
+    },
+    {
+      "data": "2026-06-24",
+      "nome": "Jogo do Brasil na Copa do Mundo: expediente das 10h30 às 17h30 e prazos suspensos",
+      "tipo": "suspensao_prazos",
+      "fonte": "Ordem de Serviço 003/2026-P (TJRS), arts. 1º e 2º",
+      "url": "https://www.tjrs.jus.br/static/2026/06/resolucao-1.pdf"
+    },
+    {
+      "data": "2026-06-29",
+      "nome": "Jogo do Brasil na Copa do Mundo (2ª fase, 14h): expediente das 8h às 12h e prazos suspensos",
+      "tipo": "suspensao_prazos",
+      "fonte": "Ordem de Serviço 003/2026-P (TJRS), arts. 1º e 3º, I",
+      "url": "https://www.tjrs.jus.br/novo/noticia/expediente-na-segunda-feira-29-6-sera-das-8h-as-12h-em-razao-de-jogo-do-brasil-na-copa/"
+    },
+    {
+      "data": "2026-07-02",
+      "nome": "Suspensão de prazos (falha de energia no datacenter)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Ato Conjunto 004/2026-P e CGJ (TJRS)",
+      "url": "https://www.tjrs.jus.br/static/2026/07/SEI_9676356_Ato_Conjunto_004_2026___P_E_CGJ-2.pdf"
+    },
+    {
+      "data": "2026-09-07",
+      "nome": "Independência do Brasil",
+      "tipo": "feriado",
+      "fonte": "Ato 05/2025-OE (TJRS)",
+      "url": "https://www.tjrs.jus.br/static/2025/10/Ato_05_2025_OE-Feriados-2026.pdf"
+    },
+    {
+      "data": "2026-09-20",
+      "nome": "Revolução Farroupilha",
+      "tipo": "feriado",
+      "fonte": "Ato 05/2025-OE (TJRS)",
+      "url": "https://www.tjrs.jus.br/static/2025/10/Ato_05_2025_OE-Feriados-2026.pdf"
+    },
+    {
+      "data": "2026-09-21",
+      "nome": "Suspensão de prazos (evento climático)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Ato Conjunto 005/2026-P e CGJ (TJRS)",
+      "url": "https://www.tjrs.jus.br/static/2026/09/Ato-suspensao-prazo-1.pdf"
+    },
+    {
+      "data": "2026-09-28",
+      "nome": "Suspensão de prazos (evento climático)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Ato Conjunto 006/2026-P e CGJ (TJRS)",
+      "url": "https://www.tjrs.jus.br/static/2026/09/SEI_10076554_Ato_Conjunto_006_2026___P_e_CGJ-2-1.pdf"
+    },
+    {
+      "data": "2026-10-12",
+      "nome": "Nossa Senhora Aparecida",
+      "tipo": "feriado",
+      "fonte": "Ato 05/2025-OE (TJRS)",
+      "url": "https://www.tjrs.jus.br/static/2025/10/Ato_05_2025_OE-Feriados-2026.pdf"
+    },
+    {
+      "data": "2026-10-21",
+      "nome": "Suspensão de prazos (indisponibilidade dos sistemas)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Ato Conjunto 007/2026-P e CGJ (TJRS)",
+      "url": "https://www.tjrs.jus.br/novo/noticia/ato-determina-suspensao-dos-prazos-processuais-e-administrativos-nesta-quarta-feira/"
+    },
+    {
+      "data": "2026-11-02",
+      "nome": "Finados",
+      "tipo": "feriado",
+      "fonte": "Ato 05/2025-OE (TJRS)",
+      "url": "https://www.tjrs.jus.br/static/2025/10/Ato_05_2025_OE-Feriados-2026.pdf"
+    },
+    {
+      "data": "2026-11-15",
+      "nome": "Proclamação da República",
+      "tipo": "feriado",
+      "fonte": "Ato 05/2025-OE (TJRS)",
+      "url": "https://www.tjrs.jus.br/static/2025/10/Ato_05_2025_OE-Feriados-2026.pdf"
+    },
+    {
+      "data": "2026-11-20",
+      "nome": "Dia Nacional de Zumbi e da Consciência Negra",
+      "tipo": "feriado",
+      "fonte": "Ato 05/2025-OE (TJRS)",
+      "url": "https://www.tjrs.jus.br/static/2025/10/Ato_05_2025_OE-Feriados-2026.pdf"
+    },
+    {
+      "data": "2026-12-08",
+      "nome": "Dia da Justiça",
+      "tipo": "feriado",
+      "fonte": "Ato 05/2025-OE (TJRS)",
+      "url": "https://www.tjrs.jus.br/static/2025/10/Ato_05_2025_OE-Feriados-2026.pdf"
+    },
+    {
+      "data": "2026-12-20",
+      "nome": "Recesso forense (expediente suspenso de 20/12 a 06/01)",
+      "tipo": "recesso",
+      "fonte": "Ato 13/2024-OE (TJRS), art. 3º",
+      "url": "https://www.tjrs.jus.br/static/2024/11/SEI_7344685_Ato_13_2024___ORGAO_ESPECIAL.pdf"
+    },
+    {
+      "data": "2026-12-21",
+      "nome": "Recesso forense (expediente suspenso de 20/12 a 06/01)",
+      "tipo": "recesso",
+      "fonte": "Ato 13/2024-OE (TJRS), art. 3º",
+      "url": "https://www.tjrs.jus.br/static/2024/11/SEI_7344685_Ato_13_2024___ORGAO_ESPECIAL.pdf"
+    },
+    {
+      "data": "2026-12-22",
+      "nome": "Recesso forense (expediente suspenso de 20/12 a 06/01)",
+      "tipo": "recesso",
+      "fonte": "Ato 13/2024-OE (TJRS), art. 3º",
+      "url": "https://www.tjrs.jus.br/static/2024/11/SEI_7344685_Ato_13_2024___ORGAO_ESPECIAL.pdf"
+    },
+    {
+      "data": "2026-12-23",
+      "nome": "Recesso forense (expediente suspenso de 20/12 a 06/01)",
+      "tipo": "recesso",
+      "fonte": "Ato 13/2024-OE (TJRS), art. 3º",
+      "url": "https://www.tjrs.jus.br/static/2024/11/SEI_7344685_Ato_13_2024___ORGAO_ESPECIAL.pdf"
+    },
+    {
+      "data": "2026-12-24",
+      "nome": "Recesso forense (expediente suspenso de 20/12 a 06/01)",
+      "tipo": "recesso",
+      "fonte": "Ato 13/2024-OE (TJRS), art. 3º",
+      "url": "https://www.tjrs.jus.br/static/2024/11/SEI_7344685_Ato_13_2024___ORGAO_ESPECIAL.pdf"
+    },
+    {
+      "data": "2026-12-25",
+      "nome": "Natal",
+      "tipo": "feriado",
+      "fonte": "Ato 05/2025-OE (TJRS)",
+      "url": "https://www.tjrs.jus.br/static/2025/10/Ato_05_2025_OE-Feriados-2026.pdf"
+    },
+    {
+      "data": "2026-12-26",
+      "nome": "Recesso forense (expediente suspenso de 20/12 a 06/01)",
+      "tipo": "recesso",
+      "fonte": "Ato 13/2024-OE (TJRS), art. 3º",
+      "url": "https://www.tjrs.jus.br/static/2024/11/SEI_7344685_Ato_13_2024___ORGAO_ESPECIAL.pdf"
+    },
+    {
+      "data": "2026-12-27",
+      "nome": "Recesso forense (expediente suspenso de 20/12 a 06/01)",
+      "tipo": "recesso",
+      "fonte": "Ato 13/2024-OE (TJRS), art. 3º",
+      "url": "https://www.tjrs.jus.br/static/2024/11/SEI_7344685_Ato_13_2024___ORGAO_ESPECIAL.pdf"
+    },
+    {
+      "data": "2026-12-28",
+      "nome": "Recesso forense (expediente suspenso de 20/12 a 06/01)",
+      "tipo": "recesso",
+      "fonte": "Ato 13/2024-OE (TJRS), art. 3º",
+      "url": "https://www.tjrs.jus.br/static/2024/11/SEI_7344685_Ato_13_2024___ORGAO_ESPECIAL.pdf"
+    },
+    {
+      "data": "2026-12-29",
+      "nome": "Recesso forense (expediente suspenso de 20/12 a 06/01)",
+      "tipo": "recesso",
+      "fonte": "Ato 13/2024-OE (TJRS), art. 3º",
+      "url": "https://www.tjrs.jus.br/static/2024/11/SEI_7344685_Ato_13_2024___ORGAO_ESPECIAL.pdf"
+    },
+    {
+      "data": "2026-12-30",
+      "nome": "Recesso forense (expediente suspenso de 20/12 a 06/01)",
+      "tipo": "recesso",
+      "fonte": "Ato 13/2024-OE (TJRS), art. 3º",
+      "url": "https://www.tjrs.jus.br/static/2024/11/SEI_7344685_Ato_13_2024___ORGAO_ESPECIAL.pdf"
+    },
+    {
+      "data": "2026-12-31",
+      "nome": "Recesso forense (expediente suspenso de 20/12 a 06/01)",
+      "tipo": "recesso",
+      "fonte": "Ato 13/2024-OE (TJRS), art. 3º",
+      "url": "https://www.tjrs.jus.br/static/2024/11/SEI_7344685_Ato_13_2024___ORGAO_ESPECIAL.pdf"
+    }
+  ]
+}

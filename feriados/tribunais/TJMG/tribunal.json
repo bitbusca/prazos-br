@@ -1,0 +1,823 @@
+{
+  "$schema": "../../../schema/feriados.schema.json",
+  "id": "TJMG",
+  "escopo": "tribunal",
+  "nome": "Tribunal de Justiça do Estado de Minas Gerais",
+  "tribunal": "TJMG",
+  "uf": "MG",
+  "observacao": "Datas de 2025 e 2026 conferidas nas Portarias Conjuntas da Presidência que consolidam o calendário de feriados (1.658/PR/2025 e 1.798/PR/2026, com as alterações), nas que suspendem o expediente (1.629/PR/2025 e 1.764/PR/2026), na 1.757/PR/2025 (recesso 2025/2026) e na 1.819/PR/2026 (jogos da Seleção na Copa 2026). Regras permanentes da LC estadual 59/2001, art. 313. Só a comarca de Belo Horizonte tem arquivo: os feriados municipais das comarcas do interior (Anexo Único das portarias) e o dia seguinte a Corpus Christi nessas comarcas ainda não foram cadastrados.",
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2025,
+    2026
+  ],
+  "comarcas": [
+    "Belo Horizonte"
+  ],
+  "regras": [
+    {
+      "nome": "Dia da Justiça",
+      "tipo": "feriado",
+      "quando": {
+        "dia": "12-08"
+      },
+      "fonte": "LC estadual de MG 59/2001 (organização judiciária), art. 313, § 5º, I",
+      "url": "https://www.almg.gov.br/legislacao-mineira/texto/LCP/59/2001/"
+    },
+    {
+      "nome": "Feriado forense de 20/12 a 06/01",
+      "tipo": "recesso",
+      "quando": {
+        "de": "12-20",
+        "ate": "01-06"
+      },
+      "fonte": "LC estadual de MG 59/2001 (organização judiciária), art. 313, § 5º, II",
+      "url": "https://www.almg.gov.br/legislacao-mineira/texto/LCP/59/2001/"
+    },
+    {
+      "nome": "Semana Santa (quarta-feira)",
+      "tipo": "feriado",
+      "quando": {
+        "pascoa": -4
+      },
+      "fonte": "LC estadual de MG 59/2001 (organização judiciária), art. 313, § 5º, III",
+      "url": "https://www.almg.gov.br/legislacao-mineira/texto/LCP/59/2001/"
+    },
+    {
+      "nome": "Semana Santa (quinta-feira)",
+      "tipo": "feriado",
+      "quando": {
+        "pascoa": -3
+      },
+      "fonte": "LC estadual de MG 59/2001 (organização judiciária), art. 313, § 5º, III",
+      "url": "https://www.almg.gov.br/legislacao-mineira/texto/LCP/59/2001/"
+    },
+    {
+      "nome": "Semana Santa (sexta-feira)",
+      "tipo": "feriado",
+      "quando": {
+        "pascoa": -2
+      },
+      "fonte": "LC estadual de MG 59/2001 (organização judiciária), art. 313, § 5º, III",
+      "url": "https://www.almg.gov.br/legislacao-mineira/texto/LCP/59/2001/"
+    },
+    {
+      "nome": "Semana Santa (sábado)",
+      "tipo": "feriado",
+      "quando": {
+        "pascoa": -1
+      },
+      "fonte": "LC estadual de MG 59/2001 (organização judiciária), art. 313, § 5º, III",
+      "url": "https://www.almg.gov.br/legislacao-mineira/texto/LCP/59/2001/"
+    },
+    {
+      "nome": "Domingo de Páscoa",
+      "tipo": "feriado",
+      "quando": {
+        "pascoa": 0
+      },
+      "fonte": "LC estadual de MG 59/2001 (organização judiciária), art. 313, § 5º, III",
+      "url": "https://www.almg.gov.br/legislacao-mineira/texto/LCP/59/2001/"
+    },
+    {
+      "nome": "Carnaval (segunda-feira)",
+      "tipo": "feriado",
+      "quando": {
+        "pascoa": -48
+      },
+      "fonte": "LC estadual de MG 59/2001 (organização judiciária), art. 313, § 5º, IV",
+      "url": "https://www.almg.gov.br/legislacao-mineira/texto/LCP/59/2001/"
+    },
+    {
+      "nome": "Carnaval (terça-feira)",
+      "tipo": "feriado",
+      "quando": {
+        "pascoa": -47
+      },
+      "fonte": "LC estadual de MG 59/2001 (organização judiciária), art. 313, § 5º, IV",
+      "url": "https://www.almg.gov.br/legislacao-mineira/texto/LCP/59/2001/"
+    },
+    {
+      "nome": "Quarta-feira de Cinzas",
+      "tipo": "feriado",
+      "quando": {
+        "pascoa": -46
+      },
+      "fonte": "LC estadual de MG 59/2001 (organização judiciária), art. 313, § 5º, IV",
+      "url": "https://www.almg.gov.br/legislacao-mineira/texto/LCP/59/2001/"
+    },
+    {
+      "nome": "Suspensão dos prazos processuais de 7 a 20 de janeiro",
+      "tipo": "suspensao_prazos",
+      "quando": {
+        "de": "01-07",
+        "ate": "01-20"
+      },
+      "desde": 2015,
+      "fonte": "LC estadual de MG 59/2001 (organização judiciária), art. 313, § 8º (incluído pela LC 135/2014)",
+      "url": "https://www.almg.gov.br/legislacao-mineira/texto/LCP/59/2001/"
+    }
+  ],
+  "datas": [
+    {
+      "data": "2025-01-01",
+      "nome": "Confraternização Universal",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; Portaria Conjunta TJMG 1.658/PR/2025, art. 1º, I",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc16582025.pdf"
+    },
+    {
+      "data": "2025-01-02",
+      "nome": "Feriado forense (recesso)",
+      "tipo": "recesso",
+      "fonte": "LC estadual 59/2001, art. 313, § 5º, II; Portaria Conjunta TJMG 1.658/PR/2025, art. 1º, II",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc16582025.pdf"
+    },
+    {
+      "data": "2025-01-03",
+      "nome": "Feriado forense (recesso)",
+      "tipo": "recesso",
+      "fonte": "LC estadual 59/2001, art. 313, § 5º, II; Portaria Conjunta TJMG 1.658/PR/2025, art. 1º, II",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc16582025.pdf"
+    },
+    {
+      "data": "2025-01-04",
+      "nome": "Feriado forense (recesso)",
+      "tipo": "recesso",
+      "fonte": "LC estadual 59/2001, art. 313, § 5º, II; Portaria Conjunta TJMG 1.658/PR/2025, art. 1º, II",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc16582025.pdf"
+    },
+    {
+      "data": "2025-01-05",
+      "nome": "Feriado forense (recesso)",
+      "tipo": "recesso",
+      "fonte": "LC estadual 59/2001, art. 313, § 5º, II; Portaria Conjunta TJMG 1.658/PR/2025, art. 1º, II",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc16582025.pdf"
+    },
+    {
+      "data": "2025-01-06",
+      "nome": "Feriado forense (recesso)",
+      "tipo": "recesso",
+      "fonte": "LC estadual 59/2001, art. 313, § 5º, II; Portaria Conjunta TJMG 1.658/PR/2025, art. 1º, II",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc16582025.pdf"
+    },
+    {
+      "data": "2025-01-07",
+      "nome": "Suspensão dos prazos processuais (7 a 20 de janeiro)",
+      "tipo": "suspensao_prazos",
+      "fonte": "LC estadual 59/2001, art. 313, § 8º; Portaria Conjunta TJMG 1.658/PR/2025, art. 4º, parágrafo único; Portaria Conjunta TJMG 1.626/PR/2024",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc16582025.pdf"
+    },
+    {
+      "data": "2025-01-08",
+      "nome": "Suspensão dos prazos processuais (7 a 20 de janeiro)",
+      "tipo": "suspensao_prazos",
+      "fonte": "LC estadual 59/2001, art. 313, § 8º; Portaria Conjunta TJMG 1.658/PR/2025, art. 4º, parágrafo único; Portaria Conjunta TJMG 1.626/PR/2024",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc16582025.pdf"
+    },
+    {
+      "data": "2025-01-09",
+      "nome": "Suspensão dos prazos processuais (7 a 20 de janeiro)",
+      "tipo": "suspensao_prazos",
+      "fonte": "LC estadual 59/2001, art. 313, § 8º; Portaria Conjunta TJMG 1.658/PR/2025, art. 4º, parágrafo único; Portaria Conjunta TJMG 1.626/PR/2024",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc16582025.pdf"
+    },
+    {
+      "data": "2025-01-10",
+      "nome": "Suspensão dos prazos processuais (7 a 20 de janeiro)",
+      "tipo": "suspensao_prazos",
+      "fonte": "LC estadual 59/2001, art. 313, § 8º; Portaria Conjunta TJMG 1.658/PR/2025, art. 4º, parágrafo único; Portaria Conjunta TJMG 1.626/PR/2024",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc16582025.pdf"
+    },
+    {
+      "data": "2025-01-11",
+      "nome": "Suspensão dos prazos processuais (7 a 20 de janeiro)",
+      "tipo": "suspensao_prazos",
+      "fonte": "LC estadual 59/2001, art. 313, § 8º; Portaria Conjunta TJMG 1.658/PR/2025, art. 4º, parágrafo único; Portaria Conjunta TJMG 1.626/PR/2024",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc16582025.pdf"
+    },
+    {
+      "data": "2025-01-12",
+      "nome": "Suspensão dos prazos processuais (7 a 20 de janeiro)",
+      "tipo": "suspensao_prazos",
+      "fonte": "LC estadual 59/2001, art. 313, § 8º; Portaria Conjunta TJMG 1.658/PR/2025, art. 4º, parágrafo único; Portaria Conjunta TJMG 1.626/PR/2024",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc16582025.pdf"
+    },
+    {
+      "data": "2025-01-13",
+      "nome": "Suspensão dos prazos processuais (7 a 20 de janeiro)",
+      "tipo": "suspensao_prazos",
+      "fonte": "LC estadual 59/2001, art. 313, § 8º; Portaria Conjunta TJMG 1.658/PR/2025, art. 4º, parágrafo único; Portaria Conjunta TJMG 1.626/PR/2024",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc16582025.pdf"
+    },
+    {
+      "data": "2025-01-14",
+      "nome": "Suspensão dos prazos processuais (7 a 20 de janeiro)",
+      "tipo": "suspensao_prazos",
+      "fonte": "LC estadual 59/2001, art. 313, § 8º; Portaria Conjunta TJMG 1.658/PR/2025, art. 4º, parágrafo único; Portaria Conjunta TJMG 1.626/PR/2024",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc16582025.pdf"
+    },
+    {
+      "data": "2025-01-15",
+      "nome": "Suspensão dos prazos processuais (7 a 20 de janeiro)",
+      "tipo": "suspensao_prazos",
+      "fonte": "LC estadual 59/2001, art. 313, § 8º; Portaria Conjunta TJMG 1.658/PR/2025, art. 4º, parágrafo único; Portaria Conjunta TJMG 1.626/PR/2024",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc16582025.pdf"
+    },
+    {
+      "data": "2025-01-16",
+      "nome": "Suspensão dos prazos processuais (7 a 20 de janeiro)",
+      "tipo": "suspensao_prazos",
+      "fonte": "LC estadual 59/2001, art. 313, § 8º; Portaria Conjunta TJMG 1.658/PR/2025, art. 4º, parágrafo único; Portaria Conjunta TJMG 1.626/PR/2024",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc16582025.pdf"
+    },
+    {
+      "data": "2025-01-17",
+      "nome": "Suspensão dos prazos processuais (7 a 20 de janeiro)",
+      "tipo": "suspensao_prazos",
+      "fonte": "LC estadual 59/2001, art. 313, § 8º; Portaria Conjunta TJMG 1.658/PR/2025, art. 4º, parágrafo único; Portaria Conjunta TJMG 1.626/PR/2024",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc16582025.pdf"
+    },
+    {
+      "data": "2025-01-18",
+      "nome": "Suspensão dos prazos processuais (7 a 20 de janeiro)",
+      "tipo": "suspensao_prazos",
+      "fonte": "LC estadual 59/2001, art. 313, § 8º; Portaria Conjunta TJMG 1.658/PR/2025, art. 4º, parágrafo único; Portaria Conjunta TJMG 1.626/PR/2024",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc16582025.pdf"
+    },
+    {
+      "data": "2025-01-19",
+      "nome": "Suspensão dos prazos processuais (7 a 20 de janeiro)",
+      "tipo": "suspensao_prazos",
+      "fonte": "LC estadual 59/2001, art. 313, § 8º; Portaria Conjunta TJMG 1.658/PR/2025, art. 4º, parágrafo único; Portaria Conjunta TJMG 1.626/PR/2024",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc16582025.pdf"
+    },
+    {
+      "data": "2025-01-20",
+      "nome": "Suspensão dos prazos processuais (7 a 20 de janeiro)",
+      "tipo": "suspensao_prazos",
+      "fonte": "LC estadual 59/2001, art. 313, § 8º; Portaria Conjunta TJMG 1.658/PR/2025, art. 4º, parágrafo único; Portaria Conjunta TJMG 1.626/PR/2024",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc16582025.pdf"
+    },
+    {
+      "data": "2025-03-03",
+      "nome": "Segunda-feira de Carnaval",
+      "tipo": "feriado",
+      "fonte": "LC estadual 59/2001, art. 313, § 5º, IV; Portaria Conjunta TJMG 1.658/PR/2025, art. 1º, III",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc16582025.pdf"
+    },
+    {
+      "data": "2025-03-04",
+      "nome": "Terça-feira de Carnaval",
+      "tipo": "feriado",
+      "fonte": "LC estadual 59/2001, art. 313, § 5º, IV; Portaria Conjunta TJMG 1.658/PR/2025, art. 1º, III",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc16582025.pdf"
+    },
+    {
+      "data": "2025-03-05",
+      "nome": "Quarta-feira de Cinzas",
+      "tipo": "feriado",
+      "fonte": "LC estadual 59/2001, art. 313, § 5º, IV; Portaria Conjunta TJMG 1.658/PR/2025, art. 1º, III",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc16582025.pdf"
+    },
+    {
+      "data": "2025-04-16",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "LC estadual 59/2001, art. 313, § 5º, III; Portaria Conjunta TJMG 1.658/PR/2025, art. 1º, IV",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc16582025.pdf"
+    },
+    {
+      "data": "2025-04-17",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "LC estadual 59/2001, art. 313, § 5º, III; Portaria Conjunta TJMG 1.658/PR/2025, art. 1º, IV",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc16582025.pdf"
+    },
+    {
+      "data": "2025-04-18",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "LC estadual 59/2001, art. 313, § 5º, III; Portaria Conjunta TJMG 1.658/PR/2025, art. 1º, IV",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc16582025.pdf"
+    },
+    {
+      "data": "2025-04-21",
+      "nome": "Tiradentes e Data Magna do Estado de Minas Gerais",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; Constituição do Estado de MG, art. 256; Portaria Conjunta TJMG 1.658/PR/2025, art. 1º, V",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc16582025.pdf"
+    },
+    {
+      "data": "2025-05-01",
+      "nome": "Dia do Trabalho",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; Portaria Conjunta TJMG 1.658/PR/2025, art. 1º, VI",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc16582025.pdf"
+    },
+    {
+      "data": "2025-05-02",
+      "nome": "Sem expediente forense",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria Conjunta TJMG 1.629/PR/2025, art. 1º, I; Portaria Conjunta TJMG 1.658/PR/2025, art. 1º, parágrafo único (Portaria Conjunta 1.671/PR/2025)",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc16292025.pdf"
+    },
+    {
+      "data": "2025-09-07",
+      "nome": "Independência do Brasil",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; Portaria Conjunta TJMG 1.658/PR/2025, art. 1º, VII",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc16582025.pdf"
+    },
+    {
+      "data": "2025-10-12",
+      "nome": "Nossa Senhora Aparecida",
+      "tipo": "feriado",
+      "fonte": "Lei 6.802/1980; Portaria Conjunta TJMG 1.658/PR/2025, art. 1º, VIII",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc16582025.pdf"
+    },
+    {
+      "data": "2025-10-27",
+      "nome": "Dia do Funcionário Público (MG)",
+      "tipo": "feriado",
+      "fonte": "Portaria Conjunta TJMG 1.658/PR/2025, art. 1º, IX; Portaria Conjunta TJMG 1.629/PR/2025, art. 1º, III",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc16582025.pdf"
+    },
+    {
+      "data": "2025-11-02",
+      "nome": "Finados",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; Portaria Conjunta TJMG 1.658/PR/2025, art. 1º, X",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc16582025.pdf"
+    },
+    {
+      "data": "2025-11-15",
+      "nome": "Proclamação da República",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; Portaria Conjunta TJMG 1.658/PR/2025, art. 1º, XI",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc16582025.pdf"
+    },
+    {
+      "data": "2025-11-20",
+      "nome": "Dia Nacional de Zumbi e da Consciência Negra",
+      "tipo": "feriado",
+      "fonte": "Lei 14.759/2023; Portaria Conjunta TJMG 1.658/PR/2025, art. 1º, XII",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc16582025.pdf"
+    },
+    {
+      "data": "2025-11-21",
+      "nome": "Sem expediente forense",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria Conjunta TJMG 1.629/PR/2025, art. 1º, IV; Portaria Conjunta TJMG 1.658/PR/2025, art. 1º, parágrafo único (Portaria Conjunta 1.671/PR/2025)",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc16292025.pdf"
+    },
+    {
+      "data": "2025-12-08",
+      "nome": "Dia da Justiça",
+      "tipo": "feriado",
+      "fonte": "LC estadual 59/2001, art. 313, § 5º, I; Portaria Conjunta TJMG 1.658/PR/2025, art. 1º, XIII",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc16582025.pdf"
+    },
+    {
+      "data": "2025-12-20",
+      "nome": "Feriado forense (recesso)",
+      "tipo": "recesso",
+      "fonte": "LC estadual 59/2001, art. 313, § 5º, II; Portaria Conjunta TJMG 1.658/PR/2025, art. 1º, XIV; Portaria Conjunta TJMG 1.757/PR/2025, art. 2º",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc16582025.pdf"
+    },
+    {
+      "data": "2025-12-21",
+      "nome": "Feriado forense (recesso)",
+      "tipo": "recesso",
+      "fonte": "LC estadual 59/2001, art. 313, § 5º, II; Portaria Conjunta TJMG 1.658/PR/2025, art. 1º, XIV; Portaria Conjunta TJMG 1.757/PR/2025, art. 2º",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc16582025.pdf"
+    },
+    {
+      "data": "2025-12-22",
+      "nome": "Feriado forense (recesso)",
+      "tipo": "recesso",
+      "fonte": "LC estadual 59/2001, art. 313, § 5º, II; Portaria Conjunta TJMG 1.658/PR/2025, art. 1º, XIV; Portaria Conjunta TJMG 1.757/PR/2025, art. 2º",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc16582025.pdf"
+    },
+    {
+      "data": "2025-12-23",
+      "nome": "Feriado forense (recesso)",
+      "tipo": "recesso",
+      "fonte": "LC estadual 59/2001, art. 313, § 5º, II; Portaria Conjunta TJMG 1.658/PR/2025, art. 1º, XIV; Portaria Conjunta TJMG 1.757/PR/2025, art. 2º",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc16582025.pdf"
+    },
+    {
+      "data": "2025-12-24",
+      "nome": "Feriado forense (recesso)",
+      "tipo": "recesso",
+      "fonte": "LC estadual 59/2001, art. 313, § 5º, II; Portaria Conjunta TJMG 1.658/PR/2025, art. 1º, XIV; Portaria Conjunta TJMG 1.757/PR/2025, art. 2º",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc16582025.pdf"
+    },
+    {
+      "data": "2025-12-25",
+      "nome": "Natal",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; Portaria Conjunta TJMG 1.658/PR/2025, art. 1º, XV",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc16582025.pdf"
+    },
+    {
+      "data": "2025-12-26",
+      "nome": "Feriado forense (recesso)",
+      "tipo": "recesso",
+      "fonte": "LC estadual 59/2001, art. 313, § 5º, II; Portaria Conjunta TJMG 1.658/PR/2025, art. 1º, XIV; Portaria Conjunta TJMG 1.757/PR/2025, art. 2º",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc16582025.pdf"
+    },
+    {
+      "data": "2025-12-27",
+      "nome": "Feriado forense (recesso)",
+      "tipo": "recesso",
+      "fonte": "LC estadual 59/2001, art. 313, § 5º, II; Portaria Conjunta TJMG 1.658/PR/2025, art. 1º, XIV; Portaria Conjunta TJMG 1.757/PR/2025, art. 2º",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc16582025.pdf"
+    },
+    {
+      "data": "2025-12-28",
+      "nome": "Feriado forense (recesso)",
+      "tipo": "recesso",
+      "fonte": "LC estadual 59/2001, art. 313, § 5º, II; Portaria Conjunta TJMG 1.658/PR/2025, art. 1º, XIV; Portaria Conjunta TJMG 1.757/PR/2025, art. 2º",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc16582025.pdf"
+    },
+    {
+      "data": "2025-12-29",
+      "nome": "Feriado forense (recesso)",
+      "tipo": "recesso",
+      "fonte": "LC estadual 59/2001, art. 313, § 5º, II; Portaria Conjunta TJMG 1.658/PR/2025, art. 1º, XIV; Portaria Conjunta TJMG 1.757/PR/2025, art. 2º",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc16582025.pdf"
+    },
+    {
+      "data": "2025-12-30",
+      "nome": "Feriado forense (recesso)",
+      "tipo": "recesso",
+      "fonte": "LC estadual 59/2001, art. 313, § 5º, II; Portaria Conjunta TJMG 1.658/PR/2025, art. 1º, XIV; Portaria Conjunta TJMG 1.757/PR/2025, art. 2º",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc16582025.pdf"
+    },
+    {
+      "data": "2025-12-31",
+      "nome": "Feriado forense (recesso)",
+      "tipo": "recesso",
+      "fonte": "LC estadual 59/2001, art. 313, § 5º, II; Portaria Conjunta TJMG 1.658/PR/2025, art. 1º, XIV; Portaria Conjunta TJMG 1.757/PR/2025, art. 2º",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc16582025.pdf"
+    },
+    {
+      "data": "2026-01-01",
+      "nome": "Confraternização Universal",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; Portaria Conjunta TJMG 1.798/PR/2026, art. 1º, I",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc17982026.pdf"
+    },
+    {
+      "data": "2026-01-02",
+      "nome": "Feriado forense (recesso)",
+      "tipo": "recesso",
+      "fonte": "LC estadual 59/2001, art. 313, § 5º, II; Portaria Conjunta TJMG 1.798/PR/2026, art. 1º, II; Portaria Conjunta TJMG 1.757/PR/2025",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc17982026.pdf"
+    },
+    {
+      "data": "2026-01-03",
+      "nome": "Feriado forense (recesso)",
+      "tipo": "recesso",
+      "fonte": "LC estadual 59/2001, art. 313, § 5º, II; Portaria Conjunta TJMG 1.798/PR/2026, art. 1º, II; Portaria Conjunta TJMG 1.757/PR/2025",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc17982026.pdf"
+    },
+    {
+      "data": "2026-01-04",
+      "nome": "Feriado forense (recesso)",
+      "tipo": "recesso",
+      "fonte": "LC estadual 59/2001, art. 313, § 5º, II; Portaria Conjunta TJMG 1.798/PR/2026, art. 1º, II; Portaria Conjunta TJMG 1.757/PR/2025",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc17982026.pdf"
+    },
+    {
+      "data": "2026-01-05",
+      "nome": "Feriado forense (recesso)",
+      "tipo": "recesso",
+      "fonte": "LC estadual 59/2001, art. 313, § 5º, II; Portaria Conjunta TJMG 1.798/PR/2026, art. 1º, II; Portaria Conjunta TJMG 1.757/PR/2025",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc17982026.pdf"
+    },
+    {
+      "data": "2026-01-06",
+      "nome": "Feriado forense (recesso)",
+      "tipo": "recesso",
+      "fonte": "LC estadual 59/2001, art. 313, § 5º, II; Portaria Conjunta TJMG 1.798/PR/2026, art. 1º, II; Portaria Conjunta TJMG 1.757/PR/2025",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc17982026.pdf"
+    },
+    {
+      "data": "2026-01-07",
+      "nome": "Suspensão dos prazos processuais (7 a 20 de janeiro)",
+      "tipo": "suspensao_prazos",
+      "fonte": "LC estadual 59/2001, art. 313, § 8º; Portaria Conjunta TJMG 1.798/PR/2026, art. 4º, parágrafo único; Portaria Conjunta TJMG 1.757/PR/2025",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc17982026.pdf"
+    },
+    {
+      "data": "2026-01-08",
+      "nome": "Suspensão dos prazos processuais (7 a 20 de janeiro)",
+      "tipo": "suspensao_prazos",
+      "fonte": "LC estadual 59/2001, art. 313, § 8º; Portaria Conjunta TJMG 1.798/PR/2026, art. 4º, parágrafo único; Portaria Conjunta TJMG 1.757/PR/2025",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc17982026.pdf"
+    },
+    {
+      "data": "2026-01-09",
+      "nome": "Suspensão dos prazos processuais (7 a 20 de janeiro)",
+      "tipo": "suspensao_prazos",
+      "fonte": "LC estadual 59/2001, art. 313, § 8º; Portaria Conjunta TJMG 1.798/PR/2026, art. 4º, parágrafo único; Portaria Conjunta TJMG 1.757/PR/2025",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc17982026.pdf"
+    },
+    {
+      "data": "2026-01-10",
+      "nome": "Suspensão dos prazos processuais (7 a 20 de janeiro)",
+      "tipo": "suspensao_prazos",
+      "fonte": "LC estadual 59/2001, art. 313, § 8º; Portaria Conjunta TJMG 1.798/PR/2026, art. 4º, parágrafo único; Portaria Conjunta TJMG 1.757/PR/2025",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc17982026.pdf"
+    },
+    {
+      "data": "2026-01-11",
+      "nome": "Suspensão dos prazos processuais (7 a 20 de janeiro)",
+      "tipo": "suspensao_prazos",
+      "fonte": "LC estadual 59/2001, art. 313, § 8º; Portaria Conjunta TJMG 1.798/PR/2026, art. 4º, parágrafo único; Portaria Conjunta TJMG 1.757/PR/2025",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc17982026.pdf"
+    },
+    {
+      "data": "2026-01-12",
+      "nome": "Suspensão dos prazos processuais (7 a 20 de janeiro)",
+      "tipo": "suspensao_prazos",
+      "fonte": "LC estadual 59/2001, art. 313, § 8º; Portaria Conjunta TJMG 1.798/PR/2026, art. 4º, parágrafo único; Portaria Conjunta TJMG 1.757/PR/2025",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc17982026.pdf"
+    },
+    {
+      "data": "2026-01-13",
+      "nome": "Suspensão dos prazos processuais (7 a 20 de janeiro)",
+      "tipo": "suspensao_prazos",
+      "fonte": "LC estadual 59/2001, art. 313, § 8º; Portaria Conjunta TJMG 1.798/PR/2026, art. 4º, parágrafo único; Portaria Conjunta TJMG 1.757/PR/2025",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc17982026.pdf"
+    },
+    {
+      "data": "2026-01-14",
+      "nome": "Suspensão dos prazos processuais (7 a 20 de janeiro)",
+      "tipo": "suspensao_prazos",
+      "fonte": "LC estadual 59/2001, art. 313, § 8º; Portaria Conjunta TJMG 1.798/PR/2026, art. 4º, parágrafo único; Portaria Conjunta TJMG 1.757/PR/2025",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc17982026.pdf"
+    },
+    {
+      "data": "2026-01-15",
+      "nome": "Suspensão dos prazos processuais (7 a 20 de janeiro)",
+      "tipo": "suspensao_prazos",
+      "fonte": "LC estadual 59/2001, art. 313, § 8º; Portaria Conjunta TJMG 1.798/PR/2026, art. 4º, parágrafo único; Portaria Conjunta TJMG 1.757/PR/2025",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc17982026.pdf"
+    },
+    {
+      "data": "2026-01-16",
+      "nome": "Suspensão dos prazos processuais (7 a 20 de janeiro)",
+      "tipo": "suspensao_prazos",
+      "fonte": "LC estadual 59/2001, art. 313, § 8º; Portaria Conjunta TJMG 1.798/PR/2026, art. 4º, parágrafo único; Portaria Conjunta TJMG 1.757/PR/2025",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc17982026.pdf"
+    },
+    {
+      "data": "2026-01-17",
+      "nome": "Suspensão dos prazos processuais (7 a 20 de janeiro)",
+      "tipo": "suspensao_prazos",
+      "fonte": "LC estadual 59/2001, art. 313, § 8º; Portaria Conjunta TJMG 1.798/PR/2026, art. 4º, parágrafo único; Portaria Conjunta TJMG 1.757/PR/2025",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc17982026.pdf"
+    },
+    {
+      "data": "2026-01-18",
+      "nome": "Suspensão dos prazos processuais (7 a 20 de janeiro)",
+      "tipo": "suspensao_prazos",
+      "fonte": "LC estadual 59/2001, art. 313, § 8º; Portaria Conjunta TJMG 1.798/PR/2026, art. 4º, parágrafo único; Portaria Conjunta TJMG 1.757/PR/2025",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc17982026.pdf"
+    },
+    {
+      "data": "2026-01-19",
+      "nome": "Suspensão dos prazos processuais (7 a 20 de janeiro)",
+      "tipo": "suspensao_prazos",
+      "fonte": "LC estadual 59/2001, art. 313, § 8º; Portaria Conjunta TJMG 1.798/PR/2026, art. 4º, parágrafo único; Portaria Conjunta TJMG 1.757/PR/2025",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc17982026.pdf"
+    },
+    {
+      "data": "2026-01-20",
+      "nome": "Suspensão dos prazos processuais (7 a 20 de janeiro)",
+      "tipo": "suspensao_prazos",
+      "fonte": "LC estadual 59/2001, art. 313, § 8º; Portaria Conjunta TJMG 1.798/PR/2026, art. 4º, parágrafo único; Portaria Conjunta TJMG 1.757/PR/2025",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc17982026.pdf"
+    },
+    {
+      "data": "2026-02-16",
+      "nome": "Segunda-feira de Carnaval",
+      "tipo": "feriado",
+      "fonte": "LC estadual 59/2001, art. 313, § 5º, IV; Portaria Conjunta TJMG 1.798/PR/2026, art. 1º, III; Portaria Conjunta TJMG 1.764/PR/2026",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc17982026.pdf"
+    },
+    {
+      "data": "2026-02-17",
+      "nome": "Terça-feira de Carnaval",
+      "tipo": "feriado",
+      "fonte": "LC estadual 59/2001, art. 313, § 5º, IV; Portaria Conjunta TJMG 1.798/PR/2026, art. 1º, III; Portaria Conjunta TJMG 1.764/PR/2026",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc17982026.pdf"
+    },
+    {
+      "data": "2026-02-18",
+      "nome": "Quarta-feira de Cinzas",
+      "tipo": "feriado",
+      "fonte": "LC estadual 59/2001, art. 313, § 5º, IV; Portaria Conjunta TJMG 1.798/PR/2026, art. 1º, III; Portaria Conjunta TJMG 1.764/PR/2026",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc17982026.pdf"
+    },
+    {
+      "data": "2026-04-01",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "LC estadual 59/2001, art. 313, § 5º, III; Portaria Conjunta TJMG 1.798/PR/2026, art. 1º, IV",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc17982026.pdf"
+    },
+    {
+      "data": "2026-04-02",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "LC estadual 59/2001, art. 313, § 5º, III; Portaria Conjunta TJMG 1.798/PR/2026, art. 1º, IV",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc17982026.pdf"
+    },
+    {
+      "data": "2026-04-03",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "LC estadual 59/2001, art. 313, § 5º, III; Portaria Conjunta TJMG 1.798/PR/2026, art. 1º, IV",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc17982026.pdf"
+    },
+    {
+      "data": "2026-04-20",
+      "nome": "Sem expediente forense (véspera de Tiradentes)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria Conjunta TJMG 1.798/PR/2026, art. 1º, parágrafo único; Portaria Conjunta TJMG 1.764/PR/2026, art. 1º, III",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc17642026.pdf"
+    },
+    {
+      "data": "2026-04-21",
+      "nome": "Tiradentes e Data Magna do Estado de Minas Gerais",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; Constituição do Estado de MG, art. 256; Portaria Conjunta TJMG 1.798/PR/2026, art. 1º, V",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc17982026.pdf"
+    },
+    {
+      "data": "2026-05-01",
+      "nome": "Dia do Trabalho",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; Portaria Conjunta TJMG 1.798/PR/2026, art. 1º, VI",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc17982026.pdf"
+    },
+    {
+      "data": "2026-06-24",
+      "nome": "Jogo da Seleção na Copa às 19h: expediente das 7h às 16h (prazo não começa nem vence)",
+      "tipo": "expediente_reduzido",
+      "fonte": "Portaria Conjunta TJMG 1.819/PR/2026, arts. 1º, VI, e 2º (jogo Escócia x Brasil, 24/06, 19h)",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc18192026.pdf"
+    },
+    {
+      "data": "2026-06-29",
+      "nome": "Jogo da Seleção na Copa às 14h: expediente das 7h às 11h (prazo não começa nem vence)",
+      "tipo": "expediente_reduzido",
+      "fonte": "Portaria Conjunta TJMG 1.819/PR/2026, arts. 1º, I, e 2º (jogo Brasil x Japão, 29/06, 14h)",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc18192026.pdf"
+    },
+    {
+      "data": "2026-09-07",
+      "nome": "Independência do Brasil",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; Portaria Conjunta TJMG 1.798/PR/2026, art. 1º, VII",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc17982026.pdf"
+    },
+    {
+      "data": "2026-10-12",
+      "nome": "Nossa Senhora Aparecida",
+      "tipo": "feriado",
+      "fonte": "Lei 6.802/1980; Portaria Conjunta TJMG 1.798/PR/2026, art. 1º, VIII",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc17982026.pdf"
+    },
+    {
+      "data": "2026-10-30",
+      "nome": "Dia do Funcionário Público (MG)",
+      "tipo": "feriado",
+      "fonte": "Portaria Conjunta TJMG 1.798/PR/2026, art. 1º, IX; Portaria Conjunta TJMG 1.764/PR/2026, art. 1º, V",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc17982026.pdf"
+    },
+    {
+      "data": "2026-11-02",
+      "nome": "Finados",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; Portaria Conjunta TJMG 1.798/PR/2026, art. 1º, X",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc17982026.pdf"
+    },
+    {
+      "data": "2026-11-15",
+      "nome": "Proclamação da República",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; Portaria Conjunta TJMG 1.798/PR/2026, art. 1º, XI",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc17982026.pdf"
+    },
+    {
+      "data": "2026-11-20",
+      "nome": "Dia Nacional de Zumbi e da Consciência Negra",
+      "tipo": "feriado",
+      "fonte": "Lei 14.759/2023; Portaria Conjunta TJMG 1.798/PR/2026, art. 1º, XII",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc17982026.pdf"
+    },
+    {
+      "data": "2026-12-07",
+      "nome": "Sem expediente forense (véspera do Dia da Justiça)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria Conjunta TJMG 1.798/PR/2026, art. 1º, parágrafo único; Portaria Conjunta TJMG 1.764/PR/2026, art. 1º, VI",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc17642026.pdf"
+    },
+    {
+      "data": "2026-12-08",
+      "nome": "Dia da Justiça",
+      "tipo": "feriado",
+      "fonte": "LC estadual 59/2001, art. 313, § 5º, I; Portaria Conjunta TJMG 1.798/PR/2026, art. 1º, XIII",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc17982026.pdf"
+    },
+    {
+      "data": "2026-12-20",
+      "nome": "Feriado forense (recesso)",
+      "tipo": "recesso",
+      "fonte": "LC estadual 59/2001, art. 313, § 5º, II; Portaria Conjunta TJMG 1.798/PR/2026, art. 1º, XIV",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc17982026.pdf"
+    },
+    {
+      "data": "2026-12-21",
+      "nome": "Feriado forense (recesso)",
+      "tipo": "recesso",
+      "fonte": "LC estadual 59/2001, art. 313, § 5º, II; Portaria Conjunta TJMG 1.798/PR/2026, art. 1º, XIV",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc17982026.pdf"
+    },
+    {
+      "data": "2026-12-22",
+      "nome": "Feriado forense (recesso)",
+      "tipo": "recesso",
+      "fonte": "LC estadual 59/2001, art. 313, § 5º, II; Portaria Conjunta TJMG 1.798/PR/2026, art. 1º, XIV",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc17982026.pdf"
+    },
+    {
+      "data": "2026-12-23",
+      "nome": "Feriado forense (recesso)",
+      "tipo": "recesso",
+      "fonte": "LC estadual 59/2001, art. 313, § 5º, II; Portaria Conjunta TJMG 1.798/PR/2026, art. 1º, XIV",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc17982026.pdf"
+    },
+    {
+      "data": "2026-12-24",
+      "nome": "Feriado forense (recesso)",
+      "tipo": "recesso",
+      "fonte": "LC estadual 59/2001, art. 313, § 5º, II; Portaria Conjunta TJMG 1.798/PR/2026, art. 1º, XIV",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc17982026.pdf"
+    },
+    {
+      "data": "2026-12-25",
+      "nome": "Natal",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; Portaria Conjunta TJMG 1.798/PR/2026, art. 1º, XV",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc17982026.pdf"
+    },
+    {
+      "data": "2026-12-26",
+      "nome": "Feriado forense (recesso)",
+      "tipo": "recesso",
+      "fonte": "LC estadual 59/2001, art. 313, § 5º, II; Portaria Conjunta TJMG 1.798/PR/2026, art. 1º, XIV",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc17982026.pdf"
+    },
+    {
+      "data": "2026-12-27",
+      "nome": "Feriado forense (recesso)",
+      "tipo": "recesso",
+      "fonte": "LC estadual 59/2001, art. 313, § 5º, II; Portaria Conjunta TJMG 1.798/PR/2026, art. 1º, XIV",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc17982026.pdf"
+    },
+    {
+      "data": "2026-12-28",
+      "nome": "Feriado forense (recesso)",
+      "tipo": "recesso",
+      "fonte": "LC estadual 59/2001, art. 313, § 5º, II; Portaria Conjunta TJMG 1.798/PR/2026, art. 1º, XIV",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc17982026.pdf"
+    },
+    {
+      "data": "2026-12-29",
+      "nome": "Feriado forense (recesso)",
+      "tipo": "recesso",
+      "fonte": "LC estadual 59/2001, art. 313, § 5º, II; Portaria Conjunta TJMG 1.798/PR/2026, art. 1º, XIV",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc17982026.pdf"
+    },
+    {
+      "data": "2026-12-30",
+      "nome": "Feriado forense (recesso)",
+      "tipo": "recesso",
+      "fonte": "LC estadual 59/2001, art. 313, § 5º, II; Portaria Conjunta TJMG 1.798/PR/2026, art. 1º, XIV",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc17982026.pdf"
+    },
+    {
+      "data": "2026-12-31",
+      "nome": "Feriado forense (recesso)",
+      "tipo": "recesso",
+      "fonte": "LC estadual 59/2001, art. 313, § 5º, II; Portaria Conjunta TJMG 1.798/PR/2026, art. 1º, XIV",
+      "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc17982026.pdf"
+    }
+  ]
+}

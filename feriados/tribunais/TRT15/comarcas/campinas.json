@@ -1,0 +1,44 @@
+{
+  "$schema": "../../../../schema/feriados.schema.json",
+  "id": "TRT15/campinas",
+  "escopo": "comarca",
+  "tribunal": "TRT15",
+  "comarca": "Campinas",
+  "uf": "SP",
+  "ibge": 3509502,
+  "observacao": "Varas do Trabalho de Campinas e sede do TRT15. O anexo da Portaria GP-CR 016/2025 marca o 12/08 (Dia do Evangélico) como feriado municipal de Campinas e cita a Lei municipal 3.902/1970 para a padroeira (08/12), que coincide com o Dia da Justiça.",
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2026
+  ],
+  "regras": [
+    {
+      "nome": "Dia do Evangélico",
+      "tipo": "feriado",
+      "quando": {
+        "dia": "08-12"
+      },
+      "desde": 2026,
+      "fonte": "Lei municipal de Campinas 16.785/2025, art. 1º, parágrafo único (DOM de 02/09/2025)",
+      "url": "https://portal-adm.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/1648991286750912867516489902.pdf"
+    },
+    {
+      "nome": "Nossa Senhora da Conceição, padroeira de Campinas",
+      "tipo": "feriado",
+      "quando": {
+        "dia": "12-08"
+      },
+      "fonte": "Lei municipal de Campinas 3.902/1970 (citada na Portaria GP-CR 016/2025 do TRT15)",
+      "url": "https://trt15.jus.br/sites/portal/files/fields/normas-institucionais/anexos/2025/anexo_portaria-gp-cr-no-0162025_id50386.pdf"
+    }
+  ],
+  "datas": [
+    {
+      "data": "2026-08-12",
+      "nome": "Dia do Evangélico (feriado municipal em Campinas)",
+      "tipo": "feriado",
+      "fonte": "Lei municipal 16.785/2025; Portaria GP-CR 016/2025 (TRT15)",
+      "url": "https://trt15.jus.br/sites/portal/files/fields/normas-institucionais/anexos/2025/anexo_portaria-gp-cr-no-0162025_id50386.pdf"
+    }
+  ]
+}

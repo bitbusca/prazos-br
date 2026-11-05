@@ -1,0 +1,30 @@
+{
+  "$schema": "../../../../schema/feriados.schema.json",
+  "id": "TRT24/sidrolandia",
+  "escopo": "comarca",
+  "tribunal": "TRT24",
+  "comarca": "Sidrolândia",
+  "uf": "MS",
+  "ibge": 5007901,
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2026
+  ],
+  "regras": [],
+  "datas": [
+    {
+      "data": "2026-08-15",
+      "nome": "Padroeiro de Sidrolância",
+      "tipo": "feriado",
+      "fonte": "Lei 1.114/2002; Calendário oficial TRT24 2026 - Portaria TRT/GP/SGJ 51/2025 e alterações",
+      "url": "https://www.trt24.jus.br/web/guest/calendario"
+    },
+    {
+      "data": "2026-12-11",
+      "nome": "Aniversário de Sidrolândia",
+      "tipo": "feriado",
+      "fonte": "Lei 1.114/2002; Calendário oficial TRT24 2026 - Portaria TRT/GP/SGJ 51/2025 e alterações",
+      "url": "https://www.trt24.jus.br/web/guest/calendario"
+    }
+  ]
+}

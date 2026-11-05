@@ -1,0 +1,57 @@
+{
+  "$schema": "../../../../schema/feriados.schema.json",
+  "id": "TRF2/rio-de-janeiro",
+  "escopo": "comarca",
+  "tribunal": "TRF2",
+  "comarca": "Rio de Janeiro",
+  "uf": "RJ",
+  "ibge": 3304557,
+  "observacao": "Sede do TRF2 e Subseção Judiciária do Rio de Janeiro (SJRJ). São Jorge é feriado estadual do RJ: vale em toda a SJRJ, mas aqui só está a capital.",
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2026
+  ],
+  "regras": [
+    {
+      "nome": "Dia de São Sebastião",
+      "tipo": "feriado",
+      "quando": {
+        "dia": "01-20"
+      },
+      "fonte": "Lei municipal do Rio de Janeiro 5.146/2010, art. 8º, I (citada nas Portarias PRES/TRF2 843 e 844/2025)",
+      "url": "https://leismunicipais.com.br/a/rj/r/rio-de-janeiro/lei-ordinaria/2010/514/5146/lei-ordinaria-n-5146-2010-dispoe-sobre-a-consolidacao-municipal-referente-a-eventos-datas-comemorativas-e-feriados-da-cidade-do-rio-de-janeiro-e-institui-o-calendario-oficial-de-eventos-e-datas-comemorativas-da-cidade-do-rio-de-janeiro"
+    },
+    {
+      "nome": "Dia de São Jorge",
+      "tipo": "feriado",
+      "quando": {
+        "dia": "04-23"
+      },
+      "fonte": "Lei estadual do RJ 5.198/2008, art. 1º (citada nas Portarias PRES/TRF2 843 e 844/2025)",
+      "url": "https://alerjln1.alerj.rj.gov.br/CONTLEI.NSF/e9589b9aabd9cac8032564fe0065abb4/1baf90ca125ff96f8325740a00776600?OpenDocument="
+    }
+  ],
+  "datas": [
+    {
+      "data": "2026-01-20",
+      "nome": "Dia de São Sebastião",
+      "tipo": "feriado",
+      "fonte": "Lei municipal 5.146/2010, art. 8º, I; Portarias PRES/TRF2 843/2025 e 844/2025",
+      "url": "https://www.trf2.jus.br/sites/default/publico/motivo-ato/2026-02/SEI_1551034_Portaria_PRES_30.pdf"
+    },
+    {
+      "data": "2026-02-13",
+      "nome": "Suspensão do expediente do Tribunal e da Subseção do Rio de Janeiro (desfiles do Carnaval)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria PRES/TRF2 17/2026; Portaria PRES/TRF2 78/2026",
+      "url": "https://www.trf2.jus.br/sites/default/publico/motivo-ato/2026-01/SEI_1526219_Portaria_PRES_17.pdf"
+    },
+    {
+      "data": "2026-04-23",
+      "nome": "Dia de São Jorge",
+      "tipo": "feriado",
+      "fonte": "Lei estadual 5.198/2008; Portarias PRES/TRF2 843/2025 e 844/2025 (alteradas pelas 30 e 31/2026)",
+      "url": "https://www.trf2.jus.br/sites/default/publico/2026-02/SEI_1551200_Portaria_PRES_31.pdf"
+    }
+  ]
+}

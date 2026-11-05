@@ -1,0 +1,30 @@
+{
+  "$schema": "../../../../schema/feriados.schema.json",
+  "id": "TRT24/rio-brilhante",
+  "escopo": "comarca",
+  "tribunal": "TRT24",
+  "comarca": "Rio Brilhante",
+  "uf": "MS",
+  "ibge": 5007208,
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2026
+  ],
+  "regras": [],
+  "datas": [
+    {
+      "data": "2026-09-26",
+      "nome": "Aniversário de Rio Brilhante",
+      "tipo": "feriado",
+      "fonte": "Calendário oficial TRT24 2026 - Portaria TRT/GP/SGJ 51/2025 e alterações",
+      "url": "https://www.trt24.jus.br/web/guest/calendario"
+    },
+    {
+      "data": "2026-12-08",
+      "nome": "Padroeira de Rio Brilhante",
+      "tipo": "feriado",
+      "fonte": "Calendário oficial TRT24 2026 - Portaria TRT/GP/SGJ 51/2025 e alterações",
+      "url": "https://www.trt24.jus.br/web/guest/calendario"
+    }
+  ]
+}

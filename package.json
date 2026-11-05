@@ -1,0 +1,44 @@
+{
+  "name": "prazos-br",
+  "version": "0.2.0",
+  "description": "Cálculo de prazos processuais brasileiros (CPC, CLT, CPP, DJEN, intimação eletrônica) com passo a passo e a fonte de cada feriado. Grátis e de código aberto.",
+  "keywords": ["prazo", "prazos processuais", "cpc", "clt", "djen", "feriados", "dias úteis", "recesso forense", "tribunal", "advocacia", "juridico", "brasil"],
+  "license": "MIT",
+  "author": "BITSIS LTDA (BitBusca) <sac@bitbusca.net> (https://bitbusca.net)",
+  "homepage": "https://github.com/bitbusca/prazos-br#readme",
+  "repository": { "type": "git", "url": "git+https://github.com/bitbusca/prazos-br.git" },
+  "bugs": { "url": "https://github.com/bitbusca/prazos-br/issues" },
+  "type": "module",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/esm/index.d.ts",
+  "exports": {
+    ".": {
+      "import": { "types": "./dist/esm/index.d.ts", "default": "./dist/esm/index.js" },
+      "require": { "types": "./dist/cjs/index.d.ts", "default": "./dist/cjs/index.js" }
+    },
+    "./catalogo": {
+      "import": { "types": "./dist/esm/catalogo.d.ts", "default": "./dist/esm/catalogo.js" },
+      "require": { "types": "./dist/cjs/catalogo.d.ts", "default": "./dist/cjs/catalogo.js" }
+    },
+    "./feriados/*": "./feriados/*",
+    "./catalogo/prazos.json": "./catalogo/prazos.json",
+    "./package.json": "./package.json"
+  },
+  "bin": { "prazos-br": "dist/esm/cli.js" },
+  "files": ["dist", "feriados", "catalogo", "schema", "README.md", "LICENSE"],
+  "sideEffects": false,
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "dados": "node scripts/gerar-dados.mjs",
+    "dados:verificar": "node scripts/gerar-dados.mjs --verificar",
+    "build": "node scripts/gerar-dados.mjs && node scripts/limpar.mjs && tsc -p tsconfig.esm.json && tsc -p tsconfig.cjs.json && node scripts/pos-build.mjs",
+    "test": "node --test test/prazos.test.mjs test/calendario.test.mjs test/catalogo.test.mjs test/cli.test.mjs test/tribunais.test.mjs test/cjs.test.cjs",
+    "demo": "node scripts/servir-demo.mjs",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.4.0"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "$schema": "../../../../schema/feriados.schema.json",
+  "id": "TRT24/dourados",
+  "escopo": "comarca",
+  "tribunal": "TRT24",
+  "comarca": "Dourados",
+  "uf": "MS",
+  "ibge": 5003702,
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2026
+  ],
+  "regras": [],
+  "datas": [
+    {
+      "data": "2026-12-08",
+      "nome": "Padroeiro de Dourados",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1967; Calendário oficial TRT24 2026 - Portaria TRT/GP/SGJ 51/2025 e alterações",
+      "url": "https://www.trt24.jus.br/web/guest/calendario"
+    },
+    {
+      "data": "2026-12-20",
+      "nome": "Aniversário de Dourados",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1967; Calendário oficial TRT24 2026 - Portaria TRT/GP/SGJ 51/2025 e alterações",
+      "url": "https://www.trt24.jus.br/web/guest/calendario"
+    }
+  ]
+}

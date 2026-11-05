@@ -1,0 +1,35 @@
+{
+  "$schema": "../../../../schema/feriados.schema.json",
+  "id": "TRF4/florianopolis",
+  "escopo": "comarca",
+  "tribunal": "TRF4",
+  "comarca": "Florianópolis",
+  "uf": "SC",
+  "ibge": 4205407,
+  "observacao": "Sede da Seção Judiciária de Santa Catarina. Feriados municipais do calendário 2026 da JFSC e suspensão geral da JFSC achada nos avisos do TRF4. Em 04/11/2026 a Portaria JFSC 924/2026 suspendeu prazos só em Chapecó (Florianópolis teve apenas recomendação de teletrabalho). Ano não marcado como conferido: os avisos da JFSC não foram varridos por inteiro e a lei municipal não foi conferida no site oficial.",
+  "atualizadoEm": "2026-11-05",
+  "regras": [],
+  "datas": [
+    {
+      "data": "2026-03-23",
+      "nome": "Emancipação política do município",
+      "tipo": "feriado",
+      "fonte": "Lei municipal 832/1967; Calendário de Feriados 2026 da Justiça Federal da 4ª Região (Portaria TRF4 1.064/2022)",
+      "url": "https://www.trf4.jus.br/trf4/controlador.php?acao=calendario_feriados_listar&selOrgao=3"
+    },
+    {
+      "data": "2026-04-08",
+      "nome": "Suspensão de prazos na JFSC",
+      "tipo": "suspensao_prazos",
+      "fonte": "Portaria JFSC 274/2026",
+      "url": "https://www.trf4.jus.br/trf4/controlador.php?acao=aviso_visualizar&id_aviso=4386"
+    },
+    {
+      "data": "2026-06-04",
+      "nome": "Corpus Christi",
+      "tipo": "feriado",
+      "fonte": "Lei municipal 832/1967; Calendário de Feriados 2026 da Justiça Federal da 4ª Região (Portaria TRF4 1.064/2022)",
+      "url": "https://www.trf4.jus.br/trf4/controlador.php?acao=calendario_feriados_listar&selOrgao=3"
+    }
+  ]
+}

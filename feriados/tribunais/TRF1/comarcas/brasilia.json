@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../schema/feriados.schema.json",
+  "id": "TRF1/brasilia",
+  "escopo": "comarca",
+  "tribunal": "TRF1",
+  "comarca": "Brasília",
+  "uf": "DF",
+  "ibge": 5300108,
+  "observacao": "Seção Judiciária do Distrito Federal (SJDF), sede do TRF1. A Portaria SJDF-DIREF 63/2026 (feriados e recessos da seção) repete os dias da Portaria Presi 5/2026 e não traz feriado distrital: o Dia do Evangélico (30/11, segunda-feira em 2026) não está na lista, logo há expediente. O aniversário de Brasília (21/04) coincide com Tiradentes. Inspeções ordinárias anuais por vara (edital da SJDF) não entram aqui.",
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2026
+  ],
+  "regras": [],
+  "datas": []
+}

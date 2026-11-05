@@ -1,0 +1,30 @@
+{
+  "$schema": "../../../../schema/feriados.schema.json",
+  "id": "TRT24/mundo-novo",
+  "escopo": "comarca",
+  "tribunal": "TRT24",
+  "comarca": "Mundo Novo",
+  "uf": "MS",
+  "ibge": 5005681,
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2026
+  ],
+  "regras": [],
+  "datas": [
+    {
+      "data": "2026-05-11",
+      "nome": "Aniversário de Mundo Novo - Remarcado",
+      "tipo": "feriado",
+      "fonte": "Portaria TRT/GP/SGJ nº 30/2026; Calendário oficial TRT24 2026 - Portaria TRT/GP/SGJ 51/2025 e alterações",
+      "url": "https://www.trt24.jus.br/web/guest/calendario"
+    },
+    {
+      "data": "2026-11-27",
+      "nome": "Padroeira de Mundo Novo",
+      "tipo": "feriado",
+      "fonte": "Lei 970/2014; Calendário oficial TRT24 2026 - Portaria TRT/GP/SGJ 51/2025 e alterações",
+      "url": "https://www.trt24.jus.br/web/guest/calendario"
+    }
+  ]
+}

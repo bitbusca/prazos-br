@@ -1,0 +1,30 @@
+{
+  "$schema": "../../../../schema/feriados.schema.json",
+  "id": "TRT24/chapadao-do-sul",
+  "escopo": "comarca",
+  "tribunal": "TRT24",
+  "comarca": "Chapadão do Sul",
+  "uf": "MS",
+  "ibge": 5002951,
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2026
+  ],
+  "regras": [],
+  "datas": [
+    {
+      "data": "2026-06-29",
+      "nome": "Padroeiro de Chapadão do Sul",
+      "tipo": "feriado",
+      "fonte": "Lei 345/2000; Calendário oficial TRT24 2026 - Portaria TRT/GP/SGJ 51/2025 e alterações",
+      "url": "https://www.trt24.jus.br/web/guest/calendario"
+    },
+    {
+      "data": "2026-10-23",
+      "nome": "Aniversário de Chapadão do Sul",
+      "tipo": "feriado",
+      "fonte": "Lei 768/1987; Calendário oficial TRT24 2026 - Portaria TRT/GP/SGJ 51/2025 e alterações",
+      "url": "https://www.trt24.jus.br/web/guest/calendario"
+    }
+  ]
+}

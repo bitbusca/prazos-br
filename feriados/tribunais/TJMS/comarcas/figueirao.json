@@ -1,0 +1,35 @@
+{
+  "$schema": "../../../../schema/feriados.schema.json",
+  "id": "TJMS/figueirao",
+  "escopo": "comarca",
+  "tribunal": "TJMS",
+  "comarca": "Figueirão",
+  "uf": "MS",
+  "ibge": 5003900,
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "regras": [],
+  "datas": [
+    {
+      "data": "2026-08-15",
+      "nome": "Nossa Senhora da Abadia",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 983/2025 (lei municipal de Figueirão)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2026-09-29",
+      "nome": "Criação do Município",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 983/2025 (lei municipal de Figueirão)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    }
+  ]
+}

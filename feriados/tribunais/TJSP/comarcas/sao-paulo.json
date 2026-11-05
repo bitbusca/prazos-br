@@ -1,0 +1,36 @@
+{
+  "$schema": "../../../../schema/feriados.schema.json",
+  "id": "TJSP/sao-paulo",
+  "escopo": "comarca",
+  "tribunal": "TJSP",
+  "comarca": "São Paulo",
+  "uf": "SP",
+  "ibge": 3550308,
+  "observacao": "Comarca da Capital. Feriados municipais pela Lei municipal 14.485/2007, art. 10 (25/01, 02/11, 20/11, Sexta-feira Santa e Corpus Christi); o edital do CSM de 24/11/2025 (Processo 2018/206016) lista para São Paulo em 2026 os mesmos dias. Em 2025 e 2026 o 25 de janeiro caiu em fim de semana, e os demais já constam do tribunal.json. Não cobre suspensões de foros regionais ou unidades isoladas da Capital (ex.: Foro Regional do Jabaquara em 16/10/2026, Anexo do JEC-FMU em 23/10/2026), que saem em comunicados avulsos.",
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2025,
+    2026
+  ],
+  "regras": [
+    {
+      "nome": "Aniversário de São Paulo",
+      "tipo": "feriado",
+      "quando": {
+        "dia": "01-25"
+      },
+      "fonte": "Lei municipal de São Paulo 14.485/2007, art. 10",
+      "url": "https://www.saopaulo.sp.leg.br/iah/fulltext/leis/L14485.pdf"
+    },
+    {
+      "nome": "Corpus Christi",
+      "tipo": "feriado",
+      "quando": {
+        "pascoa": 60
+      },
+      "fonte": "Lei municipal de São Paulo 14.485/2007, art. 10",
+      "url": "https://www.saopaulo.sp.leg.br/iah/fulltext/leis/L14485.pdf"
+    }
+  ],
+  "datas": []
+}

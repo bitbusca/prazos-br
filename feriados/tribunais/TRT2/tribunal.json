@@ -1,0 +1,713 @@
+{
+  "$schema": "../../../schema/feriados.schema.json",
+  "id": "TRT2",
+  "escopo": "tribunal",
+  "nome": "Tribunal Regional do Trabalho da 2ª Região (São Paulo)",
+  "tribunal": "TRT2",
+  "uf": "SP",
+  "observacao": "Datas de 2025 (Portaria GP 45/2024 e Portaria GP.CR 15/2024, prazos suspensos de 21 a 24/01/2025) e de 2026 com abrangência 'Segunda Região' transcritas da Portaria GP 50/2025 (calendário de 2026, DEJT 03/10/2025) e das Portarias GP.CR 15/2025 (21-23/01), GP/CR 14/2026 (24/06) e GP/CR 15/2026 (29/06), conferidas também no calendário oficial do portal. ATENÇÃO: em 2026 o TRT2 antecipou o Dia dos Cursos Jurídicos para 10/08 e o Dia da Justiça para 07/12, então 11/08 e 08/12/2026 tiveram expediente normal na região (salvo feriado municipal); esses dois dias estão cadastrados como expediente_normal, que anula ali a regra da Lei 5.010/1966 (ramos/justica-federal.json). Corpus Christi não é dia sem expediente na região toda: vale por município (ver comarcas). Não cobre: feriados municipais das demais cidades (estão na Portaria GP 50/2025) e as suspensões locais de prédio/vara (Portarias GP.CR avulsas).",
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2025,
+    2026
+  ],
+  "comarcas": [
+    "Arujá",
+    "Barueri",
+    "Caieiras",
+    "Cajamar",
+    "Carapicuíba",
+    "Cotia",
+    "Cubatão",
+    "Diadema",
+    "Embu das Artes",
+    "Ferraz de Vasconcelos",
+    "Franco da Rocha",
+    "Guarujá",
+    "Guarulhos",
+    "Itapecerica da Serra",
+    "Itapevi",
+    "Itaquaquecetuba",
+    "Jandira",
+    "Mauá",
+    "Mogi das Cruzes",
+    "Osasco",
+    "Poá",
+    "Praia Grande",
+    "Ribeirão Pires",
+    "Santana de Parnaíba",
+    "Santo André",
+    "Santos",
+    "São Bernardo do Campo",
+    "São Caetano do Sul",
+    "São Paulo",
+    "São Vicente",
+    "Suzano",
+    "Taboão da Serra"
+  ],
+  "regras": [
+    {
+      "nome": "Data Magna do Estado de São Paulo",
+      "tipo": "feriado",
+      "quando": {
+        "dia": "07-09"
+      },
+      "desde": 1997,
+      "fonte": "Lei estadual 9.497/1997, art. 1º (citada na Portaria GP 50/2025 do TRT2)",
+      "url": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1997/lei-9497-05.03.1997.html"
+    }
+  ],
+  "datas": [
+    {
+      "data": "2025-01-01",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Portaria GP 45/2024 (TRT2), calendário de 2025",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/16754/2024_port0045_gp.pdf"
+    },
+    {
+      "data": "2025-01-02",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Portaria GP 45/2024 (TRT2), calendário de 2025",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/16754/2024_port0045_gp.pdf"
+    },
+    {
+      "data": "2025-01-03",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Portaria GP 45/2024 (TRT2), calendário de 2025",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/16754/2024_port0045_gp.pdf"
+    },
+    {
+      "data": "2025-01-04",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Portaria GP 45/2024 (TRT2), calendário de 2025",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/16754/2024_port0045_gp.pdf"
+    },
+    {
+      "data": "2025-01-05",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Portaria GP 45/2024 (TRT2), calendário de 2025",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/16754/2024_port0045_gp.pdf"
+    },
+    {
+      "data": "2025-01-06",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Portaria GP 45/2024 (TRT2), calendário de 2025",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/16754/2024_port0045_gp.pdf"
+    },
+    {
+      "data": "2025-01-21",
+      "nome": "Suspensão dos prazos processuais (período suplementar ao recesso)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Portaria GP.CR 15/2024 (TRT2): suspensão suplementar dos prazos de 21 a 24/01/2025",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/16934/2024_port0015_gp_cr.pdf"
+    },
+    {
+      "data": "2025-01-22",
+      "nome": "Suspensão dos prazos processuais (período suplementar ao recesso)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Portaria GP.CR 15/2024 (TRT2): suspensão suplementar dos prazos de 21 a 24/01/2025",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/16934/2024_port0015_gp_cr.pdf"
+    },
+    {
+      "data": "2025-01-23",
+      "nome": "Suspensão dos prazos processuais (período suplementar ao recesso)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Portaria GP.CR 15/2024 (TRT2): suspensão suplementar dos prazos de 21 a 24/01/2025",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/16934/2024_port0015_gp_cr.pdf"
+    },
+    {
+      "data": "2025-01-24",
+      "nome": "Suspensão dos prazos processuais (período suplementar ao recesso)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Portaria GP.CR 15/2024 (TRT2): suspensão suplementar dos prazos de 21 a 24/01/2025",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/16934/2024_port0015_gp_cr.pdf"
+    },
+    {
+      "data": "2025-03-03",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966; Portaria GP 45/2024 (TRT2), calendário de 2025",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/16754/2024_port0045_gp.pdf"
+    },
+    {
+      "data": "2025-03-04",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966; Portaria GP 45/2024 (TRT2), calendário de 2025",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/16754/2024_port0045_gp.pdf"
+    },
+    {
+      "data": "2025-03-05",
+      "nome": "Quarta-feira de Cinzas (suspensão do expediente)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria GP 45/2024 (TRT2), calendário de 2025",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/16754/2024_port0045_gp.pdf"
+    },
+    {
+      "data": "2025-04-16",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966; Portaria GP 45/2024 (TRT2), calendário de 2025",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/16754/2024_port0045_gp.pdf"
+    },
+    {
+      "data": "2025-04-17",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966; Portaria GP 45/2024 (TRT2), calendário de 2025",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/16754/2024_port0045_gp.pdf"
+    },
+    {
+      "data": "2025-04-18",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966; Portaria GP 45/2024 (TRT2), calendário de 2025",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/16754/2024_port0045_gp.pdf"
+    },
+    {
+      "data": "2025-04-19",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966; Portaria GP 45/2024 (TRT2), calendário de 2025",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/16754/2024_port0045_gp.pdf"
+    },
+    {
+      "data": "2025-04-20",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966; Portaria GP 45/2024 (TRT2), calendário de 2025",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/16754/2024_port0045_gp.pdf"
+    },
+    {
+      "data": "2025-04-21",
+      "nome": "Tiradentes",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; Portaria GP 45/2024 (TRT2), calendário de 2025",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/16754/2024_port0045_gp.pdf"
+    },
+    {
+      "data": "2025-05-01",
+      "nome": "Dia do Trabalhador",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; Portaria GP 45/2024 (TRT2), calendário de 2025",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/16754/2024_port0045_gp.pdf"
+    },
+    {
+      "data": "2025-05-02",
+      "nome": "Suspensão do expediente",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria GP 45/2024 (TRT2), calendário de 2025",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/16754/2024_port0045_gp.pdf"
+    },
+    {
+      "data": "2025-06-20",
+      "nome": "Suspensão do expediente",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria GP 45/2024 (TRT2), calendário de 2025",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/16754/2024_port0045_gp.pdf"
+    },
+    {
+      "data": "2025-07-09",
+      "nome": "Data Magna do Estado de São Paulo",
+      "tipo": "feriado",
+      "fonte": "Lei estadual 9.497/1997; Portaria GP 45/2024 (TRT2), calendário de 2025",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/16754/2024_port0045_gp.pdf"
+    },
+    {
+      "data": "2025-08-11",
+      "nome": "Dia da Instalação dos Cursos Jurídicos",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966; Portaria GP 45/2024 (TRT2), calendário de 2025",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/16754/2024_port0045_gp.pdf"
+    },
+    {
+      "data": "2025-09-07",
+      "nome": "Independência do Brasil",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; Portaria GP 45/2024 (TRT2), calendário de 2025",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/16754/2024_port0045_gp.pdf"
+    },
+    {
+      "data": "2025-10-12",
+      "nome": "Nossa Senhora Aparecida",
+      "tipo": "feriado",
+      "fonte": "Lei 6.802/1980; Portaria GP 45/2024 (TRT2), calendário de 2025",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/16754/2024_port0045_gp.pdf"
+    },
+    {
+      "data": "2025-10-27",
+      "nome": "Dia do Servidor Público (antecipado de 28/10)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Lei 8.112/1990; Portaria GP 45/2024 (TRT2), calendário de 2025",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/16754/2024_port0045_gp.pdf"
+    },
+    {
+      "data": "2025-11-01",
+      "nome": "Todos os Santos",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966; Portaria GP 45/2024 (TRT2), calendário de 2025",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/16754/2024_port0045_gp.pdf"
+    },
+    {
+      "data": "2025-11-02",
+      "nome": "Finados",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966; Portaria GP 45/2024 (TRT2), calendário de 2025",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/16754/2024_port0045_gp.pdf"
+    },
+    {
+      "data": "2025-11-15",
+      "nome": "Proclamação da República",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; Portaria GP 45/2024 (TRT2), calendário de 2025",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/16754/2024_port0045_gp.pdf"
+    },
+    {
+      "data": "2025-11-20",
+      "nome": "Dia da Consciência Negra",
+      "tipo": "feriado",
+      "fonte": "Lei 14.759/2023; Portaria GP 45/2024 (TRT2), calendário de 2025",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/16754/2024_port0045_gp.pdf"
+    },
+    {
+      "data": "2025-11-21",
+      "nome": "Suspensão do expediente",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria GP 45/2024 (TRT2), calendário de 2025",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/16754/2024_port0045_gp.pdf"
+    },
+    {
+      "data": "2025-12-08",
+      "nome": "Dia da Justiça",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966; Portaria GP 45/2024 (TRT2), calendário de 2025",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/16754/2024_port0045_gp.pdf"
+    },
+    {
+      "data": "2025-12-20",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Portaria GP 45/2024 (TRT2), calendário de 2025",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/16754/2024_port0045_gp.pdf"
+    },
+    {
+      "data": "2025-12-21",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Portaria GP 45/2024 (TRT2), calendário de 2025",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/16754/2024_port0045_gp.pdf"
+    },
+    {
+      "data": "2025-12-22",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Portaria GP 45/2024 (TRT2), calendário de 2025",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/16754/2024_port0045_gp.pdf"
+    },
+    {
+      "data": "2025-12-23",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Portaria GP 45/2024 (TRT2), calendário de 2025",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/16754/2024_port0045_gp.pdf"
+    },
+    {
+      "data": "2025-12-24",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Portaria GP 45/2024 (TRT2), calendário de 2025",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/16754/2024_port0045_gp.pdf"
+    },
+    {
+      "data": "2025-12-25",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Portaria GP 45/2024 (TRT2), calendário de 2025",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/16754/2024_port0045_gp.pdf"
+    },
+    {
+      "data": "2025-12-26",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Portaria GP 45/2024 (TRT2), calendário de 2025",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/16754/2024_port0045_gp.pdf"
+    },
+    {
+      "data": "2025-12-27",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Portaria GP 45/2024 (TRT2), calendário de 2025",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/16754/2024_port0045_gp.pdf"
+    },
+    {
+      "data": "2025-12-28",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Portaria GP 45/2024 (TRT2), calendário de 2025",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/16754/2024_port0045_gp.pdf"
+    },
+    {
+      "data": "2025-12-29",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Portaria GP 45/2024 (TRT2), calendário de 2025",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/16754/2024_port0045_gp.pdf"
+    },
+    {
+      "data": "2025-12-30",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Portaria GP 45/2024 (TRT2), calendário de 2025",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/16754/2024_port0045_gp.pdf"
+    },
+    {
+      "data": "2025-12-31",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Portaria GP 45/2024 (TRT2), calendário de 2025",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/16754/2024_port0045_gp.pdf"
+    },
+    {
+      "data": "2026-01-01",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Portaria GP 50/2025 (TRT2), calendário de 2026",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/17686/2025_port0050_gp.pdf"
+    },
+    {
+      "data": "2026-01-02",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Portaria GP 50/2025 (TRT2), calendário de 2026",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/17686/2025_port0050_gp.pdf"
+    },
+    {
+      "data": "2026-01-03",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Portaria GP 50/2025 (TRT2), calendário de 2026",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/17686/2025_port0050_gp.pdf"
+    },
+    {
+      "data": "2026-01-04",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Portaria GP 50/2025 (TRT2), calendário de 2026",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/17686/2025_port0050_gp.pdf"
+    },
+    {
+      "data": "2026-01-05",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Portaria GP 50/2025 (TRT2), calendário de 2026",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/17686/2025_port0050_gp.pdf"
+    },
+    {
+      "data": "2026-01-06",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Portaria GP 50/2025 (TRT2), calendário de 2026",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/17686/2025_port0050_gp.pdf"
+    },
+    {
+      "data": "2026-01-21",
+      "nome": "Suspensão dos prazos processuais (período suplementar ao recesso)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Portaria GP.CR 15/2025 (TRT2): suspensão suplementar dos prazos de 21 a 23/01/2026",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/17736/2025_port0015_gp_cr.pdf"
+    },
+    {
+      "data": "2026-01-22",
+      "nome": "Suspensão dos prazos processuais (período suplementar ao recesso)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Portaria GP.CR 15/2025 (TRT2): suspensão suplementar dos prazos de 21 a 23/01/2026",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/17736/2025_port0015_gp_cr.pdf"
+    },
+    {
+      "data": "2026-01-23",
+      "nome": "Suspensão dos prazos processuais (período suplementar ao recesso)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Portaria GP.CR 15/2025 (TRT2): suspensão suplementar dos prazos de 21 a 23/01/2026",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/17736/2025_port0015_gp_cr.pdf"
+    },
+    {
+      "data": "2026-02-16",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966; Portaria GP 50/2025 (TRT2), calendário de 2026",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/17686/2025_port0050_gp.pdf"
+    },
+    {
+      "data": "2026-02-17",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966; Portaria GP 50/2025 (TRT2), calendário de 2026",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/17686/2025_port0050_gp.pdf"
+    },
+    {
+      "data": "2026-02-18",
+      "nome": "Quarta-feira de Cinzas (suspensão do expediente)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria GP 50/2025 (TRT2), calendário de 2026",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/17686/2025_port0050_gp.pdf"
+    },
+    {
+      "data": "2026-04-01",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966; Portaria GP 50/2025 (TRT2), calendário de 2026",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/17686/2025_port0050_gp.pdf"
+    },
+    {
+      "data": "2026-04-02",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966; Portaria GP 50/2025 (TRT2), calendário de 2026",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/17686/2025_port0050_gp.pdf"
+    },
+    {
+      "data": "2026-04-03",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966; Portaria GP 50/2025 (TRT2), calendário de 2026",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/17686/2025_port0050_gp.pdf"
+    },
+    {
+      "data": "2026-04-04",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966; Portaria GP 50/2025 (TRT2), calendário de 2026",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/17686/2025_port0050_gp.pdf"
+    },
+    {
+      "data": "2026-04-05",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966; Portaria GP 50/2025 (TRT2), calendário de 2026",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/17686/2025_port0050_gp.pdf"
+    },
+    {
+      "data": "2026-04-20",
+      "nome": "Suspensão do expediente",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria GP 50/2025 (TRT2), calendário de 2026",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/17686/2025_port0050_gp.pdf"
+    },
+    {
+      "data": "2026-04-21",
+      "nome": "Tiradentes",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; Portaria GP 50/2025 (TRT2), calendário de 2026",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/17686/2025_port0050_gp.pdf"
+    },
+    {
+      "data": "2026-05-01",
+      "nome": "Dia do Trabalhador",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; Portaria GP 50/2025 (TRT2), calendário de 2026",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/17686/2025_port0050_gp.pdf"
+    },
+    {
+      "data": "2026-06-05",
+      "nome": "Suspensão do expediente",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria GP 50/2025 (TRT2), calendário de 2026",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/17686/2025_port0050_gp.pdf"
+    },
+    {
+      "data": "2026-06-24",
+      "nome": "Jogo do Brasil na Copa do Mundo: expediente até 16h30",
+      "tipo": "expediente_reduzido",
+      "fonte": "Portaria GP/CR 14/2026 (TRT2): expediente encerrado às 16h30; prazos que começam ou vencem no dia prorrogados (CPC, art. 224, § 1º)",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/18383/2026_port0014_gp_cr.pdf"
+    },
+    {
+      "data": "2026-06-29",
+      "nome": "Jogo do Brasil na Copa do Mundo: teletrabalho das 8h às 13h",
+      "tipo": "expediente_reduzido",
+      "fonte": "Portaria GP/CR 15/2026 (TRT2): teletrabalho das 8h às 13h, fóruns fechados; prazos que começam ou vencem no dia prorrogados (CPC, art. 224, § 1º)",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/18428/2026_port0015_gp_cr.pdf"
+    },
+    {
+      "data": "2026-07-09",
+      "nome": "Data Magna do Estado de São Paulo",
+      "tipo": "feriado",
+      "fonte": "Lei estadual 9.497/1997; Portaria GP 50/2025 (TRT2), calendário de 2026",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/17686/2025_port0050_gp.pdf"
+    },
+    {
+      "data": "2026-07-10",
+      "nome": "Suspensão do expediente",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria GP 50/2025 (TRT2), calendário de 2026",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/17686/2025_port0050_gp.pdf"
+    },
+    {
+      "data": "2026-08-10",
+      "nome": "Dia da Instalação dos Cursos Jurídicos (antecipado de 11/08)",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966; Portaria GP 50/2025 (TRT2), calendário de 2026",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/17686/2025_port0050_gp.pdf"
+    },
+    {
+      "data": "2026-08-11",
+      "nome": "Expediente normal (Dia dos Cursos Jurídicos antecipado para 10/08)",
+      "tipo": "expediente_normal",
+      "fonte": "Portaria GP 50/2025 (TRT2), calendário de 2026: antecipa o feriado da Lei 5.010/1966, art. 62, IV, para 10/08",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/17686/2025_port0050_gp.pdf"
+    },
+    {
+      "data": "2026-09-07",
+      "nome": "Independência do Brasil",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; Portaria GP 50/2025 (TRT2), calendário de 2026",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/17686/2025_port0050_gp.pdf"
+    },
+    {
+      "data": "2026-10-12",
+      "nome": "Nossa Senhora Aparecida",
+      "tipo": "feriado",
+      "fonte": "Lei 6.802/1980; Portaria GP 50/2025 (TRT2), calendário de 2026",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/17686/2025_port0050_gp.pdf"
+    },
+    {
+      "data": "2026-10-30",
+      "nome": "Dia do Servidor Público (transferido de 28/10)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Lei 8.112/1990; Portaria GP 50/2025 (TRT2), calendário de 2026",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/17686/2025_port0050_gp.pdf"
+    },
+    {
+      "data": "2026-11-01",
+      "nome": "Todos os Santos",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966; Portaria GP 50/2025 (TRT2), calendário de 2026",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/17686/2025_port0050_gp.pdf"
+    },
+    {
+      "data": "2026-11-02",
+      "nome": "Finados",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966; Portaria GP 50/2025 (TRT2), calendário de 2026",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/17686/2025_port0050_gp.pdf"
+    },
+    {
+      "data": "2026-11-15",
+      "nome": "Proclamação da República",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; Portaria GP 50/2025 (TRT2), calendário de 2026",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/17686/2025_port0050_gp.pdf"
+    },
+    {
+      "data": "2026-11-20",
+      "nome": "Dia da Consciência Negra",
+      "tipo": "feriado",
+      "fonte": "Lei 14.759/2023; Portaria GP 50/2025 (TRT2), calendário de 2026",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/17686/2025_port0050_gp.pdf"
+    },
+    {
+      "data": "2026-12-07",
+      "nome": "Dia da Justiça (antecipado de 08/12)",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966; Portaria GP 50/2025 (TRT2), calendário de 2026",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/17686/2025_port0050_gp.pdf"
+    },
+    {
+      "data": "2026-12-08",
+      "nome": "Expediente normal (Dia da Justiça antecipado para 07/12)",
+      "tipo": "expediente_normal",
+      "fonte": "Portaria GP 50/2025 (TRT2), calendário de 2026: antecipa o feriado da Lei 5.010/1966, art. 62, IV, para 07/12",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/17686/2025_port0050_gp.pdf"
+    },
+    {
+      "data": "2026-12-20",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Portaria GP 50/2025 (TRT2), calendário de 2026",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/17686/2025_port0050_gp.pdf"
+    },
+    {
+      "data": "2026-12-21",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Portaria GP 50/2025 (TRT2), calendário de 2026",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/17686/2025_port0050_gp.pdf"
+    },
+    {
+      "data": "2026-12-22",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Portaria GP 50/2025 (TRT2), calendário de 2026",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/17686/2025_port0050_gp.pdf"
+    },
+    {
+      "data": "2026-12-23",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Portaria GP 50/2025 (TRT2), calendário de 2026",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/17686/2025_port0050_gp.pdf"
+    },
+    {
+      "data": "2026-12-24",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Portaria GP 50/2025 (TRT2), calendário de 2026",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/17686/2025_port0050_gp.pdf"
+    },
+    {
+      "data": "2026-12-25",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Portaria GP 50/2025 (TRT2), calendário de 2026",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/17686/2025_port0050_gp.pdf"
+    },
+    {
+      "data": "2026-12-26",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Portaria GP 50/2025 (TRT2), calendário de 2026",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/17686/2025_port0050_gp.pdf"
+    },
+    {
+      "data": "2026-12-27",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Portaria GP 50/2025 (TRT2), calendário de 2026",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/17686/2025_port0050_gp.pdf"
+    },
+    {
+      "data": "2026-12-28",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Portaria GP 50/2025 (TRT2), calendário de 2026",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/17686/2025_port0050_gp.pdf"
+    },
+    {
+      "data": "2026-12-29",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Portaria GP 50/2025 (TRT2), calendário de 2026",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/17686/2025_port0050_gp.pdf"
+    },
+    {
+      "data": "2026-12-30",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Portaria GP 50/2025 (TRT2), calendário de 2026",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/17686/2025_port0050_gp.pdf"
+    },
+    {
+      "data": "2026-12-31",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Portaria GP 50/2025 (TRT2), calendário de 2026",
+      "url": "https://basis.trt2.jus.br/bitstream/handle/123456789/17686/2025_port0050_gp.pdf"
+    }
+  ]
+}

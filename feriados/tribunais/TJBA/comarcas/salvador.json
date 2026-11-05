@@ -1,0 +1,64 @@
+{
+  "$schema": "../../../../schema/feriados.schema.json",
+  "id": "TJBA/salvador",
+  "escopo": "comarca",
+  "tribunal": "TJBA",
+  "comarca": "Salvador",
+  "uf": "BA",
+  "ibge": 2927408,
+  "observacao": "Feriados municipais de Salvador conforme o anexo do Decreto Judiciário TJBA 09/2026 (item 148) e, para 2025, do Decreto 951/2024 (item 147). Os demais dias de 2026 vêm do arquivo do tribunal. Atenção: o 'texto compilado' do Decreto 09/2026 no site do TJBA tem a linha de Salvador deslocada; vale o decreto original (24/06 e 08/12).",
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2026
+  ],
+  "regras": [
+    {
+      "nome": "São João",
+      "tipo": "feriado",
+      "quando": {
+        "dia": "06-24"
+      },
+      "fonte": "Lei municipal de Salvador 1.997/1967, art. 1º (listada no Decreto Judiciário TJBA 09/2026, anexo)",
+      "url": "https://www7.tjba.jus.br/secao/arquivo/9/41226/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf"
+    },
+    {
+      "nome": "Nossa Senhora da Conceição da Praia",
+      "tipo": "feriado",
+      "quando": {
+        "dia": "12-08"
+      },
+      "fonte": "Lei municipal de Salvador 1.997/1967, art. 1º (listada no Decreto Judiciário TJBA 09/2026, anexo)",
+      "url": "https://www7.tjba.jus.br/secao/arquivo/9/41226/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf"
+    }
+  ],
+  "datas": [
+    {
+      "data": "2025-06-24",
+      "nome": "São João (feriado municipal)",
+      "tipo": "feriado",
+      "fonte": "Decreto Judiciário TJBA 951/2024, anexo (Lei municipal 1.997/1967)",
+      "url": "https://www.tjba.jus.br/portal/wp-content/uploads/2024/12/decreto-judiciario-n.-951-2024.pdf"
+    },
+    {
+      "data": "2025-12-08",
+      "nome": "Nossa Senhora da Conceição da Praia (feriado municipal)",
+      "tipo": "feriado",
+      "fonte": "Decreto Judiciário TJBA 951/2024, anexo (Lei municipal 1.997/1967)",
+      "url": "https://www.tjba.jus.br/portal/wp-content/uploads/2024/12/decreto-judiciario-n.-951-2024.pdf"
+    },
+    {
+      "data": "2026-06-24",
+      "nome": "São João (feriado municipal)",
+      "tipo": "feriado",
+      "fonte": "Decreto Judiciário TJBA 09/2026, anexo (Lei municipal 1.997/1967)",
+      "url": "https://www7.tjba.jus.br/secao/arquivo/9/41226/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf"
+    },
+    {
+      "data": "2026-12-08",
+      "nome": "Nossa Senhora da Conceição da Praia (feriado municipal)",
+      "tipo": "feriado",
+      "fonte": "Decreto Judiciário TJBA 09/2026, anexo (Lei municipal 1.997/1967)",
+      "url": "https://www7.tjba.jus.br/secao/arquivo/9/41226/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf"
+    }
+  ]
+}

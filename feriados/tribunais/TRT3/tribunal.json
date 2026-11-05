@@ -1,0 +1,580 @@
+{
+  "$schema": "../../../schema/feriados.schema.json",
+  "id": "TRT3",
+  "escopo": "tribunal",
+  "nome": "Tribunal Regional do Trabalho da 3ª Região (MG)",
+  "tribunal": "TRT3",
+  "uf": "MG",
+  "observacao": "Datas de 2025 e 2026 conferidas nos calendários institucionais aprovados pelo Órgão Especial (RA 142/2024 para 2025, com a RA 60/2025; RA 109/2025 para 2026) e nas Portarias GP 119/2026 (alterada pela 135/2026) e 195/2026 (jogos da Seleção na Copa). ATENÇÃO: o TRT3 transferiu o feriado de 11/08 para 14/08 em 2025 e 2026; 11/08/2025 e 11/08/2026 estão cadastrados como expediente_normal, que anula ali a regra da Lei 5.010/1966 (ramos/justica-federal.json). Em 24/06/2026 (jogo às 19h) o expediente foi até 18h sem prorrogação de prazos, por isso não consta. Só Belo Horizonte tem arquivo: os feriados locais do interior (Portaria TRT3/SEGP 991/2025 e alterações) ainda não foram cadastrados.",
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2025,
+    2026
+  ],
+  "comarcas": [
+    "Belo Horizonte"
+  ],
+  "regras": [],
+  "datas": [
+    {
+      "data": "2025-01-01",
+      "nome": "Confraternização Universal",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; RA TRT3 142/2024 (calendário 2025)",
+      "url": "https://sistemas.trt3.jus.br/bd-trt3/bitstream/handle/11103/89803/RA%20TRT3_SETPOE%20142_2024%20ORIG.pdf?sequence=1&isAllowed=y"
+    },
+    {
+      "data": "2025-01-02",
+      "nome": "Recesso do Judiciário",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; RA TRT3 142/2024 (calendário 2025)",
+      "url": "https://sistemas.trt3.jus.br/bd-trt3/bitstream/handle/11103/89803/RA%20TRT3_SETPOE%20142_2024%20ORIG.pdf?sequence=1&isAllowed=y"
+    },
+    {
+      "data": "2025-01-03",
+      "nome": "Recesso do Judiciário",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; RA TRT3 142/2024 (calendário 2025)",
+      "url": "https://sistemas.trt3.jus.br/bd-trt3/bitstream/handle/11103/89803/RA%20TRT3_SETPOE%20142_2024%20ORIG.pdf?sequence=1&isAllowed=y"
+    },
+    {
+      "data": "2025-01-04",
+      "nome": "Recesso do Judiciário",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; RA TRT3 142/2024 (calendário 2025)",
+      "url": "https://sistemas.trt3.jus.br/bd-trt3/bitstream/handle/11103/89803/RA%20TRT3_SETPOE%20142_2024%20ORIG.pdf?sequence=1&isAllowed=y"
+    },
+    {
+      "data": "2025-01-05",
+      "nome": "Recesso do Judiciário",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; RA TRT3 142/2024 (calendário 2025)",
+      "url": "https://sistemas.trt3.jus.br/bd-trt3/bitstream/handle/11103/89803/RA%20TRT3_SETPOE%20142_2024%20ORIG.pdf?sequence=1&isAllowed=y"
+    },
+    {
+      "data": "2025-01-06",
+      "nome": "Recesso do Judiciário",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; RA TRT3 142/2024 (calendário 2025)",
+      "url": "https://sistemas.trt3.jus.br/bd-trt3/bitstream/handle/11103/89803/RA%20TRT3_SETPOE%20142_2024%20ORIG.pdf?sequence=1&isAllowed=y"
+    },
+    {
+      "data": "2025-03-03",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, III; RA TRT3 142/2024 (calendário 2025)",
+      "url": "https://sistemas.trt3.jus.br/bd-trt3/bitstream/handle/11103/89803/RA%20TRT3_SETPOE%20142_2024%20ORIG.pdf?sequence=1&isAllowed=y"
+    },
+    {
+      "data": "2025-03-04",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, III; RA TRT3 142/2024 (calendário 2025)",
+      "url": "https://sistemas.trt3.jus.br/bd-trt3/bitstream/handle/11103/89803/RA%20TRT3_SETPOE%20142_2024%20ORIG.pdf?sequence=1&isAllowed=y"
+    },
+    {
+      "data": "2025-03-05",
+      "nome": "Quarta-feira de Cinzas (suspensão de expediente)",
+      "tipo": "ponto_facultativo",
+      "fonte": "RA TRT3 142/2024 (calendário 2025)",
+      "url": "https://sistemas.trt3.jus.br/bd-trt3/bitstream/handle/11103/89803/RA%20TRT3_SETPOE%20142_2024%20ORIG.pdf?sequence=1&isAllowed=y"
+    },
+    {
+      "data": "2025-04-16",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, II; RA TRT3 142/2024 (calendário 2025)",
+      "url": "https://sistemas.trt3.jus.br/bd-trt3/bitstream/handle/11103/89803/RA%20TRT3_SETPOE%20142_2024%20ORIG.pdf?sequence=1&isAllowed=y"
+    },
+    {
+      "data": "2025-04-17",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, II; RA TRT3 142/2024 (calendário 2025)",
+      "url": "https://sistemas.trt3.jus.br/bd-trt3/bitstream/handle/11103/89803/RA%20TRT3_SETPOE%20142_2024%20ORIG.pdf?sequence=1&isAllowed=y"
+    },
+    {
+      "data": "2025-04-18",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, II; RA TRT3 142/2024 (calendário 2025)",
+      "url": "https://sistemas.trt3.jus.br/bd-trt3/bitstream/handle/11103/89803/RA%20TRT3_SETPOE%20142_2024%20ORIG.pdf?sequence=1&isAllowed=y"
+    },
+    {
+      "data": "2025-04-19",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, II; RA TRT3 142/2024 (calendário 2025)",
+      "url": "https://sistemas.trt3.jus.br/bd-trt3/bitstream/handle/11103/89803/RA%20TRT3_SETPOE%20142_2024%20ORIG.pdf?sequence=1&isAllowed=y"
+    },
+    {
+      "data": "2025-04-20",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, II; RA TRT3 142/2024 (calendário 2025)",
+      "url": "https://sistemas.trt3.jus.br/bd-trt3/bitstream/handle/11103/89803/RA%20TRT3_SETPOE%20142_2024%20ORIG.pdf?sequence=1&isAllowed=y"
+    },
+    {
+      "data": "2025-04-21",
+      "nome": "Tiradentes e Data Magna de Minas Gerais",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; Constituição do Estado de MG, art. 256, I; RA TRT3 142/2024 (calendário 2025)",
+      "url": "https://sistemas.trt3.jus.br/bd-trt3/bitstream/handle/11103/89803/RA%20TRT3_SETPOE%20142_2024%20ORIG.pdf?sequence=1&isAllowed=y"
+    },
+    {
+      "data": "2025-05-01",
+      "nome": "Dia do Trabalhador",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; RA TRT3 142/2024 (calendário 2025)",
+      "url": "https://sistemas.trt3.jus.br/bd-trt3/bitstream/handle/11103/89803/RA%20TRT3_SETPOE%20142_2024%20ORIG.pdf?sequence=1&isAllowed=y"
+    },
+    {
+      "data": "2025-06-20",
+      "nome": "Suspensão de expediente (dia seguinte a Corpus Christi)",
+      "tipo": "ponto_facultativo",
+      "fonte": "RA TRT3 60/2025 (Proposição DG/07/2025); calendário 2025 do TRT3",
+      "url": "https://portal.trt3.jus.br/internet/institucional/calendario/downloads/ra-60_2025.pdf"
+    },
+    {
+      "data": "2025-08-11",
+      "nome": "Expediente normal (Dia dos Cursos Jurídicos transferido para 14/08)",
+      "tipo": "expediente_normal",
+      "fonte": "RA TRT3 142/2024 (calendário 2025): transfere o feriado da Lei 5.010/1966, art. 62, IV, para 14/08",
+      "url": "https://sistemas.trt3.jus.br/bd-trt3/bitstream/handle/11103/89803/RA%20TRT3_SETPOE%20142_2024%20ORIG.pdf?sequence=1&isAllowed=y"
+    },
+    {
+      "data": "2025-08-14",
+      "nome": "Dia da Criação dos Cursos Jurídicos, do Magistrado e do Advogado",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, IV; RA TRT3 142/2024 (calendário 2025)",
+      "url": "https://sistemas.trt3.jus.br/bd-trt3/bitstream/handle/11103/89803/RA%20TRT3_SETPOE%20142_2024%20ORIG.pdf?sequence=1&isAllowed=y"
+    },
+    {
+      "data": "2025-09-07",
+      "nome": "Independência do Brasil",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; RA TRT3 142/2024 (calendário 2025)",
+      "url": "https://sistemas.trt3.jus.br/bd-trt3/bitstream/handle/11103/89803/RA%20TRT3_SETPOE%20142_2024%20ORIG.pdf?sequence=1&isAllowed=y"
+    },
+    {
+      "data": "2025-10-12",
+      "nome": "Nossa Senhora Aparecida",
+      "tipo": "feriado",
+      "fonte": "Lei 6.802/1980; RA TRT3 142/2024 (calendário 2025)",
+      "url": "https://sistemas.trt3.jus.br/bd-trt3/bitstream/handle/11103/89803/RA%20TRT3_SETPOE%20142_2024%20ORIG.pdf?sequence=1&isAllowed=y"
+    },
+    {
+      "data": "2025-10-31",
+      "nome": "Dia do Servidor Público",
+      "tipo": "feriado",
+      "fonte": "Lei 8.112/1990, art. 236; RA TRT3 142/2024 (calendário 2025)",
+      "url": "https://sistemas.trt3.jus.br/bd-trt3/bitstream/handle/11103/89803/RA%20TRT3_SETPOE%20142_2024%20ORIG.pdf?sequence=1&isAllowed=y"
+    },
+    {
+      "data": "2025-11-01",
+      "nome": "Dia de Todos os Santos",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, IV; RA TRT3 142/2024 (calendário 2025)",
+      "url": "https://sistemas.trt3.jus.br/bd-trt3/bitstream/handle/11103/89803/RA%20TRT3_SETPOE%20142_2024%20ORIG.pdf?sequence=1&isAllowed=y"
+    },
+    {
+      "data": "2025-11-02",
+      "nome": "Finados",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, IV; RA TRT3 142/2024 (calendário 2025)",
+      "url": "https://sistemas.trt3.jus.br/bd-trt3/bitstream/handle/11103/89803/RA%20TRT3_SETPOE%20142_2024%20ORIG.pdf?sequence=1&isAllowed=y"
+    },
+    {
+      "data": "2025-11-15",
+      "nome": "Proclamação da República",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; RA TRT3 142/2024 (calendário 2025)",
+      "url": "https://sistemas.trt3.jus.br/bd-trt3/bitstream/handle/11103/89803/RA%20TRT3_SETPOE%20142_2024%20ORIG.pdf?sequence=1&isAllowed=y"
+    },
+    {
+      "data": "2025-11-20",
+      "nome": "Dia Nacional de Zumbi e da Consciência Negra",
+      "tipo": "feriado",
+      "fonte": "Lei 14.759/2023; RA TRT3 142/2024 (calendário 2025)",
+      "url": "https://sistemas.trt3.jus.br/bd-trt3/bitstream/handle/11103/89803/RA%20TRT3_SETPOE%20142_2024%20ORIG.pdf?sequence=1&isAllowed=y"
+    },
+    {
+      "data": "2025-11-21",
+      "nome": "Suspensão de expediente (dia seguinte à Consciência Negra)",
+      "tipo": "ponto_facultativo",
+      "fonte": "RA TRT3 60/2025 (Proposição DG/07/2025)",
+      "url": "https://portal.trt3.jus.br/internet/institucional/calendario/downloads/ra-60_2025.pdf"
+    },
+    {
+      "data": "2025-12-08",
+      "nome": "Dia da Justiça",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, IV; RA TRT3 142/2024 (calendário 2025)",
+      "url": "https://sistemas.trt3.jus.br/bd-trt3/bitstream/handle/11103/89803/RA%20TRT3_SETPOE%20142_2024%20ORIG.pdf?sequence=1&isAllowed=y"
+    },
+    {
+      "data": "2025-12-20",
+      "nome": "Recesso do Judiciário",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; RA TRT3 142/2024 (calendário 2025)",
+      "url": "https://sistemas.trt3.jus.br/bd-trt3/bitstream/handle/11103/89803/RA%20TRT3_SETPOE%20142_2024%20ORIG.pdf?sequence=1&isAllowed=y"
+    },
+    {
+      "data": "2025-12-21",
+      "nome": "Recesso do Judiciário",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; RA TRT3 142/2024 (calendário 2025)",
+      "url": "https://sistemas.trt3.jus.br/bd-trt3/bitstream/handle/11103/89803/RA%20TRT3_SETPOE%20142_2024%20ORIG.pdf?sequence=1&isAllowed=y"
+    },
+    {
+      "data": "2025-12-22",
+      "nome": "Recesso do Judiciário",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; RA TRT3 142/2024 (calendário 2025)",
+      "url": "https://sistemas.trt3.jus.br/bd-trt3/bitstream/handle/11103/89803/RA%20TRT3_SETPOE%20142_2024%20ORIG.pdf?sequence=1&isAllowed=y"
+    },
+    {
+      "data": "2025-12-23",
+      "nome": "Recesso do Judiciário",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; RA TRT3 142/2024 (calendário 2025)",
+      "url": "https://sistemas.trt3.jus.br/bd-trt3/bitstream/handle/11103/89803/RA%20TRT3_SETPOE%20142_2024%20ORIG.pdf?sequence=1&isAllowed=y"
+    },
+    {
+      "data": "2025-12-24",
+      "nome": "Recesso do Judiciário",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; RA TRT3 142/2024 (calendário 2025)",
+      "url": "https://sistemas.trt3.jus.br/bd-trt3/bitstream/handle/11103/89803/RA%20TRT3_SETPOE%20142_2024%20ORIG.pdf?sequence=1&isAllowed=y"
+    },
+    {
+      "data": "2025-12-25",
+      "nome": "Natal",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; RA TRT3 142/2024 (calendário 2025)",
+      "url": "https://sistemas.trt3.jus.br/bd-trt3/bitstream/handle/11103/89803/RA%20TRT3_SETPOE%20142_2024%20ORIG.pdf?sequence=1&isAllowed=y"
+    },
+    {
+      "data": "2025-12-26",
+      "nome": "Recesso do Judiciário",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; RA TRT3 142/2024 (calendário 2025)",
+      "url": "https://sistemas.trt3.jus.br/bd-trt3/bitstream/handle/11103/89803/RA%20TRT3_SETPOE%20142_2024%20ORIG.pdf?sequence=1&isAllowed=y"
+    },
+    {
+      "data": "2025-12-27",
+      "nome": "Recesso do Judiciário",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; RA TRT3 142/2024 (calendário 2025)",
+      "url": "https://sistemas.trt3.jus.br/bd-trt3/bitstream/handle/11103/89803/RA%20TRT3_SETPOE%20142_2024%20ORIG.pdf?sequence=1&isAllowed=y"
+    },
+    {
+      "data": "2025-12-28",
+      "nome": "Recesso do Judiciário",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; RA TRT3 142/2024 (calendário 2025)",
+      "url": "https://sistemas.trt3.jus.br/bd-trt3/bitstream/handle/11103/89803/RA%20TRT3_SETPOE%20142_2024%20ORIG.pdf?sequence=1&isAllowed=y"
+    },
+    {
+      "data": "2025-12-29",
+      "nome": "Recesso do Judiciário",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; RA TRT3 142/2024 (calendário 2025)",
+      "url": "https://sistemas.trt3.jus.br/bd-trt3/bitstream/handle/11103/89803/RA%20TRT3_SETPOE%20142_2024%20ORIG.pdf?sequence=1&isAllowed=y"
+    },
+    {
+      "data": "2025-12-30",
+      "nome": "Recesso do Judiciário",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; RA TRT3 142/2024 (calendário 2025)",
+      "url": "https://sistemas.trt3.jus.br/bd-trt3/bitstream/handle/11103/89803/RA%20TRT3_SETPOE%20142_2024%20ORIG.pdf?sequence=1&isAllowed=y"
+    },
+    {
+      "data": "2025-12-31",
+      "nome": "Recesso do Judiciário",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; RA TRT3 142/2024 (calendário 2025)",
+      "url": "https://sistemas.trt3.jus.br/bd-trt3/bitstream/handle/11103/89803/RA%20TRT3_SETPOE%20142_2024%20ORIG.pdf?sequence=1&isAllowed=y"
+    },
+    {
+      "data": "2026-01-01",
+      "nome": "Confraternização Universal",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; RA TRT3 109/2025 (calendário 2026)",
+      "url": "https://portal.trt3.jus.br/internet/conheca-o-trt/comunicacao/noticias-institucionais/downloads/resolucao-administrativa-n-109-de-12-de-agosto-de-2025.pdf"
+    },
+    {
+      "data": "2026-01-02",
+      "nome": "Recesso do Judiciário",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; RA TRT3 109/2025 (calendário 2026)",
+      "url": "https://portal.trt3.jus.br/internet/conheca-o-trt/comunicacao/noticias-institucionais/downloads/resolucao-administrativa-n-109-de-12-de-agosto-de-2025.pdf"
+    },
+    {
+      "data": "2026-01-03",
+      "nome": "Recesso do Judiciário",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; RA TRT3 109/2025 (calendário 2026)",
+      "url": "https://portal.trt3.jus.br/internet/conheca-o-trt/comunicacao/noticias-institucionais/downloads/resolucao-administrativa-n-109-de-12-de-agosto-de-2025.pdf"
+    },
+    {
+      "data": "2026-01-04",
+      "nome": "Recesso do Judiciário",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; RA TRT3 109/2025 (calendário 2026)",
+      "url": "https://portal.trt3.jus.br/internet/conheca-o-trt/comunicacao/noticias-institucionais/downloads/resolucao-administrativa-n-109-de-12-de-agosto-de-2025.pdf"
+    },
+    {
+      "data": "2026-01-05",
+      "nome": "Recesso do Judiciário",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; RA TRT3 109/2025 (calendário 2026)",
+      "url": "https://portal.trt3.jus.br/internet/conheca-o-trt/comunicacao/noticias-institucionais/downloads/resolucao-administrativa-n-109-de-12-de-agosto-de-2025.pdf"
+    },
+    {
+      "data": "2026-01-06",
+      "nome": "Recesso do Judiciário",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; RA TRT3 109/2025 (calendário 2026)",
+      "url": "https://portal.trt3.jus.br/internet/conheca-o-trt/comunicacao/noticias-institucionais/downloads/resolucao-administrativa-n-109-de-12-de-agosto-de-2025.pdf"
+    },
+    {
+      "data": "2026-02-16",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, III; RA TRT3 109/2025 (calendário 2026)",
+      "url": "https://portal.trt3.jus.br/internet/conheca-o-trt/comunicacao/noticias-institucionais/downloads/resolucao-administrativa-n-109-de-12-de-agosto-de-2025.pdf"
+    },
+    {
+      "data": "2026-02-17",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, III; RA TRT3 109/2025 (calendário 2026)",
+      "url": "https://portal.trt3.jus.br/internet/conheca-o-trt/comunicacao/noticias-institucionais/downloads/resolucao-administrativa-n-109-de-12-de-agosto-de-2025.pdf"
+    },
+    {
+      "data": "2026-02-18",
+      "nome": "Quarta-feira de Cinzas (suspensão de expediente)",
+      "tipo": "ponto_facultativo",
+      "fonte": "RA TRT3 109/2025 (calendário 2026)",
+      "url": "https://portal.trt3.jus.br/internet/conheca-o-trt/comunicacao/noticias-institucionais/downloads/resolucao-administrativa-n-109-de-12-de-agosto-de-2025.pdf"
+    },
+    {
+      "data": "2026-04-01",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, II; RA TRT3 109/2025 (calendário 2026)",
+      "url": "https://portal.trt3.jus.br/internet/conheca-o-trt/comunicacao/noticias-institucionais/downloads/resolucao-administrativa-n-109-de-12-de-agosto-de-2025.pdf"
+    },
+    {
+      "data": "2026-04-02",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, II; RA TRT3 109/2025 (calendário 2026)",
+      "url": "https://portal.trt3.jus.br/internet/conheca-o-trt/comunicacao/noticias-institucionais/downloads/resolucao-administrativa-n-109-de-12-de-agosto-de-2025.pdf"
+    },
+    {
+      "data": "2026-04-03",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, II; RA TRT3 109/2025 (calendário 2026)",
+      "url": "https://portal.trt3.jus.br/internet/conheca-o-trt/comunicacao/noticias-institucionais/downloads/resolucao-administrativa-n-109-de-12-de-agosto-de-2025.pdf"
+    },
+    {
+      "data": "2026-04-04",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, II; RA TRT3 109/2025 (calendário 2026)",
+      "url": "https://portal.trt3.jus.br/internet/conheca-o-trt/comunicacao/noticias-institucionais/downloads/resolucao-administrativa-n-109-de-12-de-agosto-de-2025.pdf"
+    },
+    {
+      "data": "2026-04-05",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, II; RA TRT3 109/2025 (calendário 2026)",
+      "url": "https://portal.trt3.jus.br/internet/conheca-o-trt/comunicacao/noticias-institucionais/downloads/resolucao-administrativa-n-109-de-12-de-agosto-de-2025.pdf"
+    },
+    {
+      "data": "2026-04-20",
+      "nome": "Suspensão de expediente (véspera de Tiradentes)",
+      "tipo": "ponto_facultativo",
+      "fonte": "RA TRT3 109/2025 (calendário 2026)",
+      "url": "https://portal.trt3.jus.br/internet/conheca-o-trt/comunicacao/noticias-institucionais/downloads/resolucao-administrativa-n-109-de-12-de-agosto-de-2025.pdf"
+    },
+    {
+      "data": "2026-04-21",
+      "nome": "Tiradentes e Data Magna de Minas Gerais",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; Constituição do Estado de MG, art. 256, I; RA TRT3 109/2025 (calendário 2026)",
+      "url": "https://portal.trt3.jus.br/internet/conheca-o-trt/comunicacao/noticias-institucionais/downloads/resolucao-administrativa-n-109-de-12-de-agosto-de-2025.pdf"
+    },
+    {
+      "data": "2026-05-01",
+      "nome": "Dia do Trabalhador",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; RA TRT3 109/2025 (calendário 2026)",
+      "url": "https://portal.trt3.jus.br/internet/conheca-o-trt/comunicacao/noticias-institucionais/downloads/resolucao-administrativa-n-109-de-12-de-agosto-de-2025.pdf"
+    },
+    {
+      "data": "2026-06-29",
+      "nome": "Jogo da Seleção na Copa às 14h: expediente até as 12h (prazo não começa nem vence)",
+      "tipo": "expediente_reduzido",
+      "fonte": "Portaria TRT3/GP 119/2026, arts. 2º, I, e 4º (redação da Portaria GP 135/2026); Portaria TRT3/GP 195/2026",
+      "url": "https://portal.trt3.jus.br/internet/conheca-o-trt/comunicacao/noticias-institucionais/downloads/portaria-gp-195-2026.pdf"
+    },
+    {
+      "data": "2026-08-11",
+      "nome": "Expediente normal (Dia dos Cursos Jurídicos transferido para 14/08)",
+      "tipo": "expediente_normal",
+      "fonte": "RA TRT3 109/2025 (calendário 2026): \"feriado alterado do dia 11 para o dia 14 de agosto\"",
+      "url": "https://portal.trt3.jus.br/internet/conheca-o-trt/comunicacao/noticias-institucionais/downloads/resolucao-administrativa-n-109-de-12-de-agosto-de-2025.pdf"
+    },
+    {
+      "data": "2026-08-14",
+      "nome": "Dia da Criação dos Cursos Jurídicos, do Magistrado e do Advogado (transferido de 11/08)",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, IV; RA TRT3 109/2025 (calendário 2026)",
+      "url": "https://portal.trt3.jus.br/internet/conheca-o-trt/comunicacao/noticias-institucionais/downloads/resolucao-administrativa-n-109-de-12-de-agosto-de-2025.pdf"
+    },
+    {
+      "data": "2026-09-07",
+      "nome": "Independência do Brasil",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; RA TRT3 109/2025 (calendário 2026)",
+      "url": "https://portal.trt3.jus.br/internet/conheca-o-trt/comunicacao/noticias-institucionais/downloads/resolucao-administrativa-n-109-de-12-de-agosto-de-2025.pdf"
+    },
+    {
+      "data": "2026-10-12",
+      "nome": "Nossa Senhora Aparecida",
+      "tipo": "feriado",
+      "fonte": "Lei 6.802/1980; RA TRT3 109/2025 (calendário 2026)",
+      "url": "https://portal.trt3.jus.br/internet/conheca-o-trt/comunicacao/noticias-institucionais/downloads/resolucao-administrativa-n-109-de-12-de-agosto-de-2025.pdf"
+    },
+    {
+      "data": "2026-10-30",
+      "nome": "Dia do Servidor Público (transferido de 28/10)",
+      "tipo": "feriado",
+      "fonte": "Lei 8.112/1990, art. 236; RA TRT3 109/2025 (calendário 2026)",
+      "url": "https://portal.trt3.jus.br/internet/conheca-o-trt/comunicacao/noticias-institucionais/downloads/resolucao-administrativa-n-109-de-12-de-agosto-de-2025.pdf"
+    },
+    {
+      "data": "2026-11-01",
+      "nome": "Dia de Todos os Santos",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, IV; RA TRT3 109/2025 (calendário 2026)",
+      "url": "https://portal.trt3.jus.br/internet/conheca-o-trt/comunicacao/noticias-institucionais/downloads/resolucao-administrativa-n-109-de-12-de-agosto-de-2025.pdf"
+    },
+    {
+      "data": "2026-11-02",
+      "nome": "Finados",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, IV; RA TRT3 109/2025 (calendário 2026)",
+      "url": "https://portal.trt3.jus.br/internet/conheca-o-trt/comunicacao/noticias-institucionais/downloads/resolucao-administrativa-n-109-de-12-de-agosto-de-2025.pdf"
+    },
+    {
+      "data": "2026-11-15",
+      "nome": "Proclamação da República",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; RA TRT3 109/2025 (calendário 2026)",
+      "url": "https://portal.trt3.jus.br/internet/conheca-o-trt/comunicacao/noticias-institucionais/downloads/resolucao-administrativa-n-109-de-12-de-agosto-de-2025.pdf"
+    },
+    {
+      "data": "2026-11-20",
+      "nome": "Dia Nacional de Zumbi e da Consciência Negra",
+      "tipo": "feriado",
+      "fonte": "Lei 14.759/2023; RA TRT3 109/2025 (calendário 2026)",
+      "url": "https://portal.trt3.jus.br/internet/conheca-o-trt/comunicacao/noticias-institucionais/downloads/resolucao-administrativa-n-109-de-12-de-agosto-de-2025.pdf"
+    },
+    {
+      "data": "2026-12-08",
+      "nome": "Dia da Justiça",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, IV; RA TRT3 109/2025 (calendário 2026)",
+      "url": "https://portal.trt3.jus.br/internet/conheca-o-trt/comunicacao/noticias-institucionais/downloads/resolucao-administrativa-n-109-de-12-de-agosto-de-2025.pdf"
+    },
+    {
+      "data": "2026-12-20",
+      "nome": "Recesso do Judiciário",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; RA TRT3 109/2025 (calendário 2026)",
+      "url": "https://portal.trt3.jus.br/internet/conheca-o-trt/comunicacao/noticias-institucionais/downloads/resolucao-administrativa-n-109-de-12-de-agosto-de-2025.pdf"
+    },
+    {
+      "data": "2026-12-21",
+      "nome": "Recesso do Judiciário",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; RA TRT3 109/2025 (calendário 2026)",
+      "url": "https://portal.trt3.jus.br/internet/conheca-o-trt/comunicacao/noticias-institucionais/downloads/resolucao-administrativa-n-109-de-12-de-agosto-de-2025.pdf"
+    },
+    {
+      "data": "2026-12-22",
+      "nome": "Recesso do Judiciário",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; RA TRT3 109/2025 (calendário 2026)",
+      "url": "https://portal.trt3.jus.br/internet/conheca-o-trt/comunicacao/noticias-institucionais/downloads/resolucao-administrativa-n-109-de-12-de-agosto-de-2025.pdf"
+    },
+    {
+      "data": "2026-12-23",
+      "nome": "Recesso do Judiciário",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; RA TRT3 109/2025 (calendário 2026)",
+      "url": "https://portal.trt3.jus.br/internet/conheca-o-trt/comunicacao/noticias-institucionais/downloads/resolucao-administrativa-n-109-de-12-de-agosto-de-2025.pdf"
+    },
+    {
+      "data": "2026-12-24",
+      "nome": "Recesso do Judiciário",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; RA TRT3 109/2025 (calendário 2026)",
+      "url": "https://portal.trt3.jus.br/internet/conheca-o-trt/comunicacao/noticias-institucionais/downloads/resolucao-administrativa-n-109-de-12-de-agosto-de-2025.pdf"
+    },
+    {
+      "data": "2026-12-25",
+      "nome": "Natal",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; RA TRT3 109/2025 (calendário 2026)",
+      "url": "https://portal.trt3.jus.br/internet/conheca-o-trt/comunicacao/noticias-institucionais/downloads/resolucao-administrativa-n-109-de-12-de-agosto-de-2025.pdf"
+    },
+    {
+      "data": "2026-12-26",
+      "nome": "Recesso do Judiciário",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; RA TRT3 109/2025 (calendário 2026)",
+      "url": "https://portal.trt3.jus.br/internet/conheca-o-trt/comunicacao/noticias-institucionais/downloads/resolucao-administrativa-n-109-de-12-de-agosto-de-2025.pdf"
+    },
+    {
+      "data": "2026-12-27",
+      "nome": "Recesso do Judiciário",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; RA TRT3 109/2025 (calendário 2026)",
+      "url": "https://portal.trt3.jus.br/internet/conheca-o-trt/comunicacao/noticias-institucionais/downloads/resolucao-administrativa-n-109-de-12-de-agosto-de-2025.pdf"
+    },
+    {
+      "data": "2026-12-28",
+      "nome": "Recesso do Judiciário",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; RA TRT3 109/2025 (calendário 2026)",
+      "url": "https://portal.trt3.jus.br/internet/conheca-o-trt/comunicacao/noticias-institucionais/downloads/resolucao-administrativa-n-109-de-12-de-agosto-de-2025.pdf"
+    },
+    {
+      "data": "2026-12-29",
+      "nome": "Recesso do Judiciário",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; RA TRT3 109/2025 (calendário 2026)",
+      "url": "https://portal.trt3.jus.br/internet/conheca-o-trt/comunicacao/noticias-institucionais/downloads/resolucao-administrativa-n-109-de-12-de-agosto-de-2025.pdf"
+    },
+    {
+      "data": "2026-12-30",
+      "nome": "Recesso do Judiciário",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; RA TRT3 109/2025 (calendário 2026)",
+      "url": "https://portal.trt3.jus.br/internet/conheca-o-trt/comunicacao/noticias-institucionais/downloads/resolucao-administrativa-n-109-de-12-de-agosto-de-2025.pdf"
+    },
+    {
+      "data": "2026-12-31",
+      "nome": "Recesso do Judiciário",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; RA TRT3 109/2025 (calendário 2026)",
+      "url": "https://portal.trt3.jus.br/internet/conheca-o-trt/comunicacao/noticias-institucionais/downloads/resolucao-administrativa-n-109-de-12-de-agosto-de-2025.pdf"
+    }
+  ]
+}

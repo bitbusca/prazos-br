@@ -1,0 +1,49 @@
+{
+  "$schema": "../../../../schema/feriados.schema.json",
+  "id": "TJMS/aparecida-do-taboado",
+  "escopo": "comarca",
+  "tribunal": "TJMS",
+  "comarca": "Aparecida do Taboado",
+  "uf": "MS",
+  "ibge": 5001003,
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "regras": [],
+  "datas": [
+    {
+      "data": "2021-09-28",
+      "nome": "Aniversário da cidade",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 3/2021 (lei municipal de Aparecida do Taboado)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2022-09-28",
+      "nome": "Aniversário da cidade",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 16/2022 (lei municipal de Aparecida do Taboado)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2023-09-28",
+      "nome": "Aniversário da cidade",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 4/2023 (lei municipal de Aparecida do Taboado)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    },
+    {
+      "data": "2026-09-28",
+      "nome": "Aniversário da cidade",
+      "tipo": "feriado",
+      "fonte": "Portaria TJMS 983/2025 (lei municipal de Aparecida do Taboado)",
+      "url": "https://www.tjms.jus.br/institucional/feriados"
+    }
+  ]
+}

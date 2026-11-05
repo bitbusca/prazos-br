@@ -1,0 +1,706 @@
+{
+  "$schema": "../../../schema/feriados.schema.json",
+  "id": "TJGO",
+  "escopo": "tribunal",
+  "nome": "Tribunal de Justiça do Estado de Goiás",
+  "tribunal": "TJGO",
+  "uf": "GO",
+  "observacao": "Datas de 2025 e 2026 conferidas nos calendários oficiais do TJGO (2025 atualizado em 02/04/2025; 2026 na versão de 08/06/2026) e nos decretos judiciários posteriores da Presidência (1.130/2026, 1.738/2026, 2.876/2026, 3.079/2026, 5.123/2026; 4.733/2025, 5.222/2025). Regras permanentes: COJEG (Lei estadual 21.268/2022), art. 91. O Dia do Servidor (28/10) é transferido por decreto em alguns anos (30/10 em 2026), por isso a regra fica fora de 2026. Não cobertos: feriados municipais e suspensões das comarcas do interior (o calendário só traz Goiânia, Iporá, Leopoldo de Bulhões e Senador Canedo em 24/05) e suspensões de prazo só para uma parte (ex.: processos com a AGU de 16 a 20/03/2026).",
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2025,
+    2026
+  ],
+  "comarcas": [
+    "Goiânia"
+  ],
+  "regras": [
+    {
+      "nome": "Carnaval (segunda-feira)",
+      "tipo": "feriado",
+      "quando": {
+        "pascoa": -48
+      },
+      "fonte": "COJEG (Lei estadual de Goiás 21.268/2022), art. 91, III",
+      "url": "https://legisla.casacivil.go.gov.br/api/v2/pesquisa/legislacoes/105266/pdf"
+    },
+    {
+      "nome": "Carnaval (terça-feira)",
+      "tipo": "feriado",
+      "quando": {
+        "pascoa": -47
+      },
+      "fonte": "COJEG (Lei estadual de Goiás 21.268/2022), art. 91, III",
+      "url": "https://legisla.casacivil.go.gov.br/api/v2/pesquisa/legislacoes/105266/pdf"
+    },
+    {
+      "nome": "Quarta-feira de Cinzas (sem expediente até o meio-dia)",
+      "tipo": "expediente_reduzido",
+      "quando": {
+        "pascoa": -46
+      },
+      "fonte": "COJEG (Lei estadual de Goiás 21.268/2022), art. 91, III",
+      "url": "https://legisla.casacivil.go.gov.br/api/v2/pesquisa/legislacoes/105266/pdf"
+    },
+    {
+      "nome": "Semana Santa (quarta-feira)",
+      "tipo": "feriado",
+      "quando": {
+        "pascoa": -4
+      },
+      "fonte": "COJEG (Lei estadual de Goiás 21.268/2022), art. 91, IV",
+      "url": "https://legisla.casacivil.go.gov.br/api/v2/pesquisa/legislacoes/105266/pdf"
+    },
+    {
+      "nome": "Semana Santa (quinta-feira)",
+      "tipo": "feriado",
+      "quando": {
+        "pascoa": -3
+      },
+      "fonte": "COJEG (Lei estadual de Goiás 21.268/2022), art. 91, IV",
+      "url": "https://legisla.casacivil.go.gov.br/api/v2/pesquisa/legislacoes/105266/pdf"
+    },
+    {
+      "nome": "Semana Santa (sexta-feira)",
+      "tipo": "feriado",
+      "quando": {
+        "pascoa": -2
+      },
+      "fonte": "COJEG (Lei estadual de Goiás 21.268/2022), art. 91, IV",
+      "url": "https://legisla.casacivil.go.gov.br/api/v2/pesquisa/legislacoes/105266/pdf"
+    },
+    {
+      "nome": "Fundação da Cidade de Goiás",
+      "tipo": "feriado",
+      "quando": {
+        "dia": "07-26"
+      },
+      "fonte": "COJEG (Lei estadual de Goiás 21.268/2022), art. 91, V",
+      "url": "https://legisla.casacivil.go.gov.br/api/v2/pesquisa/legislacoes/105266/pdf"
+    },
+    {
+      "nome": "Lançamento da pedra fundamental de Goiânia (aniversário de Goiânia)",
+      "tipo": "feriado",
+      "quando": {
+        "dia": "10-24"
+      },
+      "fonte": "COJEG (Lei estadual de Goiás 21.268/2022), art. 91, VI",
+      "url": "https://legisla.casacivil.go.gov.br/api/v2/pesquisa/legislacoes/105266/pdf"
+    },
+    {
+      "nome": "Dia do Servidor Público",
+      "tipo": "feriado",
+      "quando": {
+        "dia": "10-28"
+      },
+      "ate": 2025,
+      "fonte": "COJEG (Lei estadual de Goiás 21.268/2022), art. 91, VII (em 2026 transferido para 30/10 pelo Decreto Judiciário 5.123/2026)",
+      "url": "https://legisla.casacivil.go.gov.br/api/v2/pesquisa/legislacoes/105266/pdf"
+    },
+    {
+      "nome": "Dia do Servidor Público",
+      "tipo": "feriado",
+      "quando": {
+        "dia": "10-28"
+      },
+      "desde": 2027,
+      "fonte": "COJEG (Lei estadual de Goiás 21.268/2022), art. 91, VII",
+      "url": "https://legisla.casacivil.go.gov.br/api/v2/pesquisa/legislacoes/105266/pdf"
+    },
+    {
+      "nome": "Dia da Justiça",
+      "tipo": "feriado",
+      "quando": {
+        "dia": "12-08"
+      },
+      "fonte": "COJEG (Lei estadual de Goiás 21.268/2022), art. 91, VIII",
+      "url": "https://legisla.casacivil.go.gov.br/api/v2/pesquisa/legislacoes/105266/pdf"
+    },
+    {
+      "nome": "Recesso forense de 20/12 a 06/01",
+      "tipo": "recesso",
+      "quando": {
+        "de": "12-20",
+        "ate": "01-06"
+      },
+      "fonte": "COJEG (Lei estadual de Goiás 21.268/2022), art. 91, IX",
+      "url": "https://legisla.casacivil.go.gov.br/api/v2/pesquisa/legislacoes/105266/pdf"
+    }
+  ],
+  "datas": [
+    {
+      "data": "2025-01-01",
+      "nome": "Ano Novo",
+      "tipo": "feriado",
+      "fonte": "Calendário de feriados 2025 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), atualizado em 02/04/2025",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2025_02042025.pdf"
+    },
+    {
+      "data": "2025-01-02",
+      "nome": "Recesso forense (20/12/2024 a 06/01/2025)",
+      "tipo": "recesso",
+      "fonte": "COJEG (Lei estadual de Goiás 21.268/2022), art. 91, IX",
+      "url": "https://legisla.casacivil.go.gov.br/api/v2/pesquisa/legislacoes/105266/pdf"
+    },
+    {
+      "data": "2025-01-03",
+      "nome": "Recesso forense (20/12/2024 a 06/01/2025)",
+      "tipo": "recesso",
+      "fonte": "COJEG (Lei estadual de Goiás 21.268/2022), art. 91, IX",
+      "url": "https://legisla.casacivil.go.gov.br/api/v2/pesquisa/legislacoes/105266/pdf"
+    },
+    {
+      "data": "2025-01-04",
+      "nome": "Recesso forense (20/12/2024 a 06/01/2025)",
+      "tipo": "recesso",
+      "fonte": "COJEG (Lei estadual de Goiás 21.268/2022), art. 91, IX",
+      "url": "https://legisla.casacivil.go.gov.br/api/v2/pesquisa/legislacoes/105266/pdf"
+    },
+    {
+      "data": "2025-01-05",
+      "nome": "Recesso forense (20/12/2024 a 06/01/2025)",
+      "tipo": "recesso",
+      "fonte": "COJEG (Lei estadual de Goiás 21.268/2022), art. 91, IX",
+      "url": "https://legisla.casacivil.go.gov.br/api/v2/pesquisa/legislacoes/105266/pdf"
+    },
+    {
+      "data": "2025-01-06",
+      "nome": "Recesso forense (20/12/2024 a 06/01/2025)",
+      "tipo": "recesso",
+      "fonte": "COJEG (Lei estadual de Goiás 21.268/2022), art. 91, IX",
+      "url": "https://legisla.casacivil.go.gov.br/api/v2/pesquisa/legislacoes/105266/pdf"
+    },
+    {
+      "data": "2025-03-03",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Calendário de feriados 2025 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), atualizado em 02/04/2025",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2025_02042025.pdf"
+    },
+    {
+      "data": "2025-03-04",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Calendário de feriados 2025 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), atualizado em 02/04/2025",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2025_02042025.pdf"
+    },
+    {
+      "data": "2025-03-05",
+      "nome": "Quarta-feira de Cinzas (sem expediente até 12h)",
+      "tipo": "expediente_reduzido",
+      "fonte": "Calendário de feriados 2025 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), atualizado em 02/04/2025",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2025_02042025.pdf"
+    },
+    {
+      "data": "2025-04-16",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Calendário de feriados 2025 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), atualizado em 02/04/2025",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2025_02042025.pdf"
+    },
+    {
+      "data": "2025-04-17",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Calendário de feriados 2025 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), atualizado em 02/04/2025",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2025_02042025.pdf"
+    },
+    {
+      "data": "2025-04-18",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Calendário de feriados 2025 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), atualizado em 02/04/2025",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2025_02042025.pdf"
+    },
+    {
+      "data": "2025-04-21",
+      "nome": "Tiradentes",
+      "tipo": "feriado",
+      "fonte": "Calendário de feriados 2025 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), atualizado em 02/04/2025",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2025_02042025.pdf"
+    },
+    {
+      "data": "2025-05-01",
+      "nome": "Dia do Trabalho",
+      "tipo": "feriado",
+      "fonte": "Calendário de feriados 2025 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), atualizado em 02/04/2025",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2025_02042025.pdf"
+    },
+    {
+      "data": "2025-05-02",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Calendário de feriados 2025 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), atualizado em 02/04/2025",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2025_02042025.pdf"
+    },
+    {
+      "data": "2025-06-19",
+      "nome": "Corpus Christi",
+      "tipo": "feriado",
+      "fonte": "Calendário de feriados 2025 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), atualizado em 02/04/2025",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2025_02042025.pdf"
+    },
+    {
+      "data": "2025-06-20",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Calendário de feriados 2025 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), atualizado em 02/04/2025",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2025_02042025.pdf"
+    },
+    {
+      "data": "2025-07-26",
+      "nome": "Fundação da Cidade de Goiás",
+      "tipo": "feriado",
+      "fonte": "Calendário de feriados 2025 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), atualizado em 02/04/2025",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2025_02042025.pdf"
+    },
+    {
+      "data": "2025-09-07",
+      "nome": "Independência do Brasil",
+      "tipo": "feriado",
+      "fonte": "Calendário de feriados 2025 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), atualizado em 02/04/2025",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2025_02042025.pdf"
+    },
+    {
+      "data": "2025-10-12",
+      "nome": "Nossa Senhora Aparecida",
+      "tipo": "feriado",
+      "fonte": "Calendário de feriados 2025 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), atualizado em 02/04/2025",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2025_02042025.pdf"
+    },
+    {
+      "data": "2025-10-24",
+      "nome": "Aniversário de Goiânia",
+      "tipo": "feriado",
+      "fonte": "Calendário de feriados 2025 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), atualizado em 02/04/2025",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2025_02042025.pdf"
+    },
+    {
+      "data": "2025-10-27",
+      "nome": "Ponto facultativo (véspera do Dia do Servidor Público)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Decreto Judiciário 4.733/2025 (TJGO); Calendário de feriados 2025 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), atualizado em 02/04/2025",
+      "url": "https://www.tjgo.jus.br/images/DECRETO_JUDICIRIO_N_4733-2025_1.pdf"
+    },
+    {
+      "data": "2025-10-28",
+      "nome": "Dia do Servidor Público",
+      "tipo": "feriado",
+      "fonte": "Calendário de feriados 2025 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), atualizado em 02/04/2025 (Lei estadual 20.756/2020)",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2025_02042025.pdf"
+    },
+    {
+      "data": "2025-11-02",
+      "nome": "Finados",
+      "tipo": "feriado",
+      "fonte": "Calendário de feriados 2025 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), atualizado em 02/04/2025",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2025_02042025.pdf"
+    },
+    {
+      "data": "2025-11-15",
+      "nome": "Proclamação da República",
+      "tipo": "feriado",
+      "fonte": "Calendário de feriados 2025 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), atualizado em 02/04/2025",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2025_02042025.pdf"
+    },
+    {
+      "data": "2025-11-20",
+      "nome": "Dia da Consciência Negra",
+      "tipo": "feriado",
+      "fonte": "Calendário de feriados 2025 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), atualizado em 02/04/2025",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2025_02042025.pdf"
+    },
+    {
+      "data": "2025-11-21",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Decreto Judiciário 5.222/2025 (TJGO); Calendário de feriados 2025 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), atualizado em 02/04/2025",
+      "url": "https://www.tjgo.jus.br/index.php/agencia-de-noticias/noticias-ccs/17-tribunal/34747-tjgo-decreta-ponto-facultativo-no-dia-21-em-razao-do-feriado-consagrado-ao-dia-nacional-de-zumbi-e-da-consciencia-negra-celebrado-em-20-de-novembro"
+    },
+    {
+      "data": "2025-12-08",
+      "nome": "Dia da Justiça",
+      "tipo": "feriado",
+      "fonte": "Calendário de feriados 2025 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), atualizado em 02/04/2025",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2025_02042025.pdf"
+    },
+    {
+      "data": "2025-12-20",
+      "nome": "Recesso forense (20/12/2025 a 06/01/2026)",
+      "tipo": "recesso",
+      "fonte": "Calendário de feriados 2025 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), atualizado em 02/04/2025",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2025_02042025.pdf"
+    },
+    {
+      "data": "2025-12-21",
+      "nome": "Recesso forense (20/12/2025 a 06/01/2026)",
+      "tipo": "recesso",
+      "fonte": "Calendário de feriados 2025 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), atualizado em 02/04/2025",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2025_02042025.pdf"
+    },
+    {
+      "data": "2025-12-22",
+      "nome": "Recesso forense (20/12/2025 a 06/01/2026)",
+      "tipo": "recesso",
+      "fonte": "Calendário de feriados 2025 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), atualizado em 02/04/2025",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2025_02042025.pdf"
+    },
+    {
+      "data": "2025-12-23",
+      "nome": "Recesso forense (20/12/2025 a 06/01/2026)",
+      "tipo": "recesso",
+      "fonte": "Calendário de feriados 2025 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), atualizado em 02/04/2025",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2025_02042025.pdf"
+    },
+    {
+      "data": "2025-12-24",
+      "nome": "Recesso forense (20/12/2025 a 06/01/2026)",
+      "tipo": "recesso",
+      "fonte": "Calendário de feriados 2025 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), atualizado em 02/04/2025",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2025_02042025.pdf"
+    },
+    {
+      "data": "2025-12-25",
+      "nome": "Natal",
+      "tipo": "feriado",
+      "fonte": "Calendário de feriados 2025 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), atualizado em 02/04/2025",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2025_02042025.pdf"
+    },
+    {
+      "data": "2025-12-26",
+      "nome": "Recesso forense (20/12/2025 a 06/01/2026)",
+      "tipo": "recesso",
+      "fonte": "Calendário de feriados 2025 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), atualizado em 02/04/2025",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2025_02042025.pdf"
+    },
+    {
+      "data": "2025-12-27",
+      "nome": "Recesso forense (20/12/2025 a 06/01/2026)",
+      "tipo": "recesso",
+      "fonte": "Calendário de feriados 2025 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), atualizado em 02/04/2025",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2025_02042025.pdf"
+    },
+    {
+      "data": "2025-12-28",
+      "nome": "Recesso forense (20/12/2025 a 06/01/2026)",
+      "tipo": "recesso",
+      "fonte": "Calendário de feriados 2025 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), atualizado em 02/04/2025",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2025_02042025.pdf"
+    },
+    {
+      "data": "2025-12-29",
+      "nome": "Recesso forense (20/12/2025 a 06/01/2026)",
+      "tipo": "recesso",
+      "fonte": "Calendário de feriados 2025 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), atualizado em 02/04/2025",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2025_02042025.pdf"
+    },
+    {
+      "data": "2025-12-30",
+      "nome": "Recesso forense (20/12/2025 a 06/01/2026)",
+      "tipo": "recesso",
+      "fonte": "Calendário de feriados 2025 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), atualizado em 02/04/2025",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2025_02042025.pdf"
+    },
+    {
+      "data": "2025-12-31",
+      "nome": "Recesso forense (20/12/2025 a 06/01/2026)",
+      "tipo": "recesso",
+      "fonte": "Calendário de feriados 2025 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), atualizado em 02/04/2025",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2025_02042025.pdf"
+    },
+    {
+      "data": "2026-01-01",
+      "nome": "Ano Novo",
+      "tipo": "feriado",
+      "fonte": "Calendário de feriados 2026 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), versão de 08/06/2026",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2026_08062026.pdf"
+    },
+    {
+      "data": "2026-01-02",
+      "nome": "Recesso forense (20/12/2025 a 06/01/2026)",
+      "tipo": "recesso",
+      "fonte": "Calendário de feriados 2025 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), atualizado em 02/04/2025; COJEG (Lei estadual de Goiás 21.268/2022), art. 91, IX",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2025_02042025.pdf"
+    },
+    {
+      "data": "2026-01-03",
+      "nome": "Recesso forense (20/12/2025 a 06/01/2026)",
+      "tipo": "recesso",
+      "fonte": "Calendário de feriados 2025 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), atualizado em 02/04/2025; COJEG (Lei estadual de Goiás 21.268/2022), art. 91, IX",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2025_02042025.pdf"
+    },
+    {
+      "data": "2026-01-04",
+      "nome": "Recesso forense (20/12/2025 a 06/01/2026)",
+      "tipo": "recesso",
+      "fonte": "Calendário de feriados 2025 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), atualizado em 02/04/2025; COJEG (Lei estadual de Goiás 21.268/2022), art. 91, IX",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2025_02042025.pdf"
+    },
+    {
+      "data": "2026-01-05",
+      "nome": "Recesso forense (20/12/2025 a 06/01/2026)",
+      "tipo": "recesso",
+      "fonte": "Calendário de feriados 2025 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), atualizado em 02/04/2025; COJEG (Lei estadual de Goiás 21.268/2022), art. 91, IX",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2025_02042025.pdf"
+    },
+    {
+      "data": "2026-01-06",
+      "nome": "Recesso forense (20/12/2025 a 06/01/2026)",
+      "tipo": "recesso",
+      "fonte": "Calendário de feriados 2025 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), atualizado em 02/04/2025; COJEG (Lei estadual de Goiás 21.268/2022), art. 91, IX",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2025_02042025.pdf"
+    },
+    {
+      "data": "2026-02-16",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Calendário de feriados 2026 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), versão de 08/06/2026",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2026_08062026.pdf"
+    },
+    {
+      "data": "2026-02-17",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Calendário de feriados 2026 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), versão de 08/06/2026",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2026_08062026.pdf"
+    },
+    {
+      "data": "2026-02-18",
+      "nome": "Quarta-feira de Cinzas (sem expediente até 12h)",
+      "tipo": "expediente_reduzido",
+      "fonte": "Calendário de feriados 2026 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), versão de 08/06/2026",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2026_08062026.pdf"
+    },
+    {
+      "data": "2026-03-20",
+      "nome": "Ponto facultativo (MotoGP em Goiânia)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Decreto Judiciário 1.130/2026 (TJGO); Calendário de feriados 2026 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), versão de 08/06/2026",
+      "url": "https://www.tjgo.jus.br/index.php/agencia-de-noticias/noticias-ccs/240-carrossel-tj/35612-tjgo-decreta-ponto-facultativo-no-dia-20-de-marco-em-razao-do-motogp-em-goiania"
+    },
+    {
+      "data": "2026-04-01",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Calendário de feriados 2026 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), versão de 08/06/2026",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2026_08062026.pdf"
+    },
+    {
+      "data": "2026-04-02",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Calendário de feriados 2026 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), versão de 08/06/2026",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2026_08062026.pdf"
+    },
+    {
+      "data": "2026-04-03",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Calendário de feriados 2026 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), versão de 08/06/2026",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2026_08062026.pdf"
+    },
+    {
+      "data": "2026-04-20",
+      "nome": "Ponto facultativo (véspera de Tiradentes)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Decreto Judiciário 1.738/2026 (TJGO); Calendário de feriados 2026 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), versão de 08/06/2026",
+      "url": "https://www.tjgo.jus.br/index.php/agencia-de-noticias/noticias-ccs/240-carrossel-tj/36000-tjgo-decreta-ponto-facultativo-no-dia-20-de-abril-vespera-do-feriado-de-tiradentes"
+    },
+    {
+      "data": "2026-04-21",
+      "nome": "Tiradentes",
+      "tipo": "feriado",
+      "fonte": "Calendário de feriados 2026 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), versão de 08/06/2026",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2026_08062026.pdf"
+    },
+    {
+      "data": "2026-05-01",
+      "nome": "Dia do Trabalho",
+      "tipo": "feriado",
+      "fonte": "Calendário de feriados 2026 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), versão de 08/06/2026",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2026_08062026.pdf"
+    },
+    {
+      "data": "2026-06-04",
+      "nome": "Corpus Christi",
+      "tipo": "feriado",
+      "fonte": "Calendário de feriados 2026 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), versão de 08/06/2026",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2026_08062026.pdf"
+    },
+    {
+      "data": "2026-06-05",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Calendário de feriados 2026 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), versão de 08/06/2026",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2026_08062026.pdf"
+    },
+    {
+      "data": "2026-06-19",
+      "nome": "Jogo do Brasil na Copa do Mundo: expediente das 8h às 15h (prazos que começariam ou venceriam no dia prorrogados)",
+      "tipo": "expediente_reduzido",
+      "fonte": "Decreto Judiciário 2.876/2026 (TJGO); CPC, art. 224, § 1º",
+      "url": "https://www.tjgo.jus.br/index.php/agencia-de-noticias/noticias-ccs/17-tribunal/36566-expediente-no-poder-judiciario-estadual-sera-das-8-horas-as-15-horas-nos-19-e-24-de-junho-devido-aos-jogos-do-brasil"
+    },
+    {
+      "data": "2026-06-24",
+      "nome": "Jogo do Brasil na Copa do Mundo: expediente das 8h às 15h (prazos que começariam ou venceriam no dia prorrogados)",
+      "tipo": "expediente_reduzido",
+      "fonte": "Decreto Judiciário 2.876/2026 (TJGO); CPC, art. 224, § 1º",
+      "url": "https://www.tjgo.jus.br/index.php/agencia-de-noticias/noticias-ccs/17-tribunal/36566-expediente-no-poder-judiciario-estadual-sera-das-8-horas-as-15-horas-nos-19-e-24-de-junho-devido-aos-jogos-do-brasil"
+    },
+    {
+      "data": "2026-06-29",
+      "nome": "Jogo do Brasil na Copa do Mundo: expediente das 7h às 12h (prazos que começariam ou venceriam no dia prorrogados)",
+      "tipo": "expediente_reduzido",
+      "fonte": "Decreto Judiciário 3.079/2026 (TJGO); CPC, art. 224, § 1º",
+      "url": "https://www.tjgo.jus.br/index.php/agencia-de-noticias/noticias-ccs/240-carrossel-tj/36661-tjgo-altera-horario-de-expediente-na-segunda-feira-29-dia-do-jogo-brasil-na-copa-do-mundo-de-2026"
+    },
+    {
+      "data": "2026-07-26",
+      "nome": "Fundação da Cidade de Goiás",
+      "tipo": "feriado",
+      "fonte": "Calendário de feriados 2026 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), versão de 08/06/2026",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2026_08062026.pdf"
+    },
+    {
+      "data": "2026-09-07",
+      "nome": "Independência do Brasil",
+      "tipo": "feriado",
+      "fonte": "Calendário de feriados 2026 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), versão de 08/06/2026",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2026_08062026.pdf"
+    },
+    {
+      "data": "2026-10-12",
+      "nome": "Nossa Senhora Aparecida",
+      "tipo": "feriado",
+      "fonte": "Calendário de feriados 2026 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), versão de 08/06/2026",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2026_08062026.pdf"
+    },
+    {
+      "data": "2026-10-24",
+      "nome": "Aniversário de Goiânia",
+      "tipo": "feriado",
+      "fonte": "Calendário de feriados 2026 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), versão de 08/06/2026",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2026_08062026.pdf"
+    },
+    {
+      "data": "2026-10-30",
+      "nome": "Dia do Servidor Público (transferido de 28/10; 28/10 teve expediente normal)",
+      "tipo": "feriado",
+      "fonte": "Decreto Judiciário 5.123/2026 (TJGO); Lei estadual 20.756/2020",
+      "url": "https://www.tjgo.jus.br/index.php/agencia-de-noticias/noticias-ccs/240-carrossel-tj/37449-tjgo-transfere-feriado-do-dia-do-servidor-publico-para-30-de-outubro"
+    },
+    {
+      "data": "2026-11-02",
+      "nome": "Finados",
+      "tipo": "feriado",
+      "fonte": "Calendário de feriados 2026 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), versão de 08/06/2026",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2026_08062026.pdf"
+    },
+    {
+      "data": "2026-11-15",
+      "nome": "Proclamação da República",
+      "tipo": "feriado",
+      "fonte": "Calendário de feriados 2026 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), versão de 08/06/2026",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2026_08062026.pdf"
+    },
+    {
+      "data": "2026-11-20",
+      "nome": "Dia da Consciência Negra",
+      "tipo": "feriado",
+      "fonte": "Calendário de feriados 2026 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), versão de 08/06/2026",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2026_08062026.pdf"
+    },
+    {
+      "data": "2026-12-08",
+      "nome": "Dia da Justiça",
+      "tipo": "feriado",
+      "fonte": "Calendário de feriados 2026 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), versão de 08/06/2026",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2026_08062026.pdf"
+    },
+    {
+      "data": "2026-12-20",
+      "nome": "Recesso forense (20/12/2026 a 06/01/2027)",
+      "tipo": "recesso",
+      "fonte": "Calendário de feriados 2026 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), versão de 08/06/2026",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2026_08062026.pdf"
+    },
+    {
+      "data": "2026-12-21",
+      "nome": "Recesso forense (20/12/2026 a 06/01/2027)",
+      "tipo": "recesso",
+      "fonte": "Calendário de feriados 2026 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), versão de 08/06/2026",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2026_08062026.pdf"
+    },
+    {
+      "data": "2026-12-22",
+      "nome": "Recesso forense (20/12/2026 a 06/01/2027)",
+      "tipo": "recesso",
+      "fonte": "Calendário de feriados 2026 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), versão de 08/06/2026",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2026_08062026.pdf"
+    },
+    {
+      "data": "2026-12-23",
+      "nome": "Recesso forense (20/12/2026 a 06/01/2027)",
+      "tipo": "recesso",
+      "fonte": "Calendário de feriados 2026 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), versão de 08/06/2026",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2026_08062026.pdf"
+    },
+    {
+      "data": "2026-12-24",
+      "nome": "Recesso forense (20/12/2026 a 06/01/2027)",
+      "tipo": "recesso",
+      "fonte": "Calendário de feriados 2026 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), versão de 08/06/2026",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2026_08062026.pdf"
+    },
+    {
+      "data": "2026-12-25",
+      "nome": "Natal",
+      "tipo": "feriado",
+      "fonte": "Calendário de feriados 2026 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), versão de 08/06/2026",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2026_08062026.pdf"
+    },
+    {
+      "data": "2026-12-26",
+      "nome": "Recesso forense (20/12/2026 a 06/01/2027)",
+      "tipo": "recesso",
+      "fonte": "Calendário de feriados 2026 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), versão de 08/06/2026",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2026_08062026.pdf"
+    },
+    {
+      "data": "2026-12-27",
+      "nome": "Recesso forense (20/12/2026 a 06/01/2027)",
+      "tipo": "recesso",
+      "fonte": "Calendário de feriados 2026 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), versão de 08/06/2026",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2026_08062026.pdf"
+    },
+    {
+      "data": "2026-12-28",
+      "nome": "Recesso forense (20/12/2026 a 06/01/2027)",
+      "tipo": "recesso",
+      "fonte": "Calendário de feriados 2026 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), versão de 08/06/2026",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2026_08062026.pdf"
+    },
+    {
+      "data": "2026-12-29",
+      "nome": "Recesso forense (20/12/2026 a 06/01/2027)",
+      "tipo": "recesso",
+      "fonte": "Calendário de feriados 2026 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), versão de 08/06/2026",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2026_08062026.pdf"
+    },
+    {
+      "data": "2026-12-30",
+      "nome": "Recesso forense (20/12/2026 a 06/01/2027)",
+      "tipo": "recesso",
+      "fonte": "Calendário de feriados 2026 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), versão de 08/06/2026",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2026_08062026.pdf"
+    },
+    {
+      "data": "2026-12-31",
+      "nome": "Recesso forense (20/12/2026 a 06/01/2027)",
+      "tipo": "recesso",
+      "fonte": "Calendário de feriados 2026 do TJGO (RITJGO art. 123; COJEG, Lei estadual 21.268/2022, art. 91), versão de 08/06/2026",
+      "url": "https://docs.tjgo.jus.br/institucional/feriados/DOC_feriados_2026_08062026.pdf"
+    }
+  ]
+}

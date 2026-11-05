@@ -1,0 +1,88 @@
+{
+  "$schema": "../../../../schema/feriados.schema.json",
+  "id": "TRF6/belo-horizonte",
+  "escopo": "comarca",
+  "tribunal": "TRF6",
+  "comarca": "Belo Horizonte",
+  "uf": "MG",
+  "ibge": 3106200,
+  "observacao": "Sede do TRF6 e Subseção Judiciária de Belo Horizonte. Feriados religiosos municipais da Lei 11.397/2022 (citada na Portaria Presi 1/2026). Data magna de MG (21/04) coincide com Tiradentes.",
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2025,
+    2026
+  ],
+  "regras": [
+    {
+      "nome": "Corpus Christi",
+      "tipo": "feriado",
+      "quando": {
+        "pascoa": 60
+      },
+      "fonte": "Lei municipal de Belo Horizonte 11.397/2022, art. 2º e Anexo V (antes Lei 1.327/1967) (citada na Portaria Presi TRF6 1/2026)",
+      "url": "https://www.cmbh.mg.gov.br/atividade-legislativa/pesquisar-legislacao/lei/11397/2022"
+    },
+    {
+      "nome": "Assunção de Nossa Senhora",
+      "tipo": "feriado",
+      "quando": {
+        "dia": "08-15"
+      },
+      "fonte": "Lei municipal de Belo Horizonte 11.397/2022, art. 2º e Anexo V (antes Lei 1.327/1967) (citada na Portaria Presi TRF6 1/2026)",
+      "url": "https://www.cmbh.mg.gov.br/atividade-legislativa/pesquisar-legislacao/lei/11397/2022"
+    },
+    {
+      "nome": "Imaculada Conceição",
+      "tipo": "feriado",
+      "quando": {
+        "dia": "12-08"
+      },
+      "fonte": "Lei municipal de Belo Horizonte 11.397/2022, art. 2º e Anexo V (antes Lei 1.327/1967) (citada na Portaria Presi TRF6 1/2026)",
+      "url": "https://www.cmbh.mg.gov.br/atividade-legislativa/pesquisar-legislacao/lei/11397/2022"
+    }
+  ],
+  "datas": [
+    {
+      "data": "2025-02-28",
+      "nome": "Expediente suspenso (blocos de Carnaval)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria Presi TRF6 73/2025, arts. 1º e 3º (Tribunal e Subseção de Belo Horizonte)",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2025/02/SEI_1137033_Portaria_Presi_73.pdf"
+    },
+    {
+      "data": "2025-06-19",
+      "nome": "Corpus Christi",
+      "tipo": "feriado",
+      "fonte": "Lei municipal de Belo Horizonte 11.397/2022; Portaria Presi TRF6 311/2024 (consolidada, alterada pela 107/2025), arts. 1º, VII, e 2º",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2025/04/PDF-0017096-41.2024.4.06.8000.pdf"
+    },
+    {
+      "data": "2025-08-15",
+      "nome": "Assunção de Nossa Senhora",
+      "tipo": "feriado",
+      "fonte": "Lei municipal de Belo Horizonte 11.397/2022; Portaria Presi TRF6 311/2024 (consolidada, alterada pela 107/2025), art. 2º",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2025/04/PDF-0017096-41.2024.4.06.8000.pdf"
+    },
+    {
+      "data": "2026-02-13",
+      "nome": "Expediente presencial suspenso (blocos de Carnaval) e prazos suspensos",
+      "tipo": "suspensao_prazos",
+      "fonte": "Portaria Conjunta PRESI/COGER TRF6 3/2026 (Tribunal e Subseção de Belo Horizonte; CPC, art. 221)",
+      "url": "https://portal.trf6.jus.br/trf6-suspende-expediente-presencial-na-sexta-feira-13-2-e-decreta-ponto-facultativo-na-quarta-feira-de-cinzas-18-2/"
+    },
+    {
+      "data": "2026-06-04",
+      "nome": "Corpus Christi",
+      "tipo": "feriado",
+      "fonte": "Lei municipal de Belo Horizonte 11.397/2022; Portaria Presi TRF6 1/2026, arts. 1º, VIII, e 2º",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2026/01/SEI_1571312_Portaria_Presi_1.pdf"
+    },
+    {
+      "data": "2026-08-15",
+      "nome": "Assunção de Nossa Senhora",
+      "tipo": "feriado",
+      "fonte": "Lei municipal de Belo Horizonte 11.397/2022; Portaria Presi TRF6 1/2026, art. 2º",
+      "url": "https://portal.trf6.jus.br/wp-content/uploads/2026/01/SEI_1571312_Portaria_Presi_1.pdf"
+    }
+  ]
+}

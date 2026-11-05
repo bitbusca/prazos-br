@@ -1,0 +1,42 @@
+{
+  "$schema": "../../../../schema/feriados.schema.json",
+  "id": "TRF4/curitiba",
+  "escopo": "comarca",
+  "tribunal": "TRF4",
+  "comarca": "Curitiba",
+  "uf": "PR",
+  "ibge": 4106902,
+  "observacao": "Sede da Seção Judiciária do Paraná. Feriados municipais do calendário 2026 da JFPR e suspensões que valeram para toda a SJPR achadas nos avisos do TRF4. Ano não marcado como conferido: os avisos da JFPR não foram varridos por inteiro e a lei municipal não foi conferida no site oficial do município.",
+  "atualizadoEm": "2026-11-05",
+  "regras": [],
+  "datas": [
+    {
+      "data": "2026-01-09",
+      "nome": "Suspensão de prazos em toda a SJPR (instabilidade de sistemas)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Portaria JFPR 18/2026",
+      "url": "https://www.trf4.jus.br/trf4/controlador.php?acao=aviso_visualizar&id_aviso=4337"
+    },
+    {
+      "data": "2026-06-04",
+      "nome": "Corpus Christi",
+      "tipo": "feriado",
+      "fonte": "Decreto Legislativo Municipal 2.385/2025; Calendário de Feriados 2026 da Justiça Federal da 4ª Região (Portaria TRF4 1.064/2022)",
+      "url": "https://www.trf4.jus.br/trf4/controlador.php?acao=calendario_feriados_listar&selOrgao=4"
+    },
+    {
+      "data": "2026-09-08",
+      "nome": "Nossa Senhora da Luz dos Pinhais, padroeira de Curitiba",
+      "tipo": "feriado",
+      "fonte": "Decreto Legislativo Municipal 2.385/2025; Calendário de Feriados 2026 da Justiça Federal da 4ª Região (Portaria TRF4 1.064/2022)",
+      "url": "https://www.trf4.jus.br/trf4/controlador.php?acao=calendario_feriados_listar&selOrgao=4"
+    },
+    {
+      "data": "2026-09-22",
+      "nome": "Suspensão de prazos na JF do PR (temporais)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Portaria TRF4 830/2026",
+      "url": "https://www.trf4.jus.br/trf4/upload/editor/2026/mrc88_sei_8646975_portaria_830.pdf"
+    }
+  ]
+}

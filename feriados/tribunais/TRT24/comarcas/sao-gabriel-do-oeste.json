@@ -1,0 +1,30 @@
+{
+  "$schema": "../../../../schema/feriados.schema.json",
+  "id": "TRT24/sao-gabriel-do-oeste",
+  "escopo": "comarca",
+  "tribunal": "TRT24",
+  "comarca": "São Gabriel do Oeste",
+  "uf": "MS",
+  "ibge": 5007695,
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2026
+  ],
+  "regras": [],
+  "datas": [
+    {
+      "data": "2026-05-12",
+      "nome": "Aniversário de São Gabriel do Oeste",
+      "tipo": "feriado",
+      "fonte": "Lei 273/1994; Calendário oficial TRT24 2026 - Portaria TRT/GP/SGJ 51/2025 e alterações",
+      "url": "https://www.trt24.jus.br/web/guest/calendario"
+    },
+    {
+      "data": "2026-09-29",
+      "nome": "Padroeira de São Gabriel do Oeste",
+      "tipo": "feriado",
+      "fonte": "Lei 273/1994; Calendário oficial TRT24 2026 - Portaria TRT/GP/SGJ 51/2025 e alterações",
+      "url": "https://www.trt24.jus.br/web/guest/calendario"
+    }
+  ]
+}

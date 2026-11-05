@@ -1,0 +1,29 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  testes:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: [18, 20, 22, 24]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+          cache: npm
+      - run: npm ci
+      - name: Dados embutidos em dia com os JSON
+        run: npm run dados:verificar
+      - run: npm run build
+      - run: npm test
+      - name: CLI de ponta a ponta
+        run: node dist/esm/cli.js 15 --de 2026-11-05 --tribunal TJMS

@@ -1,0 +1,310 @@
+{
+  "$schema": "../../../schema/feriados.schema.json",
+  "id": "TRT15",
+  "escopo": "tribunal",
+  "nome": "Tribunal Regional do Trabalho da 15ª Região (Campinas)",
+  "tribunal": "TRT15",
+  "uf": "SP",
+  "observacao": "Datas de 2026 transcritas do anexo da Portaria GP-CR 016/2025 (republicada por erro material) e das Portarias GP-CR 015/2025 (prazos suspensos de 21 a 23/01), 005/2026 (24/06) e 007/2026 (29/06). O anexo lista só dias úteis; fins de semana do recesso vêm da Lei 5.010/1966. ATENÇÃO: em 2026 o Dia dos Cursos Jurídicos foi transferido para 10/08, então 11/08/2026 teve expediente normal; o dia está cadastrado como expediente_normal, que anula ali a regra da Lei 5.010/1966 (ramos/justica-federal.json). Não cobre: feriados municipais das demais sedes de Vara (Portaria CR 2/2025, não localizada) e suspensões locais (ex.: Ubatuba, Portaria GP-CR 002/2026). 2025 não conferido.",
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2026
+  ],
+  "comarcas": [
+    "Campinas"
+  ],
+  "regras": [
+    {
+      "nome": "Data Magna do Estado de São Paulo",
+      "tipo": "feriado",
+      "quando": {
+        "dia": "07-09"
+      },
+      "desde": 1997,
+      "fonte": "Lei estadual 9.497/1997, art. 1º (citada na Portaria GP-CR 016/2025 do TRT15)",
+      "url": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1997/lei-9497-05.03.1997.html"
+    }
+  ],
+  "datas": [
+    {
+      "data": "2026-01-01",
+      "nome": "Confraternização Universal / Recesso",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; Lei 5.010/1966, art. 62, I; Portaria GP-CR 016/2025 (TRT15), anexo republicado",
+      "url": "https://trt15.jus.br/sites/portal/files/fields/normas-institucionais/anexos/2025/anexo_portaria-gp-cr-no-0162025_id50386.pdf"
+    },
+    {
+      "data": "2026-01-02",
+      "nome": "Recesso",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria GP-CR 016/2025 (TRT15), anexo republicado",
+      "url": "https://trt15.jus.br/sites/portal/files/fields/normas-institucionais/anexos/2025/anexo_portaria-gp-cr-no-0162025_id50386.pdf"
+    },
+    {
+      "data": "2026-01-05",
+      "nome": "Recesso",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria GP-CR 016/2025 (TRT15), anexo republicado",
+      "url": "https://trt15.jus.br/sites/portal/files/fields/normas-institucionais/anexos/2025/anexo_portaria-gp-cr-no-0162025_id50386.pdf"
+    },
+    {
+      "data": "2026-01-06",
+      "nome": "Recesso",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria GP-CR 016/2025 (TRT15), anexo republicado",
+      "url": "https://trt15.jus.br/sites/portal/files/fields/normas-institucionais/anexos/2025/anexo_portaria-gp-cr-no-0162025_id50386.pdf"
+    },
+    {
+      "data": "2026-01-21",
+      "nome": "Suspensão dos prazos processuais (período posterior ao recesso)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Portaria GP-CR 015/2025 (TRT15): suspensão dos prazos de 21 a 23/01/2026",
+      "url": "https://trt15.jus.br/legislacao/normas-institucionais/portarias/portaria-gp-cr-no-0152025"
+    },
+    {
+      "data": "2026-01-22",
+      "nome": "Suspensão dos prazos processuais (período posterior ao recesso)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Portaria GP-CR 015/2025 (TRT15): suspensão dos prazos de 21 a 23/01/2026",
+      "url": "https://trt15.jus.br/legislacao/normas-institucionais/portarias/portaria-gp-cr-no-0152025"
+    },
+    {
+      "data": "2026-01-23",
+      "nome": "Suspensão dos prazos processuais (período posterior ao recesso)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Portaria GP-CR 015/2025 (TRT15): suspensão dos prazos de 21 a 23/01/2026",
+      "url": "https://trt15.jus.br/legislacao/normas-institucionais/portarias/portaria-gp-cr-no-0152025"
+    },
+    {
+      "data": "2026-02-16",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, III; Portaria GP-CR 016/2025 (TRT15), anexo republicado",
+      "url": "https://trt15.jus.br/sites/portal/files/fields/normas-institucionais/anexos/2025/anexo_portaria-gp-cr-no-0162025_id50386.pdf"
+    },
+    {
+      "data": "2026-02-17",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, III; Portaria GP-CR 016/2025 (TRT15), anexo republicado",
+      "url": "https://trt15.jus.br/sites/portal/files/fields/normas-institucionais/anexos/2025/anexo_portaria-gp-cr-no-0162025_id50386.pdf"
+    },
+    {
+      "data": "2026-02-18",
+      "nome": "Quarta-feira de Cinzas (suspensão de expediente)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria GP-CR 016/2025 (TRT15), anexo republicado",
+      "url": "https://trt15.jus.br/sites/portal/files/fields/normas-institucionais/anexos/2025/anexo_portaria-gp-cr-no-0162025_id50386.pdf"
+    },
+    {
+      "data": "2026-04-01",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, II; Portaria GP-CR 016/2025 (TRT15), anexo republicado",
+      "url": "https://trt15.jus.br/sites/portal/files/fields/normas-institucionais/anexos/2025/anexo_portaria-gp-cr-no-0162025_id50386.pdf"
+    },
+    {
+      "data": "2026-04-02",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, II; Portaria GP-CR 016/2025 (TRT15), anexo republicado",
+      "url": "https://trt15.jus.br/sites/portal/files/fields/normas-institucionais/anexos/2025/anexo_portaria-gp-cr-no-0162025_id50386.pdf"
+    },
+    {
+      "data": "2026-04-03",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, II; Portaria GP-CR 016/2025 (TRT15), anexo republicado",
+      "url": "https://trt15.jus.br/sites/portal/files/fields/normas-institucionais/anexos/2025/anexo_portaria-gp-cr-no-0162025_id50386.pdf"
+    },
+    {
+      "data": "2026-04-20",
+      "nome": "Suspensão de expediente",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria GP-CR 016/2025 (TRT15), anexo republicado",
+      "url": "https://trt15.jus.br/sites/portal/files/fields/normas-institucionais/anexos/2025/anexo_portaria-gp-cr-no-0162025_id50386.pdf"
+    },
+    {
+      "data": "2026-04-21",
+      "nome": "Tiradentes",
+      "tipo": "feriado",
+      "fonte": "Lei 10.607/2002; Portaria GP-CR 016/2025 (TRT15), anexo republicado",
+      "url": "https://trt15.jus.br/sites/portal/files/fields/normas-institucionais/anexos/2025/anexo_portaria-gp-cr-no-0162025_id50386.pdf"
+    },
+    {
+      "data": "2026-05-01",
+      "nome": "Dia do Trabalho",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; Portaria GP-CR 016/2025 (TRT15), anexo republicado",
+      "url": "https://trt15.jus.br/sites/portal/files/fields/normas-institucionais/anexos/2025/anexo_portaria-gp-cr-no-0162025_id50386.pdf"
+    },
+    {
+      "data": "2026-06-04",
+      "nome": "Corpus Christi",
+      "tipo": "feriado",
+      "fonte": "Lei 9.093/1995 c/c Lei municipal 3.902/1970; Portaria GP-CR 016/2025 (TRT15), anexo republicado",
+      "url": "https://trt15.jus.br/sites/portal/files/fields/normas-institucionais/anexos/2025/anexo_portaria-gp-cr-no-0162025_id50386.pdf"
+    },
+    {
+      "data": "2026-06-05",
+      "nome": "Suspensão de expediente",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria GP-CR 016/2025 (TRT15), anexo republicado",
+      "url": "https://trt15.jus.br/sites/portal/files/fields/normas-institucionais/anexos/2025/anexo_portaria-gp-cr-no-0162025_id50386.pdf"
+    },
+    {
+      "data": "2026-06-24",
+      "nome": "Jogo do Brasil na Copa do Mundo: expediente das 11h às 17h",
+      "tipo": "expediente_reduzido",
+      "fonte": "Portaria GP-CR 005/2026 (TRT15): expediente das 11h às 17h; prazos que começam ou vencem no dia prorrogados (CPC, art. 224, § 1º)",
+      "url": "https://trt15.jus.br/legislacao/normas-institucionais/portarias/portaria-gp-cr-no-0052026"
+    },
+    {
+      "data": "2026-06-29",
+      "nome": "Jogo do Brasil na Copa do Mundo: expediente das 8h às 12h",
+      "tipo": "expediente_reduzido",
+      "fonte": "Portaria GP-CR 007/2026 (TRT15): expediente das 8h às 12h; prazos que começam ou vencem no dia prorrogados (CPC, art. 224, § 1º)",
+      "url": "https://trt15.jus.br/legislacao/normas-institucionais/portarias/portaria-gp-cr-no-0072026"
+    },
+    {
+      "data": "2026-07-09",
+      "nome": "Data Magna do Estado de São Paulo",
+      "tipo": "feriado",
+      "fonte": "Lei estadual 9.497/1997; Portaria GP-CR 016/2025 (TRT15), anexo republicado",
+      "url": "https://trt15.jus.br/sites/portal/files/fields/normas-institucionais/anexos/2025/anexo_portaria-gp-cr-no-0162025_id50386.pdf"
+    },
+    {
+      "data": "2026-07-10",
+      "nome": "Suspensão de expediente",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria GP-CR 016/2025 (TRT15), anexo republicado",
+      "url": "https://trt15.jus.br/sites/portal/files/fields/normas-institucionais/anexos/2025/anexo_portaria-gp-cr-no-0162025_id50386.pdf"
+    },
+    {
+      "data": "2026-08-10",
+      "nome": "Dia da Instalação dos Cursos Jurídicos (transferido de 11/08)",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, IV; Portaria GP-CR 016/2025 (TRT15), anexo republicado",
+      "url": "https://trt15.jus.br/sites/portal/files/fields/normas-institucionais/anexos/2025/anexo_portaria-gp-cr-no-0162025_id50386.pdf"
+    },
+    {
+      "data": "2026-08-11",
+      "nome": "Expediente normal (Dia dos Cursos Jurídicos transferido para 10/08)",
+      "tipo": "expediente_normal",
+      "fonte": "Portaria GP-CR 016/2025 (TRT15), anexo republicado: transfere o feriado da Lei 5.010/1966, art. 62, IV, para 10/08",
+      "url": "https://trt15.jus.br/sites/portal/files/fields/normas-institucionais/anexos/2025/anexo_portaria-gp-cr-no-0162025_id50386.pdf"
+    },
+    {
+      "data": "2026-09-07",
+      "nome": "Independência do Brasil",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; Portaria GP-CR 016/2025 (TRT15), anexo republicado",
+      "url": "https://trt15.jus.br/sites/portal/files/fields/normas-institucionais/anexos/2025/anexo_portaria-gp-cr-no-0162025_id50386.pdf"
+    },
+    {
+      "data": "2026-10-12",
+      "nome": "Nossa Senhora Aparecida",
+      "tipo": "feriado",
+      "fonte": "Lei 6.802/1980; Portaria GP-CR 016/2025 (TRT15), anexo republicado",
+      "url": "https://trt15.jus.br/sites/portal/files/fields/normas-institucionais/anexos/2025/anexo_portaria-gp-cr-no-0162025_id50386.pdf"
+    },
+    {
+      "data": "2026-10-30",
+      "nome": "Dia do Servidor Público (transferido de 28/10)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Lei 8.112/1990, art. 236; Portaria GP-CR 016/2025 (TRT15), anexo republicado",
+      "url": "https://trt15.jus.br/sites/portal/files/fields/normas-institucionais/anexos/2025/anexo_portaria-gp-cr-no-0162025_id50386.pdf"
+    },
+    {
+      "data": "2026-11-02",
+      "nome": "Dia de Finados",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; Lei 5.010/1966, art. 62, IV; Portaria GP-CR 016/2025 (TRT15), anexo republicado",
+      "url": "https://trt15.jus.br/sites/portal/files/fields/normas-institucionais/anexos/2025/anexo_portaria-gp-cr-no-0162025_id50386.pdf"
+    },
+    {
+      "data": "2026-11-20",
+      "nome": "Dia da Consciência Negra",
+      "tipo": "feriado",
+      "fonte": "Lei 14.759/2023; Portaria GP-CR 016/2025 (TRT15), anexo republicado",
+      "url": "https://trt15.jus.br/sites/portal/files/fields/normas-institucionais/anexos/2025/anexo_portaria-gp-cr-no-0162025_id50386.pdf"
+    },
+    {
+      "data": "2026-12-07",
+      "nome": "Suspensão de expediente",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria GP-CR 016/2025 (TRT15), anexo republicado",
+      "url": "https://trt15.jus.br/sites/portal/files/fields/normas-institucionais/anexos/2025/anexo_portaria-gp-cr-no-0162025_id50386.pdf"
+    },
+    {
+      "data": "2026-12-08",
+      "nome": "Dia da Justiça",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966, art. 62, IV; Portaria GP-CR 016/2025 (TRT15), anexo republicado",
+      "url": "https://trt15.jus.br/sites/portal/files/fields/normas-institucionais/anexos/2025/anexo_portaria-gp-cr-no-0162025_id50386.pdf"
+    },
+    {
+      "data": "2026-12-21",
+      "nome": "Recesso",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria GP-CR 016/2025 (TRT15), anexo republicado",
+      "url": "https://trt15.jus.br/sites/portal/files/fields/normas-institucionais/anexos/2025/anexo_portaria-gp-cr-no-0162025_id50386.pdf"
+    },
+    {
+      "data": "2026-12-22",
+      "nome": "Recesso",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria GP-CR 016/2025 (TRT15), anexo republicado",
+      "url": "https://trt15.jus.br/sites/portal/files/fields/normas-institucionais/anexos/2025/anexo_portaria-gp-cr-no-0162025_id50386.pdf"
+    },
+    {
+      "data": "2026-12-23",
+      "nome": "Recesso",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria GP-CR 016/2025 (TRT15), anexo republicado",
+      "url": "https://trt15.jus.br/sites/portal/files/fields/normas-institucionais/anexos/2025/anexo_portaria-gp-cr-no-0162025_id50386.pdf"
+    },
+    {
+      "data": "2026-12-24",
+      "nome": "Recesso",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria GP-CR 016/2025 (TRT15), anexo republicado",
+      "url": "https://trt15.jus.br/sites/portal/files/fields/normas-institucionais/anexos/2025/anexo_portaria-gp-cr-no-0162025_id50386.pdf"
+    },
+    {
+      "data": "2026-12-25",
+      "nome": "Natal / Recesso",
+      "tipo": "feriado",
+      "fonte": "Lei 662/1949; Lei 5.010/1966, art. 62, I; Portaria GP-CR 016/2025 (TRT15), anexo republicado",
+      "url": "https://trt15.jus.br/sites/portal/files/fields/normas-institucionais/anexos/2025/anexo_portaria-gp-cr-no-0162025_id50386.pdf"
+    },
+    {
+      "data": "2026-12-28",
+      "nome": "Recesso",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria GP-CR 016/2025 (TRT15), anexo republicado",
+      "url": "https://trt15.jus.br/sites/portal/files/fields/normas-institucionais/anexos/2025/anexo_portaria-gp-cr-no-0162025_id50386.pdf"
+    },
+    {
+      "data": "2026-12-29",
+      "nome": "Recesso",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria GP-CR 016/2025 (TRT15), anexo republicado",
+      "url": "https://trt15.jus.br/sites/portal/files/fields/normas-institucionais/anexos/2025/anexo_portaria-gp-cr-no-0162025_id50386.pdf"
+    },
+    {
+      "data": "2026-12-30",
+      "nome": "Recesso",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria GP-CR 016/2025 (TRT15), anexo republicado",
+      "url": "https://trt15.jus.br/sites/portal/files/fields/normas-institucionais/anexos/2025/anexo_portaria-gp-cr-no-0162025_id50386.pdf"
+    },
+    {
+      "data": "2026-12-31",
+      "nome": "Recesso",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I; Portaria GP-CR 016/2025 (TRT15), anexo republicado",
+      "url": "https://trt15.jus.br/sites/portal/files/fields/normas-institucionais/anexos/2025/anexo_portaria-gp-cr-no-0162025_id50386.pdf"
+    }
+  ]
+}

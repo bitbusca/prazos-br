@@ -1,0 +1,319 @@
+{
+  "$schema": "../../../schema/feriados.schema.json",
+  "id": "TRF5",
+  "escopo": "tribunal",
+  "nome": "Tribunal Regional Federal da 5ª Região",
+  "tribunal": "TRF5",
+  "observacao": "2026 conferido no Ato da Presidência 626/2025, reeditado pelo Ato 219/2026 (retificado pelo Ato 230/2026), e no Ato 321/2026 (prazos do PJe 2.x suspensos de 6 a 10/07/2026). Aqui ficam só os dias que valem na região toda; a Data Magna de PE (06/03), São João (24/06), a véspera de São João (23/06, ponto facultativo do ato, que a SJAL não adota) e N. Sra. do Carmo (16/07) estão em comarcas/recife.json. Em 13/02 e 31/12 o expediente foi só por teletrabalho (não é dia sem expediente); em 29/06 (Ato 290/2026, jogo da Seleção) houve trabalho remoto sem suspensão de prazos. O Ato manda prorrogar para 19/02 os prazos do Carnaval. Seções Judiciárias (AL, CE, PB, RN, SE e interior de PE) publicam portaria própria com feriados municipais e estaduais: não cadastradas. 2025 não transcrito.",
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2026
+  ],
+  "comarcas": [
+    "Recife"
+  ],
+  "regras": [],
+  "datas": [
+    {
+      "data": "2026-01-01",
+      "nome": "Recesso judiciário",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Ato TRF5 626/2025, reeditado pelo Ato 219/2026 (retificado pelo Ato 230/2026), art. 1º",
+      "url": "https://www4.trf5.jus.br/comunicacao-social/anexo/114878"
+    },
+    {
+      "data": "2026-01-02",
+      "nome": "Recesso judiciário",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Ato TRF5 626/2025, reeditado pelo Ato 219/2026 (retificado pelo Ato 230/2026), art. 1º",
+      "url": "https://www4.trf5.jus.br/comunicacao-social/anexo/114878"
+    },
+    {
+      "data": "2026-01-03",
+      "nome": "Recesso judiciário",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Ato TRF5 626/2025, reeditado pelo Ato 219/2026 (retificado pelo Ato 230/2026), art. 1º",
+      "url": "https://www4.trf5.jus.br/comunicacao-social/anexo/114878"
+    },
+    {
+      "data": "2026-01-04",
+      "nome": "Recesso judiciário",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Ato TRF5 626/2025, reeditado pelo Ato 219/2026 (retificado pelo Ato 230/2026), art. 1º",
+      "url": "https://www4.trf5.jus.br/comunicacao-social/anexo/114878"
+    },
+    {
+      "data": "2026-01-05",
+      "nome": "Recesso judiciário",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Ato TRF5 626/2025, reeditado pelo Ato 219/2026 (retificado pelo Ato 230/2026), art. 1º",
+      "url": "https://www4.trf5.jus.br/comunicacao-social/anexo/114878"
+    },
+    {
+      "data": "2026-01-06",
+      "nome": "Recesso judiciário",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Ato TRF5 626/2025, reeditado pelo Ato 219/2026 (retificado pelo Ato 230/2026), art. 1º",
+      "url": "https://www4.trf5.jus.br/comunicacao-social/anexo/114878"
+    },
+    {
+      "data": "2026-02-16",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966; Ato TRF5 626/2025, reeditado pelo Ato 219/2026 (retificado pelo Ato 230/2026), art. 1º",
+      "url": "https://www4.trf5.jus.br/comunicacao-social/anexo/114878"
+    },
+    {
+      "data": "2026-02-17",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966; Ato TRF5 626/2025, reeditado pelo Ato 219/2026 (retificado pelo Ato 230/2026), art. 1º",
+      "url": "https://www4.trf5.jus.br/comunicacao-social/anexo/114878"
+    },
+    {
+      "data": "2026-02-18",
+      "nome": "Quarta-feira de Cinzas",
+      "tipo": "ponto_facultativo",
+      "fonte": "Ato TRF5 626/2025, reeditado pelo Ato 219/2026 (retificado pelo Ato 230/2026), art. 2º",
+      "url": "https://www4.trf5.jus.br/comunicacao-social/anexo/114878"
+    },
+    {
+      "data": "2026-04-01",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966; Ato TRF5 626/2025, reeditado pelo Ato 219/2026 (retificado pelo Ato 230/2026), art. 1º",
+      "url": "https://www4.trf5.jus.br/comunicacao-social/anexo/114878"
+    },
+    {
+      "data": "2026-04-02",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966; Ato TRF5 626/2025, reeditado pelo Ato 219/2026 (retificado pelo Ato 230/2026), art. 1º",
+      "url": "https://www4.trf5.jus.br/comunicacao-social/anexo/114878"
+    },
+    {
+      "data": "2026-04-03",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966; Ato TRF5 626/2025, reeditado pelo Ato 219/2026 (retificado pelo Ato 230/2026), art. 1º",
+      "url": "https://www4.trf5.jus.br/comunicacao-social/anexo/114878"
+    },
+    {
+      "data": "2026-04-04",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966; Ato TRF5 626/2025, reeditado pelo Ato 219/2026 (retificado pelo Ato 230/2026), art. 1º",
+      "url": "https://www4.trf5.jus.br/comunicacao-social/anexo/114878"
+    },
+    {
+      "data": "2026-04-05",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966; Ato TRF5 626/2025, reeditado pelo Ato 219/2026 (retificado pelo Ato 230/2026), art. 1º",
+      "url": "https://www4.trf5.jus.br/comunicacao-social/anexo/114878"
+    },
+    {
+      "data": "2026-04-21",
+      "nome": "Tiradentes",
+      "tipo": "feriado",
+      "fonte": "Lei 10.607/2002; Ato TRF5 626/2025, reeditado pelo Ato 219/2026 (retificado pelo Ato 230/2026), art. 1º",
+      "url": "https://www4.trf5.jus.br/comunicacao-social/anexo/114878"
+    },
+    {
+      "data": "2026-05-01",
+      "nome": "Dia do Trabalho",
+      "tipo": "feriado",
+      "fonte": "Lei 10.607/2002; Ato TRF5 626/2025, reeditado pelo Ato 219/2026 (retificado pelo Ato 230/2026), art. 1º",
+      "url": "https://www4.trf5.jus.br/comunicacao-social/anexo/114878"
+    },
+    {
+      "data": "2026-06-04",
+      "nome": "Corpus Christi",
+      "tipo": "ponto_facultativo",
+      "fonte": "Ato TRF5 626/2025, reeditado pelo Ato 219/2026 (retificado pelo Ato 230/2026), art. 2º",
+      "url": "https://www4.trf5.jus.br/comunicacao-social/anexo/114878"
+    },
+    {
+      "data": "2026-07-06",
+      "nome": "Suspensão dos prazos dos processos no PJe 2.x (atualização do sistema; não vale para o PJe 1.x)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Ato TRF5 321/2026, art. 1º",
+      "url": "https://www.jfal.jus.br/noticias/6899/Ato_da_Presidencia_321.pdf"
+    },
+    {
+      "data": "2026-07-07",
+      "nome": "Suspensão dos prazos dos processos no PJe 2.x (atualização do sistema; não vale para o PJe 1.x)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Ato TRF5 321/2026, art. 1º",
+      "url": "https://www.jfal.jus.br/noticias/6899/Ato_da_Presidencia_321.pdf"
+    },
+    {
+      "data": "2026-07-08",
+      "nome": "Suspensão dos prazos dos processos no PJe 2.x (atualização do sistema; não vale para o PJe 1.x)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Ato TRF5 321/2026, art. 1º",
+      "url": "https://www.jfal.jus.br/noticias/6899/Ato_da_Presidencia_321.pdf"
+    },
+    {
+      "data": "2026-07-09",
+      "nome": "Suspensão dos prazos dos processos no PJe 2.x (atualização do sistema; não vale para o PJe 1.x)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Ato TRF5 321/2026, art. 1º",
+      "url": "https://www.jfal.jus.br/noticias/6899/Ato_da_Presidencia_321.pdf"
+    },
+    {
+      "data": "2026-07-10",
+      "nome": "Suspensão dos prazos dos processos no PJe 2.x (atualização do sistema; não vale para o PJe 1.x)",
+      "tipo": "suspensao_prazos",
+      "fonte": "Ato TRF5 321/2026, art. 1º",
+      "url": "https://www.jfal.jus.br/noticias/6899/Ato_da_Presidencia_321.pdf"
+    },
+    {
+      "data": "2026-08-11",
+      "nome": "Criação dos Cursos Jurídicos",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966; Ato TRF5 626/2025, reeditado pelo Ato 219/2026 (retificado pelo Ato 230/2026), art. 1º",
+      "url": "https://www4.trf5.jus.br/comunicacao-social/anexo/114878"
+    },
+    {
+      "data": "2026-09-07",
+      "nome": "Independência do Brasil",
+      "tipo": "feriado",
+      "fonte": "Lei 10.607/2002; Ato TRF5 626/2025, reeditado pelo Ato 219/2026 (retificado pelo Ato 230/2026), art. 1º",
+      "url": "https://www4.trf5.jus.br/comunicacao-social/anexo/114878"
+    },
+    {
+      "data": "2026-10-12",
+      "nome": "Nossa Senhora Aparecida",
+      "tipo": "feriado",
+      "fonte": "Lei 6.802/1980; Ato TRF5 626/2025, reeditado pelo Ato 219/2026 (retificado pelo Ato 230/2026), art. 1º",
+      "url": "https://www4.trf5.jus.br/comunicacao-social/anexo/114878"
+    },
+    {
+      "data": "2026-10-28",
+      "nome": "Dia do Servidor Público",
+      "tipo": "ponto_facultativo",
+      "fonte": "Lei 8.112/1990, art. 236; Ato TRF5 626/2025, reeditado pelo Ato 219/2026 (retificado pelo Ato 230/2026), art. 2º",
+      "url": "https://www4.trf5.jus.br/comunicacao-social/anexo/114878"
+    },
+    {
+      "data": "2026-11-01",
+      "nome": "Dia de Todos os Santos",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966; Ato TRF5 626/2025, reeditado pelo Ato 219/2026 (retificado pelo Ato 230/2026), art. 1º",
+      "url": "https://www4.trf5.jus.br/comunicacao-social/anexo/114878"
+    },
+    {
+      "data": "2026-11-02",
+      "nome": "Finados",
+      "tipo": "feriado",
+      "fonte": "Lei 5.010/1966; Ato TRF5 626/2025, reeditado pelo Ato 219/2026 (retificado pelo Ato 230/2026), art. 1º",
+      "url": "https://www4.trf5.jus.br/comunicacao-social/anexo/114878"
+    },
+    {
+      "data": "2026-11-15",
+      "nome": "Proclamação da República",
+      "tipo": "feriado",
+      "fonte": "Lei 10.607/2002; Ato TRF5 626/2025, reeditado pelo Ato 219/2026 (retificado pelo Ato 230/2026), art. 1º",
+      "url": "https://www4.trf5.jus.br/comunicacao-social/anexo/114878"
+    },
+    {
+      "data": "2026-11-20",
+      "nome": "Dia Nacional de Zumbi e da Consciência Negra",
+      "tipo": "feriado",
+      "fonte": "Lei 14.759/2023; Ato TRF5 626/2025, reeditado pelo Ato 219/2026 (retificado pelo Ato 230/2026), art. 1º",
+      "url": "https://www4.trf5.jus.br/comunicacao-social/anexo/114878"
+    },
+    {
+      "data": "2026-12-08",
+      "nome": "Dia da Justiça",
+      "tipo": "feriado",
+      "fonte": "Lei 6.741/1979; Ato TRF5 626/2025, reeditado pelo Ato 219/2026 (retificado pelo Ato 230/2026), art. 1º",
+      "url": "https://www4.trf5.jus.br/comunicacao-social/anexo/114878"
+    },
+    {
+      "data": "2026-12-20",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Ato TRF5 626/2025, reeditado pelo Ato 219/2026 (retificado pelo Ato 230/2026), art. 1º",
+      "url": "https://www4.trf5.jus.br/comunicacao-social/anexo/114878"
+    },
+    {
+      "data": "2026-12-21",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Ato TRF5 626/2025, reeditado pelo Ato 219/2026 (retificado pelo Ato 230/2026), art. 1º",
+      "url": "https://www4.trf5.jus.br/comunicacao-social/anexo/114878"
+    },
+    {
+      "data": "2026-12-22",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Ato TRF5 626/2025, reeditado pelo Ato 219/2026 (retificado pelo Ato 230/2026), art. 1º",
+      "url": "https://www4.trf5.jus.br/comunicacao-social/anexo/114878"
+    },
+    {
+      "data": "2026-12-23",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Ato TRF5 626/2025, reeditado pelo Ato 219/2026 (retificado pelo Ato 230/2026), art. 1º",
+      "url": "https://www4.trf5.jus.br/comunicacao-social/anexo/114878"
+    },
+    {
+      "data": "2026-12-24",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Ato TRF5 626/2025, reeditado pelo Ato 219/2026 (retificado pelo Ato 230/2026), art. 1º",
+      "url": "https://www4.trf5.jus.br/comunicacao-social/anexo/114878"
+    },
+    {
+      "data": "2026-12-25",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Ato TRF5 626/2025, reeditado pelo Ato 219/2026 (retificado pelo Ato 230/2026), art. 1º",
+      "url": "https://www4.trf5.jus.br/comunicacao-social/anexo/114878"
+    },
+    {
+      "data": "2026-12-26",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Ato TRF5 626/2025, reeditado pelo Ato 219/2026 (retificado pelo Ato 230/2026), art. 1º",
+      "url": "https://www4.trf5.jus.br/comunicacao-social/anexo/114878"
+    },
+    {
+      "data": "2026-12-27",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Ato TRF5 626/2025, reeditado pelo Ato 219/2026 (retificado pelo Ato 230/2026), art. 1º",
+      "url": "https://www4.trf5.jus.br/comunicacao-social/anexo/114878"
+    },
+    {
+      "data": "2026-12-28",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Ato TRF5 626/2025, reeditado pelo Ato 219/2026 (retificado pelo Ato 230/2026), art. 1º",
+      "url": "https://www4.trf5.jus.br/comunicacao-social/anexo/114878"
+    },
+    {
+      "data": "2026-12-29",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Ato TRF5 626/2025, reeditado pelo Ato 219/2026 (retificado pelo Ato 230/2026), art. 1º",
+      "url": "https://www4.trf5.jus.br/comunicacao-social/anexo/114878"
+    },
+    {
+      "data": "2026-12-30",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Ato TRF5 626/2025, reeditado pelo Ato 219/2026 (retificado pelo Ato 230/2026), art. 1º",
+      "url": "https://www4.trf5.jus.br/comunicacao-social/anexo/114878"
+    },
+    {
+      "data": "2026-12-31",
+      "nome": "Recesso forense",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966; Ato TRF5 626/2025, reeditado pelo Ato 219/2026 (retificado pelo Ato 230/2026), art. 1º",
+      "url": "https://www4.trf5.jus.br/comunicacao-social/anexo/114878"
+    }
+  ]
+}

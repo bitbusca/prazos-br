@@ -1,0 +1,74 @@
+{
+  "$schema": "../../../../schema/feriados.schema.json",
+  "id": "TRF5/recife",
+  "escopo": "comarca",
+  "tribunal": "TRF5",
+  "comarca": "Recife",
+  "uf": "PE",
+  "ibge": 2611606,
+  "observacao": "Sede do TRF5 e da Seção Judiciária de Pernambuco. Dias conferidos no Ato TRF5 219/2026 (reedição do Ato 626/2025) e na Portaria da Direção do Foro da SJPE 126/2026.",
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2026
+  ],
+  "regras": [
+    {
+      "nome": "Data Magna de Pernambuco (Revolução Pernambucana de 1817)",
+      "tipo": "feriado",
+      "quando": {
+        "dia": "03-06"
+      },
+      "desde": 2018,
+      "fonte": "Lei estadual PE 16.241/2017, art. 49 (o ato do TRF5 cita a Lei estadual 13.835/2009)",
+      "url": "https://legis.alepe.pe.gov.br/texto.aspx?tiponorma=1&numero=16241&complemento=0&ano=2017&tipo=&url="
+    },
+    {
+      "nome": "São João",
+      "tipo": "feriado",
+      "quando": {
+        "dia": "06-24"
+      },
+      "fonte": "Lei municipal do Recife 9.777/1967 (citada no Ato TRF5 219/2026)",
+      "url": "https://www4.trf5.jus.br/comunicacao-social/anexo/114878"
+    },
+    {
+      "nome": "Nossa Senhora do Carmo, padroeira do Recife",
+      "tipo": "feriado",
+      "quando": {
+        "dia": "07-16"
+      },
+      "fonte": "Lei municipal do Recife 9.777/1967 (citada no Ato TRF5 219/2026)",
+      "url": "https://www4.trf5.jus.br/comunicacao-social/anexo/114878"
+    }
+  ],
+  "datas": [
+    {
+      "data": "2026-03-06",
+      "nome": "Data Magna do Estado de Pernambuco",
+      "tipo": "feriado",
+      "fonte": "Lei estadual 13.835/2009 (citada no ato); Ato TRF5 626/2025, reeditado pelo Ato 219/2026 (retificado pelo Ato 230/2026), art. 1º; Portaria SJPE 126/2026",
+      "url": "https://www4.trf5.jus.br/comunicacao-social/anexo/114878"
+    },
+    {
+      "data": "2026-06-23",
+      "nome": "Véspera de São João",
+      "tipo": "ponto_facultativo",
+      "fonte": "Ato TRF5 626/2025, reeditado pelo Ato 219/2026 (retificado pelo Ato 230/2026), art. 2º; Portaria SJPE 126/2026",
+      "url": "https://www4.trf5.jus.br/comunicacao-social/anexo/114878"
+    },
+    {
+      "data": "2026-06-24",
+      "nome": "São João",
+      "tipo": "feriado",
+      "fonte": "Lei municipal 9.777/1967; Ato TRF5 626/2025, reeditado pelo Ato 219/2026 (retificado pelo Ato 230/2026), art. 1º; Portaria SJPE 126/2026",
+      "url": "https://www4.trf5.jus.br/comunicacao-social/anexo/114878"
+    },
+    {
+      "data": "2026-07-16",
+      "nome": "Nossa Senhora do Carmo",
+      "tipo": "feriado",
+      "fonte": "Lei municipal 9.777/1967; Ato TRF5 626/2025, reeditado pelo Ato 219/2026 (retificado pelo Ato 230/2026), art. 1º; Portaria SJPE 126/2026",
+      "url": "https://jfpe.jus.br/media/templates/site/cassiopeia_jfpepaginaprincipal_secundarias_jfpe/docs_pdf/biblioteca/portarias/Portaria_126_2026.pdf"
+    }
+  ]
+}

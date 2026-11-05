@@ -1,0 +1,324 @@
+{
+  "$schema": "../../../schema/feriados.schema.json",
+  "id": "TRF1",
+  "escopo": "tribunal",
+  "nome": "Tribunal Regional Federal da 1ª Região",
+  "tribunal": "TRF1",
+  "observacao": "Datas de 2026 conferidas na Portaria Presi 5/2026 (feriados nacionais e pontos facultativos da Justiça Federal da 1ª Região) e nas Portarias Presi 368/2026 e 380/2026 (Copa do Mundo). Recesso, Semana Santa, Carnaval, 11/08, 01/11, 02/11 e 08/12 também vêm da Lei 5.010/1966 (ramos/justica-federal.json). Feriados estaduais e municipais de cada seção/subseção saem em portaria do diretor do foro (Provimento Coger 10126799): só a Seção do DF (Brasília) está cadastrada. Não cobertos: as outras 12 seções e as subseções, a suspensão de prazos só nos processos do INSS (Portarias CJF 50 e 57/2026) e as inspeções anuais por vara.",
+  "atualizadoEm": "2026-11-05",
+  "anosConferidos": [
+    2026
+  ],
+  "comarcas": [
+    "Belém",
+    "Boa Vista",
+    "Brasília",
+    "Cuiabá",
+    "Goiânia",
+    "Macapá",
+    "Manaus",
+    "Palmas",
+    "Porto Velho",
+    "Rio Branco",
+    "Salvador",
+    "São Luís",
+    "Teresina"
+  ],
+  "regras": [],
+  "datas": [
+    {
+      "data": "2026-01-01",
+      "nome": "Confraternização Universal",
+      "tipo": "feriado",
+      "fonte": "Portaria Presi 5/2026 (TRF1); Lei 10.607/2002",
+      "url": "https://www.trf1.jus.br/sjdf/conteudo/institucional/expediente-forense/2026/Portaria%20Presi%205%20-%20Divulga%20os%20dias%20de%20feriados%20nacionais%20e%20os%20dias%20de%20ponto%20facultativo%20na%20JF1.pdf"
+    },
+    {
+      "data": "2026-01-02",
+      "nome": "Recesso forense (20/12/2025 a 06/01/2026)",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l5010.htm"
+    },
+    {
+      "data": "2026-01-03",
+      "nome": "Recesso forense (20/12/2025 a 06/01/2026)",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l5010.htm"
+    },
+    {
+      "data": "2026-01-04",
+      "nome": "Recesso forense (20/12/2025 a 06/01/2026)",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l5010.htm"
+    },
+    {
+      "data": "2026-01-05",
+      "nome": "Recesso forense (20/12/2025 a 06/01/2026)",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l5010.htm"
+    },
+    {
+      "data": "2026-01-06",
+      "nome": "Recesso forense (20/12/2025 a 06/01/2026)",
+      "tipo": "recesso",
+      "fonte": "Lei 5.010/1966, art. 62, I",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l5010.htm"
+    },
+    {
+      "data": "2026-02-16",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Portaria Presi 5/2026 (TRF1); Lei 5.010/1966, art. 62, III",
+      "url": "https://www.trf1.jus.br/sjdf/conteudo/institucional/expediente-forense/2026/Portaria%20Presi%205%20-%20Divulga%20os%20dias%20de%20feriados%20nacionais%20e%20os%20dias%20de%20ponto%20facultativo%20na%20JF1.pdf"
+    },
+    {
+      "data": "2026-02-17",
+      "nome": "Carnaval",
+      "tipo": "feriado",
+      "fonte": "Portaria Presi 5/2026 (TRF1); Lei 5.010/1966, art. 62, III",
+      "url": "https://www.trf1.jus.br/sjdf/conteudo/institucional/expediente-forense/2026/Portaria%20Presi%205%20-%20Divulga%20os%20dias%20de%20feriados%20nacionais%20e%20os%20dias%20de%20ponto%20facultativo%20na%20JF1.pdf"
+    },
+    {
+      "data": "2026-02-18",
+      "nome": "Quarta-feira de Cinzas (ponto facultativo até as 14h)",
+      "tipo": "expediente_reduzido",
+      "fonte": "Portaria Presi 5/2026 (TRF1)",
+      "url": "https://www.trf1.jus.br/sjdf/conteudo/institucional/expediente-forense/2026/Portaria%20Presi%205%20-%20Divulga%20os%20dias%20de%20feriados%20nacionais%20e%20os%20dias%20de%20ponto%20facultativo%20na%20JF1.pdf"
+    },
+    {
+      "data": "2026-04-01",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Portaria Presi 5/2026 (TRF1); Lei 5.010/1966, art. 62, II",
+      "url": "https://www.trf1.jus.br/sjdf/conteudo/institucional/expediente-forense/2026/Portaria%20Presi%205%20-%20Divulga%20os%20dias%20de%20feriados%20nacionais%20e%20os%20dias%20de%20ponto%20facultativo%20na%20JF1.pdf"
+    },
+    {
+      "data": "2026-04-02",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Portaria Presi 5/2026 (TRF1); Lei 5.010/1966, art. 62, II",
+      "url": "https://www.trf1.jus.br/sjdf/conteudo/institucional/expediente-forense/2026/Portaria%20Presi%205%20-%20Divulga%20os%20dias%20de%20feriados%20nacionais%20e%20os%20dias%20de%20ponto%20facultativo%20na%20JF1.pdf"
+    },
+    {
+      "data": "2026-04-03",
+      "nome": "Semana Santa",
+      "tipo": "feriado",
+      "fonte": "Portaria Presi 5/2026 (TRF1); Lei 5.010/1966, art. 62, II",
+      "url": "https://www.trf1.jus.br/sjdf/conteudo/institucional/expediente-forense/2026/Portaria%20Presi%205%20-%20Divulga%20os%20dias%20de%20feriados%20nacionais%20e%20os%20dias%20de%20ponto%20facultativo%20na%20JF1.pdf"
+    },
+    {
+      "data": "2026-04-20",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria Presi 5/2026 (TRF1)",
+      "url": "https://www.trf1.jus.br/sjdf/conteudo/institucional/expediente-forense/2026/Portaria%20Presi%205%20-%20Divulga%20os%20dias%20de%20feriados%20nacionais%20e%20os%20dias%20de%20ponto%20facultativo%20na%20JF1.pdf"
+    },
+    {
+      "data": "2026-04-21",
+      "nome": "Tiradentes",
+      "tipo": "feriado",
+      "fonte": "Portaria Presi 5/2026 (TRF1); Lei 10.607/2002",
+      "url": "https://www.trf1.jus.br/sjdf/conteudo/institucional/expediente-forense/2026/Portaria%20Presi%205%20-%20Divulga%20os%20dias%20de%20feriados%20nacionais%20e%20os%20dias%20de%20ponto%20facultativo%20na%20JF1.pdf"
+    },
+    {
+      "data": "2026-05-01",
+      "nome": "Dia Mundial do Trabalho",
+      "tipo": "feriado",
+      "fonte": "Portaria Presi 5/2026 (TRF1); Lei 10.607/2002",
+      "url": "https://www.trf1.jus.br/sjdf/conteudo/institucional/expediente-forense/2026/Portaria%20Presi%205%20-%20Divulga%20os%20dias%20de%20feriados%20nacionais%20e%20os%20dias%20de%20ponto%20facultativo%20na%20JF1.pdf"
+    },
+    {
+      "data": "2026-06-04",
+      "nome": "Corpus Christi (ponto facultativo)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria Presi 5/2026 (TRF1)",
+      "url": "https://www.trf1.jus.br/sjdf/conteudo/institucional/expediente-forense/2026/Portaria%20Presi%205%20-%20Divulga%20os%20dias%20de%20feriados%20nacionais%20e%20os%20dias%20de%20ponto%20facultativo%20na%20JF1.pdf"
+    },
+    {
+      "data": "2026-06-05",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria Presi 5/2026 (TRF1)",
+      "url": "https://www.trf1.jus.br/sjdf/conteudo/institucional/expediente-forense/2026/Portaria%20Presi%205%20-%20Divulga%20os%20dias%20de%20feriados%20nacionais%20e%20os%20dias%20de%20ponto%20facultativo%20na%20JF1.pdf"
+    },
+    {
+      "data": "2026-06-24",
+      "nome": "Jogo do Brasil na Copa do Mundo: expediente das 9h às 16h (prazos que começariam ou venceriam no dia prorrogados)",
+      "tipo": "expediente_reduzido",
+      "fonte": "Portaria Presi 368/2026 (TRF1)",
+      "url": "https://www.trf1.jus.br/trf1/avisos/portaria-dispoe-sobre-o-horario-de-expediente-forense-e-atendimento-ao-publico-no-ambito-da-justica-federal-da-1-regiao-nos-dia-19-e-24-de-junho-em-razao-de-jogo-do-brasil-na-copa-do-mundo-de-2026"
+    },
+    {
+      "data": "2026-06-29",
+      "nome": "Ponto facultativo (jogo do Brasil na Copa do Mundo)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria Presi 380/2026 (TRF1)",
+      "url": "https://www.trf1.jus.br/trf1/avisos/decretado-ponto-facultativo-no-ambito-da-justica-federal-da-1-regiao-no-dia-29-de-junho-em-razao-de-jogo-do-brasil-na-copa-do-mundo-de-2026"
+    },
+    {
+      "data": "2026-08-10",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria Presi 5/2026 (TRF1)",
+      "url": "https://www.trf1.jus.br/sjdf/conteudo/institucional/expediente-forense/2026/Portaria%20Presi%205%20-%20Divulga%20os%20dias%20de%20feriados%20nacionais%20e%20os%20dias%20de%20ponto%20facultativo%20na%20JF1.pdf"
+    },
+    {
+      "data": "2026-08-11",
+      "nome": "Dia do Direito",
+      "tipo": "feriado",
+      "fonte": "Portaria Presi 5/2026 (TRF1); Lei 5.010/1966, art. 62, IV",
+      "url": "https://www.trf1.jus.br/sjdf/conteudo/institucional/expediente-forense/2026/Portaria%20Presi%205%20-%20Divulga%20os%20dias%20de%20feriados%20nacionais%20e%20os%20dias%20de%20ponto%20facultativo%20na%20JF1.pdf"
+    },
+    {
+      "data": "2026-09-07",
+      "nome": "Independência do Brasil",
+      "tipo": "feriado",
+      "fonte": "Portaria Presi 5/2026 (TRF1); Lei 10.607/2002",
+      "url": "https://www.trf1.jus.br/sjdf/conteudo/institucional/expediente-forense/2026/Portaria%20Presi%205%20-%20Divulga%20os%20dias%20de%20feriados%20nacionais%20e%20os%20dias%20de%20ponto%20facultativo%20na%20JF1.pdf"
+    },
+    {
+      "data": "2026-10-12",
+      "nome": "Nossa Senhora Aparecida",
+      "tipo": "feriado",
+      "fonte": "Portaria Presi 5/2026 (TRF1); Lei 6.802/1980",
+      "url": "https://www.trf1.jus.br/sjdf/conteudo/institucional/expediente-forense/2026/Portaria%20Presi%205%20-%20Divulga%20os%20dias%20de%20feriados%20nacionais%20e%20os%20dias%20de%20ponto%20facultativo%20na%20JF1.pdf"
+    },
+    {
+      "data": "2026-10-30",
+      "nome": "Dia do Servidor Público (ponto facultativo transferido de 28/10)",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria Presi 5/2026 (TRF1); Lei 8.112/1990, art. 236",
+      "url": "https://www.trf1.jus.br/sjdf/conteudo/institucional/expediente-forense/2026/Portaria%20Presi%205%20-%20Divulga%20os%20dias%20de%20feriados%20nacionais%20e%20os%20dias%20de%20ponto%20facultativo%20na%20JF1.pdf"
+    },
+    {
+      "data": "2026-11-01",
+      "nome": "Todos os Santos",
+      "tipo": "feriado",
+      "fonte": "Portaria Presi 5/2026 (TRF1); Lei 5.010/1966, art. 62, IV",
+      "url": "https://www.trf1.jus.br/sjdf/conteudo/institucional/expediente-forense/2026/Portaria%20Presi%205%20-%20Divulga%20os%20dias%20de%20feriados%20nacionais%20e%20os%20dias%20de%20ponto%20facultativo%20na%20JF1.pdf"
+    },
+    {
+      "data": "2026-11-02",
+      "nome": "Finados",
+      "tipo": "feriado",
+      "fonte": "Portaria Presi 5/2026 (TRF1); Lei 5.010/1966, art. 62, IV",
+      "url": "https://www.trf1.jus.br/sjdf/conteudo/institucional/expediente-forense/2026/Portaria%20Presi%205%20-%20Divulga%20os%20dias%20de%20feriados%20nacionais%20e%20os%20dias%20de%20ponto%20facultativo%20na%20JF1.pdf"
+    },
+    {
+      "data": "2026-11-15",
+      "nome": "Proclamação da República",
+      "tipo": "feriado",
+      "fonte": "Portaria Presi 5/2026 (TRF1); Lei 10.607/2002",
+      "url": "https://www.trf1.jus.br/sjdf/conteudo/institucional/expediente-forense/2026/Portaria%20Presi%205%20-%20Divulga%20os%20dias%20de%20feriados%20nacionais%20e%20os%20dias%20de%20ponto%20facultativo%20na%20JF1.pdf"
+    },
+    {
+      "data": "2026-11-20",
+      "nome": "Dia Nacional de Zumbi e da Consciência Negra",
+      "tipo": "feriado",
+      "fonte": "Portaria Presi 5/2026 (TRF1); Lei 14.759/2023",
+      "url": "https://www.trf1.jus.br/sjdf/conteudo/institucional/expediente-forense/2026/Portaria%20Presi%205%20-%20Divulga%20os%20dias%20de%20feriados%20nacionais%20e%20os%20dias%20de%20ponto%20facultativo%20na%20JF1.pdf"
+    },
+    {
+      "data": "2026-12-07",
+      "nome": "Ponto facultativo",
+      "tipo": "ponto_facultativo",
+      "fonte": "Portaria Presi 5/2026 (TRF1)",
+      "url": "https://www.trf1.jus.br/sjdf/conteudo/institucional/expediente-forense/2026/Portaria%20Presi%205%20-%20Divulga%20os%20dias%20de%20feriados%20nacionais%20e%20os%20dias%20de%20ponto%20facultativo%20na%20JF1.pdf"
+    },
+    {
+      "data": "2026-12-08",
+      "nome": "Dia da Justiça",
+      "tipo": "feriado",
+      "fonte": "Portaria Presi 5/2026 (TRF1); Lei 5.010/1966, art. 62, IV",
+      "url": "https://www.trf1.jus.br/sjdf/conteudo/institucional/expediente-forense/2026/Portaria%20Presi%205%20-%20Divulga%20os%20dias%20de%20feriados%20nacionais%20e%20os%20dias%20de%20ponto%20facultativo%20na%20JF1.pdf"
+    },
+    {
+      "data": "2026-12-20",
+      "nome": "Recesso forense (20/12/2026 a 06/01/2027)",
+      "tipo": "recesso",
+      "fonte": "Portaria Presi 5/2026 (TRF1); Lei 5.010/1966, art. 62, I",
+      "url": "https://www.trf1.jus.br/sjdf/conteudo/institucional/expediente-forense/2026/Portaria%20Presi%205%20-%20Divulga%20os%20dias%20de%20feriados%20nacionais%20e%20os%20dias%20de%20ponto%20facultativo%20na%20JF1.pdf"
+    },
+    {
+      "data": "2026-12-21",
+      "nome": "Recesso forense (20/12/2026 a 06/01/2027)",
+      "tipo": "recesso",
+      "fonte": "Portaria Presi 5/2026 (TRF1); Lei 5.010/1966, art. 62, I",
+      "url": "https://www.trf1.jus.br/sjdf/conteudo/institucional/expediente-forense/2026/Portaria%20Presi%205%20-%20Divulga%20os%20dias%20de%20feriados%20nacionais%20e%20os%20dias%20de%20ponto%20facultativo%20na%20JF1.pdf"
+    },
+    {
+      "data": "2026-12-22",
+      "nome": "Recesso forense (20/12/2026 a 06/01/2027)",
+      "tipo": "recesso",
+      "fonte": "Portaria Presi 5/2026 (TRF1); Lei 5.010/1966, art. 62, I",
+      "url": "https://www.trf1.jus.br/sjdf/conteudo/institucional/expediente-forense/2026/Portaria%20Presi%205%20-%20Divulga%20os%20dias%20de%20feriados%20nacionais%20e%20os%20dias%20de%20ponto%20facultativo%20na%20JF1.pdf"
+    },
+    {
+      "data": "2026-12-23",
+      "nome": "Recesso forense (20/12/2026 a 06/01/2027)",
+      "tipo": "recesso",
+      "fonte": "Portaria Presi 5/2026 (TRF1); Lei 5.010/1966, art. 62, I",
+      "url": "https://www.trf1.jus.br/sjdf/conteudo/institucional/expediente-forense/2026/Portaria%20Presi%205%20-%20Divulga%20os%20dias%20de%20feriados%20nacionais%20e%20os%20dias%20de%20ponto%20facultativo%20na%20JF1.pdf"
+    },
+    {
+      "data": "2026-12-24",
+      "nome": "Recesso forense (20/12/2026 a 06/01/2027)",
+      "tipo": "recesso",
+      "fonte": "Portaria Presi 5/2026 (TRF1); Lei 5.010/1966, art. 62, I",
+      "url": "https://www.trf1.jus.br/sjdf/conteudo/institucional/expediente-forense/2026/Portaria%20Presi%205%20-%20Divulga%20os%20dias%20de%20feriados%20nacionais%20e%20os%20dias%20de%20ponto%20facultativo%20na%20JF1.pdf"
+    },
+    {
+      "data": "2026-12-25",
+      "nome": "Natal",
+      "tipo": "feriado",
+      "fonte": "Portaria Presi 5/2026 (TRF1); Lei 10.607/2002",
+      "url": "https://www.trf1.jus.br/sjdf/conteudo/institucional/expediente-forense/2026/Portaria%20Presi%205%20-%20Divulga%20os%20dias%20de%20feriados%20nacionais%20e%20os%20dias%20de%20ponto%20facultativo%20na%20JF1.pdf"
+    },
+    {
+      "data": "2026-12-26",
+      "nome": "Recesso forense (20/12/2026 a 06/01/2027)",
+      "tipo": "recesso",
+      "fonte": "Portaria Presi 5/2026 (TRF1); Lei 5.010/1966, art. 62, I",
+      "url": "https://www.trf1.jus.br/sjdf/conteudo/institucional/expediente-forense/2026/Portaria%20Presi%205%20-%20Divulga%20os%20dias%20de%20feriados%20nacionais%20e%20os%20dias%20de%20ponto%20facultativo%20na%20JF1.pdf"
+    },
+    {
+      "data": "2026-12-27",
+      "nome": "Recesso forense (20/12/2026 a 06/01/2027)",
+      "tipo": "recesso",
+      "fonte": "Portaria Presi 5/2026 (TRF1); Lei 5.010/1966, art. 62, I",
+      "url": "https://www.trf1.jus.br/sjdf/conteudo/institucional/expediente-forense/2026/Portaria%20Presi%205%20-%20Divulga%20os%20dias%20de%20feriados%20nacionais%20e%20os%20dias%20de%20ponto%20facultativo%20na%20JF1.pdf"
+    },
+    {
+      "data": "2026-12-28",
+      "nome": "Recesso forense (20/12/2026 a 06/01/2027)",
+      "tipo": "recesso",
+      "fonte": "Portaria Presi 5/2026 (TRF1); Lei 5.010/1966, art. 62, I",
+      "url": "https://www.trf1.jus.br/sjdf/conteudo/institucional/expediente-forense/2026/Portaria%20Presi%205%20-%20Divulga%20os%20dias%20de%20feriados%20nacionais%20e%20os%20dias%20de%20ponto%20facultativo%20na%20JF1.pdf"
+    },
+    {
+      "data": "2026-12-29",
+      "nome": "Recesso forense (20/12/2026 a 06/01/2027)",
+      "tipo": "recesso",
+      "fonte": "Portaria Presi 5/2026 (TRF1); Lei 5.010/1966, art. 62, I",
+      "url": "https://www.trf1.jus.br/sjdf/conteudo/institucional/expediente-forense/2026/Portaria%20Presi%205%20-%20Divulga%20os%20dias%20de%20feriados%20nacionais%20e%20os%20dias%20de%20ponto%20facultativo%20na%20JF1.pdf"
+    },
+    {
+      "data": "2026-12-30",
+      "nome": "Recesso forense (20/12/2026 a 06/01/2027)",
+      "tipo": "recesso",
+      "fonte": "Portaria Presi 5/2026 (TRF1); Lei 5.010/1966, art. 62, I",
+      "url": "https://www.trf1.jus.br/sjdf/conteudo/institucional/expediente-forense/2026/Portaria%20Presi%205%20-%20Divulga%20os%20dias%20de%20feriados%20nacionais%20e%20os%20dias%20de%20ponto%20facultativo%20na%20JF1.pdf"
+    },
+    {
+      "data": "2026-12-31",
+      "nome": "Recesso forense (20/12/2026 a 06/01/2027)",
+      "tipo": "recesso",
+      "fonte": "Portaria Presi 5/2026 (TRF1); Lei 5.010/1966, art. 62, I",
+      "url": "https://www.trf1.jus.br/sjdf/conteudo/institucional/expediente-forense/2026/Portaria%20Presi%205%20-%20Divulga%20os%20dias%20de%20feriados%20nacionais%20e%20os%20dias%20de%20ponto%20facultativo%20na%20JF1.pdf"
+    }
+  ]
+}
